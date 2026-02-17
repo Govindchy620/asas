@@ -245,7 +245,7 @@ export default function Navbar() {
 
               {/* LOGIN */}
               <button
-                onClick={() => navTo("/login")}
+                onClick={() => navTo("https://trade.fxcelite.com/login")}
                 className="hidden sm:flex text-sm text-slate-300 hover:text-white items-center gap-1"
               >
                 Log in <ExternalLink size={14} />
@@ -253,7 +253,7 @@ export default function Navbar() {
 
               {/* CTA */}
               <button
-                onClick={() => navTo("/get-started")}
+                onClick={() => navTo("https://trade.fxcelite.com/register")}
                 className="hidden sm:inline-flex px-4 py-2 rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-semibold text-sm"
               >
                 Get Started
@@ -306,14 +306,14 @@ export default function Navbar() {
             {/* Mobile CTA */}
             <div className="pt-4 space-y-3">
               <button
-                onClick={() => navTo("/login")}
+                onClick={() => navTo("https://trade.fxcelite.com/login")}
                 className="w-full py-3 border border-white/10 rounded-lg text-white"
               >
                 Log in
               </button>
 
               <button
-                onClick={() => navTo("/get-started")}
+                onClick={() => navTo("https://trade.fxcelite.com/register")}
                 className="w-full py-3 rounded-lg bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-semibold"
               >
                 Get Started

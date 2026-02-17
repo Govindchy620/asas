@@ -11,7 +11,7 @@ import GrowthPlan from "./Pages/GrowthPlan";
 
 import TermsAndConditions from "./Pages/TermsAndConditions";
 import RefundPolicy from "./Pages/RefundPolicy";
-import PrivacyPolicy from "./Pages/PrivacyPolicy";
+import PrivacyPolicy from "./Pages/Privacy";
 import InvestorRelations from "./Pages/InvestorRelations";
 import WhiteLabelSolutions from "./Pages/whitelabel-solutions";
 import ScrollToTop from "./Component/ScrollToTop";
