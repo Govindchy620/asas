@@ -33,8 +33,11 @@ import {
 } from 'lucide-react';
 
 export default function Home() {
+  // Unified professional background color
+  const bgMain = "bg-[#050a18]";
+
   return (
-    <div className="bg-[#02040a] text-white font-sans selection:bg-teal-500/30 overflow-x-hidden">
+    <div className={`${bgMain} text-white font-sans selection:bg-teal-500/30 overflow-x-hidden`}>
       
       {/* --- HERO: THE ZENITH GATEWAY --- */}
       <section className="relative min-h-[90vh] flex items-center justify-center pt-14 pb-32 overflow-hidden">
@@ -56,16 +59,15 @@ export default function Home() {
 
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           
-          
-          <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6 italic uppercase">
+          <h1 className="text-4xl md:text-6xl font-bold text-white leading-[1.1] tracking-tight mb-6 uppercase">
             Welcome to <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-white to-blue-400">FXCElite</span>
           </h1>
           
-          <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed font-light mb-8 uppercase tracking-widest italic font-mono">
+          <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed font-medium mb-8 uppercase tracking-widest font-mono">
             Your All-in-One Online Trading Platform
           </p>
 
-          <div className="max-w-4xl mx-auto text-sm md:text-base text-white/80 leading-relaxed font-light mb-12 px-6 py-8 border border-white/20 bg-white/[0.05] backdrop-blur-3xl rounded-3xl relative shadow-2xl">
+          <div className="max-w-4xl mx-auto text-sm md:text-base text-white/80 leading-relaxed font-normal mb-12 px-6 py-8 border border-white/20 bg-white/[0.05] backdrop-blur-3xl rounded-3xl relative shadow-2xl">
              <div className="absolute top-0 left-0 w-12 h-1 bg-teal-500 rounded-tl-3xl"></div>
              <div className="absolute bottom-0 right-0 w-12 h-1 bg-teal-500 rounded-br-3xl"></div>
              Welcome to the future of your financial prosperity. FXCElite is a global premier trading platform that offers both retail and institutional investors direct access to the world's most liquid markets. Our trading platform is set up to give you the same level of performance as the top tier institutions wherever you choose to place your trades: forex, online CFDs on indices, metals, or cryptocurrencies. In a market where every second matters, we deliver the best online trading experience by combining the fastest order execution times with deep liquidity.
@@ -74,11 +76,11 @@ export default function Home() {
           <div className="flex flex-col items-center gap-6">
             <div className="relative group">
               <div className="absolute -inset-1 bg-teal-500 rounded-2xl blur opacity-30 group-hover:opacity-80 transition duration-1000"></div>
-              <button className="relative px-10 py-4 bg-white text-black font-bold text-base md:text-lg transition-all hover:bg-teal-500 hover:text-white active:scale-95 shadow-xl uppercase tracking-tight italic rounded-xl flex items-center gap-2">
+              <button className="relative px-10 py-4 bg-white text-black font-bold text-base md:text-lg transition-all hover:bg-teal-500 hover:text-white active:scale-95 shadow-xl uppercase tracking-tight rounded-xl flex items-center gap-2">
                 Open Your Live Account <ArrowRight size={20} className="ml-2" />
               </button>
             </div>
-            <p className="text-teal-400 text-sm font-bold uppercase tracking-[0.2em] italic animate-pulse font-mono">
+            <p className="text-teal-400 text-sm font-bold uppercase tracking-[0.2em] animate-pulse font-mono">
               Market opportunities wait for no one. Open your account today!
             </p>
           </div>
@@ -86,16 +88,16 @@ export default function Home() {
       </section>
 
       {/* --- SCREENSHOT SECTION 1: TRADE COPIER --- */}
-      <section className="py-24 relative bg-[#040612] border-y border-white/10 overflow-hidden">
+      <section className={`py-24 relative ${bgMain} border-y border-white/10 overflow-hidden`}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-6 space-y-8">
                <div className="space-y-4">
-                  <span className="text-blue-400 font-bold uppercase tracking-[0.2em] text-xs font-mono italic">Trade Copier</span>
-                  <h2 className="text-3xl md:text-5xl font-black text-white leading-tight uppercase italic">Trade with MT5, <br/> Execute with <br/> Match-Trader</h2>
+                  <span className="text-blue-400 font-bold uppercase tracking-[0.2em] text-xs font-mono">Trade Copier</span>
+                  <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight uppercase">Trade with MT5, <br/> Execute with <br/> Match-Trader</h2>
                </div>
-               <p className="text-base text-white/80 leading-relaxed font-light italic border-l-4 border-teal-500 pl-6 bg-teal-500/10 py-4 rounded-r-xl">
-                 Easily copy your trades from MT5, the industry's most popular platform, to Match-Trader. Instant, accurate, and reliable—built for traders who demand the best.
+               <p className="text-base text-white/80 leading-relaxed font-normal border-l-4 border-teal-500 pl-6 bg-teal-500/10 py-4 rounded-r-xl">
+                  Easily copy your trades from MT5, the industry's most popular platform, to Match-Trader. Instant, accurate, and reliable—built for traders who demand the best.
                </p>
                <div className="flex flex-wrap gap-4 pt-2 items-center">
                   <button className="px-8 py-3 bg-teal-500 text-white font-bold text-sm hover:bg-white hover:text-black transition-all shadow-lg rounded-xl">
@@ -117,7 +119,7 @@ export default function Home() {
                  />
                  <div className="relative z-10 flex flex-col items-center justify-center min-h-[300px]">
                     <div className="text-center space-y-3 mb-8">
-                       <h3 className="text-3xl font-bold text-white italic">MetaTrader 5</h3>
+                       <h3 className="text-3xl font-bold text-white">MetaTrader 5</h3>
                        <div className="flex items-center justify-center gap-4">
                           <div className="h-px w-8 bg-white/40"></div>
                           <span className="text-xl text-white/60 font-light">×</span>
@@ -128,7 +130,7 @@ export default function Home() {
                     <button className="w-16 h-16 rounded-full bg-blue-500/80 border border-white/30 backdrop-blur-md flex items-center justify-center text-white hover:bg-blue-400 transition-all hover:scale-110 shadow-lg">
                        <Play size={24} fill="white" />
                     </button>
-                    <p className="mt-10 text-white/60 font-mono text-[10px] uppercase tracking-widest italic bg-black/40 px-3 py-1 rounded-full">Powered by Match-Trade</p>
+                    <p className="mt-10 text-white/60 font-mono text-[10px] uppercase tracking-widest bg-black/40 px-3 py-1 rounded-full">Powered by Match-Trade</p>
                  </div>
                </div>
             </div>
@@ -137,11 +139,11 @@ export default function Home() {
       </section>
 
       {/* --- SCREENSHOT SECTION 2: MARKETS GRID --- */}
-      <section className="py-24 relative overflow-hidden bg-black">
+      <section className={`py-24 relative overflow-hidden ${bgMain}`}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white uppercase italic leading-tight tracking-tight">Access the World’s <br/> Leading Markets</h2>
-            <p className="text-white/80 text-base md:text-lg font-light italic max-w-2xl mx-auto">
+            <h2 className="text-3xl md:text-5xl font-bold text-white uppercase leading-tight tracking-tight">Access the World’s <br/> Leading Markets</h2>
+            <p className="text-white/80 text-base md:text-lg font-normal max-w-2xl mx-auto">
               Trade forex, commodities, indices, and crypto — the world’s most liquid assets, all from one powerful platform.
             </p>
           </div>
@@ -161,8 +163,8 @@ export default function Home() {
                         {React.cloneElement(item.icon, { size: 32, className: "text-white relative z-10 group-hover:scale-110 transition-transform" })}
                     </div>
                     <div className="space-y-2">
-                       <h4 className="text-xl font-bold text-white uppercase italic tracking-tight">{item.l}</h4>
-                       <p className="text-white/70 text-sm italic font-medium">{item.d}</p>
+                       <h4 className="text-xl font-bold text-white uppercase tracking-tight">{item.l}</h4>
+                       <p className="text-white/70 text-sm font-medium">{item.d}</p>
                     </div>
                  </div>
               </div>
@@ -172,13 +174,13 @@ export default function Home() {
       </section>
 
       {/* --- SECTION: UNIFIED ACCOUNT --- */}
-      <section className="py-24 border-y border-white/10 bg-white/[0.02]">
+      <section className={`py-24 border-y border-white/10 bg-white/[0.02] ${bgMain}`}>
         <div className="max-w-7xl mx-auto px-6">
            <div className="grid lg:grid-cols-2 gap-16 items-center">
               <div className="space-y-10">
-                 <h2 className="text-3xl md:text-5xl font-black text-white leading-tight uppercase italic">Trade Global Markets <br/> from One <span className="text-teal-400">Unified Account</span></h2>
-                 <p className="text-base text-white/80 leading-relaxed font-light italic">
-                   Why manage multiple logins when you can use one single all-in-one online trading platform? FXCElite offers you the opportunity to explore the global financial markets with ease.
+                 <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight uppercase">Trade Global Markets <br/> from One <span className="text-teal-400">Unified Account</span></h2>
+                 <p className="text-base text-white/80 leading-relaxed font-normal">
+                    Why manage multiple logins when you can use one single all-in-one online trading platform? FXCElite offers you the opportunity to explore the global financial markets with ease.
                  </p>
                  <div className="grid gap-5">
                     {[
@@ -192,8 +194,8 @@ export default function Home() {
                             {React.cloneElement(feat.icon, { size: 20 })}
                          </div>
                          <div className="space-y-1">
-                            <h4 className="text-lg font-bold text-white uppercase italic tracking-tight">{feat.t}</h4>
-                            <p className="text-white/70 text-sm font-light italic">{feat.d}</p>
+                            <h4 className="text-lg font-bold text-white uppercase tracking-tight">{feat.t}</h4>
+                            <p className="text-white/70 text-sm font-normal">{feat.d}</p>
                          </div>
                       </div>
                     ))}
@@ -210,8 +212,8 @@ export default function Home() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent pointer-events-none"></div>
                     <div className="absolute bottom-6 left-6 right-6 p-6 bg-black/90 backdrop-blur-xl border border-white/20 border-t-2 border-t-teal-500 shadow-xl rounded-xl">
-                       <p className="text-white text-xl font-bold italic uppercase leading-none mb-2">Unified liquidity</p>
-                       <p className="text-white/80 text-sm italic">Access deep order books across all asset classes with a single biometric login.</p>
+                       <p className="text-white text-xl font-bold uppercase leading-none mb-2">Unified liquidity</p>
+                       <p className="text-white/80 text-sm font-normal">Access deep order books across all asset classes with a single biometric login.</p>
                     </div>
                  </div>
               </div>
@@ -220,11 +222,11 @@ export default function Home() {
       </section>
 
       {/* --- SECTION: BEGINNERS vs PROS --- */}
-      <section className="py-24 relative bg-black overflow-hidden">
+      <section className={`py-24 relative ${bgMain} overflow-hidden`}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white uppercase italic tracking-tight leading-tight">The Best Online Trading <br/> Platform for All Levels</h2>
-            <p className="text-white/80 text-base max-w-2xl mx-auto font-light leading-relaxed italic">
+            <h2 className="text-3xl md:text-5xl font-bold text-white uppercase tracking-tight leading-tight">The Best Online Trading <br/> Platform for All Levels</h2>
+            <p className="text-white/80 text-base max-w-2xl mx-auto font-normal leading-relaxed">
               We believe professional-grade tools should be accessible. Our platform offers a scalable environment tailored to your exact skill level.
             </p>
           </div>
@@ -261,17 +263,17 @@ export default function Home() {
                    <div className="w-12 h-12 bg-white/10 border border-white/20 flex items-center justify-center text-white mb-6 group-hover:scale-110 transition-transform rounded-xl">
                      {React.cloneElement(card.icon, { size: 24 })}
                    </div>
-                   <h3 className={`text-2xl font-bold uppercase italic ${card.accent}`}>{card.title}</h3>
+                   <h3 className={`text-2xl font-bold uppercase ${card.accent}`}>{card.title}</h3>
                    <ul className="space-y-4">
                       {card.items.map((item, idx) => (
-                        <li key={idx} className="flex items-center gap-3 text-white/80 text-sm font-medium italic">
+                        <li key={idx} className="flex items-center gap-3 text-white/80 text-sm font-medium">
                            <div className="w-1.5 h-1.5 rounded-full bg-white/40"></div>
                            {item}
                         </li>
                       ))}
                    </ul>
                 </div>
-                <button className="mt-10 w-full py-3 bg-white/10 border border-white/20 font-bold uppercase tracking-widest text-xs hover:bg-white hover:text-black transition-all italic rounded-lg">
+                <button className="mt-10 w-full py-3 bg-white/10 border border-white/20 font-bold uppercase tracking-widest text-xs hover:bg-white hover:text-black transition-all rounded-lg">
                    {card.cta}
                 </button>
               </div>
@@ -281,7 +283,7 @@ export default function Home() {
       </section>
 
       {/* --- SECTION: TRADE ANYWHERE --- */}
-      <section className="py-24 relative bg-white/[0.02] border-y border-white/10">
+      <section className={`py-24 relative bg-white/[0.02] border-y border-white/10 ${bgMain}`}>
         <div className="max-w-7xl mx-auto px-6">
            <div className="flex flex-col lg:flex-row items-center gap-16">
               <div className="lg:w-1/2 relative w-full max-w-sm mx-auto">
@@ -294,15 +296,15 @@ export default function Home() {
                     />
                     <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent via-transparent to-black/90 flex flex-col items-center justify-end p-6 pointer-events-none">
                        <Smartphone size={32} className="text-blue-400 mb-3 animate-bounce" />
-                       <span className="text-white font-bold italic uppercase text-[10px] tracking-widest bg-white/10 px-3 py-1 rounded-full backdrop-blur-md border border-white/20">Mobile Native</span>
+                       <span className="text-white font-bold uppercase text-[10px] tracking-widest bg-white/10 px-3 py-1 rounded-full backdrop-blur-md border border-white/20">Mobile Native</span>
                     </div>
                  </div>
               </div>
 
               <div className="lg:w-1/2 space-y-10 text-center lg:text-left">
-                 <h2 className="text-3xl md:text-5xl font-black text-white leading-tight uppercase italic underline decoration-teal-500 decoration-4 underline-offset-[8px]">Trade Anywhere: <br/> Web, Mobile, Desktop</h2>
-                 <p className="text-base text-white/80 leading-relaxed font-light italic">
-                   In 2026, your trading desk will be wherever you are. With FXCElite, trade anywhere, anytime, thanks to web and smartphone trading solutions that sync instantly across all of your devices.
+                 <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight uppercase underline decoration-teal-500 decoration-4 underline-offset-[8px]">Trade Anywhere: <br/> Web, Mobile, Desktop</h2>
+                 <p className="text-base text-white/80 leading-relaxed font-normal">
+                    In 2026, your trading desk will be wherever you are. With FXCElite, trade anywhere, anytime, thanks to web and smartphone trading solutions that sync instantly across all of your devices.
                  </p>
                  <div className="grid gap-6 text-left">
                     {[
@@ -315,17 +317,17 @@ export default function Home() {
                             {React.cloneElement(plat.icon, { size: 20 })}
                          </div>
                          <div className="space-y-1">
-                            <h4 className="text-lg font-bold text-white uppercase italic tracking-tight">{plat.t}</h4>
-                            <p className="text-white/70 text-sm font-light leading-snug italic">{plat.d}</p>
+                            <h4 className="text-lg font-bold text-white uppercase tracking-tight">{plat.t}</h4>
+                            <p className="text-white/70 text-sm font-normal leading-snug">{plat.d}</p>
                          </div>
                       </div>
                     ))}
                  </div>
                  <div className="pt-6 flex flex-col items-center lg:items-start gap-4">
-                    <button className="px-10 py-4 rounded-xl bg-teal-500 text-white font-bold text-base hover:bg-teal-400 transition-all shadow-lg uppercase tracking-tight italic">
+                    <button className="px-10 py-4 rounded-xl bg-teal-500 text-white font-bold text-base hover:bg-teal-400 transition-all shadow-lg uppercase tracking-tight">
                       Start Trading Online
                     </button>
-                    <p className="text-teal-400 font-bold uppercase tracking-[0.2em] text-[10px] italic">Experience the Elite difference. join a global community!</p>
+                    <p className="text-teal-400 font-bold uppercase tracking-[0.2em] text-[10px]">Experience the Elite difference. join a global community!</p>
                  </div>
               </div>
            </div>
@@ -333,10 +335,10 @@ export default function Home() {
       </section>
 
       {/* --- SECTION: WHY CHOOSE --- */}
-      <section className="py-24 relative bg-black">
+      <section className={`py-24 relative ${bgMain}`}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white uppercase italic leading-tight">Why Choose FXCElite as <br/> Your Trading Platform?</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-white uppercase leading-tight">Why Choose FXCElite as <br/> Your Trading Platform?</h2>
             <p className="text-teal-400 text-sm font-bold uppercase tracking-[0.2em] font-mono">[ Zenith Benchmark Layer ]</p>
           </div>
 
@@ -353,8 +355,8 @@ export default function Home() {
                 <div className="w-14 h-14 bg-teal-500/20 flex items-center justify-center text-teal-400 mb-6 border border-teal-500/40 group-hover:scale-110 group-hover:bg-teal-500 group-hover:text-white transition-all rounded-xl">
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3 tracking-tight uppercase leading-tight italic">{item.title}</h3>
-                <p className="text-white/80 text-sm leading-relaxed font-light italic">{item.desc}</p>
+                <h3 className="text-lg font-bold text-white mb-3 tracking-tight uppercase leading-tight">{item.title}</h3>
+                <p className="text-white/80 text-sm leading-relaxed font-normal">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -362,16 +364,15 @@ export default function Home() {
       </section>
 
       {/* --- SECTION: 3 STEPS --- */}
-      <section className="py-24 bg-[#050612] border-y border-white/10 relative overflow-hidden">
+      <section className={`py-24 ${bgMain} border-y border-white/10 relative overflow-hidden`}>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[300px] bg-blue-600/10 blur-[120px] rounded-full rotate-12 pointer-events-none"></div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">How to Start Your <br/> Trading Journey</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">How to Start Your <br/> Trading Journey</h2>
             <p className="text-teal-400 text-sm font-bold uppercase tracking-[0.2em]">Protocol Activation in 3 Steps</p>
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8 relative">
-            {/* Connection Rail */}
             <div className="absolute top-[30%] left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-white/20 to-transparent hidden lg:block"></div>
 
             {[
@@ -386,13 +387,13 @@ export default function Home() {
                  <div className="w-16 h-16 rounded-xl bg-teal-500/20 text-teal-400 flex items-center justify-center mx-auto mb-6 border border-teal-500/30 group-hover:scale-110 transition-transform mt-2">
                    {React.cloneElement(step.icon, { size: 28 })}
                  </div>
-                 <h4 className="text-xl font-bold text-white mb-3 tracking-tight leading-tight uppercase italic">{step.t}</h4>
-                 <p className="text-sm text-white/80 leading-relaxed font-light italic font-mono uppercase tracking-widest">{step.d}</p>
+                 <h4 className="text-xl font-bold text-white mb-3 tracking-tight leading-tight uppercase">{step.t}</h4>
+                 <p className="text-sm text-white/80 leading-relaxed font-normal font-mono uppercase tracking-widest">{step.d}</p>
               </div>
             ))}
           </div>
           <div className="mt-16 text-center">
-             <button className="px-12 py-5 rounded-xl bg-white text-black font-bold text-lg hover:bg-teal-400 transition-all shadow-[0_15px_40px_-15px_rgba(45,212,191,0.5)] uppercase tracking-tight italic">
+             <button className="px-12 py-5 rounded-xl bg-white text-black font-bold text-lg hover:bg-teal-400 transition-all shadow-[0_15px_40px_-15px_rgba(45,212,191,0.5)] uppercase tracking-tight">
                Activate Your Account
              </button>
           </div>
@@ -400,11 +401,11 @@ export default function Home() {
       </section>
 
       {/* --- SECTION: FAQ --- */}
-      <section className="py-24 border-t border-white/10 bg-[#010206]">
+      <section className={`py-24 border-t border-white/10 ${bgMain}`}>
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-black text-white tracking-tight uppercase italic font-mono underline decoration-teal-500 decoration-4 underline-offset-[8px]">[ GLOBAL FAQ ]</h2>
-            <p className="text-white/80 font-bold uppercase tracking-widest text-sm italic font-mono pt-4">Archive Access Terminal-1</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase font-mono underline decoration-teal-500 decoration-4 underline-offset-[8px]">[ GLOBAL FAQ ]</h2>
+            <p className="text-white/80 font-bold uppercase tracking-widest text-sm font-mono pt-4">Archive Access Terminal-1</p>
           </div>
           
           <div className="space-y-px bg-white/10 border border-white/20 rounded-2xl overflow-hidden shadow-xl">
@@ -426,26 +427,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* --- FOOTER: ZENITH MINIMAL --- */}
-      <footer className="py-16 border-t border-white/10 bg-black relative overflow-hidden text-center">
-        <div className="max-w-7xl mx-auto px-6 flex flex-col items-center gap-8">
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-teal-500 flex items-center justify-center font-black text-white italic text-2xl shadow-lg rounded-xl">FX</div>
-              <div className="text-white font-bold tracking-tight text-3xl italic uppercase font-mono">FXCElite</div>
-            </div>
-            <div className="flex flex-wrap justify-center gap-6 text-white/80 text-sm font-bold uppercase tracking-widest font-mono">
-              <span className="hover:text-teal-400 cursor-pointer transition-colors italic">Institutional</span>
-              <span className="hover:text-teal-400 cursor-pointer transition-colors italic">Liquidity</span>
-              <span className="hover:text-teal-400 cursor-pointer transition-colors italic">Security</span>
-              <span className="hover:text-teal-400 cursor-pointer transition-colors italic">Compliance</span>
-            </div>
-            <div className="space-y-4">
-              <p className="text-white/60 text-xs max-w-3xl leading-relaxed italic mx-auto font-mono">
-                &copy; 2026 FXCElite Global Markets Limited. Risk Warning: Trading financial instruments involves significant risk and may result in the loss of your capital. Success in trading is subject to market conditions and individual expertise.
-              </p>
-            </div>
-        </div>
-      </footer>
+      
     </div>
   );
 }
@@ -460,7 +442,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-white/90 group-hover:text-white'}`}>
+        <span className={`font-bold text-sm md:text-base transition-colors tracking-tight uppercase ${isOpen ? 'text-white' : 'text-white/90 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex items-center justify-center shrink-0 transition-all duration-500 ml-4 ${
@@ -470,7 +452,7 @@ function FaqItem({ question, answer }) {
         </div>
       </button>
       {isOpen && (
-        <div className="px-6 pb-6 text-white/80 text-sm md:text-base leading-relaxed animate-in fade-in slide-in-from-top-2 duration-300 font-light italic">
+        <div className="px-6 pb-6 text-white/80 text-sm md:text-base leading-relaxed animate-in fade-in slide-in-from-top-2 duration-300 font-normal">
           <div className="h-[1px] w-full bg-white/20 mb-4"></div>
           {answer}
         </div>
