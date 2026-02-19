@@ -112,6 +112,8 @@ export default function Footer() {
           </div>
         </div>
 
+        
+
         {/* DISCLAIMER */}
         <div className="bg-white/5 rounded-2xl p-6 mb-10 border border-white/5">
             <p className="text-slate-400 text-[11px] leading-relaxed text-center">
