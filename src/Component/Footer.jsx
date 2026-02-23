@@ -120,6 +120,7 @@ export default function Footer() {
               funding. Our services are not investment services or recommendations. Trading financial instruments involves significant risk and can result in the loss of your capital.
             </p>
         </div>
+        
 
         {/* BOTTOM BAR */}
         <div className="flex flex-col md:flex-row items-center justify-between text-slate-500 text-[12px] pb-12 gap-4 border-t border-white/5 pt-8">
