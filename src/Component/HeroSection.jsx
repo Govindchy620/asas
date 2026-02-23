@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { 
   ArrowRight, 
   ChevronDown, 
+  Settings,
   Zap, 
   Shield, 
   Globe, 
@@ -19,17 +20,19 @@ import {
   Wallet, 
   Rocket, 
   UserCheck,
-  Target
+  Target,
+  ShieldCheck
 } from 'lucide-react';
 
 // Image Imports
 import Img1 from "../assets/Elite1.png"
 import Img2 from "../assets/Elite2.png"
-import Img3 from "../assets/Elite3.png"
+import Img3 from "../assets/El4.png"
 import Img4 from "../assets/Elite4.png"
 import Img7 from "../assets/Elite7.png";
 import Img8 from "../assets/Elite8.jpeg";
 import Img5 from "../assets/fx6.webp";
+import Veo1 from "../assets/ht1.mp4";
 
 export default function Home() {
   const bgMain = "bg-[#050a18]";
@@ -107,47 +110,61 @@ export default function Home() {
       </section>
 
       {/* --- FEATURE SPLIT: UNIFIED MARKET ACCESS --- */}
-      <section className="py-24 relative border-t border-white/5 bg-gradient-to-b from-[#050a18] to-[#080f24]">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="space-y-8">
-               <div>
-                  <h2 className="text-sm font-semibold text-teal-500 tracking-wider uppercase mb-2">Unified Access</h2>
-                  <h3 className="text-3xl md:text-5xl font-bold text-white leading-tight">
-                    Trade Global Financial Markets from <span className="text-teal-400">One Unified Account</span>
-                  </h3>
-               </div>
-               <p className="text-lg text-slate-400 border-l-2 border-teal-500 pl-6">
-                 Why manage multiple logins when you can use one single all-in-one online trading platform? FXCElite offers you the opportunity to explore the global financial markets trading platform with ease.
-               </p>
-               <div className="flex gap-4">
-                 <button className="px-6 py-3 bg-slate-800 hover:bg-slate-700 text-white rounded-lg transition-colors border border-white/10 font-medium">
-                   Explore Markets
-                 </button>
-                 <button className="px-6 py-3 text-teal-400 font-medium hover:text-teal-300 flex items-center gap-2 group">
-                   See Spreads <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                 </button>
-               </div>
-            </div>
+     <section className="py-24 relative border-t border-white/5 bg-black overflow-hidden">
+      {/* Optional: Subtle background grid or glow for the whole section */}
+      <div className="absolute top-0 right-0 -mt-20 -mr-20 w-96 h-96 bg-teal-500/5 blur-[120px] rounded-full pointer-events-none"></div>
 
-            <div className="relative group perspective-1000">
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-teal-500/20 blur-[60px] rounded-full"></div>
-              <div className="relative bg-slate-900/50 border border-white/10 rounded-2xl p-2 backdrop-blur-xl shadow-2xl transform transition-transform group-hover:rotate-y-2 duration-700">
-                <img 
-                  src={Img2} 
-                  className="w-full h-auto rounded-xl shadow-lg opacity-90 group-hover:opacity-100 transition-opacity" 
-                  alt="Interface" 
-                />
-                <div className="absolute inset-0 flex items-center justify-center">
-                   <div className="bg-black/40 backdrop-blur-md rounded-full p-4 border border-white/20">
-                      <Play size={32} className="fill-white text-white ml-1" />
-                   </div>
-                </div>
-              </div>
+      <div className="max-w-7xl mx-auto px-6 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          
+          {/* LEFT PART: Text Content */}
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-3xl md:text-5xl font-bold text-white leading-tight">
+                Trade Global Financial Markets from{' '}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">
+                  One Unified Account
+                </span>
+              </h3>
+            </div>
+            
+            <p className="text-lg text-slate-400 border-l-2 border-teal-500/50 pl-6">
+              Why manage multiple logins when you can use one single all-in-one online trading platform? FXCElite offers you the opportunity to explore the global financial markets trading platform with ease.
+            </p>
+            
+            <div className="flex flex-wrap gap-4 pt-2">
+              <button className="px-6 py-3 bg-gradient-to-r from-slate-800 to-slate-900 hover:from-slate-700 hover:to-slate-800 text-white rounded-lg transition-all border border-white/10 hover:border-teal-500/30 font-medium shadow-lg shadow-black/20">
+                Explore Markets
+              </button>
+              <button className="px-6 py-3 text-teal-400 font-medium hover:text-teal-300 flex items-center gap-2 group transition-colors">
+                See Spreads 
+                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+              </button>
             </div>
           </div>
+
+          {/* RIGHT PART: Video Section */}
+          <div className="relative group lg:ml-8">
+            {/* Kept a subtle ambient glow to make the video pop, but removed all card backgrounds */}
+            <div className="absolute -inset-10 bg-gradient-to-r  blur-3xl opacity-50 group-hover:opacity-80 transition duration-700 rounded-full"></div>
+            
+            {/* Clean Video Wrapper - Removed padding, background colors, and overlays */}
+            <div className="relative transform transition-all duration-500 group-hover:-translate-y-2 flex justify-center">
+                <video 
+                  src={Veo1} 
+                  /* Added mix-blend-screen. If your video has a black background, it will now be transparent! */
+                  className="w-full max-w-md h-auto object-cover opacity-80 group-hover:opacity-100 transition duration-500 scale-105 group-hover:scale-100" 
+                  autoPlay 
+                  loop 
+                  muted 
+                  playsInline
+                />
+            </div>
+          </div>
+          
         </div>
-      </section>
+      </div>
+    </section>
 
       {/* --- MARKETS GRID --- */}
       <section className="py-24 relative overflow-hidden">
@@ -169,46 +186,105 @@ export default function Home() {
       </section>
 
       {/* --- ADVANCED TOOLS / UNIFIED SECTION --- */}
-      <section className="py-24 bg-white/[0.02] border-y border-white/5">
-        <div className="max-w-7xl mx-auto px-6">
-           <div className="grid lg:grid-cols-2 gap-16 items-center">
-              <div className="order-2 lg:order-1 relative">
-                 <img 
-                   src={Img3} 
-                   className="rounded-2xl shadow-2xl border border-white/10 w-full object-cover h-[500px]"
-                   alt="Dashboard"
-                 />
-                 <div className="absolute -bottom-6 -right-6 bg-slate-900 p-6 rounded-xl border border-white/10 shadow-xl max-w-xs hidden md:block">
-                    <p className="text-white font-bold text-lg mb-1">Clear Prices</p>
-                    <p className="text-slate-400 text-sm">A safe environment made for the digital economy of 2026.</p>
-                 </div>
-              </div>
+      <section className="py-24 relative bg-white/[0.02] border-y border-white/5 overflow-hidden">
+      {/* Ambient Background Glow for the section */}
+      <div className="absolute top-1/2 left-0 -translate-y-1/2 -ml-32 w-96 h-96 bg-blue-500/10 blur-[120px] rounded-full pointer-events-none"></div>
 
-              <div className="order-1 lg:order-2 space-y-8">
-                 <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight">
-                   Advanced <br/> <span className="text-teal-400">Trading Tools</span>
-                 </h2>
-                 <p className="text-lg text-slate-400">
-                   Leverage sophisticated trading platforms and tools, including integration with TradingView and professional MetaTrader 5 terminals.
-                 </p>
-                 
-                 <div className="grid gap-6">
-                    <FeatureRow title="Flexible Leverage" desc="Increase your potential using competitive leverage up to 1:1000." icon={<TrendingUp />} />
-                    <FeatureRow title="Deep Liquidity" desc="Combining the fastest order execution times with deep liquidity." icon={<Activity />} />
-                    <FeatureRow title="Advanced Platforms" desc="Integration with TradingView and MT5." icon={<Monitor />} />
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <div className="max-w-7xl mx-auto px-6 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          
+          {/* LEFT: Image Section */}
+          <div className="order-2 lg:order-1 relative flex justify-center group">
+            {/* Subtle glow specifically behind the image */}
+            <div className="absolute inset-0 bg-gradient-to-tr from-teal-500/10 to-blue-500/10 blur-3xl opacity-40 group-hover:opacity-60 transition duration-700 rounded-full scale-75 pointer-events-none"></div>
+            
+            <img 
+              src={Img3} 
+              className="w-full max-w-lg h-auto object-contain drop-shadow-[0_0_30px_rgba(45,212,191,0.15)] mix-blend-screen transform transition-transform duration-700"
+              alt="Advanced Trading Dashboard"
+            />
+          </div>
 
-      <div className="h-[500px] w-full relative overflow-hidden">
-        <div className="absolute inset-0 bg-slate-900/40 z-10"></div>
-        <img src={Img4} alt="Trading Desk" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 z-20 flex items-center justify-center text-center px-4">
-           <h2 className="text-4xl md:text-6xl font-bold text-white tracking-tight">Market opportunities wait for no one.</h2>
+          {/* RIGHT: Text & Features Section */}
+          <div className="order-1 lg:order-2 space-y-8">
+            <div>
+              {/* Optional UI Badge */}
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 mb-6">
+                <Settings size={16} className="text-blue-400" />
+                <h2 className="text-xs font-semibold text-blue-400 tracking-wider uppercase">Professional Gear</h2>
+              </div>
+              
+              <h3 className="text-3xl md:text-5xl font-bold text-white leading-tight">
+                Advanced <br className="hidden md:block" /> 
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">
+                  Trading Tools
+                </span>
+              </h3>
+            </div>
+            
+            <p className="text-lg text-slate-400 border-l-2 border-blue-500/50 pl-6">
+              Leverage sophisticated trading platforms and tools, including seamless integration with TradingView and professional MetaTrader 5 terminals to maximize your edge.
+            </p>
+            
+            {/* Features List */}
+            <div className="grid gap-2">
+              <FeatureRow 
+                title="Flexible Leverage" 
+                desc="Increase your potential using competitive leverage up to 1:1000." 
+                icon={<TrendingUp size={20} />} 
+              />
+              <FeatureRow 
+                title="Deep Liquidity" 
+                desc="Combining the fastest order execution times with deep liquidity pools." 
+                icon={<Activity size={20} />} 
+              />
+              <FeatureRow 
+                title="Advanced Platforms" 
+                desc="Native integration with TradingView and MT5 for precise charting." 
+                icon={<Monitor size={20} />} 
+              />
+            </div>
+          </div>
+          
         </div>
       </div>
+    </section>
+
+    
+      <div className="group relative w-full min-h-[500px] md:h-[600px] overflow-hidden flex items-center justify-center">
+  {/* Background Image */}
+  <img 
+    src={Img4} 
+    alt="Trading Desk" 
+    className="absolute inset-0 w-full h-full object-cover" 
+  />
+  
+  {/* STRONGER OVERLAY: Uniform dark base + darker edges for a vignette effect */}
+  <div className="absolute inset-0 bg-slate-900/70 z-10 pointer-events-none"></div>
+  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-transparent to-slate-900/40 z-10 pointer-events-none"></div>
+  
+  {/* Content Container */}
+  <div className="relative z-20 flex flex-col items-center justify-center text-center px-6 max-w-4xl mx-auto">
+    {/* Heading with stronger shadow */}
+    <h2 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-white tracking-tight drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">
+      Market opportunities <br className="hidden sm:block" />
+      <span className="text-blue-400">wait for no one.</span>
+    </h2>
+    
+    <p className="mt-6 text-lg md:text-xl text-slate-200 font-medium max-w-2xl drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
+      Seize the moment with real-time data, advanced analytics, and lightning-fast execution.
+    </p>
+    
+    <div className="mt-10 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+      <button className="px-8 py-3.5 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg shadow-lg hover:shadow-blue-500/30 transition-all duration-300 transform hover:-translate-y-1">
+        Start Trading Now
+      </button>
+      <button className="px-8 py-3.5 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white border border-white/20 font-semibold rounded-lg transition-all duration-300 text-shadow-sm">
+        View Markets
+      </button>
+    </div>
+  </div>
+</div>
 
       {/* --- USER LEVELS --- */}
       <section className="py-24">
@@ -290,13 +366,41 @@ export default function Home() {
       </section>
 
       {/* --- FULL WIDTH IMAGE --- */}
-      <div className="h-[400px] w-full relative overflow-hidden">
-        <div className="absolute inset-0 bg-slate-900/40 z-10"></div>
-        <img src={Img8} alt="Trading Desk" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 z-20 flex items-center justify-center">
-           <h2 className="text-4xl md:text-6xl font-bold text-white tracking-tight">Experience the Elite difference.</h2>
-        </div>
-      </div>
+      <div className="relative h-[400px] md:h-[500px] w-full overflow-hidden group">
+  {/* Image with a smooth, premium slow-zoom effect on hover */}
+  <img 
+    src={Img8} 
+    alt="Trading Desk" 
+    className="absolute inset-0 w-full h-full object-cover transition-transform duration-[2000ms] group-hover:scale-105" 
+  />
+  
+  {/* Layered Overlays for maximum text visibility */}
+  {/* 1. Darkens the sides to focus attention in the middle */}
+  <div className="absolute inset-0 bg-gradient-to-r from-[#050a18]/90 via-[#050a18]/40 to-[#050a18]/90 z-10"></div>
+  {/* 2. Fades smoothly into your dark theme at the top and bottom */}
+  <div className="absolute inset-0 bg-gradient-to-t from-[#050a18] via-transparent to-transparent z-10"></div>
+
+  {/* Content Container */}
+  <div className="absolute inset-0 z-20 flex flex-col items-center justify-center px-6 text-center">
+    
+    {/* Modern pulsing glass badge */}
+    {/* Enhanced Heading with gradient text and heavy drop-shadow */}
+    <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)] max-w-4xl">
+      Experience the <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">Elite</span> difference.
+    </h2>
+    
+    {/* Optional: Brief subtext to support the headline */}
+    <p className="mt-6 text-lg md:text-xl text-slate-300 max-w-2xl drop-shadow-lg font-light">
+      Step into the future of trading with ultra-low latency, deep liquidity, and cutting-edge technology.
+    </p>
+
+    {/* Modern Neon Glow Button */}
+    <button className="mt-8 px-8 py-4 bg-gradient-to-r from-teal-500 to-teal-400 hover:from-teal-400 hover:to-teal-300 text-[#050a18] font-bold rounded-xl transition-all duration-300 shadow-[0_0_20px_rgba(45,212,191,0.3)] hover:shadow-[0_0_30px_rgba(45,212,191,0.5)] hover:-translate-y-1">
+      Open Live Account
+    </button>
+    
+  </div>
+</div>
 
       {/* --- 3 STEPS --- */}
       <section className="py-24 bg-gradient-to-b from-[#050a18] to-slate-900">
