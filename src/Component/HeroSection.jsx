@@ -33,6 +33,7 @@ import Img7 from "../assets/Elite7.png";
 import Img8 from "../assets/Elite8.jpeg";
 import Img5 from "../assets/fx6.webp";
 import Veo1 from "../assets/ht1.mp4";
+import Veo2 from "../assets/ht3.mp4";
 
 export default function Home() {
   const bgMain = "bg-[#050a18]";
@@ -339,8 +340,17 @@ export default function Home() {
               
               <div className="lg:w-1/2 flex justify-center">
                  <div className="relative w-118 h-[500px] bg-slate-950 rounded-[1rem] border-4 border-slate-800 shadow-7xl overflow-hidden ring-1 ring-white/10">
-                    <img src={Img7} className="w-full h-full object-cover" alt="Mobile App" />
-                 </div>
+  <video 
+    src={Veo2} 
+    className="w-full h-full object-cover" 
+    autoPlay 
+    muted 
+    loop 
+    playsInline
+  >
+    Your browser does not support the video tag.
+  </video>
+</div>
               </div>
            </div>
         </div>
