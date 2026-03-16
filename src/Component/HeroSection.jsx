@@ -76,7 +76,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-6 relative z-10 text-center space-y-8">
           
           <h1 className="text-4xl md:text-7xl font-bold text-white tracking-tight leading-[1.1]">
-            Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">FXCElite</span> <br/>
+            Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">FXCelite</span> <br/>
             Your All-in-One Online Trading Platform
           </h1>
           
@@ -111,7 +111,7 @@ export default function Home() {
       </section>
 
       {/* --- FEATURE SPLIT: UNIFIED MARKET ACCESS --- */}
-     <section className="py-24 relative border-t border-white/5 bg-black overflow-hidden">
+     <section className="py-24 relative border-t border-white/5 bg-blue-400/10 overflow-hidden">
       {/* Optional: Subtle background grid or glow for the whole section */}
       <div className="absolute top-0 right-0 -mt-20 -mr-20 w-96 h-96 bg-teal-500/5 blur-[120px] rounded-full pointer-events-none"></div>
 
@@ -277,84 +277,89 @@ export default function Home() {
     </p>
     
     <div className="mt-10 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-      <button className="px-8 py-3.5 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg shadow-lg hover:shadow-blue-500/30 transition-all duration-300 transform hover:-translate-y-1">
-        Start Trading Now
-      </button>
-      <button className="px-8 py-3.5 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white border border-white/20 font-semibold rounded-lg transition-all duration-300 text-shadow-sm">
-        View Markets
-      </button>
+      <a 
+  href="https://trade.fxcelite.com/login" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="inline-block px-8 py-3.5 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg shadow-lg hover:shadow-blue-500/30 transition-all duration-300 transform hover:-translate-y-1 text-center"
+>
+  Start Trading Now
+</a>
     </div>
   </div>
 </div>
 
       {/* --- USER LEVELS --- */}
       <section className="py-24">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">The Best Online Trading Platform</h2>
-            <p className="text-slate-400">Scalable environments for Beginners and Professionals.</p>
-          </div>
+  <div className="max-w-7xl mx-auto px-6">
+    <div className="text-center mb-16">
+      <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">The Best Online Trading Platform</h2>
+      <p className="text-slate-400">Scalable environments for Beginners and Professionals.</p>
+    </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
-            <PricingCard 
-              title="For Beginners" 
-              icon={<Target />} 
-              features={["Risk-Free Demo Account", "Simplified WebTrader Access", "Helpdesk Tutorials"]}
-              cta="Try Demo"
-              accent="teal"
-            />
-            <PricingCard 
-              title="For Professionals" 
-              icon={<Zap />} 
-              features={["MT5 ECN Infrastructure", "Trading Algorithms (EAs)", "Market Depth (DOM)"]}
-              cta="Go Pro"
-              accent="blue"
-              highlight={true}
-            />
-            <PricingCard 
-              title="For Partners" 
-              icon={<Users />} 
-              features={["Elite IB Dashboard", "Affiliate Programs", "Expand Your Business"]}
-              cta="Join Network"
-              accent="purple"
-            />
-          </div>
-        </div>
-      </section>
+    <div className="grid md:grid-cols-3 gap-6">
+      <PricingCard 
+        title="For Beginners" 
+        icon={<Target />} 
+        features={["Risk-Free Demo Account", "Simplified WebTrader Access", "Helpdesk Tutorials"]}
+        cta="Try Demo"
+        href="https://trade.fxcelite.com/register"
+        accent="teal"
+      />
+      <PricingCard 
+        title="For Professionals" 
+        icon={<Zap />} 
+        features={["MT5 ECN Infrastructure", "Trading Algorithms (EAs)", "Market Depth (DOM)"]}
+        cta="Go Pro"
+        href="https://trade.fxcelite.com/register"
+        accent="blue"
+        highlight={true}
+      />
+      <PricingCard 
+        title="For Partners" 
+        icon={<Users />} 
+        features={["Elite IB Dashboard", "Affiliate Programs", "Expand Your Business"]}
+        cta="Join Network"
+        href="https://trade.fxcelite.com/register"
+        accent="purple"
+      />
+    </div>
+  </div>
+</section>
 
       {/* --- CROSS PLATFORM --- */}
-      <section className="py-24 relative overflow-hidden bg-slate-900/50">
-        <div className="max-w-7xl mx-auto px-6">
-           <div className="flex flex-col lg:flex-row items-center gap-16">
-              <div className="lg:w-1/2 space-y-8">
-                 <h2 className="text-3xl md:text-5xl font-bold text-white">Trade Anywhere</h2>
-                 <p className="text-lg text-slate-400">
-                   In 2026, your trading desk will be wherever you are. With FXCElite, trade anywhere, anytime, thanks to web and smartphone trading solutions that sync instantly across all of your devices.
-                 </p>
-                 <div className="grid gap-4">
-                    <FeatureRow title="Desktop Power" desc="The complete forex trading platform experience for Windows and Mac computers." icon={<Laptop size={24} />} />
-                    <FeatureRow title="Web Convenience" desc="Access without having to download software and trade forex immediately via any browser." icon={<Monitor size={24} />} />
-                    <FeatureRow title="Mobile Agility" desc="Manage your portfolio anywhere, view charts, and get push notifications." icon={<Smartphone size={24} />} />
-                 </div>
-              </div>
-              
-              <div className="lg:w-1/2 flex justify-center">
-                 <div className="relative w-118 h-[500px] bg-slate-950 rounded-[1rem] border-4 border-slate-800 shadow-7xl overflow-hidden ring-1 ring-white/10">
-  <video 
-    src={Veo2} 
-    className="w-full h-full object-cover" 
-    autoPlay 
-    muted 
-    loop 
-    playsInline
-  >
-    Your browser does not support the video tag.
-  </video>
-</div>
-              </div>
-           </div>
+     <section className="py-24 relative overflow-hidden bg-slate-900/50">
+  <div className="max-w-7xl mx-auto px-6">
+    <div className="flex flex-col lg:flex-row items-center gap-16">
+      <div className="lg:w-1/2 space-y-8">
+        <h2 className="text-3xl md:text-5xl font-bold text-white">Trade Anywhere</h2>
+        <p className="text-lg text-slate-400">
+          In 2026, your trading desk will be wherever you are. With FXCElite, trade anywhere, anytime, thanks to web and smartphone trading solutions that sync instantly across all of your devices.
+        </p>
+        <div className="grid gap-4">
+          <FeatureRow title="Desktop Power" desc="The complete forex trading platform experience for Windows and Mac computers." icon={<Laptop size={24} />} />
+          <FeatureRow title="Web Convenience" desc="Access without having to download software and trade forex immediately via any browser." icon={<Monitor size={24} />} />
+          <FeatureRow title="Mobile Agility" desc="Manage your portfolio anywhere, view charts, and get push notifications." icon={<Smartphone size={24} />} />
         </div>
-      </section>
+      </div>
+      
+      <div className="lg:w-1/2 flex justify-center">
+        {/* Device mimicking div has been removed entirely */}
+        <video 
+          src={Veo2} 
+          // Applies responsive width and maintains aspect ratio
+          className="max-w-full h-auto" 
+          autoPlay 
+          muted 
+          loop 
+          playsInline
+        >
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* --- WHY CHOOSE GRID --- */}
       <section className="py-24">
@@ -405,9 +410,14 @@ export default function Home() {
     </p>
 
     {/* Modern Neon Glow Button */}
-    <button className="mt-8 px-8 py-4 bg-gradient-to-r from-teal-500 to-teal-400 hover:from-teal-400 hover:to-teal-300 text-[#050a18] font-bold rounded-xl transition-all duration-300 shadow-[0_0_20px_rgba(45,212,191,0.3)] hover:shadow-[0_0_30px_rgba(45,212,191,0.5)] hover:-translate-y-1">
-      Open Live Account
-    </button>
+   <a 
+  href="https://trade.fxcelite.com/login"
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="inline-block mt-8 px-8 py-4 bg-gradient-to-r from-teal-500 to-teal-400 hover:from-teal-400 hover:to-teal-300 text-[#050a18] font-bold rounded-xl transition-all duration-300 shadow-[0_0_20px_rgba(45,212,191,0.3)] hover:shadow-[0_0_30px_rgba(45,212,191,0.5)] hover:-translate-y-1 text-center"
+>
+  Open Live Account
+</a>
     
   </div>
 </div>
@@ -425,14 +435,19 @@ export default function Home() {
             <StepCard number="03" title="Trade" desc="Access the global financial markets and execute your first trade." icon={<Activity />} />
           </div>
 
-          <button className="mt-16 px-10 py-4 bg-teal-500 text-white font-bold rounded-full hover:bg-teal-400 transition-all shadow-lg shadow-teal-500/20">
-            Open Live Account
-          </button>
+         <a 
+  href="https://trade.fxcelite.com/register"
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="inline-block mt-8 px-8 py-4 bg-gradient-to-r from-teal-500 to-teal-400 hover:from-teal-400 hover:to-teal-300 text-[#050a18] font-bold rounded-xl transition-all duration-300 shadow-[0_0_20px_rgba(45,212,191,0.3)] hover:shadow-[0_0_30px_rgba(45,212,191,0.5)] hover:-translate-y-1 text-center"
+>
+  Open Live Account
+</a>
         </div>
       </section>
 
       {/* --- FAQ SECTION --- */}
-      <section className="py-24 border-t border-white/5 bg-[#030610]">
+      <section className="py-24 border-t border-white/5 bg-blue-400/10">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-white text-center mb-12">Frequently Asked Questions (FAQs)</h2>
           <div className="space-y-4">
@@ -480,7 +495,7 @@ function FeatureRow({ title, desc, icon }) {
   );
 }
 
-function PricingCard({ title, icon, features, cta, accent, highlight }) {
+function PricingCard({ title, icon, features, cta, accent, highlight, href }) {
   const borderColor = highlight ? "border-teal-500/50" : "border-white/10";
   const bgColor = highlight ? "bg-white/[0.07]" : "bg-white/[0.03]";
   const accentColor = accent === 'teal' ? 'text-teal-400 bg-teal-500/10' : 
@@ -501,9 +516,21 @@ function PricingCard({ title, icon, features, cta, accent, highlight }) {
           </li>
         ))}
       </ul>
-      <button className="w-full py-3 rounded-lg border border-white/20 text-white font-medium hover:bg-white hover:text-black transition-all">
-        {cta}
-      </button>
+      {/* If href is provided, render as an anchor link, otherwise default to a button */}
+      {href ? (
+        <a 
+          href={href} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="w-full py-3 rounded-lg border border-white/20 text-white font-medium hover:bg-white hover:text-black transition-all text-center block"
+        >
+          {cta}
+        </a>
+      ) : (
+        <button className="w-full py-3 rounded-lg border border-white/20 text-white font-medium hover:bg-white hover:text-black transition-all">
+          {cta}
+        </button>
+      )}
     </div>
   );
 }
@@ -543,7 +570,7 @@ function StepCard({ number, title, desc, icon }) {
 function FaqItem({ question, answer }) {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="border border-white/10 rounded-xl bg-white/[0.02] overflow-hidden">
+    <div className="border border-white/10 rounded-xl bg-[rgb(13,21,40)] overflow-hidden">
       <button 
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left hover:bg-white/[0.02] transition-colors"

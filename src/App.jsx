@@ -45,11 +45,12 @@ import IbReports from "./Pages/IbReports";
 import JoinPartner from "./Pages/JoinPartner";
 import Helpdesk from "./Pages/Helpdesk";
 import Contact from "./Pages/ContactUs";
-
+import Preloader from "./Component/Preloader";
 function App() {
   return (
     <Router>
       <Navbar />
+      <Preloader />
       <ScrollToTop />
 
       <Routes>

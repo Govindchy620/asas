@@ -13,16 +13,7 @@ export default function Footer() {
             Unlock Your Potential and <br /> Join Our Trading Team!
           </h2>
 
-          <div className="flex w-full max-w-md bg-indigo-500/10 rounded-full overflow-hidden border border-white/10 p-1">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-6 py-3 bg-transparent text-white placeholder:text-slate-500 outline-none text-sm"
-            />
-            <button className="px-8 py-3 bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-bold rounded-full text-sm hover:opacity-90 transition">
-              Subscribe
-            </button>
-          </div>
+      
         </div>
 
         {/* DIVIDER */}
@@ -97,7 +88,7 @@ export default function Footer() {
             <img
               src={Logo}
               alt="FXCELITE Logo"
-              className="w-26 h-26 object-contain"
+              className="w-46 h-46 object-contain"
             />
             {/* <div className="text-left">
               <h3 className="text-white font-bold text-xl tracking-tight">FXCELITE</h3>
