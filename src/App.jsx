@@ -46,6 +46,8 @@ import JoinPartner from "./Pages/JoinPartner";
 import Helpdesk from "./Pages/Helpdesk";
 import Contact from "./Pages/ContactUs";
 import Preloader from "./Component/Preloader";
+import AccountDeletion from "./pages/AccountDeletion"
+
 function App() {
   return (
     <Router>
