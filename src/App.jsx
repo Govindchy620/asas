@@ -45,6 +45,7 @@ import IbReports from "./Pages/IbReports";
 import JoinPartner from "./Pages/JoinPartner";
 import Helpdesk from "./Pages/Helpdesk";
 import Contact from "./Pages/ContactUs";
+import AccountDeletion from "./Pages/AccountDeletion";
 
 function App() {
   return (
@@ -95,8 +96,7 @@ function App() {
         <Route path="/join-partner" element={<JoinPartner />} />
         <Route path="/support/helpdesk" element={<Helpdesk />} />
         <Route path="/support/contact" element={<Contact />} />
-        
-
+        <Route path="/account-deletion" element={<AccountDeletion />} />
       </Routes>
 
       <Footer />
