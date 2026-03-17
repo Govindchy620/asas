@@ -10,7 +10,7 @@ export default function Preloader({ onComplete }: { onComplete?: () => void }) {
     const duration = 3500;
     const interval = 50;
     let currentProgress = 0;
-    
+
     const timer = setInterval(() => {
       currentProgress += (interval / duration) * 100;
       if (currentProgress >= 100) {
@@ -37,8 +37,7 @@ export default function Preloader({ onComplete }: { onComplete?: () => void }) {
           transition={{ duration: 0.8, ease: "easeInOut" }}
           className="fixed inset-0 z-50 flex items-center justify-center bg-[#050505]/40 backdrop-blur-2xl overflow-hidden"
         >
-          {/* Subtle tech grid overlay */}
-          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdHRlcm4gaWQ9InNtYWxsR3JpZCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNMTAgMEwwIDBMMCAxMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDMpIiBzdHJva2Utd2lkdGg9IjAuNSIvPjwvcGF0dGVybj48cmVjdCB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9InVybCgjc21hbGxHcmlkKSIvPjxwYXRoIGQ9Ik00MCAwTDAgMEwwIDQwIiBmaWxsPSJub25lIiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4wNykiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-40" />
+          {/* Subtle tech grid overlay removed */}
 
           <div className="relative flex flex-col items-center z-10 w-full max-w-md px-8">
             {/* Logo Container */}
@@ -55,7 +54,7 @@ export default function Preloader({ onComplete }: { onComplete?: () => void }) {
                   FX
                 </span>
               </motion.div>
-              
+
               {/* FXCELITE Text */}
               <motion.div
                 initial={{ opacity: 0, filter: 'blur(20px)', x: 20 }}
@@ -63,7 +62,7 @@ export default function Preloader({ onComplete }: { onComplete?: () => void }) {
                 transition={{ delay: 0.3, duration: 1, ease: "easeOut" }}
                 className="relative overflow-hidden py-2"
               >
-                <span 
+                <span
                   className="text-5xl md:text-7xl font-black tracking-widest"
                   style={{
                     WebkitTextStroke: '2px rgba(255,255,255,0.95)',
@@ -85,7 +84,7 @@ export default function Preloader({ onComplete }: { onComplete?: () => void }) {
             {/* Loading Bar Container */}
             <div className="w-full">
               <div className="flex justify-between items-end mb-3 px-1">
-                <motion.span 
+                <motion.span
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 1, duration: 0.5 }}
@@ -93,7 +92,7 @@ export default function Preloader({ onComplete }: { onComplete?: () => void }) {
                 >
                   Initializing Core
                 </motion.span>
-                <motion.span 
+                <motion.span
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 1, duration: 0.5 }}
@@ -102,8 +101,8 @@ export default function Preloader({ onComplete }: { onComplete?: () => void }) {
                   {Math.round(progress)}%
                 </motion.span>
               </div>
-              
-              <motion.div 
+
+              <motion.div
                 initial={{ opacity: 0, scaleX: 0 }}
                 animate={{ opacity: 1, scaleX: 1 }}
                 transition={{ delay: 0.8, duration: 0.6, ease: "easeOut" }}

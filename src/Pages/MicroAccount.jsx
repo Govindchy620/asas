@@ -84,9 +84,14 @@ export default function MicroAccount() {
           </div>
 
           <div className="flex flex-col items-center gap-6">
-            <button className="px-10 py-4 rounded-2xl bg-white text-black font-bold text-base hover:bg-cyan-400 transition-all shadow-[0_15px_40px_-15px_rgba(6,182,212,0.4)] hover:-translate-y-1 active:scale-95">
+            <a 
+              href="https://trade.fxcelite.com/register"
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block px-10 py-4 rounded-2xl bg-white text-black font-bold text-base hover:bg-cyan-400 transition-all shadow-[0_15px_40px_-15px_rgba(6,182,212,0.4)] hover:-translate-y-1 active:scale-95 text-center"
+            >
               Open Your Micro Trading Account
-            </button>
+            </a>
             <p className="text-cyan-400 text-sm max-w-md font-medium italic tracking-wide">
               Ready to trade live with minimal risk? Start your journey with a low deposit today!
             </p>
@@ -229,9 +234,14 @@ export default function MicroAccount() {
                           <p className="text-cyan-400 font-medium text-sm mb-6 leading-relaxed italic">
                             Perfect your strategy with real skin in the game. Sign Up for a Micro Account and trade with precision.
                           </p>
-                          <button className="w-full py-4 rounded-xl bg-white text-black font-bold hover:bg-cyan-400 transition-all text-base shadow-lg shadow-cyan-500/20">
+                          <a 
+                            href="https://trade.fxcelite.com/register"
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="block text-center w-full py-4 rounded-xl bg-white text-black font-bold hover:bg-cyan-400 transition-all text-base shadow-lg shadow-cyan-500/20"
+                          >
                              Sign Up for a Micro Account
-                          </button>
+                          </a>
                        </div>
                     </div>
                   </div>
@@ -343,14 +353,19 @@ export default function MicroAccount() {
       {/* --- ELITE CHOICE FINALE --- */}
       <section className="py-24 relative">
         <div className="max-w-3xl mx-auto px-6 text-center space-y-8">
-           <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight leading-tight">Why FXCElite is The Best Choice?</h2>
+           <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight leading-tight">Why FXCElite Is The Best Choice?</h2>
            <p className="text-base md:text-lg text-slate-400 leading-relaxed font-light">
              We provide a micro trading account that doesn’t compromise on quality. With institutional-grade execution and a supportive environment, we help you bridge the gap to professional trading.
            </p>
            <div className="space-y-6 pt-4">
-              <button className="px-10 py-4 rounded-2xl bg-white text-black font-bold text-base hover:bg-cyan-400 transition-all shadow-[0_15px_40px_-15px_rgba(6,182,212,0.4)] hover:-translate-y-1">
+              <a 
+                href="https://trade.fxcelite.com/register"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block text-center px-10 py-4 rounded-2xl bg-white text-black font-bold text-base hover:bg-cyan-400 transition-all shadow-[0_15px_40px_-15px_rgba(6,182,212,0.4)] hover:-translate-y-1"
+              >
                 Launch Your Micro Account Today
-              </button>
+              </a>
               <div className="flex flex-col items-center gap-3">
                  <p className="text-cyan-400 font-bold uppercase tracking-widest text-xs">
                    Start small, dream big. Join us today!

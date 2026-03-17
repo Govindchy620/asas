@@ -44,12 +44,15 @@ export default function Forex() {
               
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-10">
-                <button className="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-bold text-lg hover:shadow-[0_0_30px_-5px_rgba(52,211,153,0.4)] hover:scale-105 transition-all flex items-center justify-center gap-2">
+                <a 
+                  href="https://trade.fxcelite.com/register"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-bold text-lg hover:shadow-[0_0_30px_-5px_rgba(52,211,153,0.4)] hover:scale-105 transition-all flex items-center justify-center gap-2"
+                >
                   Open Live Account <ArrowRight size={20} />
-                </button>
-                <button className="w-full sm:w-auto px-8 py-4 rounded-full bg-white/5 text-white font-bold text-lg border border-white/10 hover:bg-white/10 transition-all flex items-center justify-center gap-2">
-                  Try Demo First
-                </button>
+                </a>
+              
               </div>
               
               {/* Trust Indicators */}
@@ -237,11 +240,16 @@ export default function Forex() {
                   </div>
                 ))}
               </div>
-              <div className="mt-10">
-                <p className="text-emerald-400 font-medium mb-6">Experience the difference. Try Our Demo Account and test our low spreads risk-free.</p>
-                <button className="px-8 py-3 rounded-full border border-emerald-400 text-emerald-400 font-bold hover:bg-emerald-400 hover:text-black transition-all">
+              <div className="mt-10 flex flex-col items-start gap-4">
+                <p className="text-emerald-400 font-medium mb-2">Experience the difference. Try Our Demo Account and test our low spreads risk-free.</p>
+                <a 
+                  href="https://trade.fxcelite.com/register"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-block px-8 py-3 rounded-full border border-emerald-400 text-emerald-400 font-bold hover:bg-emerald-400 hover:text-black transition-all text-center"
+                >
                   Open Demo Account
-                </button>
+                </a>
               </div>
             </div>
             
@@ -349,9 +357,14 @@ export default function Forex() {
             <p className="text-xl text-slate-400 leading-relaxed mb-10">
               We don’t just provide a platform; we provide a partnership. With our forex trading with low spreads, 24/7 support, and our powerful forex and CFD trading platform, we empower you to succeed in the international markets.
             </p>
-            <button className="px-12 py-4 rounded-full bg-white text-black font-bold text-xl hover:bg-emerald-400 transition-colors shadow-2xl shadow-white/10">
+            <a 
+              href="https://trade.fxcelite.com/register"
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block px-12 py-4 rounded-full bg-white text-black font-bold text-xl hover:bg-emerald-400 transition-colors shadow-2xl shadow-white/10 text-center"
+            >
               Join FXCElite Now
-            </button>
+            </a>
             <p className="mt-6 text-emerald-400 font-bold">
               Take the first step. Join FXCElite Now and trade with the world's most reliable forex broker!
             </p>

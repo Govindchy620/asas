@@ -59,12 +59,22 @@ export default function Crypto() {
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
-                <button className="w-full sm:w-auto px-6 py-3 rounded-full bg-purple-500 hover:bg-purple-400 text-white font-bold text-base transition-all shadow-[0_0_40px_-10px_rgba(168,85,247,0.6)] hover:shadow-[0_0_60px_-15px_rgba(168,85,247,0.8)] hover:-translate-y-1 flex items-center justify-center gap-2">
+                <a 
+                  href="https://trade.fxcelite.com/register"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-purple-500 hover:bg-purple-400 text-white font-bold text-base transition-all shadow-[0_0_40px_-10px_rgba(168,85,247,0.6)] hover:shadow-[0_0_60px_-15px_rgba(168,85,247,0.8)] hover:-translate-y-1 flex items-center justify-center gap-2"
+                >
                   Start Trading Crypto <ArrowRight size={18} />
-                </button>
-                <button className="w-full sm:w-auto px-6 py-3 rounded-full bg-transparent border border-white/20 text-white font-bold text-base hover:bg-white/10 transition-all flex items-center justify-center gap-2">
+                </a>
+                <a 
+                  href="https://trade.fxcelite.com/login"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-transparent border border-white/20 text-white font-bold text-base hover:bg-white/10 transition-all flex items-center justify-center gap-2 text-center"
+                >
                   Explore Assets
-                </button>
+                </a>
               </div>
               
               <div className="flex items-center justify-center lg:justify-start gap-4 pt-4 text-sm text-slate-500 font-medium">
@@ -390,9 +400,14 @@ export default function Crypto() {
               You get the thrill of the crypto market and the dependability of a professional trading brokerage. Enjoy low spreads, 24/7 market access, and a team of experts ready to assist you.
             </p>
             <div className="space-y-6">
-              <button className="px-10 py-4 rounded-full bg-white text-black font-bold text-base hover:bg-purple-500 hover:text-white hover:-translate-y-1 transition-all shadow-[0_10px_30px_-10px_rgba(168,85,247,0.3)]">
+              <a 
+                href="https://trade.fxcelite.com/register"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block px-10 py-4 rounded-full bg-white text-black font-bold text-base hover:bg-purple-500 hover:text-white hover:-translate-y-1 transition-all shadow-[0_10px_30px_-10px_rgba(168,85,247,0.3)] text-center"
+              >
                 Join FXCElite Today
-              </button>
+              </a>
               <div className="flex flex-col items-center gap-3">
                 <p className="text-purple-400 font-bold uppercase tracking-widest text-xs">
                   The future is digital. Start trading today!

@@ -61,12 +61,22 @@ export default function Indices() {
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
-                <button className="w-full sm:w-auto px-6 py-3 rounded-full bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-bold text-base transition-all shadow-[0_0_40px_-10px_rgba(6,182,212,0.6)] hover:shadow-[0_0_60px_-15px_rgba(6,182,212,0.8)] hover:-translate-y-1 flex items-center justify-center gap-2">
+                <a 
+                  href="https://trade.fxcelite.com/register"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-bold text-base transition-all shadow-[0_0_40px_-10px_rgba(6,182,212,0.6)] hover:shadow-[0_0_60px_-15px_rgba(6,182,212,0.8)] hover:-translate-y-1 flex items-center justify-center gap-2"
+                >
                   Launch Trading Desk <ArrowRight size={18} />
-                </button>
-                <button className="w-full sm:w-auto px-6 py-3 rounded-full bg-transparent border border-white/20 text-white font-bold text-base hover:bg-white/10 transition-all flex items-center justify-center gap-2">
+                </a>
+                <a 
+                  href="https://trade.fxcelite.com/login"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-transparent border border-white/20 text-white font-bold text-base hover:bg-white/10 transition-all flex items-center justify-center gap-2"
+                >
                   View Market Live
-                </button>
+                </a>
               </div>
             </div>
 
@@ -243,9 +253,14 @@ export default function Indices() {
                     <PieChart size={120} />
                   </div>
                   <p className="text-white text-base font-medium mb-6 leading-relaxed italic relative z-10">Not ready for live markets? Open a Demo Account and practice your indices strategy with zero risk.</p>
-                  <button className="px-8 py-3 rounded-full bg-cyan-400 text-black font-bold hover:bg-white transition-colors relative z-10 shadow-lg shadow-cyan-500/20 text-sm">
+                  <a 
+                    href="https://trade.fxcelite.com/register"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-block px-8 py-3 rounded-full bg-cyan-400 text-black font-bold hover:bg-white transition-colors relative z-10 shadow-lg shadow-cyan-500/20 text-sm text-center"
+                  >
                     Open a Demo Account
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -387,9 +402,14 @@ export default function Indices() {
               With our unique blend of indices trading with low spreads, ultra-fast execution, and an easy-to-use platform, we offer everything you need to succeed.
             </p>
             <div className="space-y-6">
-              <button className="px-10 py-4 rounded-full bg-white text-black font-bold text-base hover:bg-cyan-400 hover:-translate-y-1 transition-all shadow-[0_10px_30px_-10px_rgba(255,255,255,0.2)]">
+              <a 
+                href="https://trade.fxcelite.com/register"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block px-10 py-4 rounded-full bg-white text-black font-bold text-base hover:bg-cyan-400 hover:-translate-y-1 transition-all shadow-[0_10px_30px_-10px_rgba(255,255,255,0.2)] text-center"
+              >
                 Join FXCElite Today
-              </button>
+              </a>
               <div className="flex flex-col items-center gap-3">
                 <p className="text-cyan-400 font-bold uppercase tracking-wider text-xs">
                   Take control of the markets. Start your journey today!
@@ -434,7 +454,6 @@ export default function Indices() {
         </div>
       </section>
       
-   
     </div>
   );
 }

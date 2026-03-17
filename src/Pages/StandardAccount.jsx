@@ -82,9 +82,14 @@ export default function StandardAccount() {
           </div>
 
           <div className="flex flex-col items-center gap-6">
-            <button className="px-10 py-4 rounded-2xl bg-white text-black font-bold text-base hover:bg-emerald-400 transition-all shadow-[0_15px_40px_-15px_rgba(16,185,129,0.3)] hover:-translate-y-1 active:scale-95">
+            <a 
+              href="https://trade.fxcelite.com/register"
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block text-center px-10 py-4 rounded-2xl bg-white text-black font-bold text-base hover:bg-emerald-400 transition-all shadow-[0_15px_40px_-15px_rgba(16,185,129,0.3)] hover:-translate-y-1 active:scale-95"
+            >
               Open Your Standard Trading Account
-            </button>
+            </a>
             <p className="text-slate-500 text-sm md:text-base max-w-md font-medium italic animate-pulse">
               Start your trading journey with ease. Experience commission-free trading today!
             </p>
@@ -234,9 +239,14 @@ export default function StandardAccount() {
                         <p className="text-emerald-400 font-medium text-base mb-4 leading-relaxed italic">
                           Experience precision without the complexity. Try a Free Demo and see why our standard account is a trader favorite.
                         </p>
-                        <button className="w-full py-4 rounded-xl bg-white text-black font-bold hover:bg-emerald-400 transition-all text-base shadow-lg shadow-emerald-500/10">
+                        <a 
+                          href="https://trade.fxcelite.com/register"
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="block text-center w-full py-4 rounded-xl bg-white text-black font-bold hover:bg-emerald-400 transition-all text-base shadow-lg shadow-emerald-500/10"
+                        >
                            Try a Free Demo Now
-                        </button>
+                        </a>
                      </div>
                   </div>
                </div>
@@ -361,9 +371,14 @@ export default function StandardAccount() {
              We bring together a standard trading account with low spreads and elite-tier technology. With no hidden costs and fast execution, FXCElite brings you the ultimate trading platform to achieve your financial objectives.
            </p>
            <div className="space-y-6 pt-4">
-              <button className="px-10 py-4 rounded-2xl bg-white text-black font-bold text-base hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-[0_15px_40px_-15px_rgba(16,185,129,0.4)]">
+              <a 
+                href="https://trade.fxcelite.com/register"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block text-center px-10 py-4 rounded-2xl bg-white text-black font-bold text-base hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-[0_15px_40px_-15px_rgba(16,185,129,0.4)]"
+              >
                 Sign Up for a Standard Account
-              </button>
+              </a>
               <div className="flex flex-col items-center gap-3">
                  <p className="text-emerald-400 font-bold uppercase tracking-widest text-xs">
                    Trade with a broker that puts you first
