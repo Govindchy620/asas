@@ -85,12 +85,15 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-            <button className="px-8 py-4 bg-teal-500 hover:bg-teal-400 text-white font-semibold rounded-full transition-all shadow-lg shadow-teal-500/20 flex items-center gap-2 group">
-              Open Live Account <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-            </button>
-            <button className="px-8 py-4 bg-white/5 hover:bg-white/10 text-white border border-white/10 font-semibold rounded-full transition-all backdrop-blur-sm">
-              Try Demo Account
-            </button>
+           <a 
+  href="https://trade.fxcelite.com/register"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex px-8 py-4 bg-teal-500 hover:bg-teal-400 text-white font-semibold rounded-full transition-all shadow-lg shadow-teal-500/20 items-center justify-center gap-2 group"
+>
+  Open Live Account <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+</a>
+            
           </div>
 
           {/* Trust Metric */}
