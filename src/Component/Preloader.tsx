@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Logo from "../assets/Logo.png"; // Adjust the path as needed
 
-export default function Preloader({ onComplete }: { onComplete?: () => void }) {
+export default function Preloader({ onComplete }) {
   const [loading, setLoading] = useState(true);
   const [progress, setProgress] = useState(0);
 
@@ -37,49 +38,22 @@ export default function Preloader({ onComplete }: { onComplete?: () => void }) {
           transition={{ duration: 0.8, ease: "easeInOut" }}
           className="fixed inset-0 z-50 flex items-center justify-center bg-[#050505]/40 backdrop-blur-2xl overflow-hidden"
         >
-          {/* Subtle tech grid overlay removed */}
-
           <div className="relative flex flex-col items-center z-10 w-full max-w-md px-8">
-            {/* Logo Container */}
-            <div className="flex items-center gap-3 md:gap-5 mb-16">
-              {/* FX Icon */}
-              <motion.div
-                initial={{ opacity: 0, x: -40, rotateY: 45 }}
-                animate={{ opacity: 1, x: 0, rotateY: 0 }}
-                transition={{ duration: 1, ease: "easeOut" }}
-                className="relative"
-                style={{ perspective: 1000 }}
-              >
-                <span className="text-7xl md:text-8xl font-black tracking-tighter bg-gradient-to-br from-[#00FFD1] to-[#2D46FF] bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(0,255,209,0.6)]">
-                  FX
-                </span>
-              </motion.div>
-
-              {/* FXCELITE Text */}
-              <motion.div
-                initial={{ opacity: 0, filter: 'blur(20px)', x: 20 }}
-                animate={{ opacity: 1, filter: 'blur(0px)', x: 0 }}
-                transition={{ delay: 0.3, duration: 1, ease: "easeOut" }}
-                className="relative overflow-hidden py-2"
-              >
-                <span
-                  className="text-5xl md:text-7xl font-black tracking-widest"
-                  style={{
-                    WebkitTextStroke: '2px rgba(255,255,255,0.95)',
-                    color: 'transparent',
-                    textShadow: '0 0 30px rgba(255,255,255,0.15)'
-                  }}
-                >
-                  FXCELITE
-                </span>
-                {/* Shine effect */}
-                <motion.div
-                  animate={{ left: ['-100%', '200%'] }}
-                  transition={{ delay: 0.8, duration: 2.5, repeat: Infinity, repeatDelay: 1.5 }}
-                  className="absolute top-0 bottom-0 w-1/2 bg-gradient-to-r from-transparent via-white/80 to-transparent skew-x-[-25deg] filter blur-[1px]"
-                />
-              </motion.div>
-            </div>
+            
+            {/* Image Logo Container */}
+            <motion.div
+              initial={{ opacity: 0, y: 20, filter: 'blur(10px)' }}
+              animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+              transition={{ duration: 1, ease: "easeOut" }}
+              className="flex justify-center w-full mb-16"
+            >
+              {/* Ensure the path to Logo.png is correct based on your setup */}
+              <img 
+                src={Logo} 
+                alt="FXCELITE Logo" 
+                className="h-66 md:h-74 w-auto object-contain drop-shadow-[0_0_25px_rgba(0,255,209,0.3)]"
+              />
+            </motion.div>
 
             {/* Loading Bar Container */}
             <div className="w-full">
