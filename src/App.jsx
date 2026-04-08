@@ -47,6 +47,7 @@ import Helpdesk from "./Pages/Helpdesk";
 import Contact from "./Pages/ContactUs";
 import Preloader from "./Component/Preloader";
 import AccountDeletion from "./Pages/AccountDeletion"
+import LandingPage from "./Pages/LandingPage";
 
 function App() {
   return (
@@ -99,6 +100,7 @@ function App() {
         <Route path="/support/helpdesk" element={<Helpdesk />} />
         <Route path="/support/contact" element={<Contact />} />
         <Route path="/account-deletion" element={<AccountDeletion />} />
+        <Route path="/landing-page" element={<LandingPage />} />
       </Routes>
 
       <Footer />
