@@ -313,7 +313,7 @@ export default function Navbar() {
               </button>
 
               <button
-                onClick={() => navTo("https://www.fxcelite.com/landing-page")}
+                onClick={() => navigate("/landing-page")}
                 className="w-full py-3 rounded-lg bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-semibold"
               >
                 Get Started
