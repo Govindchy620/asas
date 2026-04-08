@@ -20,7 +20,7 @@ export default function DepositBonusLandingPage() {
       <div className="absolute bottom-[-10%] left-[20%] w-[60%] h-[40%] bg-cyan-600/5 blur-[100px] rounded-full pointer-events-none z-0"></div>
 
       {/* ============================================ */}
-      {/* SECTION 1: HERO (REDESIGNED) */}
+      {/* SECTION 1: HERO */}
       {/* ============================================ */}
       <header 
         className="relative min-h-[90vh] flex items-center border-b border-white/10 z-10 bg-cover bg-center bg-no-repeat"
@@ -35,7 +35,7 @@ export default function DepositBonusLandingPage() {
             
             {/* Main Headline */}
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white leading-[1.1] tracking-tight">
-              IC Markets Deposit Bonus <br className="hidden md:block"/>
+              Fxcelite Deposit Bonus – <br className="hidden md:block"/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400 drop-shadow-[0_0_30px_rgba(52,211,153,0.3)]">
                 Boost Your Trading Power
               </span>
@@ -43,7 +43,7 @@ export default function DepositBonusLandingPage() {
             </h1>
             
             <p className="text-lg sm:text-xl md:text-2xl text-slate-300 max-w-2xl mx-auto md:mx-0 font-light drop-shadow-md leading-relaxed">
-              Get a Bonus on <strong className="text-white font-semibold">Every Deposit You Make.</strong>
+              Get a Bonus on <strong className="text-white font-semibold">Every Deposit You Make</strong>
             </p>
             
             {/* CTA Button Area */}
@@ -55,7 +55,7 @@ export default function DepositBonusLandingPage() {
                 className="group relative w-full sm:w-auto px-8 py-4 font-bold text-base sm:text-lg rounded-full text-[#050617] bg-gradient-to-r from-emerald-400 to-emerald-500 hover:from-emerald-300 hover:to-emerald-400 transition-all duration-300 shadow-[0_0_30px_rgba(52,211,153,0.4)] hover:shadow-[0_0_50px_rgba(52,211,153,0.6)] hover:-translate-y-1 overflow-hidden"
               >
                 <span className="relative z-10 flex items-center justify-center gap-2">
-                  Sign Up
+                  Claim your deposit bonuses now
                   <svg className="w-3 h-3 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
@@ -112,7 +112,7 @@ export default function DepositBonusLandingPage() {
       </section>
 
       {/* ============================================ */}
-      {/* SECTION 2: INTRO & WHAT IS IT (With Image) */}
+      {/* SECTION 3: INTRO & WHAT IS IT (With Image) */}
       {/* ============================================ */}
       <section className="py-12 sm:py-16 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 space-y-12">
@@ -120,7 +120,7 @@ export default function DepositBonusLandingPage() {
           {/* Top Intro Paragraphs */}
           <div className="bg-[#070A23]/80 backdrop-blur-xl border border-white/10 rounded-2xl p-6 sm:p-10 shadow-lg space-y-4 max-w-5xl mx-auto">
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed font-light">
-              Are you looking for a way to trade bigger without putting more of your own money at risk? Would you like to maximise your profit potential and avoid augmenting stress? IC Markets offers you the best of opportunities, the Deposit Bonus Offer.
+              Are you looking for a way to trade bigger without putting more of your own money at risk? Would you like to maximise your profit potential and avoid augmenting stress? Fxcelite offers you the best of opportunities, the Deposit Bonus Offer.
             </p>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed font-light">
               It is no hoax. It’s not a loan. It is an easy and clear bonus that provides you with additional trading funds whenever you deposit money into your account. This offer is available to a beginner who wants to learn without much fear or an experienced trader who wants to realise maximum returns.
@@ -149,7 +149,7 @@ export default function DepositBonusLandingPage() {
             <div className="md:col-span-7 space-y-6 order-1 md:order-2 bg-[#070A23]/80 backdrop-blur-xl border border-white/10 rounded-2xl p-6 sm:p-8 shadow-lg border-l-4 border-l-emerald-500">
               <h2 className="text-2xl sm:text-3xl font-extrabold text-white">What Exactly is a Deposit Bonus?</h2>
               <p className="text-sm sm:text-base text-slate-300 leading-relaxed font-light">
-                In simple words: You deposit real money into your IC Markets trading account. IC Markets contributes a fixed percentage of such amounts as bonus funds. Those bonus funds can be used to open bigger trades. Any profit you get on such trades is yours to take away and withdraw at any time.
+                In simple words: You deposit real money into your Fxcelite trading account. Fxcelite contributes a fixed percentage of such amounts as bonus funds. Those bonus funds can be used to open bigger trades. Any profit you get on such trades is yours to take away and withdraw at any time.
               </p>
               
               <div className="bg-[#050617]/60 rounded-xl p-5 sm:p-6 border border-white/5">
@@ -175,22 +175,22 @@ export default function DepositBonusLandingPage() {
       </section>
 
       {/* ============================================ */}
-      {/* SECTION 3: KEY FEATURES (Grid of 6) */}
+      {/* SECTION 4: KEY FEATURES (Grid of 6) */}
       {/* ============================================ */}
       <section className="py-12 sm:py-16 md:py-20 relative z-10 border-t border-white/5 bg-[#070A23]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center space-y-8 sm:space-y-12">
           <div className="space-y-3 max-w-3xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">Key Features of IC Markets Deposit Bonus</h2>
-            <p className="text-sm sm:text-base text-slate-400 font-light">IC Markets is a highly reputable Forex and CFD broker in the world. Their deposit bonus deal is easy, simple, and is meant to make traders prosper. The following is what is special about it:</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">Key Features of Fxcelite Deposit Bonus</h2>
+            <p className="text-sm sm:text-base text-slate-400 font-light">Fxcelite is a highly reputable Forex and CFD broker in the world. Their deposit bonus deal is easy, simple, and is meant to make traders prosper. The following is what is special about it:</p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 text-left">
             {[
-              { icon: '👥', title: 'Available for New and Existing Clients', desc: 'You have only opened your account the day before yesterday or have been trading with IC Markets all your life - you can join and receive the bonus on each deposit.' },
+              { icon: '👥', title: 'Available for New and Existing Clients', desc: 'You have only opened your account the day before yesterday or have been trading with Fxcelite all your life - you can join and receive the bonus on each deposit.' },
               { icon: '🔄', title: 'Bonus on every Deposit', desc: 'There is no restriction on the number of occasions you can receive the bonus. Make one deposit, receive a bonus. Deposit once more the following week, and receive a bonus once more. Simple.' },
               { icon: '💸', title: 'No Extra Fees', desc: 'The bonus is completely free. There is no fee, commission or interest to receive it.' },
               { icon: '🏦', title: 'Withdraw Your Profits Anytime', desc: 'This is important. The amount of bonus itself is not withdrawable. Still, all the profit earned under the bonus could be deposited into the bank account or payment method of your choice without any inquiries at all.' },
-              { icon: '📈', title: 'Works on All Trading Instruments', desc: 'Trade Forex pairs, Gold, Silver, Crude Oil, Indices, Shares, Cryptocurrencies or almost everything that IC Markets has to offer with the bonus.' },
+              { icon: '📈', title: 'Works on All Trading Instruments', desc: 'Trade Forex pairs, Gold, Silver, Crude Oil, Indices, Shares, Cryptocurrencies or almost everything that Fxcelite has to offer with the bonus.' },
               { icon: '🤖', title: 'Compatible with EAs and Robots', desc: 'Do you have automated strategies in trading? Bonus funds are well-suited to Expert Advisors (EAs).' },
             ].map((feature, i) => (
               <div 
@@ -210,14 +210,14 @@ export default function DepositBonusLandingPage() {
       </section>
 
       {/* ============================================ */}
-      {/* SECTION 4: WHY CHOOSE (With Image layout) */}
+      {/* SECTION 5: WHY CHOOSE (With Image layout) */}
       {/* ============================================ */}
       <section className="py-12 sm:py-16 md:py-20 relative z-10 border-t border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 space-y-8 sm:space-y-12">
           
           <div className="text-center space-y-3 max-w-3xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">Why Choose IC Markets' Deposit Bonus Over Others?</h2>
-            <p className="text-sm sm:text-base text-slate-400 font-light">Bonuses are provided by a number of brokers. However, most of them have their own tricks and traps, like massive requirements of trading volume, withdrawal limitations, or unfavourable conditions. IC Markets are different.</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">Why Choose Fxcelite' Deposit Bonus Over Others?</h2>
+            <p className="text-sm sm:text-base text-slate-400 font-light">Bonuses are provided by a number of brokers. However, most of them have their own tricks and traps, like massive requirements of trading volume, withdrawal limitations, or unfavourable conditions. Fxcelite are different.</p>
           </div>
 
           <div className="grid md:grid-cols-12 gap-8 lg:gap-12 items-start">
@@ -236,7 +236,7 @@ export default function DepositBonusLandingPage() {
             {/* Features Side */}
             <div className="md:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
               {[
-                { num: '1', title: 'Transparent and Fair Terms', desc: 'IC Markets is licensed and reputable all over the world. The terms of their bonuses are evident. You may read them, comprehend them, and then make decisions. No tricks of fine print.' },
+                { num: '1', title: 'Transparent and Fair Terms', desc: 'Fxcelite is licensed and reputable all over the world. The terms of their bonuses are evident. You may read them, comprehend them, and then make decisions. No tricks of fine print.' },
                 { num: '2', title: 'Lower Risk for You', desc: 'Since bonus funds tend to be withdrawn initially to settle any losses, your actual capital remains intact over a longer period. This would be a massive risk management benefit.' },
                 { num: '3', title: 'Perfect for Beginners', desc: 'You are likely to be scared of losing money if you are new to trading. The bonus provides you with additional practice money at no expense to you. You are able to test, learn the market behavior and get confidence quicker.' },
                 { num: '4', title: 'Great for Experienced Traders', desc: 'In case you already have a lucrative plan, additional funds will translate into additional revenue. Suppose you earn a profit of 5% on your own capital every month. Your trading capital is 20% greater with a 20% bonus. And you have the potential to grow your profit by almost 20%, without any additional effort.' },
@@ -263,20 +263,20 @@ export default function DepositBonusLandingPage() {
       </section>
 
       {/* ============================================ */}
-      {/* SECTION 5: HOW TO GET (Process) */}
+      {/* SECTION 6: HOW TO GET (Process) */}
       {/* ============================================ */}
       <section className="py-12 sm:py-16 md:py-20 border-t border-white/5 bg-[#070A23] relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center space-y-8 sm:space-y-12">
           <div className="space-y-3 max-w-3xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">How to Get the IC Markets Deposit Bonus (Step-by-Step)</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">How to Get the Fxcelite Deposit Bonus (Step-by-Step)</h2>
             <p className="text-sm sm:text-base text-slate-400 font-light">It takes only a few steps to trade with more money today:</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-left relative max-w-5xl mx-auto">
             {[
-              { num: 'Step 1', title: 'Open a Live Trading Account', text: 'In case you do not have an account with IC Markets yet, visit their site and choose the Open Account button. Enter your personal information. It is fast (less than 5 minutes) and free.' },
+              { num: 'Step 1', title: 'Open a Live Trading Account', text: 'In case you do not have an account with Fxcelite yet, visit their site and choose the Open Account button. Enter your personal information. It is fast (less than 5 minutes) and free.' },
               { num: 'Step 2', title: 'Verify Your Identity', text: 'Attach your ID (Passport, driver\'s license or national id) and address (utility bill or bank statement). It is a single KYC process that is mandatory for all regulated brokers.' },
-              { num: 'Step 3', title: 'Opt in to the Deposit Bonus Offer', text: 'Access your IC Markets Client Area. Find the deposit bonus section. Select Opt In or Participate. This is the only time you have to do this.' },
+              { num: 'Step 3', title: 'Opt in to the Deposit Bonus Offer', text: 'Access your Fxcelite Client Area. Find the deposit bonus section. Select Opt In or Participate. This is the only time you have to do this.' },
               { num: 'Step 4', title: 'Make your First Deposit (Minimum Deposit)', text: 'Confirm the existing minimum deposit required to obtain the bonus (typically, 200 or so). Make a deposit in the way that suits you best, such as a Bank Transfer, Credit Card, Skrill, Neteller, Bitcoin, or others.' },
               { num: 'Step 5', title: 'Receive Your Bonus Automatically', text: 'The bonus percentage will be credited to your trading account balance within a couple of minutes. You will have two balances, one your real balance and the other your bonus balance.' },
               { num: 'Step 6', title: 'Start Trading', text: 'Launch your MetaTrader 4, MetaTrader 5, or cTrader platform. The composite balance will be seen. Begin trading and increasing profits.' }
@@ -300,7 +300,7 @@ export default function DepositBonusLandingPage() {
       </section>
 
       {/* ============================================ */}
-      {/* SECTION 6: IMPORTANT TERMS */}
+      {/* SECTION 7: IMPORTANT TERMS */}
       {/* ============================================ */}
       <section className="py-12 sm:py-16 relative z-10">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
@@ -309,7 +309,7 @@ export default function DepositBonusLandingPage() {
             
             <h2 className="text-xl sm:text-2xl font-extrabold text-white mb-4">Important Terms You Should Know (But Don’t Worry – They Are Fair)</h2>
             <p className="text-sm sm:text-base text-slate-300 font-light mb-6">
-              There are certain basic rules in every bonus offer. IC Markets makes them straightforward. The following are the main arguments:
+              There are certain basic rules in every bonus offer. Fxcelite makes them straightforward. The following are the main arguments:
             </p>
             
             <ul className="space-y-4 text-sm sm:text-base text-slate-300 font-light mb-6 list-disc pl-5 relative z-10">
@@ -330,7 +330,7 @@ export default function DepositBonusLandingPage() {
       </section>
 
       {/* ============================================ */}
-      {/* SECTION 7: COMPARISON TABLE */}
+      {/* SECTION 8: COMPARISON TABLE */}
       {/* ============================================ */}
       <section className="py-12 sm:py-16 md:py-20 relative border-t border-white/5 bg-[#070A23] backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center space-y-8 sm:space-y-12 relative z-10">
@@ -345,7 +345,7 @@ export default function DepositBonusLandingPage() {
                 <tr>
                   <th className="px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-bold tracking-widest uppercase text-slate-400">Feature</th>
                   <th className="px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-bold tracking-widest uppercase text-slate-400">Without Bonus</th>
-                  <th className="px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-bold tracking-widest uppercase text-emerald-400 bg-emerald-900/10">With IC Markets Deposit Bonus</th>
+                  <th className="px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-bold tracking-widest uppercase text-emerald-400 bg-emerald-900/10">With Fxcelite Deposit Bonus</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-white/5">
@@ -389,7 +389,7 @@ export default function DepositBonusLandingPage() {
       </section>
 
       {/* ============================================ */}
-      {/* SECTION 8: TIPS */}
+      {/* SECTION 9: TIPS */}
       {/* ============================================ */}
       <section className="py-12 sm:py-16 md:py-20 border-t border-white/5 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 grid md:grid-cols-12 gap-10 md:gap-16 items-center">
@@ -406,7 +406,7 @@ export default function DepositBonusLandingPage() {
               <p><strong className="text-white font-semibold">2. Use the Bonus to Test New Strategies:</strong> Also, always wanted to give gold trading or a new indicator a go? Experiment with the bonus funds. You lose bonus money first, in case you lose. In case you win, you get the profit.</p>
               <p><strong className="text-white font-semibold">3. Focus on High-Probability Trades:</strong> Since the bonus increases your capital, you are able to be more discriminating. Wait for the most favourable formations rather than coercing trades.</p>
               <p><strong className="text-white font-semibold">4. Withdraw Profits Regularly:</strong> Don’t have all your profit in the book. Take away some of it each week or month. This traps your profits and minimises emotional trading.</p>
-              <p><strong className="text-white font-semibold">5. Read the Exact Terms for Your Region:</strong> The conditions and percentage of bonuses may be different in countries. Always have a look at the recent deal in your IC Markets client account.</p>
+              <p><strong className="text-white font-semibold">5. Read the Exact Terms for Your Region:</strong> The conditions and percentage of bonuses may be different in countries. Always have a look at the recent deal in your Fxcelite client account.</p>
             </div>
           </div>
 
@@ -421,7 +421,7 @@ export default function DepositBonusLandingPage() {
       </section>
 
       {/* ============================================ */}
-      {/* SECTION 9: RIGHT FOR YOU */}
+      {/* SECTION 10: RIGHT FOR YOU */}
       {/* ============================================ */}
       <section className="py-12 sm:py-16 md:py-20 relative z-10 bg-[#070A23] border-y border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 grid md:grid-cols-12 gap-10 md:gap-16 items-center">
@@ -461,13 +461,13 @@ export default function DepositBonusLandingPage() {
       </section>
 
       {/* ============================================ */}
-      {/* SECTION 10: FINAL WORDS & CTA */}
+      {/* SECTION 11: FINAL WORDS & CTA */}
       {/* ============================================ */}
       <section className="py-16 sm:py-20 relative z-10 text-center">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 space-y-6">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white">Final Words – Don’t Miss This Opportunity</h2>
           <p className="text-sm sm:text-base text-slate-300 font-light">
-            It is hard enough to trade in the first place. Why not have an added advantage for yourself? IC Markets is giving you free trading capital as a mere deposit. It is something like a store giving you the extra money to spend, but you get to pocket the profits here.
+            It is hard enough to trade in the first place. Why not have an added advantage for yourself? Fxcelite is giving you free trading capital as a mere deposit. It is something like a store giving you the extra money to spend, but you get to pocket the profits here.
           </p>
           <div className="bg-[#070A23] border border-white/10 rounded-xl p-5 sm:p-6 text-left inline-block mt-4 text-slate-300 font-light text-sm sm:text-base shadow-lg">
             <p className="font-semibold text-white mb-2">It is quite easy:</p>
@@ -491,14 +491,14 @@ export default function DepositBonusLandingPage() {
               onClick={() => window.open("https://trade.fxcelite.com/register", "_blank")}
               className="px-6 sm:px-10 py-3 sm:py-4 font-bold text-sm sm:text-lg rounded-full text-[#050617] bg-emerald-400 hover:bg-emerald-300 transition-all shadow-[0_0_20px_rgba(52,211,153,0.3)] hover:shadow-[0_0_30px_rgba(52,211,153,0.5)] hover:-translate-y-0.5"
             >
-              Sign Up
+              Claim your deposit bonuses now
             </button>
           </div>
         </div>
       </section>
 
       {/* ============================================ */}
-      {/* SECTION 11: INTERACTIVE FAQ ACCORDION */}
+      {/* SECTION 12: INTERACTIVE FAQ ACCORDION */}
       {/* ============================================ */}
       <section className="py-12 sm:py-16 md:py-20 border-t border-white/5 bg-[#070A23] relative z-10">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 space-y-8 sm:space-y-12">
@@ -512,9 +512,9 @@ export default function DepositBonusLandingPage() {
               { q: "Q2: Is the bonus actual cash? Can I lose it?", a: "Yes, it is real trading funds. When you take a losing trade, you will lose the bonus money first. That is in fact, good since your personal deposit is secured at a longer period." },
               { q: "Q3: Am I obliged to pay tax on the bonus?", a: "The tax regulations are country-specific. Mostly, you are taxed on the trading gains rather than the bonus itself. Ask your local tax advisor." },
               { q: "Q4: Do I qualify to get the bonus several times?", a: "Yes. When you make deposits within the promotion period, the percentage of bonus on the deposits will be awarded on the deposits." },
-              { q: "Q5: What is the case of going negative with a bonus?", a: "IC Markets provides negative balance cover to retail customers. You have nothing to lose except your deposit. The bonus does not become an additional liability." },
+              { q: "Q5: What is the case of going negative with a bonus?", a: "Fxcelite provides negative balance cover to retail customers. You have nothing to lose except your deposit. The bonus does not become an additional liability." },
               { q: "Q6: Does the bonus apply to every type of account?", a: "Usually, it works on Standard and Raw Spread accounts. See the details of the particular offer for any exceptions." },
-              { q: "Q7: Is it possible to use the bonus with an EA or copy trading?", a: "Absolutely. IC Markets permits Expert Advisor, copy trading, and algorithmic trading on bonus funds." },
+              { q: "Q7: Is it possible to use the bonus with an EA or copy trading?", a: "Absolutely. Fxcelite permits Expert Advisor, copy trading, and algorithmic trading on bonus funds." },
             ].map((faq, i) => (
               <div 
                 key={i} 
@@ -545,7 +545,7 @@ export default function DepositBonusLandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-10 text-center space-y-3 sm:space-y-4">
           <p className="text-[10px] sm:text-xs text-slate-400">&copy; {new Date().getFullYear()} FXCELITE. All rights reserved.</p>
           <p className="text-[10px] sm:text-xs text-slate-600 max-w-4xl mx-auto leading-relaxed">
-            Disclosure: Forex trading and CFDs are very risky investments that can make one lose money easily. This bonus package does not alter the riskiness of trading. Trade responsibly, and only trade with the money that you can afford to part with. Bonus conditions are negotiable. The latest details of the offers may be found on Visit IC Markets' official website.
+            Disclosure: Forex trading and CFDs are very risky investments that can make one lose money easily. This bonus package does not alter the riskiness of trading. Trade responsibly, and only trade with the money that you can afford to part with. Bonus conditions are negotiable. The latest details of the offers may be found on Visit Fxcelite' official website.
           </p>
         </div>
       </footer>

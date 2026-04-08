@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import { useNavigate, useLocation } from "react-router-dom";
 import logo from "../assets/Logo.png";
-
+import LandingPage from "./LandingPage";
 /* =========================
    NAV DATA
 ========================= */
@@ -253,11 +253,11 @@ export default function Navbar() {
 
               {/* CTA */}
               <button
-                onClick={() => navTo("https://trade.fxcelite.com/register")}
-                className="hidden sm:inline-flex px-4 py-2 rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-semibold text-sm"
-              >
-                Get Started
-              </button>
+        onClick={() => navigate("/landing-page")} // 3. Use the relative path
+        className="hidden sm:inline-flex px-4 py-2 rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-semibold text-sm"
+      >
+        Get Started
+      </button>
 
               {/* BURGER */}
               <button
@@ -313,7 +313,7 @@ export default function Navbar() {
               </button>
 
               <button
-                onClick={() => navTo("https://trade.fxcelite.com/register")}
+                onClick={() => navTo("https://www.fxcelite.com/landing-page")}
                 className="w-full py-3 rounded-lg bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-semibold"
               >
                 Get Started
