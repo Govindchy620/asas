@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import Hero from "../assets/hero-bg.png";
-import Innovation from "../assets/innovation.png";
-import Trade from "../assets/trade.png";
+import Innovation from "../assets/z.png";
+import Trade from "../assets/y.png";
+import Tra from "../assets/x.png";
+import Tr from "../assets/c.png";
 
 export default function DepositBonusLandingPage() {
   // State for the interactive FAQ accordion
@@ -412,7 +414,7 @@ export default function DepositBonusLandingPage() {
 
           <div className="md:col-span-6 flex justify-center">
             <img 
-              src={Trade} 
+              src={Tra} 
               alt="Trading Instruments" 
               className="w-full max-w-sm md:max-w-md rounded-xl drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)] object-cover" 
             />
@@ -428,7 +430,7 @@ export default function DepositBonusLandingPage() {
           
           <div className="md:col-span-6 flex justify-center md:justify-start order-2 md:order-1">
             <img 
-              src={Innovation} 
+              src={Tr} 
               alt="Innovation Precision Results" 
               className="w-full max-w-sm md:max-w-md rounded-xl drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)] object-cover" 
             />
@@ -491,7 +493,7 @@ export default function DepositBonusLandingPage() {
               onClick={() => window.open("https://trade.fxcelite.com/register", "_blank")}
               className="px-6 sm:px-10 py-3 sm:py-4 font-bold text-sm sm:text-lg rounded-full text-[#050617] bg-emerald-400 hover:bg-emerald-300 transition-all shadow-[0_0_20px_rgba(52,211,153,0.3)] hover:shadow-[0_0_30px_rgba(52,211,153,0.5)] hover:-translate-y-0.5"
             >
-              Claim your deposit bonuses now
+              Sign up
             </button>
           </div>
         </div>
