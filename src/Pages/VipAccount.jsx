@@ -292,7 +292,7 @@ export default function VipAccount() {
                         Experience the raw power of the interbank market. Open an ECN Account Online and see the difference in every pip.
                      </p>
                      <div className="space-y-4 text-sm text-slate-400 leading-relaxed font-light">
-                        <p>At FXCElite, we house our servers in Equinix data centers, so you can be sure that your trading orders are handled with the highest level of reliability.</p>
+                        <p>At Fxcelite, we house our servers in Equinix data centers, so you can be sure that your trading orders are handled with the highest level of reliability.</p>
                      </div>
                      <button className="w-full py-4 rounded-xl bg-white text-black font-bold hover:bg-amber-500 transition-all text-base shadow-lg shadow-amber-500/20">
                         Apply for VIP Status
@@ -381,10 +381,10 @@ export default function VipAccount() {
             </div>
 
             <div className="flex flex-col justify-center space-y-8">
-               <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">Why FXCElite is The Best Choice?</h2>
+               <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">Why Fxcelite is The Best Choice?</h2>
                <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                  <p>
-                   We offer the infrastructure that professionals require to win. With an ECN account featuring low spreads, no conflict of interest, and the prestige of a VIP trading account, FXCElite is the destination of choice for the world’s most demanding traders.
+                   We offer the infrastructure that professionals require to win. With an ECN account featuring low spreads, no conflict of interest, and the prestige of a VIP trading account, Fxcelite is the destination of choice for the world’s most demanding traders.
                  </p>
                  <div className="pt-4 flex flex-col gap-6">
                     <button className="px-10 py-4 rounded-full bg-white text-black font-bold text-base hover:bg-amber-500 transition-all shadow-[0_15px_40px_-15px_rgba(245,158,11,0.4)] hover:-translate-y-1">
@@ -416,7 +416,7 @@ export default function VipAccount() {
               { q: "7. Can I use Expert Advisors (EAs) on an ECN account?", a: "Yes, our ECN environment is optimized for algorithmic trading and fast execution." },
               { q: "8. Are there re-quotes on an ECN account?", a: "No, since you are trading directly with the market, your orders are executed at the best available price without re-quotes." },
               { q: "9. How is the commission calculated?", a: "The commission is a fixed fee per lot traded, which is clearly shown in your trade history." },
-              { q: "10. How do I open an ECN account online?", a: "Register on the FXCElite portal, select the ECN/VIP account type, and complete the verification process." },
+              { q: "10. How do I open an ECN account online?", a: "Register on the Fxcelite portal, select the ECN/VIP account type, and complete the verification process." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}

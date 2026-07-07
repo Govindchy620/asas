@@ -54,7 +54,7 @@ export default function TradingViewIntegration() {
           <div className="max-w-3xl mx-auto text-sm md:text-base text-white/90 leading-relaxed font-light mb-12 px-6 py-8 bg-[#1c212d] border border-white/20 relative shadow-xl">
              <div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-[#2962ff]"></div>
              <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-[#2962ff]"></div>
-             Everything is about data visualization in today's trading world. TradingView integration allows you to combine the world's most popular charting interface with FXCElite's institutional-grade execution. This powerful synergy gives you access to an online charting platform used by millions, while ensuring your trades are filled on a secure trading platform.
+             Everything is about data visualization in today's trading world. TradingView integration allows you to combine the world's most popular charting interface with Fxcelite's institutional-grade execution. This powerful synergy gives you access to an online charting platform used by millions, while ensuring your trades are filled on a secure trading platform.
           </div>
 
           <div className="flex flex-col items-center gap-6">
@@ -83,7 +83,7 @@ export default function TradingViewIntegration() {
                      With the use of TradingView for forex trading, one stands to benefit from an outstanding library of indicators, community-driven insights, and advanced drawing tools. This is a professional charting software solution that bridges a gap between social market insights and real-world execution, making it ideal for both beginners and professional traders.
                    </p>
                    <p className="text-white font-medium italic bg-white/10 p-5 border-r-2 border-[#2962ff]">
-                     The feature of TradingView is a technical bridge that enables you to access your FXCElite trading account directly inside a TradingView interface.
+                     The feature of TradingView is a technical bridge that enables you to access your Fxcelite trading account directly inside a TradingView interface.
                    </p>
                    <p>
                      It is a high-performance online charting platform that offers tick-by-tick data. You can now analyze and trade in one place without switching between tabs in your browser. This type of set-up is especially popular with CFD trading charts as it enables seamless "Chart Trading."
@@ -187,7 +187,7 @@ export default function TradingViewIntegration() {
                        Experience the best of both worlds. Link Your Account and start trading with TradingView precision.
                      </p>
                      <div className="text-sm text-white/90 leading-relaxed font-light italic">
-                        <p>Combine world-class aesthetics with FXCElite's institutional infrastructure.</p>
+                        <p>Combine world-class aesthetics with Fxcelite's institutional infrastructure.</p>
                      </div>
                      <button className="w-full py-4 bg-white text-black font-bold hover:bg-[#2962ff] hover:text-white transition-all text-sm uppercase tracking-tight rounded-xl">
                         Link Your Account
@@ -252,8 +252,8 @@ export default function TradingViewIntegration() {
             <div className="absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#2962ff55] to-transparent hidden lg:block"></div>
 
             {[
-              { n: "01", t: "Sign Up", d: "Open a Live Account with FXCElite.", icon: <Settings /> },
-              { n: "02", t: "Connect", d: "Open the TradingView Trading Panel and select FXCElite.", icon: <RefreshCw /> },
+              { n: "01", t: "Sign Up", d: "Open a Live Account with Fxcelite.", icon: <Settings /> },
+              { n: "02", t: "Connect", d: "Open the TradingView Trading Panel and select Fxcelite.", icon: <RefreshCw /> },
               { n: "03", t: "Trade", d: "Log in with your credentials and execute directly from charts.", icon: <MousePointer2 /> },
             ].map((step, i) => (
               <div key={i} className="group relative p-8 bg-[#1c212d] border border-white/20 hover:border-[#2962ff] transition-all duration-500 text-center rounded-2xl shadow-lg mt-8 lg:mt-0">
@@ -289,7 +289,7 @@ export default function TradingViewIntegration() {
                       <h2 className="text-2xl font-bold text-white tracking-tight uppercase italic">Security & Reliability</h2>
                    </div>
                    <div className="text-base text-white/90 leading-relaxed font-light italic space-y-6">
-                      <p>When you trade using TradingView via FXCELite, your security is our topmost concern. Secure API protocols are used whenever you link your accounts.</p>
+                      <p>When you trade using TradingView via Fxcelite, your security is our topmost concern. Secure API protocols are used whenever you link your accounts.</p>
                       <div className="p-6 bg-white/10 border-l-4 border-[#2962ff] font-medium text-white italic rounded-r-xl shadow-lg">
                          This means that TradingView will only have access to your trading signals, but not your financial information or capital.
                       </div>
@@ -359,7 +359,7 @@ export default function TradingViewIntegration() {
       {/* --- FINAL CTA: THE CHART GATE --- */}
       <section className="py-24 bg-[#0d1017] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Why FXCElite is the Best <br/> Choice for TradingView?</h2>
+           <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Why Fxcelite is the Best <br/> Choice for TradingView?</h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto bg-white/5 p-6 rounded-xl border border-white/10">
              We provide the raw speed and low spreads that TradingView traders demand. By combining our execution with their visualization, we offer the best web-based trading solution on the market.
            </p>
@@ -392,16 +392,16 @@ export default function TradingViewIntegration() {
           
           <div className="space-y-4">
             {[
-              { q: "1. What is TradingView integration?", a: "This enables you to link your account with an FXCElite broker to trade using their charts." },
-              { q: "2. Is it free to use TradingView with FXCElite?", a: "Yes, the basic integration is free for all our clients, and some advanced features will be available with their premium account." },
-              { q: "3. Can I trade Forex and CFDs on TradingView?", a: "Absolutely. You are able to trade any assets offered by FXCElite, such as Forex, Indices, and Commodities." },
+              { q: "1. What is TradingView integration?", a: "This enables you to link your account with an Fxcelite broker to trade using their charts." },
+              { q: "2. Is it free to use TradingView with Fxcelite?", a: "Yes, the basic integration is free for all our clients, and some advanced features will be available with their premium account." },
+              { q: "3. Can I trade Forex and CFDs on TradingView?", a: "Absolutely. You are able to trade any assets offered by Fxcelite, such as Forex, Indices, and Commodities." },
               { q: "4. Is TradingView better than MT5?", a: "It depends on your style. TradingView is more suited for chart work and social ideas, while MT5 is more suitable for automated EAs." },
               { q: "5. Can I use my Demo Account on TradingView?", a: "Yes, you can connect your Demo Account to practice risk-free on their charts." },
               { q: "6. Do I need to download software?", a: "No, TradingView is a browser-based trading platform, they do offer a desktop application if you wish to use that." },
               { q: "7. Is my account data safe?", a: "Yes, the link is via a secure encrypted API." },
               { q: "8. Can I use custom indicators?", a: "Yes, you can use any of the thousands of community scripts or write your own using Pine Script." },
               { q: "9. Does TradingView support mobile trading?", a: "Yes, they have a world-class mobile app that seamlessly integrates with your desktop analysis." },
-              { q: "10. How do I link my account?", a: "Just access the 'Trading Panel' located at the bottom part of the TradingView chart and select FXCElite." },
+              { q: "10. How do I link my account?", a: "Just access the 'Trading Panel' located at the bottom part of the TradingView chart and select Fxcelite." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}

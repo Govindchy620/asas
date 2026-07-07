@@ -59,7 +59,7 @@ export default function LiveAccount() {
           </h1>
           
           <p className="text-xl md:text-2xl text-slate-400 max-w-5xl mx-auto leading-relaxed font-light mb-8 uppercase tracking-tighter">
-            Start Trading with Real Money at FXCElite
+            Start Trading with Real Money at Fxcelite
           </p>
 
           <div className="max-w-3xl mx-auto text-base md:text-lg text-slate-500 leading-relaxed font-light mb-12 px-4">
@@ -89,7 +89,7 @@ export default function LiveAccount() {
             <div className="space-y-8">
               <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                 <p>
-                  At FXCElite, we create an environment for a live forex trading account which is highly capable of supporting the dynamic and fast-changing global market needs. Our live trading environment is perfect for retail traders as well as professionals to have a flawless, fair, and safe trading experience.
+                  At Fxcelite, we create an environment for a live forex trading account which is highly capable of supporting the dynamic and fast-changing global market needs. Our live trading environment is perfect for retail traders as well as professionals to have a flawless, fair, and safe trading experience.
                 </p>
                 <div className="p-6 rounded-3xl bg-emerald-500/5 border-l-4 border-emerald-400 backdrop-blur-xl relative overflow-hidden group">
                    <img src="https://images.unsplash.com/photo-1551288049-bbbda536339a?q=80&w=2070&auto=format&fit=crop" className="absolute inset-0 w-full h-full object-cover opacity-[0.05] group-hover:scale-105 transition-transform duration-[2000ms]" alt="" />
@@ -162,7 +162,7 @@ export default function LiveAccount() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 flex flex-col lg:flex-row lg:items-end justify-between gap-6">
             <div className="max-w-2xl space-y-4">
-              <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Why Choose FXCElite for Your <br/> Live Trading Account?</h2>
+              <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Why Choose Fxcelite for Your <br/> Live Trading Account?</h2>
               <p className="text-slate-500 text-base font-medium leading-relaxed italic">We focus on the three pillars of trading: speed, cost, and security.</p>
             </div>
             <div className="shrink-0 flex items-center gap-3 text-emerald-400 font-bold uppercase tracking-[0.2em] text-xs">
@@ -237,7 +237,7 @@ export default function LiveAccount() {
                        Experience the best live forex trading account. Sign Up Now and trade with a broker that values your growth.
                      </p>
                      <div className="space-y-4 text-sm text-slate-400 leading-relaxed font-light italic">
-                        <p>When you trade with a professional live trading account at FXCElite, security is our number one concern. We employ high-level SSL encryption to protect your information, and our site is constantly monitored for reliability.</p>
+                        <p>When you trade with a professional live trading account at Fxcelite, security is our number one concern. We employ high-level SSL encryption to protect your information, and our site is constantly monitored for reliability.</p>
                         <p>When trading with real money, you need a partner who adheres to strict financial guidelines to bring you peace of mind.</p>
                      </div>
                      <button className="w-full py-4 rounded-2xl bg-white text-black font-bold hover:bg-emerald-400 transition-all text-base shadow-lg shadow-emerald-500/20">
@@ -316,7 +316,7 @@ export default function LiveAccount() {
             </div>
 
             <div className="flex flex-col justify-center space-y-8 lg:p-8 text-center lg:text-left">
-               <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Why FXCElite is The Best Choice?</h2>
+               <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Why Fxcelite is The Best Choice?</h2>
                <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light italic">
                  <p>
                    With an instant live trading account opening and a world-class trading environment, we offer the best experience in having a live forex trading account. We don't just offer a platform; we offer the bridge to your financial independence.
@@ -349,7 +349,7 @@ export default function LiveAccount() {
             {[
               { q: "1. How can I open a live trading account?", a: "It is very easy; you just need to click on the \"Sign Up\" button and fill in the required information, and then you will be able to open a live trading account." },
               { q: "2. What is the minimum deposit for a live trading account?", a: "We have different types of accounts to cater to the needs of all traders, no matter how much money they have." },
-              { q: "3. Is my money safe in a live trading account?", a: "Yes, at FXCElite, we keep all of our clients' money in a separate account at a reputable bank." },
+              { q: "3. Is my money safe in a live trading account?", a: "Yes, at Fxcelite, we keep all of our clients' money in a separate account at a reputable bank." },
               { q: "4. What is the difference between demo and live account execution?", a: "Live account execution is done in real market conditions, while demo account execution is simulated." },
               { q: "5. How long does it take to open an instant live trading account?", a: "If your documents are in order, you can open an instant live trading account on the same day." },
               { q: "6. Can I trade using my mobile phone?", a: "Yes. Our live account forex trading platform is fully optimized for smartphones and tablets." },

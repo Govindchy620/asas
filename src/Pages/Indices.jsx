@@ -62,7 +62,7 @@ export default function Indices() {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
                 <a 
-                  href="https://trade.fxcelite.com/register"
+                  href="https://trade.Fxcelite.com/register"
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto px-6 py-3 rounded-full bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-bold text-base transition-all shadow-[0_0_40px_-10px_rgba(6,182,212,0.6)] hover:shadow-[0_0_60px_-15px_rgba(6,182,212,0.8)] hover:-translate-y-1 flex items-center justify-center gap-2"
@@ -194,8 +194,8 @@ export default function Indices() {
         </div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">Why Choose FXCElite for Stock Indices Trading?</h2>
-            <p className="text-slate-400 max-w-2xl mx-auto text-base leading-relaxed">When searching for an indices trading platform, you require stability and low costs. FXCElite differs from other platforms because it provides a global index CFD trading platform that suits all levels of traders.</p>
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">Why Choose Fxcelite for Stock Indices Trading?</h2>
+            <p className="text-slate-400 max-w-2xl mx-auto text-base leading-relaxed">When searching for an indices trading platform, you require stability and low costs. Fxcelite differs from other platforms because it provides a global index CFD trading platform that suits all levels of traders.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
             {[
@@ -360,7 +360,7 @@ export default function Indices() {
                   <h2 className="text-xl lg:text-2xl font-bold text-white tracking-tight">Security & Reliability</h2>
                 </div>
                 <p className="text-base text-slate-400 leading-relaxed">
-                  When you trade indices online using FXCElite, you are using a global indices CFD trading platform that focuses on security. All transactions are encrypted, and your money is held in segregated accounts. Our reliability ensures that even in the midst of major market crashes or rallies, your platform will remain stable and responsive.
+                  When you trade indices online using Fxcelite, you are using a global indices CFD trading platform that focuses on security. All transactions are encrypted, and your money is held in segregated accounts. Our reliability ensures that even in the midst of major market crashes or rallies, your platform will remain stable and responsive.
                 </p>
               </div>
             </div>
@@ -397,7 +397,7 @@ export default function Indices() {
           </div>
 
           <div className="mt-24 text-center max-w-4xl mx-auto px-6">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-6 tracking-tight">Why FXCElite is the Best Choice?</h2>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-6 tracking-tight">Why Fxcelite is the Best Choice?</h2>
             <p className="text-lg md:text-xl text-slate-400 leading-relaxed mb-10">
               With our unique blend of indices trading with low spreads, ultra-fast execution, and an easy-to-use platform, we offer everything you need to succeed.
             </p>
@@ -408,7 +408,7 @@ export default function Indices() {
                 rel="noopener noreferrer"
                 className="inline-block px-10 py-4 rounded-full bg-white text-black font-bold text-base hover:bg-cyan-400 hover:-translate-y-1 transition-all shadow-[0_10px_30px_-10px_rgba(255,255,255,0.2)] text-center"
               >
-                Join FXCElite Today
+                Join Fxcelite Today
               </a>
               <div className="flex flex-col items-center gap-3">
                 <p className="text-cyan-400 font-bold uppercase tracking-wider text-xs">
@@ -444,9 +444,9 @@ export default function Indices() {
               { q: "5. Can I trade indices on my phone?", a: "Yes, our trading platform is fully mobile-friendly, so you can trade stock indices online from anywhere." },
               { q: "6. Are the indices open 24/7?", a: "Though the stock markets are operational for a certain number of hours, most of the global indices are available to trade almost 24/5 on our platform." },
               { q: "7. Is there any difference between an index and a stock?", a: "A stock is a symbol of a single company, while an index is a symbol of a number of companies. Trading in indices is more diversified." },
-              { q: "8. Does FXCElite offer indices trading with low spreads?", a: "Yes, we offer highly competitive spreads on all major global indices to keep your trading costs low." },
+              { q: "8. Does Fxcelite offer indices trading with low spreads?", a: "Yes, we offer highly competitive spreads on all major global indices to keep your trading costs low." },
               { q: "9. How do I manage risk while trading indices?", a: "Always trade with Stop-Loss orders and never trade more than you can afford to lose. Our platform offers you all the risk management tools." },
-              { q: "10. How do I start trading on the best indices trading platform?", a: "Just register with FXCElite, deposit money into your account, and choose the index you wish to trade from the dashboard." },
+              { q: "10. How do I start trading on the best indices trading platform?", a: "Just register with Fxcelite, deposit money into your account, and choose the index you wish to trade from the dashboard." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}

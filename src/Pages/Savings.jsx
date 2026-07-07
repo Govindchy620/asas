@@ -61,7 +61,7 @@ export default function Savings() {
              <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:scale-110 transition-transform">
                <Sprout size={80} className="text-emerald-400" />
              </div>
-             In the trading world, timing is everything. Sometimes it might be better to just stay out of the market and wait for the perfect setup. FXCElite is of the opinion that your capital shouldn't be idle at any time. It is possible to earn interest on trading balance funds that aren't currently committed to an open position through our forex savings account feature. For those who want to combine the high growth potential of trading actively with the safety of a traditional savings model, it is the perfect online trading savings account.
+             In the trading world, timing is everything. Sometimes it might be better to just stay out of the market and wait for the perfect setup. Fxcelite is of the opinion that your capital shouldn't be idle at any time. It is possible to earn interest on trading balance funds that aren't currently committed to an open position through our forex savings account feature. For those who want to combine the high growth potential of trading actively with the safety of a traditional savings model, it is the perfect online trading savings account.
           </div>
 
           <div className="flex flex-col items-center gap-6">
@@ -90,7 +90,7 @@ export default function Savings() {
                      Turning on the savings account for traders will allow you to pay a steady return on your free margin. This isn't merely a trading platform; it's a passive income trading account where your "resting" money becomes an "active" asset, and you keep earning money whether you are in a trading position or not.
                    </p>
                    <p className="text-white font-medium italic bg-white/10 p-6 border-r-2 border-emerald-500 rounded-xl shadow-lg">
-                     A trading savings account with FXCElite is a unique aspect of your Live Account where the interest is calculated on your "Free Margin." A trading forex account with interest is tailored for traders with large liquidity, as it is quite the opposite of what you get in a conventional bank account.
+                     A trading savings account with Fxcelite is a unique aspect of your Live Account where the interest is calculated on your "Free Margin." A trading forex account with interest is tailored for traders with large liquidity, as it is quite the opposite of what you get in a conventional bank account.
                    </p>
                    <p>
                      The explanation of this savings trading account feature is quite straightforward: if your money in the account has not been used for margin, it earns interest every day. Hence, you get a trading account featuring daily returns, as the interest is directly credited to your balance, thus increasing your buying power.
@@ -266,7 +266,7 @@ export default function Savings() {
               <thead>
                 <tr className="bg-amber-900/40">
                   <th className="p-5 text-sm font-bold text-white uppercase italic tracking-widest border-b border-white/20">Feature</th>
-                  <th className="p-5 text-sm font-bold text-amber-400 uppercase italic tracking-widest border-b border-white/20 bg-amber-500/10">FXCElite Savings</th>
+                  <th className="p-5 text-sm font-bold text-amber-400 uppercase italic tracking-widest border-b border-white/20 bg-amber-500/10">Fxcelite Savings</th>
                   <th className="p-5 text-sm font-bold text-white/80 uppercase italic tracking-widest border-b border-white/20">Bank Savings</th>
                 </tr>
               </thead>
@@ -347,7 +347,7 @@ export default function Savings() {
         <div className="max-w-4xl mx-auto px-6 space-y-10">
            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic underline decoration-amber-500 decoration-4 underline-offset-[8px]">Wealth Evolution</h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto">
-             With our trading account and daily returns, at FXCElite, we offer the best forex savings accounts for traders. We don't just offer a place to trade, but a place to grow your entire financial ecosystem.
+             With our trading account and daily returns, at Fxcelite, we offer the best forex savings accounts for traders. We don't just offer a place to trade, but a place to grow your entire financial ecosystem.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">

@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { useNavigate } from "react-router-dom";
+
 import { 
   ArrowRight, 
   ChevronDown, 
@@ -36,22 +38,23 @@ import Veo1 from "../assets/ht1.mp4";
 import Veo2 from "../assets/ht3.mp4";
 
 export default function Home() {
+  const navigate = useNavigate();
   const bgMain = "bg-[#050a18]";
 
   // FAQ Data derived from your content
   const faqData = [
     { q: "What online trading platform is the best for beginners?", a: "FXCE is usually regarded as the top online trading platform thanks to its user-friendly interface, range of informative materials, and offering you start trading on a Demo Account." },
-    { q: "Can I trade forex online through FXCElite?", a: "We are a forex trading platform at the forefront of providing trading accounts for forex majors, minors, and exotics at very low spreads." },
-    { q: "Is FXCElite a worldwide trading platform?", a: "Certainly. We offer our forex trading services to the whole world and provide 24/5 multilingual support." },
+    { q: "Can I trade forex online through Fxcelite?", a: "We are a forex trading platform at the forefront of providing trading accounts for forex majors, minors, and exotics at very low spreads." },
+    { q: "Is Fxcelite a worldwide trading platform?", a: "Certainly. We offer our forex trading services to the whole world and provide 24/5 multilingual support." },
     { q: "What are the advanced trading platforms and tools offered by your company?", a: "We provide MT5, a WebTrader that is high performance, and a feature packed mobile app, all with charting and technical analysis toolsets." },
     { q: "How can I initiate trading online?", a: "All you need to do is click the registration button on our website, confirm your identity and make a deposit for market access." },
-    { q: "Is this an all-in-one online trading platform?", a: "Absolutely, you can trade Forex, Metals, Indices, and Crypto all from one FXCElite account." },
+    { q: "Is this an all-in-one online trading platform?", a: "Absolutely, you can trade Forex, Metals, Indices, and Crypto all from one Fxcelite account." },
     { q: "Can I trade on my phone?", a: "Definitely, you can trade from anywhere through web and mobile trading by installing our app for iOS or Android." },
     { q: "What is a CFD trading platform?", a: "A CFD trading platform enables you to bet on the price changes of various assets like stocks or gold without the necessity of owning the physical asset." },
     { q: "Why choose online forex trading over traditional investing?", a: "Online forex trading provides you with major benefits such as high liquidity, market access 24/5, and the opportunity to make a profit not only in rising but also in falling markets." },
     { q: "Is my data secure on this online trading platform?", a: "For sure, we implement bank-grade SSL encryption and two factor authentication to keep your experience in the global financial markets safe and secure." }
   ];
-
+  
   return (
     <div className={`${bgMain} text-slate-300 font-sans selection:bg-teal-500/30 overflow-x-hidden`}>
       
@@ -76,7 +79,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-6 relative z-10 text-center space-y-8">
           
           <h1 className="text-4xl md:text-7xl font-bold text-white tracking-tight leading-[1.1]">
-            Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">FXCelite</span> <br/>
+            Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">Fxcelite</span> <br/>
             Your All-in-One Online Trading Platform
           </h1>
           
@@ -133,17 +136,27 @@ export default function Home() {
             </div>
             
             <p className="text-lg text-slate-400 border-l-2 border-teal-500/50 pl-6">
-              Why manage multiple logins when you can use one single all-in-one online trading platform? FXCElite offers you the opportunity to explore the global financial markets trading platform with ease.
+              Why manage multiple logins when you can use one single all-in-one online trading platform? Fxcelite offers you the opportunity to explore the global financial markets trading platform with ease.
             </p>
             
             <div className="flex flex-wrap gap-4 pt-2">
-              <button className="px-6 py-3 bg-gradient-to-r from-slate-800 to-slate-900 hover:from-slate-700 hover:to-slate-800 text-white rounded-lg transition-all border border-white/10 hover:border-teal-500/30 font-medium shadow-lg shadow-black/20">
-                Explore Markets
-              </button>
-              <button className="px-6 py-3 text-teal-400 font-medium hover:text-teal-300 flex items-center gap-2 group transition-colors">
-                See Spreads 
-                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-              </button>
+              <button
+      onClick={() => navigate("/markets/forex")}
+      className="px-6 py-3 bg-gradient-to-r from-slate-800 to-slate-900 hover:from-slate-700 hover:to-slate-800 text-white rounded-lg transition-all border border-white/10 hover:border-teal-500/30 font-medium shadow-lg shadow-black/20"
+    >
+      Explore Markets
+    </button>
+              
+             <button
+  onClick={() => window.open("https://trade.fxcelite.com/login", "_blank")}
+  className="px-6 py-3 text-teal-400 font-medium hover:text-teal-300 flex items-center gap-2 group transition-colors"
+>
+  See Spreads
+  <ArrowRight
+    size={18}
+    className="group-hover:translate-x-1 transition-transform"
+  />
+</button>
             </div>
           </div>
 

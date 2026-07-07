@@ -70,7 +70,7 @@ export default function Referrals() {
              <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:scale-110 transition-transform">
                <Users size={80} className="text-orange-400" />
              </div>
-             Our philosophy at FXCElite centers around the idea that a fantastic trading experience is always more enjoyable when shared. Hence, our trading referrals program has been put together as an expression of thanks to people who introduce their friends and network to the excellent trading environment of FXCElite. You can be an active trader or a social influencer, either way, our forex referral program is an easy and clear way for you to make some extra money while at the same time helping others get institutional-grade liquidity and advanced technology.
+             Our philosophy at Fxcelite centers around the idea that a fantastic trading experience is always more enjoyable when shared. Hence, our trading referrals program has been put together as an expression of thanks to people who introduce their friends and network to the excellent trading environment of Fxcelite. You can be an active trader or a social influencer, either way, our forex referral program is an easy and clear way for you to make some extra money while at the same time helping others get institutional-grade liquidity and advanced technology.
           </div>
 
           <div className="flex flex-col items-center gap-6">
@@ -96,7 +96,7 @@ export default function Referrals() {
                  <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight leading-tight italic border-l-4 border-orange-500 pl-4">Network <br/> Synergy</h2>
                  <div className="space-y-6 text-base text-white/80 leading-relaxed font-light italic">
                    <p>
-                     Instead of just sharing a link, when you refer and earn trading rewards at FXCElite, you are basically giving your friends a membership at the global markets. The program is designed for everyone to get some benefit: your referrals obtain a Standard Account with premium features, and you gain referral rewards as trading commissions from their trades.
+                     Instead of just sharing a link, when you refer and earn trading rewards at Fxcelite, you are basically giving your friends a membership at the global markets. The program is designed for everyone to get some benefit: your referrals obtain a Standard Account with premium features, and you gain referral rewards as trading commissions from their trades.
                    </p>
                    <div className="p-6 rounded-2xl bg-white/10 border-r-2 border-orange-500 backdrop-blur-xl text-white font-bold shadow-lg">
                      <h3 className="text-xl font-black mb-3 uppercase tracking-tight">How the Program Works</h3>
@@ -145,7 +145,7 @@ export default function Referrals() {
             <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Why Join the Best <br/> Forex Referral Program?</h2>
             <p className="text-orange-400 text-sm font-bold uppercase tracking-[0.2em]">Continuous Rewards Platform</p>
             <p className="text-white/80 text-base max-w-2xl mx-auto font-light leading-relaxed italic border-t border-white/10 pt-4 mt-4">
-              If you are looking to earn money with forex referrals, FXCElite provides the most competitive and reliable platform in 2026.
+              If you are looking to earn money with forex referrals, Fxcelite provides the most competitive and reliable platform in 2026.
             </p>
           </div>
 
@@ -267,7 +267,7 @@ export default function Referrals() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
              {[
-               { t: "Login", d: "Login to your FXCElite secure portal.", icon: <Lock /> },
+               { t: "Login", d: "Login to your Fxcelite secure portal.", icon: <Lock /> },
                { t: "Get Link", d: "You will be able to copy your link from the referrals section.", icon: <Link2 /> },
                { t: "Share", d: "Forward this to your friends or post on social media.", icon: <Megaphone /> },
                { t: "Earn", d: "Get rewards for referring others after your friends begin trading.", icon: <DollarSign /> }
@@ -341,7 +341,7 @@ export default function Referrals() {
         <div className="max-w-4xl mx-auto px-6 space-y-10">
            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic underline decoration-orange-500 decoration-4 underline-offset-[8px]">Top Choice</h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto">
-             With our concentration on refer and earn trading simplicity and the most transparent tracking in the industry, FXCElite presents the best forex referral program of 2026.
+             With our concentration on refer and earn trading simplicity and the most transparent tracking in the industry, Fxcelite presents the best forex referral program of 2026.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
@@ -372,11 +372,11 @@ export default function Referrals() {
           
           <div className="space-y-4">
             {[
-              { q: "1. What are trading referrals?", a: "It is a program where you get rewards for inviting new users to sign up and trade in the FXCElite platform." },
+              { q: "1. What are trading referrals?", a: "It is a program where you get rewards for inviting new users to sign up and trade in the Fxcelite platform." },
               { q: "2. How much does it cost to join?", a: "Joining our forex broker referral system is absolutely free. All you need is an active account." },
               { q: "3. How much can I earn?", a: "It is issued according to the number of friends or their trading volume. There is usually no upper limit." },
               { q: "4. When will I get my reward?", a: "Rewards normally are credited right after your friend fulfills the minimum deposit and/or trading volume." },
-              { q: "5. Can I refer friends who already have an account?", a: "No, our online trading referrals only apply to new users who have never had an account with FXCElite before." },
+              { q: "5. Can I refer friends who already have an account?", a: "No, our online trading referrals only apply to new users who have never had an account with Fxcelite before." },
               { q: "6. Do I get a bonus too?", a: "Yes! Our program is structured to offer the new trader a welcome bonus too!" },
               { q: "7. Can I track referrals in real-time?", a: "Absolutely. With your dashboard, you will have the entire picture of your trading affiliate referrals." },
               { q: "8. Is there a limit to the number of friends?", a: "No, you can refer and earn rewards on as many people as you can successfully invite to the platform." },

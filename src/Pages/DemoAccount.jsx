@@ -90,7 +90,7 @@ export default function DemoAccount() {
             <div className="space-y-8">
               <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                 <p>
-                  It can give you the experience of market fluctuations in real time, the use of professional tools and the testing of various strategies without the risk of losing money. At FXCElite, we offer a free forex demo account that exactly matches our live trading environment, thus giving you the most realistic practice possible.
+                  It can give you the experience of market fluctuations in real time, the use of professional tools and the testing of various strategies without the risk of losing money. At Fxcelite, we offer a free forex demo account that exactly matches our live trading environment, thus giving you the most realistic practice possible.
                 </p>
                 <p>
                   If you want to open a demo forex account to get acquainted with the basics or require the best MT4 demo account to test a complicated automated strategy, we have you covered. Our online trading demo account is loaded with virtual funds, which allow you to trade Forex pairs, commodities, and indices under real-market scenarios.
@@ -166,7 +166,7 @@ export default function DemoAccount() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-7 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic">Key Features of the <br/> FXCElite Demo Account</h2>
+                 <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic">Key Features of the <br/> Fxcelite Demo Account</h2>
                  <p className="text-base text-slate-500 italic leading-relaxed font-light">
                    We offer what many consider the best demo account for forex trading by providing a 1:1 replica of our live trading infrastructure.
                  </p>
@@ -266,7 +266,7 @@ export default function DemoAccount() {
                       { l: "Total Beginners", d: "People learning \"what is forex\" without risking capital." },
                       { l: "Intermediate Traders", d: "People wanting to improve their entry and exit points." },
                       { l: "Pro Traders", d: "Algorithmic traders testing their new EA code." },
-                      { l: "Platform Switchers", d: "People switching from another broker getting familiar with FXCElite." }
+                      { l: "Platform Switchers", d: "People switching from another broker getting familiar with Fxcelite." }
                     ].map((item, i) => (
                       <div key={i} className="flex gap-4 group/item">
                         <div className="shrink-0 w-2 h-2 rounded-full bg-blue-500 mt-2 shadow-[0_0_10px_#3b82f6] group-hover/item:scale-150 transition-transform"></div>
@@ -282,7 +282,7 @@ export default function DemoAccount() {
 
             <div className="flex flex-col justify-center space-y-8 lg:p-8 text-center lg:text-left">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Why FXCElite is <br/> The Best Choice?</h2>
+                 <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Why Fxcelite is <br/> The Best Choice?</h2>
                  <p className="text-blue-400 font-bold uppercase tracking-[0.2em] text-sm">Close as possible to the real thing</p>
                </div>
                <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light italic">
@@ -320,7 +320,7 @@ export default function DemoAccount() {
               { q: "2. How long does the demo account last?", a: "Most of our demo accounts will last as long as you use them. See our terms for more information." },
               { q: "3. Can I reset my demo account balance?", a: "Yes. If you have depleted your balance, you can refill your online trading demo account through your account dashboard." },
               { q: "4. Is the price on the demo account real?", a: "Yes, we provide the same real-time price feeds for our free forex demo account as we do for our live accounts." },
-              { q: "5. What is the best MT4 demo account for EAs?", a: "FXCElite offers a high-speed server environment that is optimized for demo testing of Expert Advisors." },
+              { q: "5. What is the best MT4 demo account for EAs?", a: "Fxcelite offers a high-speed server environment that is optimized for demo testing of Expert Advisors." },
               { q: "6. Do I have to verify my ID to open a demo account?", a: "No, you can open a demo forex account with only an email address to begin practicing right away." },
               { q: "7. Can I trade from my mobile phone?", a: "Yes, you can access your trading demo account using our mobile app or online platform." },
               { q: "8. What is the best way to practice?", a: "You can use our Trading Calculator to help you manage your risk and try to act as if your demo money was real." },

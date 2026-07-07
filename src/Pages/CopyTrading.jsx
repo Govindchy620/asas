@@ -53,7 +53,7 @@ export default function CopyTrading() {
           </h1>
           
           <p className="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed font-light mb-8 uppercase tracking-tight italic">
-            Automate Your Success with FXCElite
+            Automate Your Success with Fxcelite
           </p>
 
           <div className="max-w-3xl mx-auto text-base md:text-lg text-slate-500 leading-relaxed font-light mb-12 px-6 py-4 border-y border-white/5 relative">
@@ -83,7 +83,7 @@ export default function CopyTrading() {
             <div className="space-y-8">
                <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light italic">
                  <p>
-                   At FXCElite, we offer a social trading platform that integrates expert strategy and individual growth. New to the market? Or a busy professional? Now, through copy trading, you can trade forex without a lot of time spent on analyzing the charts.
+                   At Fxcelite, we offer a social trading platform that integrates expert strategy and individual growth. New to the market? Or a busy professional? Now, through copy trading, you can trade forex without a lot of time spent on analyzing the charts.
                  </p>
                  <p>
                    Our forex copy trading system aims at both transparency and giving you control. You can select the "Strategy Providers" you like from their track record. Besides performance, you also get to see risk levels and winning rates, among other metrics. Once you press "Copy", our automated copy trading system takes over and replicates all the trades proportionally in your account.
@@ -126,7 +126,7 @@ export default function CopyTrading() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 text-center space-y-4">
-            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase italic leading-tight">Why Choose FXCElite for <br/> Forex Copy Trading?</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase italic leading-tight">Why Choose Fxcelite for <br/> Forex Copy Trading?</h2>
             <p className="text-pink-500 text-sm font-bold uppercase tracking-[0.2em]">Speed meets verification</p>
             <p className="text-slate-500 text-base max-w-2xl mx-auto font-light">We have developed the best copy trading platform by focusing on execution speed and trader verification.</p>
           </div>
@@ -195,7 +195,7 @@ export default function CopyTrading() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-8 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase leading-tight italic">Key Features of the <br/> FXCElite Copy Platform</h2>
+                 <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase leading-tight italic">Key Features of the <br/> Fxcelite Copy Platform</h2>
                  <p className="text-base text-slate-500 italic leading-relaxed font-light">
                    Our automatic copy trading environment is packed with tools to help you succeed.
                  </p>
@@ -253,7 +253,7 @@ export default function CopyTrading() {
 
           <div className="grid lg:grid-cols-4 gap-8">
             {[
-              { n: "01", t: "Join FXCElite", d: "Register for a Standard Account.", icon: <Search /> },
+              { n: "01", t: "Join Fxcelite", d: "Register for a Standard Account.", icon: <Search /> },
               { n: "02", t: "Browse Masters", d: "Go to our Social Platform section and study the leaderboard.", icon: <Eye /> },
               { n: "03", t: "Allocate Funds", d: "Decide the amount you want to invest in a particular trader.", icon: <Target /> },
               { n: "04", t: "Activate", d: "Simply click 'Copy' and watch your platform spring to life!", icon: <Play /> },
@@ -326,9 +326,9 @@ export default function CopyTrading() {
       {/* --- FINALE: SOCIAL EXPLOSION --- */}
       <section className="py-24 bg-[#050110] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why FXCElite is the Best <br/> Copy Trading Choice?</h2>
+           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why Fxcelite is the Best <br/> Copy Trading Choice?</h2>
            <p className="text-base md:text-lg text-slate-400 leading-relaxed font-light italic">
-             With a focus on automatic forex copy trading and a platform designed with the speed of modern markets in mind, FXCElite is the best platform for those who understand the value of results. We pride ourselves on being a secure and profitable social environment.
+             With a focus on automatic forex copy trading and a platform designed with the speed of modern markets in mind, Fxcelite is the best platform for those who understand the value of results. We pride ourselves on being a secure and profitable social environment.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
@@ -361,7 +361,7 @@ export default function CopyTrading() {
               { q: "7. Can I copy more than one trader?", a: "Yes, for sure! We encourage you to follow multiple experts on our Forex Social Trading Platform in order to diversify your risk." },
               { q: "8. What if the master trader loses money?", a: "Since the trades are mirrored, when a master trader loses, the follower does so proportionally, too. That is why the setting of limits is important." },
               { q: "9. Do I have to keep my computer on all the time?", a: "No, our copy trading platform is cloud-based. After you click copy, it will work 24/7 even if your device is off." },
-              { q: "10. How to Choose the Best Forex Copy Trading Platform", a: "Look for transparency, fast execution, and a large pool of verified traders. All these are possible with FXCElite." },
+              { q: "10. How to Choose the Best Forex Copy Trading Platform", a: "Look for transparency, fast execution, and a large pool of verified traders. All these are possible with Fxcelite." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}

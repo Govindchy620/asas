@@ -64,7 +64,7 @@ export default function Helpdesk() {
              <div className="absolute top-0 left-0 w-8 h-[2px] bg-indigo-500"></div>
              <div className="absolute bottom-0 right-0 w-8 h-[2px] bg-indigo-500"></div>
              <p className="mb-4">
-               When trading in the global financial markets, you have to be very precise and a trustworthy trading help desk is a great partner for you to keep your advantage. FXCElite knows that sometimes, no matter if you are a novice placing your very first order or a seasoned trader handling complicated portfolios, there will be questions in your mind.
+               When trading in the global financial markets, you have to be very precise and a trustworthy trading help desk is a great partner for you to keep your advantage. Fxcelite knows that sometimes, no matter if you are a novice placing your very first order or a seasoned trader handling complicated portfolios, there will be questions in your mind.
              </p>
              <p>
                Our forex trading support team is geared up to give you quick, precise, and completely human-based solutions so that you can concentrate 100% on the charts. We are not just responding to your queries; we deliver trading platform support services that enable you to trade with absolute security.
@@ -92,7 +92,7 @@ export default function Helpdesk() {
              <div className="space-y-8">
                 <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight leading-tight italic">Comprehensive Customer <br/> Support for Your Trading Platform</h2>
                 <div className="space-y-6 text-base text-white/80 leading-relaxed font-light italic">
-                  <p>A high-performance customer support trading platform is the backbone of a great broker. Equipped with a multi-channel support system, FXCElite aims to resolve your queries in record time.</p>
+                  <p>A high-performance customer support trading platform is the backbone of a great broker. Equipped with a multi-channel support system, Fxcelite aims to resolve your queries in record time.</p>
                   <p>Whether you are experiencing technical issues like some trading platform users run into or need some assistance with trading account verification, we are here to assist you. We offer trading platform customer support with all your requirements met, be it about Forex trading hours or any platform-related issues regarding MT5 or WebTrader.</p>
                 </div>
              </div>
@@ -119,7 +119,7 @@ export default function Helpdesk() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Why Choose FXCElite for <br/> Online Trading Customer Support?</h2>
+            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Why Choose Fxcelite for <br/> Online Trading Customer Support?</h2>
             <p className="text-indigo-400 text-sm font-bold uppercase tracking-[0.2em] font-mono">24/5 Precision Ecosystem</p>
             <p className="text-white/80 text-base max-w-2xl mx-auto font-light leading-relaxed italic pt-4">
               We have built our forex trading helpdesk support around the needs of the modern trader:
@@ -318,9 +318,9 @@ export default function Helpdesk() {
       {/* --- SECTION 7: FINAL CTA (MISSION STATEMENT) --- */}
       <section className="py-24 bg-[#020617] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-white/20 decoration-4 underline-offset-[8px]">Why FXCElite Offers the <br/> Best Trading Support?</h2>
+           <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-white/20 decoration-4 underline-offset-[8px]">Why Fxcelite Offers the <br/> Best Trading Support?</h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto bg-white/5 p-6 rounded-2xl border border-white/10">
-             With our focus on human expertise and trading platform support services, FXCElite offers a trading help desk that listens. No robots for us; only human professionals who understand the importance of urgency with the Forex market.
+             With our focus on human expertise and trading platform support services, Fxcelite offers a trading help desk that listens. No robots for us; only human professionals who understand the importance of urgency with the Forex market.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
@@ -358,7 +358,7 @@ export default function Helpdesk() {
               { q: "5. How long does it take to get a response?", a: "Live chat is usually immediate, while email support can take a few hours." },
               { q: "6. Is the helpdesk available in different languages?", a: "Yes. Our service is available in different major languages to facilitate our international clients." },
               { q: "7. What should I do if I have technical issues?", a: "Check your internet connection. If the problem continues, contact us immediately via live chat." },
-              { q: "8. Is there a fee associated with the help desk?", a: "All trading platform support services are offered free to all FXCElite clients." },
+              { q: "8. Is there a fee associated with the help desk?", a: "All trading platform support services are offered free to all Fxcelite clients." },
               { q: "9. Can you help with my withdrawal request?", a: "Absolutely. Our support team is available to assist with any information regarding the status of your funds." },
               { q: "10. Where is the best place for beginners to get help?", a: "Try our live chat for quick questions, or visit our comprehensive FAQ section for guides." },
             ].map((faq, i) => (

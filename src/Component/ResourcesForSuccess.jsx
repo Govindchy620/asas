@@ -9,9 +9,9 @@ import img4 from "../assets/fx19.webp";
    DATA
 ========================= */
 const resources = [
-  { title: "FXCELITE Affiliate Program", image: img1 },
+  { title: "Fxcelite Affiliate Program", image: img1 },
   { title: "CopyTrader MT5 to MatchTrade", image: img2 },
-  { title: "FXCELITE Academy", image: img3 },
+  { title: "Fxcelite Academy", image: img3 },
   { title: "Charitable Donation", image: img4 },
 ];
 

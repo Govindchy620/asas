@@ -64,7 +64,7 @@ export default function Deposit() {
              <div className="absolute text-white top-0 right-0 p-4 opacity-5 group-hover:scale-110 transition-transform">
                <Wallet size={80} />
              </div>
-             Funding your account should indeed be the simplest step in your trading journey. At FXCElite, we've refined our forex deposit method so that your money can swiftly flow from your bank into the markets without any delays that aren't absolutely necessary. Whether this is a first-time money deposit in a trading account or an instant forex deposit by a seasoned trader to grab a market breakout, our setup is made for fast and safe delivery.
+             Funding your account should indeed be the simplest step in your trading journey. At Fxcelite, we've refined our forex deposit method so that your money can swiftly flow from your bank into the markets without any delays that aren't absolutely necessary. Whether this is a first-time money deposit in a trading account or an instant forex deposit by a seasoned trader to grab a market breakout, our setup is made for fast and safe delivery.
           </div>
 
           <div className="flex flex-col items-center gap-6">
@@ -98,7 +98,7 @@ export default function Deposit() {
                      As a top global broker, we provide various forex broker deposit methods, including bank wires, traditional ones, and e-wallets and cryptocurrencies. Every online trading account deposit enjoys top-level encryption, thus ensuring a secure forex deposit environment that safeguards your financial information always.
                    </p>
                    <p className="text-white font-medium italic bg-white/5 p-5 border-l-2 border-emerald-500 rounded-r-lg">
-                     The deposit system for forex and CFD trading is made straightforward and enjoyable for the user. We at FXCElite facilitate your access to the international financial markets through your local currency.
+                     The deposit system for forex and CFD trading is made straightforward and enjoyable for the user. We at Fxcelite facilitate your access to the international financial markets through your local currency.
                    </p>
                    <p>
                      Once you make a deposit to your trading account online, the money is immediately changed into the base currency of your account (e.g., USD, EUR, or GBP) and you can see it in your MT4/MT5 terminal. This trading account deposit gives you the ability to trade any of our asset classes, such as Forex, Indices, and Commodities, really fast after the confirmation of the transaction.
@@ -135,7 +135,7 @@ export default function Deposit() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 text-center space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Why Choose FXCElite for <br/> Account Funding?</h2>
+            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Why Choose Fxcelite for <br/> Account Funding?</h2>
             <p className="text-amber-500 text-sm font-bold uppercase tracking-[0.2em]">The Ultimate Speed in Liquidity</p>
             <p className="text-slate-500 text-base max-w-2xl mx-auto font-light leading-relaxed italic">
               We understand that the fastest way to deposit trading funds is what matters most to active traders.
@@ -230,7 +230,7 @@ export default function Deposit() {
             <div className="absolute top-[30%] left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-emerald-500/20 to-transparent hidden lg:block"></div>
 
             {[
-              { n: "01", t: "Login", d: "Access your secure client area of FXCElite.", icon: <Lock /> },
+              { n: "01", t: "Login", d: "Access your secure client area of Fxcelite.", icon: <Lock /> },
               { n: "02", t: "Go to Funds", d: "Click on the 'Deposit' tab on your dashboard.", icon: <Wallet /> },
               { n: "03", t: "Method", d: "Choose your chosen deposit method (Visa, USDT, etc).", icon: <CheckCircle2 /> },
               { n: "04", t: "Amount", d: "Specify the amount of funds you intend to deposit.", icon: <TrendingUp /> },
@@ -306,7 +306,7 @@ export default function Deposit() {
       {/* --- FINAL CTA: THE DEPOSIT GATE --- */}
       <section className="py-24 bg-[#02030d] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why FXCElite is the Best <br/> Choice for Funding?</h2>
+           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why Fxcelite is the Best <br/> Choice for Funding?</h2>
            <p className="text-base md:text-lg text-slate-400 leading-relaxed font-light italic max-w-3xl mx-auto">
              Because of our commitment to instant forex deposit technology and a transparent trading account funding policy, we offer you the most reliable deposit experience available. It is not just that we accept your deposit; it’s that we open the doors to your financial success.
            </p>
@@ -342,7 +342,7 @@ export default function Deposit() {
               { q: "1. How long does a forex deposit take?", a: "For most payment options such as cards and e-wallets, the forex account top up is done instantly. With bank wire, it may take 1-3 business days." },
               { q: "2. Is there a minimum deposit amount?", a: "Yes, every account type is assigned a particular deposit minimum, as low as $10 for Micro accounts." },
               { q: "3. What are the available deposit options?", a: "We accept Visa/Mastercard, Neteller, Skrill, Bank Wire, and Cryptocurrencies." },
-              { q: "4. Does FXCElite charge a fee for a deposit?", a: "We do not charge any fees for a forex deposit, but there may be bank charges on your end." },
+              { q: "4. Does Fxcelite charge a fee for a deposit?", a: "We do not charge any fees for a forex deposit, but there may be bank charges on your end." },
               { q: "5. Can I deposit using my phone?", a: "Yes, our portal has been optimized for a secure forex deposit using Android and iOS devices." },
               { q: "6. Is it safe to provide my card details?", a: "Yes, our system uses the highest level of encryption and is PCI-DSS compliant." },
               { q: "7. Can I deposit in my local currency?", a: "Yes, we support many currencies, and it will automatically be converted into your account's base currency." },

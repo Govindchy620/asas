@@ -116,7 +116,7 @@ export default function StandardAccount() {
               </div>
               <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                 <p>
-                  For most people, the entry point into the financial markets is through a standard trading account. This is the most flexible and widely used account type, which is meant to create a balanced platform for both new and experienced traders. At FXCElite, our standard forex trading account is based on the "spread-only" system, which means that you get to enjoy a commission-free trading experience where all expenses are clearly reflected in the spread.
+                  For most people, the entry point into the financial markets is through a standard trading account. This is the most flexible and widely used account type, which is meant to create a balanced platform for both new and experienced traders. At Fxcelite, our standard forex trading account is based on the "spread-only" system, which means that you get to enjoy a commission-free trading experience where all expenses are clearly reflected in the spread.
                 </p>
                 <div className="p-6 rounded-2xl bg-emerald-500/5 border-l-4 border-emerald-500 backdrop-blur-sm">
                    <p className="text-white text-base font-medium leading-relaxed italic">
@@ -124,7 +124,7 @@ export default function StandardAccount() {
                    </p>
                 </div>
                 <p>
-                  But with the flexible leverage provided by FXCElite, you can trade these large positions with a small amount of capital, making it the best standard forex account for traders.
+                  But with the flexible leverage provided by Fxcelite, you can trade these large positions with a small amount of capital, making it the best standard forex account for traders.
                 </p>
               </div>
             </div>
@@ -231,7 +231,7 @@ export default function StandardAccount() {
                   <h3 className="text-2xl font-bold text-white mb-6 tracking-tight">Trading Conditions</h3>
                   <div className="space-y-6">
                      <div className="space-y-4 text-base text-slate-400 leading-relaxed font-light">
-                        <p>At FXCElite, we operate on the principle of transparency. Our standard account terms of trading are made to be competitive and fair.</p>
+                        <p>At Fxcelite, we operate on the principle of transparency. Our standard account terms of trading are made to be competitive and fair.</p>
                         <p>We offer a standard trading account with low spreads, ensuring that the markup is as tight as possible. This enables you to break even on your trades much faster than with traditional high-markup brokers.</p>
                         <p>Moreover, our standard account with fast execution ensures that your trades are executed in milliseconds, putting you in control of your entries and exits.</p>
                      </div>
@@ -328,7 +328,7 @@ export default function StandardAccount() {
                    <h2 className="text-2xl font-bold text-white tracking-tight">Security & Reliability</h2>
                  </div>
                  <p className="text-base text-slate-400 leading-relaxed font-light">
-                   Your funds are protected at FXCElite. Our basic trading account is operated in a highly regulated environment with secure transactions and client funds segregation. We offer a secure basic account for online trading so that you can concentrate 100% on the markets.
+                   Your funds are protected at Fxcelite. Our basic trading account is operated in a highly regulated environment with secure transactions and client funds segregation. We offer a secure basic account for online trading so that you can concentrate 100% on the markets.
                  </p>
                </div>
             </div>
@@ -366,9 +366,9 @@ export default function StandardAccount() {
       {/* --- ELITE FINALE --- */}
       <section className="py-24 relative">
         <div className="max-w-3xl mx-auto px-6 text-center space-y-8">
-           <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight leading-tight">Why FXCElite Is The Best Choice?</h2>
+           <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight leading-tight">Why Fxcelite Is The Best Choice?</h2>
            <p className="text-base md:text-lg text-slate-400 leading-relaxed font-light">
-             We bring together a standard trading account with low spreads and elite-tier technology. With no hidden costs and fast execution, FXCElite brings you the ultimate trading platform to achieve your financial objectives.
+             We bring together a standard trading account with low spreads and elite-tier technology. With no hidden costs and fast execution, Fxcelite brings you the ultimate trading platform to achieve your financial objectives.
            </p>
            <div className="space-y-6 pt-4">
               <a 
@@ -404,7 +404,7 @@ export default function StandardAccount() {
           <div className="space-y-4">
             {[
               { q: "1. What is a standard trading account?", a: "A standard trading account is a commission-free account where the broker’s commission is included in the spread (the difference between the buy and sell price)." },
-              { q: "2. Do I pay commissions on a standard account?", a: "No, a standard forex trading account at FXCElite has zero commissions per trade." },
+              { q: "2. Do I pay commissions on a standard account?", a: "No, a standard forex trading account at Fxcelite has zero commissions per trade." },
               { q: "3. Is the standard account minimum deposit high?", a: "Not at all. We make it easy for everyone to open a standard trading account with an affordable starting balance." },
               { q: "4. What are the best standard trading account features?", a: "The best features of a standard trading account include zero commissions, instant execution, and access to all tradable assets." },
               { q: "5. How fast is the execution on a standard account?", a: "We provide a standard account with fast execution, meaning that your trades are executed in milliseconds." },

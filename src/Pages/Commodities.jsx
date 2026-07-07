@@ -184,7 +184,7 @@ export default function Commodities() {
                 </p>
                 <div className="p-5 rounded-2xl bg-white/5 border-l-4 border-amber-500 my-4">
                   <p className="text-white font-medium text-sm">
-                    With FXCElite, you are engaging in commodity CFD trading. This means that you are entering into a contract based on the price action of the underlying asset, bypassing delivery and storage.
+                    With Fxcelite, you are engaging in commodity CFD trading. This means that you are entering into a contract based on the price action of the underlying asset, bypassing delivery and storage.
                   </p>
                 </div>
                 <p>
@@ -362,7 +362,7 @@ export default function Commodities() {
                   <h2 className="text-xl md:text-2xl font-bold text-white tracking-tight">Security & Reliability</h2>
                 </div>
                 <p className="text-base text-slate-400 leading-relaxed font-light">
-                  At FXCElite, we ensure that you have a safe commodity trading platform that uses end-to-end encryption. Since you are trading CFDs, you are protected from the dangers of physical theft or storage failures, allowing for complete peace of mind.
+                  At Fxcelite, we ensure that you have a safe commodity trading platform that uses end-to-end encryption. Since you are trading CFDs, you are protected from the dangers of physical theft or storage failures, allowing for complete peace of mind.
                 </p>
               </div>
             </div>
@@ -409,7 +409,7 @@ export default function Commodities() {
                 rel="noopener noreferrer"
                 className="inline-block px-10 py-4 rounded-full bg-white text-black font-bold text-base hover:bg-amber-400 hover:-translate-y-1 transition-all shadow-[0_10px_30px_-10px_rgba(245,158,11,0.2)] text-center"
               >
-                Join FXCElite Today
+                Join Fxcelite Today
               </a>
               <div className="flex flex-col items-center gap-3">
                 <p className="text-amber-400 font-bold uppercase tracking-widest text-xs">
@@ -445,8 +445,8 @@ export default function Commodities() {
               { q: "6. What are the best commodities to trade for beginners?", a: "Gold and Crude Oil are the most popular commodities for beginners because of their high liquidity and plenty of market news available." },
               { q: "7. Do you offer commodities trading with low spreads?", a: "Yes, we are a leading low spread commodity trading platform, ensuring that your spreads are among the lowest in the market." },
               { q: "8. Can I trade commodities 24/7?", a: "Most commodity markets are open 24/5, following global exchange hours from Monday to Friday." },
-              { q: "9. Is a commodities CFD trading platform secure?", a: "Absolutely. FXCElite employs advanced encryption and segregated accounts to provide a secure commodity trading platform." },
-              { q: "10. How do I start metal trading?", a: "Simply sign up at FXCElite, fund your account, and choose metals such as Gold, Silver, or Copper from the dashboard." },
+              { q: "9. Is a commodities CFD trading platform secure?", a: "Absolutely. Fxcelite employs advanced encryption and segregated accounts to provide a secure commodity trading platform." },
+              { q: "10. How do I start metal trading?", a: "Simply sign up at Fxcelite, fund your account, and choose metals such as Gold, Silver, or Copper from the dashboard." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}

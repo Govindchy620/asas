@@ -61,7 +61,7 @@ export default function IbDashboard() {
                <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:scale-110 transition-transform">
                  <GitBranch size={80} className="text-teal-400" />
                </div>
-               In the affiliate marketing and partnership business, data is the most essential resource to have at your disposal. The FXCElite IB dashboard is a sophisticated, highly efficient control panel that enables Introducing Brokers (IBs) to get a granular look at their business down to each detail. Our forex IB dashboard offers the level of transparency necessary for you to easily scale your network by handling only a few hours of daily work and still observing multi-tier earnings along with client activities in real time.
+               In the affiliate marketing and partnership business, data is the most essential resource to have at your disposal. The Fxcelite IB dashboard is a sophisticated, highly efficient control panel that enables Introducing Brokers (IBs) to get a granular look at their business down to each detail. Our forex IB dashboard offers the level of transparency necessary for you to easily scale your network by handling only a few hours of daily work and still observing multi-tier earnings along with client activities in real time.
             </div>
 
             <div className="flex flex-col items-center gap-6">
@@ -209,7 +209,7 @@ export default function IbDashboard() {
                   <h3 className="text-xl font-bold text-white mb-6 tracking-tight uppercase border-b border-white/20 pb-4 font-mono">Unlock Access</h3>
                   <div className="space-y-6 relative z-10">
                      <p className="text-base text-teal-400 font-bold leading-tight italic">
-                       Empower your network with the best tools. Become an FXCElite Partner and unlock your dashboard today.
+                       Empower your network with the best tools. Become an Fxcelite Partner and unlock your dashboard today.
                      </p>
                      <div className="text-sm text-white/80 leading-relaxed font-light italic">
                         <p>Scaling a multi-level network starts here. Take command of your partnership architecture.</p>
@@ -270,7 +270,7 @@ export default function IbDashboard() {
                       <h2 className="text-2xl font-bold text-white tracking-tight uppercase italic">Security & <br/> Transparency</h2>
                    </div>
                    <div className="text-base text-white/90 leading-relaxed font-light italic space-y-6">
-                      <p>A secure IB Partner Dashboard is crucial for the safety of your precious business information. At FXCElite, we achieve this through the use of 256-bit encryption and multi-factor authentication mechanisms.</p>
+                      <p>A secure IB Partner Dashboard is crucial for the safety of your precious business information. At Fxcelite, we achieve this through the use of 256-bit encryption and multi-factor authentication mechanisms.</p>
                       <div className="p-6 bg-white/10 border border-white/20 italic font-medium text-white shadow-lg font-mono rounded-xl">
                         Our IB Commission Dashboard for forex is audited regularly to ensure the IB logic for the computation of your rebate is 100% accurate.
                       </div>
@@ -306,12 +306,12 @@ export default function IbDashboard() {
         </div>
       </section>
 
-      {/* --- SECTION 6: WHY FXCELITE (IMAGE GRID) --- */}
+      {/* --- SECTION 6: WHY Fxcelite (IMAGE GRID) --- */}
       <section className="py-24 bg-black text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-teal-500 decoration-4 underline-offset-[8px]">Quantum Partner</h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto">
-             With our focus on the provision of a Forex IB dashboard with reports and the most transparent IB commission dashboard in the industry, FXCElite is the top choice for partners in the year 2026. We do not just give you a link; we give you a business suite.
+             With our focus on the provision of a Forex IB dashboard with reports and the most transparent IB commission dashboard in the industry, Fxcelite is the top choice for partners in the year 2026. We do not just give you a link; we give you a business suite.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
@@ -351,7 +351,7 @@ export default function IbDashboard() {
               { q: "7. Is the IB client management dashboard secure?", a: "Yes, we use bank-grade encryption and two-factor authentication to make your introducing broker dashboard secure." },
               { q: "8. Can I export my earnings reports?", a: "Yes, you can download detailed reports from your forex IB dashboard with reports in CSV or PDF format." },
               { q: "9. What is the difference between an IB and an affiliate?", a: "An affiliate usually gets a one-time CPA, while an IB receives ongoing rebates depending on the trading volume of their clients." },
-              { q: "10. How do I access my IB partner dashboard?", a: "Once you are approved as a partner, you will be able to log in through the main FXCElite portal and select the 'Partner' tab." },
+              { q: "10. How do I access my IB partner dashboard?", a: "Once you are approved as a partner, you will be able to log in through the main Fxcelite portal and select the 'Partner' tab." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}

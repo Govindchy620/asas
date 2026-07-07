@@ -70,7 +70,7 @@ export default function JoinPartner() {
              <div className="absolute -top-px -left-px w-6 h-6 border-t-2 border-l-2 border-amber-500"></div>
              <div className="absolute -bottom-px -right-px w-6 h-6 border-b-2 border-r-2 border-purple-500"></div>
              <p className="mb-4">
-               The journey to financial freedom is, in most cases, the result of partnering with the right people. The moment you decide to become a forex partner with FXCElite, you are choosing to be on the same side as a globally regulated broker that is determined to provide their clients with trading environments that convert highly.
+               The journey to financial freedom is, in most cases, the result of partnering with the right people. The moment you decide to become a forex partner with Fxcelite, you are choosing to be on the same side as a globally regulated broker that is determined to provide their clients with trading environments that convert highly.
              </p>
              <p>
                We present to you a broker partnership program with multiple tiers that can help you make money from your network. Our program offers instant commission payouts, advanced tracking, and a dedicated support team. You entitle yourself to a world-class partnership that will reward your influence with the most competitive rebates and CPA rates.
@@ -154,7 +154,7 @@ export default function JoinPartner() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center mb-24">
             <div>
-              <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight mb-6 border-l-4 border-amber-500 pl-4">Why Choose the <br/> FXCElite Program?</h2>
+              <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight mb-6 border-l-4 border-amber-500 pl-4">Why Choose the <br/> Fxcelite Program?</h2>
               <p className="text-base text-white/90 italic leading-relaxed font-light">
                 We have developed the best forex partnership program by maintaining the three fundamental pillars of success: Technology, Trust, and Transparency.
               </p>
@@ -201,7 +201,7 @@ export default function JoinPartner() {
                <div className="space-y-4">
                  <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-purple-600 decoration-4 underline-offset-[8px]">How to Become an <br/> Introducing Broker</h2>
                  <p className="text-base text-white/80 italic leading-relaxed font-light max-w-2xl pt-4">
-                   Launching your online trading partnership with FXCElite is a streamlined and professional process:
+                   Launching your online trading partnership with Fxcelite is a streamlined and professional process:
                  </p>
                </div>
 
@@ -278,7 +278,7 @@ export default function JoinPartner() {
                 <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Partner Program <br/> Explained</h2>
                 <p className="text-purple-400 text-sm font-bold uppercase tracking-[0.2em] font-mono">[ Pillars of Success ]</p>
                 <div className="space-y-6 text-base text-white/90 leading-relaxed font-light italic border-l-4 border-purple-500 pl-6 bg-white/5 p-6 rounded-r-2xl">
-                  <p>If you are new to the industry, then the forex partner program explained is simple: you are essentially acting as the bridge between the trader and the marketplace. Through the partnership of FXCElite, you will be promoting an organization that is recognized for having those key elements which convert leads to active and loyal traders.</p>
+                  <p>If you are new to the industry, then the forex partner program explained is simple: you are essentially acting as the bridge between the trader and the marketplace. Through the partnership of Fxcelite, you will be promoting an organization that is recognized for having those key elements which convert leads to active and loyal traders.</p>
                   <p>Our brokerage partnership program is not just about the first deposit. It’s about earning commission as a forex partner for the lifetime of your clients' trading journey. We give you the education tools and trading signals that keep your clients active, which means your income is sustainable.</p>
                 </div>
              </div>
@@ -319,9 +319,9 @@ export default function JoinPartner() {
       {/* --- SECTION 6: THE FINAL NUCLEUS (SOVEREIGN CTA) --- */}
       <section className="py-24 bg-black text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-6xl font-black text-white tracking-tight uppercase leading-tight italic">Why is FXCElite the <br/> <span className="text-amber-500 underline decoration-white decoration-4">Best Choice</span>?</h2>
+           <h2 className="text-3xl md:text-6xl font-black text-white tracking-tight uppercase leading-tight italic">Why is Fxcelite the <br/> <span className="text-amber-500 underline decoration-white decoration-4">Best Choice</span>?</h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto bg-white/5 p-6 rounded-2xl border border-white/10">
-             With institutional-grade liquidity, a huge range of tradable assets, Forex, Metals, Indices, Crypto, and a commitment to partner success, FXCElite is the best forex partnership program for the serious professional. We provide a platform, but we also offer a relationship that grows with you.
+             With institutional-grade liquidity, a huge range of tradable assets, Forex, Metals, Indices, Crypto, and a commitment to partner success, Fxcelite is the best forex partnership program for the serious professional. We provide a platform, but we also offer a relationship that grows with you.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
@@ -352,14 +352,14 @@ export default function JoinPartner() {
           
           <div className="space-y-px bg-white/20 border border-white/20 shadow-xl rounded-2xl overflow-hidden">
             {[
-              { q: "1. What is a Forex partner?", a: "A forex partner is an entity or person who refers clients to a broker like FXCElite in consideration of commissions or rebates." },
+              { q: "1. What is a Forex partner?", a: "A forex partner is an entity or person who refers clients to a broker like Fxcelite in consideration of commissions or rebates." },
               { q: "2. How do I earn commission as a forex partner?", a: "Earning is through CPA (a fixed price per client), or an IB model (where rebates are made depending on the volume of the trade)." },
-              { q: "3. Is there a fee to join the introducing broker program?", a: "No, registration for the FXCElite Forex partnership program is completely free." },
+              { q: "3. Is there a fee to join the introducing broker program?", a: "No, registration for the Fxcelite Forex partnership program is completely free." },
               { q: "4. What is the difference between a forex affiliate vs. IB program?", a: "Affiliates typically specialize in digital marketing and are paid by one-time CPA fees, while IBs focus on client relations with ongoing rebate payments." },
               { q: "5. Can I refer other partners to the program?", a: "Yes, of course! Our program offers a multi-level structure, in which you also earn from your sub-IBs." },
               { q: "6. Do I need a financial license to become a Forex partner?", a: "Requirements differ based on area. In some areas, you can be an affiliate or IB without a license; however, this depends on local regulations." },
               { q: "7. How do I track my earnings?", a: "You will have access to a sophisticated dashboard where you can get real-time data on all clicks and commissions." },
-              { q: "8. Will FXCElite provide marketing materials?", a: "Yes, we offer high converting banners, pages, and email templates to help you become an introducing broker successfully." },
+              { q: "8. Will Fxcelite provide marketing materials?", a: "Yes, we offer high converting banners, pages, and email templates to help you become an introducing broker successfully." },
               { q: "9. When are partner commissions paid?", a: "Flexible and reliable payout schedules, generally on a monthly or a bi-weekly basis, depending on your volume." },
               { q: "10. How do I start?", a: "Just click on the \"Become a Partner\" button, fill in the form, and a partner manager will be in touch with you." },
             ].map((faq, i) => (

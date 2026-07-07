@@ -50,7 +50,7 @@ export default function Preloader({ onComplete }) {
               {/* Ensure the path to Logo.png is correct based on your setup */}
               <img 
                 src={Logo} 
-                alt="FXCELITE Logo" 
+                alt="Fxcelite Logo" 
                 className="h-66 md:h-74 w-auto object-contain drop-shadow-[0_0_25px_rgba(0,255,209,0.3)]"
               />
             </motion.div>

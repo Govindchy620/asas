@@ -45,13 +45,13 @@ export default function TermsAndConditions() {
           {/* DISCLAIMER */}
           <div className="bg-black/40 border border-white/10 rounded-xl p-6 text-white font-semibold uppercase text-xs md:text-sm">
             In accordance with applicable laws, none of the services provided by
-            FXCELITE constitute investment services or investment advice.
+            Fxcelite constitute investment services or investment advice.
             Employees, staff, and representatives are not authorised to provide
             investment recommendations.
           </div>
 
           <p>
-            FXCELITE provides Instant Demo live-Funded Accounts in a simulated
+            Fxcelite provides Instant Demo live-Funded Accounts in a simulated
             trading environment using third-party brokers for educational purposes
             only. All accounts are simulated and do not involve real financial
             instruments.
@@ -71,7 +71,7 @@ export default function TermsAndConditions() {
           </p>
 
           <p>
-            FXCELITE shall supply trading facilities, risk monitoring services,
+            Fxcelite shall supply trading facilities, risk monitoring services,
             and a Demo Live-Funded trading account.
           </p>
 
@@ -146,10 +146,10 @@ export default function TermsAndConditions() {
           <p>
             For any questions regarding these Terms, please contact us at{" "}
             <a
-              href="mailto:support@fxcelite.com"
+              href="mailto:support@Fxcelite.com"
               className="text-emerald-400 underline"
             >
-              support@fxcelite.com
+              support@Fxcelite.com
             </a>
             . We respond within one week.
           </p>

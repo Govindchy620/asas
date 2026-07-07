@@ -201,7 +201,7 @@ export default function Crypto() {
         </div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">Why Choose FXCElite for Crypto?</h2>
+            <h2 className="text-3xl font-bold text-white mb-4">Why Choose Fxcelite for Crypto?</h2>
             <p className="text-slate-400 max-w-2xl mx-auto text-base leading-relaxed">Navigating the crypto markets requires a partner you can trust. We offer a trading platform built for high performance and maximum security.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -401,12 +401,12 @@ export default function Crypto() {
             </p>
             <div className="space-y-6">
               <a 
-                href="https://trade.fxcelite.com/register"
+                href="https://trade.Fxcelite.com/register"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block px-10 py-4 rounded-full bg-white text-black font-bold text-base hover:bg-purple-500 hover:text-white hover:-translate-y-1 transition-all shadow-[0_10px_30px_-10px_rgba(168,85,247,0.3)] text-center"
               >
-                Join FXCElite Today
+                Join Fxcelite Today
               </a>
               <div className="flex flex-col items-center gap-3">
                 <p className="text-purple-400 font-bold uppercase tracking-widest text-xs">
@@ -437,13 +437,13 @@ export default function Crypto() {
               { q: "1. What is cryptocurrency trading?", a: "It is the speculation on the price movements of digital assets such as Bitcoin or Ethereum." },
               { q: "2. Can I trade cryptocurrencies online 24/7?", a: "Yes, unlike stocks or forex, the crypto market is open 24 hours a day, 7 days a week." },
               { q: "3. What is crypto CFD trading?", a: "It allows you to trade the price movement of a coin without owning the actual coin or managing a digital wallet." },
-              { q: "4. Is Bitcoin trading safe?", a: "When trading through a secure crypto trading platform like FXCElite, your account is protected by professional security protocols." },
+              { q: "4. Is Bitcoin trading safe?", a: "When trading through a secure crypto trading platform like Fxcelite, your account is protected by professional security protocols." },
               { q: "5. What is the best crypto to trade for beginners?", a: "Bitcoin and Ethereum are usually recommended due to their high liquidity and stability compared to smaller altcoins." },
-              { q: "6. Do I require a wallet to trade on FXCElite?", a: "No, as you will be trading CFDs, you will not need to create or maintain a personal digital wallet." },
+              { q: "6. Do I require a wallet to trade on Fxcelite?", a: "No, as you will be trading CFDs, you will not need to create or maintain a personal digital wallet." },
               { q: "7. Can I trade crypto with low spreads?", a: "Yes, we provide cryptocurrency trading with low spreads so that you can retain more of your profits." },
               { q: "8. What influences the price of cryptocurrencies?", a: "The most important factors include supply and demand, technological advancements, regulatory announcements, and market liquidity." },
               { q: "9. Can I trade Ethereum and Bitcoin on the same platform?", a: "Yes, our bitcoin and ethereum trading platform enables you to manage all your digital assets from one place." },
-              { q: "10. How do I begin trading digital assets?", a: "Simply register with FXCElite, make a deposit, and you can start trading crypto CFDs within minutes." },
+              { q: "10. How do I begin trading digital assets?", a: "Simply register with Fxcelite, make a deposit, and you can start trading crypto CFDs within minutes." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}

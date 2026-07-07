@@ -62,7 +62,7 @@ export default function IbReports() {
           </p>
 
           <div className="max-w-3xl mx-auto text-sm md:text-base text-white/90 leading-relaxed font-light mb-12 px-6">
-            Running a successful partnership requires more than just gut feeling. FXCElite IB reports suite is created to give Introducing Brokers (IBs) deep insights of every aspect of their business. Starting from overview summaries up to detailed forex IB reports, our platform offers the transparency and level of detail that can be used in professional auditing, tax filing, and growth strategies.
+            Running a successful partnership requires more than just gut feeling. Fxcelite IB reports suite is created to give Introducing Brokers (IBs) deep insights of every aspect of their business. Starting from overview summaries up to detailed forex IB reports, our platform offers the transparency and level of detail that can be used in professional auditing, tax filing, and growth strategies.
           </div>
 
           <div className="flex flex-col items-center gap-6">
@@ -91,7 +91,7 @@ export default function IbReports() {
                      Our introducing broker reports are not just about figures. They depict a story of how your network performed, thus giving you the chance to see which marketing channels brought results and which client segments were the most profitable. No matter if you want to monitor IB earnings online or dissect the trading patterns of your referrals, our reporting system furnishes the data you require in a simple, exportable format.
                    </p>
                    <p className="text-white/90 font-medium not-italic bg-white/5 p-4 rounded-xl border border-white/10">
-                     A professional IB Performance Reports Portal should be a place where every question you have about your business is answered. At FXCElite, we offer a range of reports that can meet all your needs:
+                     A professional IB Performance Reports Portal should be a place where every question you have about your business is answered. At Fxcelite, we offer a range of reports that can meet all your needs:
                    </p>
                  </div>
                </div>
@@ -321,12 +321,12 @@ export default function IbReports() {
         </div>
       </section>
 
-      {/* --- SECTION 6: WHY FXCELITE (IMAGE GRID) --- */}
+      {/* --- SECTION 6: WHY Fxcelite (IMAGE GRID) --- */}
       <section className="py-24 bg-black text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">BACK OFFICE <br/> <span className="text-blue-400 underline decoration-white decoration-4">EXCELLENCE</span></h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto">
-             Therefore, with our focus on in-depth forex IB reports, as well as the ability to easily download IB commission reports, FXCElite has the most comprehensive back office available in the industry. We offer the clarity you need to successfully maintain a profitable partnership.
+             Therefore, with our focus on in-depth forex IB reports, as well as the ability to easily download IB commission reports, Fxcelite has the most comprehensive back office available in the industry. We offer the clarity you need to successfully maintain a profitable partnership.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
@@ -361,7 +361,7 @@ export default function IbReports() {
               { q: "2. How frequently is the IB commission report updated?", a: "Our real-time IB commission reports update once the trades of your referrals are closed." },
               { q: "3. Can I download my reports for tax purposes?", a: "Yes, you can download IB commission reports in PDF or CSV format, which are great for bookkeeping and your tax filings." },
               { q: "4. Can I see the activity of my sub-IBs?", a: "Yes, the IB performance reports include a section for multi-tier overrides so you can track your sub-partner network." },
-              { q: "5. How far back can I track IB earnings online?", a: "We keep your forex IB reports on file for the lifetime of your partnership with FXCElite." },
+              { q: "5. How far back can I track IB earnings online?", a: "We keep your forex IB reports on file for the lifetime of your partnership with Fxcelite." },
               { q: "6. What does the IB client activity report include?", a: "It will include all client deposits, trading volume, and active trades, listing all of your clients that you have referred to." },
               { q: "7. Are the reports secure?", a: "Absolutely. Your IB reports are safe with us, securely encrypted at 256 bits, and only accessible to you via your authenticated login." },
               { q: "8. Can I automate my report delivery?", a: "Yes, it is possible to automate the delivery of your forex affiliate reports to your email at any schedule you desire." },

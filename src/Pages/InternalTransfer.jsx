@@ -63,7 +63,7 @@ export default function InternalTransfer() {
              <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:scale-110 transition-transform">
                <Network size={80} className="text-purple-400" />
              </div>
-             Managing a portfolio with diversified investments usually implies having multiple sub accounts, for example, a Forex account, a MAM structure, or even a crypto terminal. The most convenient way to move your money between these different accounts without having to withdraw and re-deposit is by having an internal transfer trading account facility. At FXCElite, we offer a flash fast internal fund transfer service that enables you to rebalance your equity instantly and without any charges.
+             Managing a portfolio with diversified investments usually implies having multiple sub accounts, for example, a Forex account, a MAM structure, or even a crypto terminal. The most convenient way to move your money between these different accounts without having to withdraw and re-deposit is by having an internal transfer trading account facility. At Fxcelite, we offer a flash fast internal fund transfer service that enables you to rebalance your equity instantly and without any charges.
           </div>
 
           <div className="flex flex-col items-center gap-6">
@@ -92,7 +92,7 @@ export default function InternalTransfer() {
                      We have developed our trading account internal transfer system to be highly flexible. You, as a trader, can benefit from our internal transfer trading concept in the following ways: After a successful trade, when you wish to reinvest your profits in a new strategy or when you need to move the margin to shore up your position, our online internal transfer trading platform can ensure that your funds are always at your discretion to use wherever and whenever you want to.
                    </p>
                    <p className="text-white font-medium italic bg-white/10 p-5 border-l-2 border-cyan-500 backdrop-blur-md rounded-r-lg shadow-lg">
-                     An internal transfer trading account process refers to the transfer of money between two accounts under the same FXCElite profile. Unlike a Deposit or Withdrawal that involves external banks, an internal fund transfer remains within our secure ecosystem.
+                     An internal transfer trading account process refers to the transfer of money between two accounts under the same Fxcelite profile. Unlike a Deposit or Withdrawal that involves external banks, an internal fund transfer remains within our secure ecosystem.
                    </p>
                    <p>
                      A change of funds between trading accounts is done internally by our servers, so there are no blockchain confirmations or bank processing times to be concerned about. Most of our customers consider this broker to be the best for an internal fund transfer experience because single click portfolio management at a high speed is enabled by it.
@@ -224,7 +224,7 @@ export default function InternalTransfer() {
             <div className="absolute top-[30%] left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-purple-500/30 to-transparent hidden lg:block"></div>
 
             {[
-              { n: "01", t: "Login", d: "Login to our secure FXCElite Client Portal.", icon: <UserCheck /> },
+              { n: "01", t: "Login", d: "Login to our secure Fxcelite Client Portal.", icon: <UserCheck /> },
               { n: "02", t: "Select", d: "Click on the 'Funds' menu and select internal transfer.", icon: <ArrowLeftRight /> },
               { n: "03", t: "Accounts", d: "Choose the 'Source Account' and the 'Destination Account'.", icon: <Database /> },
               { n: "04", t: "Amount", d: "Enter the amount of the trading balance internal transfer.", icon: <TrendingUp /> },
@@ -263,7 +263,7 @@ export default function InternalTransfer() {
                    <div className="text-base text-white/90 leading-relaxed font-light italic space-y-6">
                       <p>That being said, while the funds stay within our system, every internal transfer of a trading account request receives the highest level of security standards.</p>
                       <div className="p-6 bg-white/10 border-l-4 border-purple-500 italic font-medium text-white shadow-xl rounded-r-lg">
-                        Every safe internal fund transfer forex move requires multi-factor authentication (MFA). These ensure that only you can move your money. Therefore, FXCElite is the best broker for the safest inter fx transfers.
+                        Every safe internal fund transfer forex move requires multi-factor authentication (MFA). These ensure that only you can move your money. Therefore, Fxcelite is the best broker for the safest inter fx transfers.
                       </div>
                    </div>
                 </div>
@@ -300,9 +300,9 @@ export default function InternalTransfer() {
       {/* --- FINAL CTA: THE POWER GATE --- */}
       <section className="py-24 bg-[#050212] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why FXCElite is the Best <br/> Choice for Transfers?</h2>
+           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why Fxcelite is the Best <br/> Choice for Transfers?</h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto">
-             With our focus on instant internal transfer trading account technology and our dedication to providing zero fee trading account fund movement, FXCElite delivers the most professional internal banking experience currently available. We provide you with tools that give you complete freedom to manage your wealth.
+             With our focus on instant internal transfer trading account technology and our dedication to providing zero fee trading account fund movement, Fxcelite delivers the most professional internal banking experience currently available. We provide you with tools that give you complete freedom to manage your wealth.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
@@ -333,16 +333,16 @@ export default function InternalTransfer() {
           
           <div className="space-y-4">
             {[
-              { q: "1. What is an internal transfer trading account?", a: "It is the process of transferring funds from one account to another, which are both different accounts in the FXCELite platform." },
+              { q: "1. What is an internal transfer trading account?", a: "It is the process of transferring funds from one account to another, which are both different accounts in the Fxcelite platform." },
               { q: "2. How long does an internal fund transfer take?", a: "Most internal fund transfers are instant, i.e., the money is available immediately." },
-              { q: "3. Are there any fees associated with trading account internal transfer?", a: "No, FXCElite offers a trading account internal transfer service for free." },
+              { q: "3. Are there any fees associated with trading account internal transfer?", a: "No, Fxcelite offers a trading account internal transfer service for free." },
               { q: "4. Can I move money between accounts with different currencies?", a: "Yes. Our online internal transfer trading system allows for currency conversion using the existing exchange rates." },
               { q: "5. Is it safe to transfer money internally via forex?", a: "Yes, it it! It's because we use a safe internal fund transfer forex protocol with an encrypted session and an authentication requirement." },
               { q: "6. Is there a minimum or maximum limit for internal transfers?", a: "The limits are very flexible, encompassing both small-scale rebalancing and large-scale trading account fund movement." },
               { q: "7. Can I affect internal transfers on the weekends?", a: "Yes, our instant internal transfer trading account system works 24/7." },
-              { q: "8. Can I transfer funds to another person's FXCELite account?", a: "No, an internal transfer from one account to another for security/AML purposes is only available to accounts in the same name." },
+              { q: "8. Can I transfer funds to another person's Fxcelite account?", a: "No, an internal transfer from one account to another for security/AML purposes is only available to accounts in the same name." },
               { q: "9. Why can't I see my transferred funds in MetaTrader?", a: "Please make sure to refresh your platform/app or re-log in your accounts, as usually, an update will be made within seconds." },
-              { q: "10. How do I know which broker is best for internal fund transfer?", a: "The best broker available would always be a broker like FXCElite, which offers its customers instant, free, and secure internal transfers." },
+              { q: "10. How do I know which broker is best for internal fund transfer?", a: "The best broker available would always be a broker like Fxcelite, which offers its customers instant, free, and secure internal transfers." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}

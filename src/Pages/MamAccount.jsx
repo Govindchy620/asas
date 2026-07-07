@@ -91,7 +91,7 @@ export default function MamAccount() {
                <h2 className="text-3xl md:text-4xl font-black text-white uppercase tracking-tight leading-tight italic underline decoration-amber-500/50 underline-offset-4">What is a MAM <br/> Account in Forex?</h2>
                <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                  <p>
-                   At FXCElite, we have prepared our MAM account forex trading solution to equip professional money managers with the accuracy, adaptability, and clarity that managing large-scale capital can be done effortlessly.
+                   At Fxcelite, we have prepared our MAM account forex trading solution to equip professional money managers with the accuracy, adaptability, and clarity that managing large-scale capital can be done effortlessly.
                  </p>
                  <p>
                    Our MAM trading platform serves as a connecting link between your master strategy and your investors' sub accounts. Contrary to traditional systems, our multi account manager trading software enables proportional equity allocation so each investor gets their portion of the profits accurately depending on their individual balance.
@@ -132,7 +132,7 @@ export default function MamAccount() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 flex flex-col lg:flex-row lg:items-end justify-between gap-6">
             <div className="max-w-2xl space-y-4">
-              <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Why Choose FXCElite <br/> for MAM Trading?</h2>
+              <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Why Choose Fxcelite <br/> for MAM Trading?</h2>
               <p className="text-amber-500 text-sm font-bold uppercase tracking-[0.2em]">Scaling Technical Needs</p>
               <p className="text-slate-500 text-base font-light">We provide the best MAM account for forex trading by focusing on the technical needs of professional managers.</p>
             </div>
@@ -267,7 +267,7 @@ export default function MamAccount() {
             <h2 className="text-3xl md:text-4xl font-black text-white tracking-tight uppercase leading-tight italic">How to Manage <br/> multiple accounts</h2>
             <div className="text-center lg:text-right">
                <p className="text-amber-500 text-sm font-bold uppercase tracking-[0.2em]">Professional Deployment</p>
-               <p className="text-slate-500 text-sm font-light mt-1">Starting your professional management journey with FXCElite</p>
+               <p className="text-slate-500 text-sm font-light mt-1">Starting your professional management journey with Fxcelite</p>
             </div>
           </div>
 
@@ -347,7 +347,7 @@ export default function MamAccount() {
       {/* --- FINAL CTA: MULTIPLIED SUCCESS --- */}
       <section className="py-24 bg-black text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Why FXCElite is the Best <br/> MAM Trading Choice?</h2>
+           <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Why Fxcelite is the Best <br/> MAM Trading Choice?</h2>
            <p className="text-base md:text-lg text-slate-400 leading-relaxed font-light italic max-w-3xl mx-auto">
              Benefit from the best MAM account for forex trading with our professional MAM trading platform, ultra-low latency execution, and transparent reporting. We won't just give you an account; we'll give you the technology to grow your management business.
            </p>
@@ -378,10 +378,10 @@ export default function MamAccount() {
               { q: "4. How do I get paid as a money manager?", a: "The system automatically calculates and pays your performance and management fees, as established by your agreements with investors." },
               { q: "5. Is there a limit to the number of accounts I can manage?", a: "No, our professional MAM trading platform has the ability to support an unlimited number of sub-accounts." },
               { q: "6. Do the investors maintain control of their funds?", a: "Yes, they can check their accounts at any time and withdraw their control if they wish to do so." },
-              { q: "7. What makes a MAM account suitable for Forex?", a: "The most suitable is one which incorporates minimal latency and a secure space—a factor considered essential in the FXCElite MAM scheme." },
+              { q: "7. What makes a MAM account suitable for Forex?", a: "The most suitable is one which incorporates minimal latency and a secure space—a factor considered essential in the Fxcelite MAM scheme." },
               { q: "8. Can I manage various lot sizes of various clients?", a: "Yes, the MAM trading solution offered to fund managers can handle various allocation styles." },
               { q: "9. How secure is the MAM account forex trading setup?", a: "The security of the MAM account forex trading setup is very high. The managers have restricted rights to trade, while the individuals are responsible for any funds that are transferred." },
-              { q: "10. How do I start managing multiple trading accounts with MAM?", a: "Become a Professional Trader by signing up with FXCElite, then contact us for assistance in activating your MAM Master Account." },
+              { q: "10. How do I start managing multiple trading accounts with MAM?", a: "Become a Professional Trader by signing up with Fxcelite, then contact us for assistance in activating your MAM Master Account." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}

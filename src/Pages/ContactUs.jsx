@@ -69,9 +69,9 @@ export default function ContactUs() {
           <div className="max-w-3xl mx-auto text-sm md:text-base text-white/90 leading-relaxed font-light mb-12 px-6 py-8 bg-white/[0.05] border border-white/20 rounded-3xl relative shadow-2xl backdrop-blur-sm">
              <div className="absolute top-0 left-0 w-12 h-1 bg-blue-500 rounded-tl-3xl"></div>
              <div className="absolute bottom-0 right-0 w-12 h-1 bg-blue-500 rounded-br-3xl"></div>
-             FXCElite holds the view that top trading technology should be accompanied by top communication. Whether you want to understand the market better, require technical help, or are interested in our Partnership Programs, our staff is poised to assist you.
+             Fxcelite holds the view that top trading technology should be accompanied by top communication. Whether you want to understand the market better, require technical help, or are interested in our Partnership Programs, our staff is poised to assist you.
              <br/><br/>
-             Experts of the trading platform at FXCElite are more than just a source of a response. We offer several ways to get in touch with forex broker support, so that regardless of which part of the world you are in, you are always just a few seconds away from an answer. Our forex broker customer service through various means of communication is designed as fast and reliable as our trade execution.
+             Experts of the trading platform at Fxcelite are more than just a source of a response. We offer several ways to get in touch with forex broker support, so that regardless of which part of the world you are in, you are always just a few seconds away from an answer. Our forex broker customer service through various means of communication is designed as fast and reliable as our trade execution.
           </div>
 
           <div className="flex flex-col items-center gap-6">
@@ -92,7 +92,7 @@ export default function ContactUs() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
                <div className="space-y-6">
-                 <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight leading-tight italic border-l-4 border-blue-600 pl-4">How to Reach the <br/> FXCElite Team</h2>
+                 <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight leading-tight italic border-l-4 border-blue-600 pl-4">How to Reach the <br/> Fxcelite Team</h2>
                  <div className="space-y-6 text-base text-white/80 leading-relaxed font-light italic">
                    <p>
                      Accessing the contact details of the appropriate forex broker should not be an issue for you. We have organized our contact channels to ensure your query reaches the appropriate department instantly.
@@ -347,9 +347,9 @@ export default function ContactUs() {
       {/* --- SECTION 7: FINAL CTA (MISSION STATEMENT) --- */}
       <section className="py-24 bg-black text-center relative overflow-hidden border-t border-white/10">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-white/20 decoration-4 underline-offset-[8px]">Why FXCElite Offers the <br/> Best Trading Support?</h2>
+           <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-white/20 decoration-4 underline-offset-[8px]">Why Fxcelite Offers the <br/> Best Trading Support?</h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto bg-white/5 p-6 rounded-2xl border border-white/10">
-             With our focus on human expertise and trading platform support services, FXCElite offers a trading help desk that listens. No robots for us; only human professionals who understand the importance of urgency with the Forex market.
+             With our focus on human expertise and trading platform support services, Fxcelite offers a trading help desk that listens. No robots for us; only human professionals who understand the importance of urgency with the Forex market.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
@@ -385,7 +385,7 @@ export default function ContactUs() {
               { q: "5. How long does it take to get a response?", a: "Live chat is usually immediate, while online trading customer support via e-mail can take a few hours." },
               { q: "6. Is the trading helpdesk available in different languages?", a: "Yes. Our helpdesk service is available in different major languages to facilitate our international clients." },
               { q: "7. What should I do if I have technical issues?", a: "Check your internet connection first. If it continues, contact us immediately at the live chat facility." },
-              { q: "8. Is there a fee associated with support?", a: "All trading platform support services are offered free to all FXCElite clients." },
+              { q: "8. Is there a fee associated with support?", a: "All trading platform support services are offered free to all Fxcelite clients." },
               { q: "9. Can you help with my withdrawal request?", a: "Absolutely. Our trading account support is available to assist with the status of your funds." },
               { q: "10. Where is the best place for beginners to get help?", a: "We recommend our live chat for quick questions, or visit our FAQ section for comprehensive guides." },
             ].map((faq, i) => (

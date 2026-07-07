@@ -61,7 +61,7 @@ export default function DepositHistory() {
 
           <div className="max-w-3xl mx-auto text-sm md:text-base text-white/90 leading-relaxed font-light mb-12 px-6 py-8 border-l-2 border-r-2 border-white/20 bg-white/[0.05] backdrop-blur-sm relative">
              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-16 h-[2px] bg-amber-500/80"></div>
-             In the world of professional trading, keeping an accurate record of all your financial transactions is fundamental. Your deposit history trading account page details the entirety of your account funding transactions. FXCElite is all about openness and honesty, which is why we provide a transparent trading account deposit history accessible at any time, allowing you to keep track of your capital inflows and reconcile your trading records.
+             In the world of professional trading, keeping an accurate record of all your financial transactions is fundamental. Your deposit history trading account page details the entirety of your account funding transactions. Fxcelite is all about openness and honesty, which is why we provide a transparent trading account deposit history accessible at any time, allowing you to keep track of your capital inflows and reconcile your trading records.
           </div>
 
           <div className="flex flex-col items-center gap-6">
@@ -255,7 +255,7 @@ export default function DepositHistory() {
 
              <div className="space-y-16">
                 {[
-                  { n: "01", t: "Login", d: "Access your secure FXCElite client area.", icon: <Lock />, align: "left" },
+                  { n: "01", t: "Login", d: "Access your secure Fxcelite client area.", icon: <Lock />, align: "left" },
                   { n: "02", t: "Navigate to Funds", d: "Click on 'History' and select deposit history trading account.", icon: <Database />, align: "right" },
                   { n: "03", t: "Review & Filter", d: "You can look for the particular deposit transaction information relating to forex trading using the search tools provided.", icon: <Search />, align: "left" },
                 ].map((step, i) => (
@@ -335,9 +335,9 @@ export default function DepositHistory() {
       {/* --- FINAL CTA: THE RECORD GATE --- */}
       <section className="py-24 bg-[#02040a] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why FXCElite for Transparent <br/> Record Keeping?</h2>
+           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why Fxcelite for Transparent <br/> Record Keeping?</h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto">
-             Given our commitment to helping you have a secure deposit history trading account, as well as view your deposit history in a user-friendly fashion, FXCElite remains the best trading platform for organized traders. We offer you the tools you need to not only successfully navigate your trading endeavors, but your financial life as a whole.
+             Given our commitment to helping you have a secure deposit history trading account, as well as view your deposit history in a user-friendly fashion, Fxcelite remains the best trading platform for organized traders. We offer you the tools you need to not only successfully navigate your trading endeavors, but your financial life as a whole.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
@@ -368,7 +368,7 @@ export default function DepositHistory() {
           
           <div className="space-y-px bg-white/20 border border-white/20 rounded-2xl overflow-hidden">
             {[
-              { q: "1. Can I view my deposit history anywhere?", a: "It can be viewed in your client portal with FXCELite, in the 'Fund' tab or 'History' tab." },
+              { q: "1. Can I view my deposit history anywhere?", a: "It can be viewed in your client portal with Fxcelite, in the 'Fund' tab or 'History' tab." },
               { q: "2. Can I delete my deposit history?", a: "No, for security and regulatory compliance reasons, our records store your trading account deposit history permanently." },
               { q: "3. How far back does deposit history go?", a: "We store your online trading deposit history since the first day you opened your account with us." },
               { q: "4. Can I download my transaction history?", a: "Yes, you can export your history as a PDF or CSV file for your personal records." },

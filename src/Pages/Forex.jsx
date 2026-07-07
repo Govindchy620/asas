@@ -39,7 +39,7 @@ export default function Forex() {
               
               {/* Subheadline */}
               <p className="text-lg md:text-xl text-slate-400 leading-relaxed mb-10 max-w-2xl mx-auto lg:mx-0">
-                Selecting the right trading partner is your first step to success. Get access to a secure platform, lightning-fast execution, and institutional-grade liquidity with FXCElite.
+                Selecting the right trading partner is your first step to success. Get access to a secure platform, lightning-fast execution, and institutional-grade liquidity with Fxcelite.
               </p>
               
               {/* CTA Buttons */}
@@ -135,7 +135,7 @@ export default function Forex() {
                   With us, you will have more than just a trading platform; you will have a complete forex and CFD trading platform with elite tools. We provide forex trading with low spreads, ensuring that your expenses are low and your potential is infinite. If you have been looking for the best forex trading experience, you are in the right place.
                 </p>
                 <p>
-                  In layman’s terms, a forex broker is a financial institution that offers traders access to a trading platform for the purchase and sale of foreign currencies. Since the forex market is an unregulated market, it is impossible for an individual to trade on the forex market directly; therefore, a global forex broker such as FXCElite must be used as the middleman.
+                  In layman’s terms, a forex broker is a financial institution that offers traders access to a trading platform for the purchase and sale of foreign currencies. Since the forex market is an unregulated market, it is impossible for an individual to trade on the forex market directly; therefore, a global forex broker such as Fxcelite must be used as the middleman.
                 </p>
                 <p>
                   We offer the infrastructure for access to a currency trading platform, enabling you to trade on the price actions of currency pairs such as EUR/USD or GBP/JPY. Our forex trading platform is intended to be a secure forex trading platform, ensuring your safety as you trade in the $7.5 trillion per day global market.
@@ -189,7 +189,7 @@ export default function Forex() {
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Why Choose FXCElite for Online Forex Trading?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Why Choose Fxcelite for Online Forex Trading?</h2>
             <p className="text-slate-400 max-w-2xl mx-auto">When looking for the best forex trading platform, reliability and cost are key. We pride ourselves on being a forex broker that puts the trader first.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -263,7 +263,7 @@ export default function Forex() {
                 <div className="relative z-10">
                   <h2 className="text-3xl font-bold text-white mb-6">Markets You Can Trade</h2>
                   <p className="text-slate-400 mb-8 leading-relaxed">
-                    Being one of the best currency trading platforms, we provide an enormous number of symbols. When you partner with FXCElite as your forex broker, you will have access to:
+                    Being one of the best currency trading platforms, we provide an enormous number of symbols. When you partner with Fxcelite as your forex broker, you will have access to:
                   </p>
                   <ul className="space-y-4">
                     {[
@@ -306,7 +306,7 @@ export default function Forex() {
       {/* STEPS SECTION */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-white mb-16 text-center">How to Start Trading with FXCElite</h2>
+          <h2 className="text-3xl font-bold text-white mb-16 text-center">How to Start Trading with Fxcelite</h2>
           <div className="grid md:grid-cols-5 gap-8">
             {[
               { n: "01", t: "Register", d: "Sign up for a Live Trading Account." },
@@ -353,7 +353,7 @@ export default function Forex() {
           </div>
 
           <div className="mt-20 text-center max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Why FXCElite is the Best Forex Trading Choice?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Why Fxcelite is the Best Forex Trading Choice?</h2>
             <p className="text-xl text-slate-400 leading-relaxed mb-10">
               We don’t just provide a platform; we provide a partnership. With our forex trading with low spreads, 24/7 support, and our powerful forex and CFD trading platform, we empower you to succeed in the international markets.
             </p>
@@ -363,10 +363,10 @@ export default function Forex() {
               rel="noopener noreferrer"
               className="inline-block px-12 py-4 rounded-full bg-white text-black font-bold text-xl hover:bg-emerald-400 transition-colors shadow-2xl shadow-white/10 text-center"
             >
-              Join FXCElite Now
+              Join Fxcelite Now
             </a>
             <p className="mt-6 text-emerald-400 font-bold">
-              Take the first step. Join FXCElite Now and trade with the world's most reliable forex broker!
+              Take the first step. Join Fxcelite Now and trade with the world's most reliable forex broker!
             </p>
           </div>
         </div>
@@ -387,10 +387,10 @@ export default function Forex() {
               { q: "4. Can I trade forex online for free?", a: "You can practice using a demo account, but you will have to make a deposit to realize actual profits." },
               { q: "5. How does a global forex broker process payments?", a: "We provide several secure payment options, including wire transfers, credit cards, and e-wallets." },
               { q: "6. What is a currency trading platform?", a: "It is the software interface (such as WebTrader or MT4) that enables you to view charts and execute trades." },
-              { q: "7. Do you offer forex trading with low spreads?", a: "Yes, FXCElite is renowned for offering some of the lowest spreads available in the market." },
+              { q: "7. Do you offer forex trading with low spreads?", a: "Yes, Fxcelite is renowned for offering some of the lowest spreads available in the market." },
               { q: "8. What is forex CFD trading?", a: "It is a method of trading the movement of currencies without actually holding the physical money." },
               { q: "9. Is your platform a secure forex trading platform?", a: "Yes, we employ high-level encryption and adhere to all regulatory guidelines to ensure the security of our users." },
-              { q: "10. How do I choose the best forex trading platform?", a: "You should look for a broker who provides low latency, low spreads, 24/5 support, and an easy-to-use interface such as FXCElite." },
+              { q: "10. How do I choose the best forex trading platform?", a: "You should look for a broker who provides low latency, low spreads, 24/5 support, and an easy-to-use interface such as Fxcelite." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}

@@ -64,7 +64,7 @@ export default function Bonuses() {
              <div className="absolute top-0 left-0 p-6 opacity-10 group-hover:scale-110 transition-transform">
                <Rocket size={80} className="text-pink-500" />
              </div>
-             In the cutthroat currency trading market, having a reserve of extra funds can literally be the line that separates one missed opportunity from a successful trade. We at FXCElite are glad to offer a wide range of bonus schemes from forex brokers that are aimed to inject more "firepower" into your trading account. Whether you are a newbie who needs a competitive advantage or a seasoned professional who wants to make the most of your margin, we have tailored forex trading bonus offers that can help your development and prolong your stay in the market.
+             In the cutthroat currency trading market, having a reserve of extra funds can literally be the line that separates one missed opportunity from a successful trade. We at Fxcelite are glad to offer a wide range of bonus schemes from forex brokers that are aimed to inject more "firepower" into your trading account. Whether you are a newbie who needs a competitive advantage or a seasoned professional who wants to make the most of your margin, we have tailored forex trading bonus offers that can help your development and prolong your stay in the market.
           </div>
 
           <div className="flex flex-col items-center gap-6">
@@ -205,7 +205,7 @@ export default function Bonuses() {
                        Knowledge is power. Read the Full Bonus Terms to maximize your promotional benefits.
                      </p>
                      <div className="text-sm text-white/80 leading-relaxed font-light italic">
-                        <p>Transparency is our priority. Each and every online trading bonus at FXCElite is processed under a clear policy.</p>
+                        <p>Transparency is our priority. Each and every online trading bonus at Fxcelite is processed under a clear policy.</p>
                      </div>
                      <button className="w-full py-4 rounded-xl bg-white text-black font-bold hover:bg-pink-500 hover:text-white transition-all text-sm shadow-xl shadow-pink-500/20 uppercase tracking-tight italic">
                         Read Full Terms
@@ -354,7 +354,7 @@ export default function Bonuses() {
         <div className="max-w-4xl mx-auto px-6 space-y-10">
            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic underline decoration-pink-500 decoration-4 underline-offset-[8px]">Market Mastery</h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto">
-             By providing secure and transparent bonus trading options to traders at different levels of their journey, FXCElite stands as the best option for cost-effective scaling. We offer you the capital boost you need with the honesty you deserve.
+             By providing secure and transparent bonus trading options to traders at different levels of their journey, Fxcelite stands as the best option for cost-effective scaling. We offer you the capital boost you need with the honesty you deserve.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
@@ -392,7 +392,7 @@ export default function Bonuses() {
               { q: "5. How do bonuses interact with leverage?", a: "The bonus sum is added to your equity, which allows you to take larger positions through leverage." },
               { q: "6. Do I need to verify my ID for a welcome bonus?", a: "Yes, to maintain a secure environment, all bonus recipients must undergo KYC verification." },
               { q: "7. Can I lose my bonus?", a: "Yes, if account equity dips below the bonus amount (stop out) or by breaking the bonus rules." },
-              { q: "8. Are there hidden fees?", a: "There are no hidden fees at FXCElite; all rules are clearly outlined in the terms and conditions." },
+              { q: "8. Are there hidden fees?", a: "There are no hidden fees at Fxcelite; all rules are clearly outlined in the terms and conditions." },
               { q: "9. May I have more than one bonus?", a: "Generally, just one running forex trading bonus offer is allowed on a given trading account at a time." },
               { q: "10. Why do brokers offer bonuses?", a: "To attract new customers and retain loyal traders by providing extra value for their activity." },
             ].map((faq, i) => (

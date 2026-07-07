@@ -545,7 +545,7 @@ export default function DepositBonusLandingPage() {
       {/* ============================================ */}
       <footer className="bg-[#050617] border-t border-white/5 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-10 text-center space-y-3 sm:space-y-4">
-          <p className="text-[10px] sm:text-xs text-slate-400">&copy; {new Date().getFullYear()} FXCELITE. All rights reserved.</p>
+          <p className="text-[10px] sm:text-xs text-slate-400">&copy; {new Date().getFullYear()} Fxcelite. All rights reserved.</p>
           <p className="text-[10px] sm:text-xs text-slate-600 max-w-4xl mx-auto leading-relaxed">
             Disclosure: Forex trading and CFDs are very risky investments that can make one lose money easily. This bonus package does not alter the riskiness of trading. Trade responsibly, and only trade with the money that you can afford to part with. Bonus conditions are negotiable. The latest details of the offers may be found on Visit Fxcelite' official website.
           </p>

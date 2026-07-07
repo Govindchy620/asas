@@ -57,7 +57,7 @@ export default function AdvancedCharts() {
             </h1>
             
             <p className="text-base md:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed font-light mb-8 uppercase tracking-tight">
-              Master Technical Analysis at FXCElite
+              Master Technical Analysis at Fxcelite
             </p>
 
             <div className="max-w-3xl mx-auto text-sm md:text-base text-slate-500 leading-relaxed font-light mb-12 px-4 border-x border-white/5 py-4">
@@ -99,7 +99,7 @@ export default function AdvancedCharts() {
                      In the trading profession, your judgments are dependent on the accuracy of the data you use. Sophisticated trading charts are the essence of a good strategy as they present the most lucid visuals which allow the trader to instantly spot high-probability setups.
                    </p>
                    <p>
-                     FXCElite provides you with real-time trading charts that combine institutional-level data and a user-friendly interface. Whether you are trading short-term 1-minute charts or thinking about long-term weekly trends, our professional trading charts will keep you informed of the most important price action signals.
+                     Fxcelite provides you with real-time trading charts that combine institutional-level data and a user-friendly interface. Whether you are trading short-term 1-minute charts or thinking about long-term weekly trends, our professional trading charts will keep you informed of the most important price action signals.
                    </p>
                    <p>
                      We have developed our forex charting platform for the new generation: speedy, highly responsive, and filled with more than 100 technical indicators. You can also get access to advanced forex charts for currency pairs, and detailed CFD trading charts for indices and commodities.
@@ -368,7 +368,7 @@ export default function AdvancedCharts() {
             {[
               { q: "1. Are the charts in Real-Time?", a: "Yes, we provide trading charts in real time, which are updated tick-by-tick through the interbank liquidity pool." },
               { q: "2. Can I use TradingView on your platform?", a: "Our forex charting platform is fully integrated with professional charting engines, and the experience is similar or superior to TradingView." },
-              { q: "3. Is advanced trading charting free?", a: "Indeed, all registered users of FXCElite can use our professional charts on a complimentary basis." },
+              { q: "3. Is advanced trading charting free?", a: "Indeed, all registered users of Fxcelite can use our professional charts on a complimentary basis." },
               { q: "4. Can I save my chart templates?", a: "Absolutely. It is possible to customize your advanced forex charts and save a number of templates." },
               { q: "5. Do you have charts available for crypto and stocks?", a: "Yes, our charts cover everything from Bitcoin to Tesla and the S&P500." },
               { q: "6. What are the best charting tools for a beginner?", a: "We recommend learning about Candlestick Charts, Support/Resistance, and a Moving Average Indicator." },

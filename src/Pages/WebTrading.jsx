@@ -78,7 +78,7 @@ export default function WebTrading() {
                  <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tighter leading-tight italic underline decoration-cyan-500 decoration-4 underline-offset-[8px]">What Is a Web <br/> Trading Platform?</h2>
                  <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                    <p>
-                     FXCElite's online web trading platform is an innovative tool that offers users a smooth experience, combining the best features of the desktop version with the convenience of a browser. You can now trade online without download wherever you are—at home, in the office, or on the road, and never miss a market movement.
+                     Fxcelite's online web trading platform is an innovative tool that offers users a smooth experience, combining the best features of the desktop version with the convenience of a browser. You can now trade online without download wherever you are—at home, in the office, or on the road, and never miss a market movement.
                    </p>
                    <p className="text-white font-bold italic">
                      Our web based trading platform is equipped to deliver outstanding performance, featuring ultra-low latency and a secure environment. It is the ideal choice of a CFD web trading platform for those who cherish versatility.
@@ -260,7 +260,7 @@ export default function WebTrading() {
 
           <div className="grid lg:grid-cols-3 gap-8">
             {[
-              { n: "01", t: "Login", d: "Please input your FXCElite credentials on our safe web portal.", icon: <Lock /> },
+              { n: "01", t: "Login", d: "Please input your Fxcelite credentials on our safe web portal.", icon: <Lock /> },
               { n: "02", t: "Choose Asset", d: "At the web trading platform, with live charts, select your asset of preference, either a pair or a CFD.", icon: <Activity /> },
               { n: "03", t: "Place Trade", d: "Assess price action and click to instantly execute 'Buy' or 'Sell'.", icon: <MousePointer2 /> },
             ].map((step, i) => (
@@ -334,7 +334,7 @@ export default function WebTrading() {
       {/* --- FINAL CTA: THE TERMINAL GATE --- */}
       <section className="py-24 bg-[#02030d] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Why FXCElite is the Best <br/> Web Trading Choice?</h2>
+           <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Why Fxcelite is the Best <br/> Web Trading Choice?</h2>
            <p className="text-base md:text-lg text-slate-400 leading-relaxed font-light italic max-w-3xl mx-auto">
              With our online web trading platform, you can take advantage of the benefits offered by the modern web in association with the power of institutional-grade trading. From a web platform with real-time charts to ultra-secure execution, you can do all you need in trading forex online.
            </p>
@@ -369,14 +369,14 @@ export default function WebTrading() {
             {[
               { q: "1. What is a Web Trading Platform?", a: "It is a terminal that enables you to trade financial markets directly through your web browsers without having to download any special software." },
               { q: "2. Is Web trading safe?", a: "Yes, our web trading platform has high-level encryption and a secure login mechanism in place to protect your data." },
-              { q: "3. Do I need to pay for web-based trading software?", a: "No, FXCElite offers its online web trading platform for free for all its registered account holders." },
+              { q: "3. Do I need to pay for web-based trading software?", a: "No, Fxcelite offers its online web trading platform for free for all its registered account holders." },
               { q: "4. Can I trade Forex & CFDs on a web platform?", a: "Absolutely. Our CFD-based web trading platform provides users with an opportunity to trade Forex, Stocks, Indices, and Commodities." },
               { q: "5. Does web trading support real-time charts?", a: "Yes, we do have a web-based trading platform, and we have real-time charts that will update with each tick of the market." },
               { q: "6. Will it work on my Mac or Linux?", a: "Yes, a browser-based trading platform would be OS-independent and work with just about any computer that has a web browser." },
               { q: "7. How to trade online without download?", a: "All you need to do is access the website, click the link that says 'WebTrader', and you're trading in an instant." },
               { q: "8. Is the execution speed slow in a browser?", a: "Not at all. Online trading via browser is optimized for ultra-low latency and competence with desktop applications." },
               { q: "9. Am I able to set Stop-Loss and Take-Profit orders?", a: "Yes, all standard and advanced order types are fully supported on our web trading platform." },
-              { q: "10. What is the best web trading platform for forex and CFDs?", a: "The best platform would offer security, speed, and real-time data, all core features of the FXCElite web terminal." },
+              { q: "10. What is the best web trading platform for forex and CFDs?", a: "The best platform would offer security, speed, and real-time data, all core features of the Fxcelite web terminal." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}

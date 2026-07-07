@@ -118,7 +118,7 @@ export default function MicroAccount() {
                   Nevertheless, it can be very frightening for many first time traders to go from a micro account to a live market. This is where a micro trading account steps in. A micro trading account is designed for those traders who want to experience the market without risking their financial situation.
                 </p>
                 <p>
-                  FXCElite's micro forex trading account allows you to trade with much smaller contract sizes. At FXCElite, we have the conviction that global markets should be accessible to everyone regardless of how little capital they start with.
+                  Fxcelite's micro forex trading account allows you to trade with much smaller contract sizes. At Fxcelite, we have the conviction that global markets should be accessible to everyone regardless of how little capital they start with.
                 </p>
                 <div className="p-6 rounded-2xl bg-cyan-500/5 border-l-4 border-cyan-500 backdrop-blur-sm">
                    <p className="text-white text-base font-medium leading-relaxed italic">
@@ -226,7 +226,7 @@ export default function MicroAccount() {
                     <h3 className="text-2xl font-bold text-white mb-6 tracking-tight">Trading Conditions</h3>
                     <div className="space-y-6">
                        <div className="space-y-4 text-base text-slate-300 leading-relaxed font-light">
-                          <p>At FXCElite, we make sure that our micro account forex terms are always fair and transparent. Even with smaller trade volumes, you can enjoy full access to our global liquidity.</p>
+                          <p>At Fxcelite, we make sure that our micro account forex terms are always fair and transparent. Even with smaller trade volumes, you can enjoy full access to our global liquidity.</p>
                           <p>Our Trading Conditions are designed to ensure that your low risk trading account for beginners always works well even during high volatility trading sessions.</p>
                           <p>We also make sure that the Deposit and Withdrawal process is seamless so that you can focus on your growth as a trader.</p>
                        </div>
@@ -397,7 +397,7 @@ export default function MicroAccount() {
               { q: "5. What is a micro lot size?", a: "A micro lot is 0.01 of a standard lot, which is 1,000 units of the base currency." },
               { q: "6. Does a micro account have the same characteristics as a standard account?", a: "Yes, you get the same micro trading account features, including fast execution and powerful charting." },
               { q: "7. Can I use leverage on a micro account?", a: "Absolutely. Leverage is available to help you manage your positions effectively." },
-              { q: "8. Is the execution speed slow on micro accounts?", a: "Not at all. At FXCElite, we offer a micro account with fast execution on all account types." },
+              { q: "8. Is the execution speed slow on micro accounts?", a: "Not at all. At Fxcelite, we offer a micro account with fast execution on all account types." },
               { q: "9. How do I manage my risk?", a: "With micro lots, you can risk a few cents or dollars per trade, which is perfect for learning." },
               { q: "10. How do I open a micro trading account?", a: "Just register on our website, choose the 'Micro' account type, and you are ready to trade." },
             ].map((faq, i) => (

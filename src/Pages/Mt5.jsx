@@ -63,7 +63,7 @@ export default function Mt5() {
           <div className="max-w-3xl mx-auto text-white text-sm md:text-base text-slate-500 leading-relaxed font-white mb-12 px-6 py-8 bg-white/[0.02] border border-white/5 relative overflow-hidden group backdrop-blur-sm">
              <div className="absolute top-0 left-0 w-2 h-2 bg-blue-500"></div>
              <div className="absolute bottom-0 right-0 w-2 h-2 bg-blue-500"></div>
-             If we talk about the top platform for very efficient trading, MetaTrader 5 is the standard in the trading industry. It is a great multi-asset platform that helps you trade even more than just currencies. In fact, it's the powerful successor of MT4. We at FXCElite offer a solid MT5 trading platform environment through which you can freely access the global markets.
+             If we talk about the top platform for very efficient trading, MetaTrader 5 is the standard in the trading industry. It is a great multi-asset platform that helps you trade even more than just currencies. In fact, it's the powerful successor of MT4. We at Fxcelite offer a solid MT5 trading platform environment through which you can freely access the global markets.
           </div>
 
           <div className="flex flex-col items-center gap-6">
@@ -139,7 +139,7 @@ export default function Mt5() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 text-center space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Why Choose FXCElite <br/> for MT5 Trading?</h2>
+            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Why Choose Fxcelite <br/> for MT5 Trading?</h2>
             <p className="text-blue-500 text-sm font-bold uppercase tracking-[0.2em] font-mono">[ Execution Environment Optimization ]</p>
             <p className="text-white text-base max-w-2xl mx-auto font-light leading-relaxed">
               Finding the best broker for MetaTrader 5 is about more than just software; it’s about the execution environment.
@@ -279,13 +279,13 @@ export default function Mt5() {
                 { 
                   n: "01", 
                   t: "Download & Install", 
-                  d: "The MetaTrader 5 platform for Windows, Mac, and Mobile can be downloaded from the FXCElite portal.", 
+                  d: "The MetaTrader 5 platform for Windows, Mac, and Mobile can be downloaded from the Fxcelite portal.", 
                   icon: <Download />
                 },
                 { 
                   n: "02", 
                   t: "Login", 
-                  d: "Enter your FXCElite login details to connect to our High-Speed Trade Servers.", 
+                  d: "Enter your Fxcelite login details to connect to our High-Speed Trade Servers.", 
                   icon: <Lock />
                 },
                 { 
@@ -317,9 +317,9 @@ export default function Mt5() {
       {/* --- FINAL CTA: THE TERMINAL GATE --- */}
       <section className="py-24 bg-[#020617] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why FXCElite is the Best <br/> Choice for MT5?</h2>
+           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why Fxcelite is the Best <br/> Choice for MT5?</h2>
            <p className="text-base md:text-lg text-white  text-slate-400 leading-relaxed font-light italic max-w-3xl mx-auto">
-             We don't just provide the software; we provide the power behind it. With MetaTrader 5 trading platform explained through our extensive guides and a server infrastructure optimized for speed, FXCElite is the best broker for MetaTrader 5.
+             We don't just provide the software; we provide the power behind it. With MetaTrader 5 trading platform explained through our extensive guides and a server infrastructure optimized for speed, Fxcelite is the best broker for MetaTrader 5.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
@@ -351,13 +351,13 @@ export default function Mt5() {
             {[
               { q: "1. What is the MetaTrader 5 trading platform?", a: "It is a cutting-edge trading platform for trading Forex, Stocks, CFDs, and other financial instruments using advanced technical analysis tools." },
               { q: "2. Is MetaTrader 5 better than MetaTrader 4?", a: "Yes, as MetaTrader 5 is more advanced, allowing for more timeframes, more indicators, and easier non-forex asset trading, as opposed to MT4." },
-              { q: "3. Is the MetaTrader 5 trading platform free?", a: "FXCELite offers its clients the MetaTrader 5 trading platform for free." },
+              { q: "3. Is the MetaTrader 5 trading platform free?", a: "Fxcelite offers its clients the MetaTrader 5 trading platform for free." },
               { q: "4. Is MetaTrader 5 accessible on a Mac?", a: "Yes, we have a special version of the MetaTrader 5 trading platform designed and optimized for macOS." },
               { q: "5. Is MetaTrader 5 automated trading platform-supported?", a: "Indeed, it is the best automated MetaTrader 5 platform, employing the potent MQL5 language." },
               { q: "6. Can I trade Forex using MetaTrader 5?", a: "Yes, MetaTrader 5 Forex Trading is one of the most powerful advantages of the MetaTrader 5 Forex platform." },
               { q: "7. What is the difference between Hedging and Netting?", a: "Hedging enables one to have multiple positions in the same pair in different directions, as opposed to Netting where all positions are made into one single price." },
-              { q: "8. How do I get the MetaTrader 5 online trading app?", a: "You can download it onto your mobile device via the Apple App Store or Google Play Store and then proceed to log in using your FXCElite account." },
-              { q: "9. What is the best broker for MetaTrader 5?", a: "The best broker for MetaTrader 5 is a broker such as FXCELite that offers low spreads, execution speed, and technical support 24/5." },
+              { q: "8. How do I get the MetaTrader 5 online trading app?", a: "You can download it onto your mobile device via the Apple App Store or Google Play Store and then proceed to log in using your Fxcelite account." },
+              { q: "9. What is the best broker for MetaTrader 5?", a: "The best broker for MetaTrader 5 is a broker such as Fxcelite that offers low spreads, execution speed, and technical support 24/5." },
               { q: "10. Do I require a high-end computer for MT5?", a: "No, this is because the trading platform is highly optimized and can run smoothly on most computers and laptops." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />

@@ -57,7 +57,7 @@ export default function Topups() {
           </p>
 
           <div className="max-w-3xl mx-auto text-sm md:text-base text-slate-400 leading-relaxed font-light mb-12 px-4">
-            In the rapidly changing environment of financial markets, timing is a crucial factor. It is indeed very irritating when one loses the chance of making money due to a lack of funds. That's why we've made the process of depositing money to your trading account extremely simple. At FXCElite, we offer multiple options for adding funds instantly, so you can take advantage of market changes without delay.
+            In the rapidly changing environment of financial markets, timing is a crucial factor. It is indeed very irritating when one loses the chance of making money due to a lack of funds. That's why we've made the process of depositing money to your trading account extremely simple. At Fxcelite, we offer multiple options for adding funds instantly, so you can take advantage of market changes without delay.
           </div>
 
           <div className="flex flex-col items-center gap-6">
@@ -162,7 +162,7 @@ export default function Topups() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 flex flex-col lg:flex-row lg:items-end justify-between gap-6">
             <div className="max-w-2xl space-y-4">
-              <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Key Features of <br/> FXCElite Top Ups</h2>
+              <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Key Features of <br/> Fxcelite Top Ups</h2>
               <p className="text-slate-500 text-base font-medium leading-relaxed italic">Our online trading account top up system is designed with a "Trader-First" philosophy.</p>
             </div>
             <div className="shrink-0 flex items-center gap-3 text-emerald-400 font-bold uppercase tracking-[0.2em] text-xs">
@@ -212,7 +212,7 @@ export default function Topups() {
                 </div>
                 <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                   <p>
-                    By opting for FXCElite, you are opting for the best online broker for instant account top up. We understand that security is your topmost priority when it comes to adding funds to your trading account. Our system ensures your financial information is never stored on our servers and is processed by PCI-DSS compliant gateways.
+                    By opting for Fxcelite, you are opting for the best online broker for instant account top up. We understand that security is your topmost priority when it comes to adding funds to your trading account. Our system ensures your financial information is never stored on our servers and is processed by PCI-DSS compliant gateways.
                   </p>
                   <p className="text-white font-medium">
                     Are you currently using a Demo Account and ready to enter the live markets? Our online top up system is the bridge that helps you convert your practice into real-life profits.
@@ -280,7 +280,7 @@ export default function Topups() {
       <section className="py-24 bg-black relative">
         <div className="max-w-4xl mx-auto px-6 text-center space-y-10">
           <div className="space-y-4">
-            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Why FXCElite for <br/> Instant Funding?</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Why Fxcelite for <br/> Instant Funding?</h2>
             <p className="text-emerald-400 font-bold uppercase tracking-[0.2em] text-xs">The Fuel for Your Success</p>
           </div>
           <div className="text-base md:text-lg text-slate-400 leading-relaxed font-light italic">
@@ -315,7 +315,7 @@ export default function Topups() {
           <div className="space-y-4">
             {[
               { q: "1. How long does a trading account top up take?", a: "For most payment options such as cards and e-wallets, the forex account top up is done instantly." },
-              { q: "2. Is there a fee to add funds to my trading account?", a: "FXCElite does not charge any deposit fees for a trading account funding top up, but your payment provider may." },
+              { q: "2. Is there a fee to add funds to my trading account?", a: "Fxcelite does not charge any deposit fees for a trading account funding top up, but your payment provider may." },
               { q: "3. What is the fastest way to top up a trading account?", a: "Credit/Debit card or a popular E-wallet is the fastest way to top up a trading account." },
               { q: "4. Is it safe to add money to my trading account online?", a: "Yes, we offer a safe and secure trading account top up environment with high-level encryption." },
               { q: "5. Can I top up my account using Cryptocurrency?", a: "Yes, we support multiple digital currencies for a fast and secure trading account top up." },

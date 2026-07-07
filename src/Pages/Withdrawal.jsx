@@ -66,7 +66,7 @@ export default function Withdrawal() {
              <div className="absolute top-0 right-0 p-6 opacity-5 group-hover:scale-110 transition-transform">
                <LogOut size={80} />
              </div>
-             At FXCElite, it is our conviction that the most effective measure of a brokerage's excellence is the speed and consistency of their forex withdrawal process. You made the money, so it is only fair that you should enjoy your profits without delay. That's why we've designed a system which puts the forex withdrawal experience at the forefront of our priorities. No matter when you want to withdraw money, our super-efficient portal makes sure your request is given top priority.
+             At Fxcelite, it is our conviction that the most effective measure of a brokerage's excellence is the speed and consistency of their forex withdrawal process. You made the money, so it is only fair that you should enjoy your profits without delay. That's why we've designed a system which puts the forex withdrawal experience at the forefront of our priorities. No matter when you want to withdraw money, our super-efficient portal makes sure your request is given top priority.
           </div>
 
           <div className="flex flex-col items-center gap-6">
@@ -132,7 +132,7 @@ export default function Withdrawal() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 text-center space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Why Choose FXCElite for <br/> Fast Forex Withdrawal?</h2>
+            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Why Choose Fxcelite for <br/> Fast Forex Withdrawal?</h2>
             <p className="text-emerald-500 text-sm font-bold uppercase tracking-[0.2em]">The fastest way to withdraw funds</p>
             <p className="text-slate-500 text-base max-w-2xl mx-auto font-light leading-relaxed italic">
               We understand that for a trader, the fastest way to withdraw trading funds is a non-negotiable requirement.
@@ -199,7 +199,7 @@ export default function Withdrawal() {
           <div className="text-center mb-16 space-y-4">
              <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">How Long Does <br/> Forex Withdrawal Take?</h2>
              <p className="text-blue-500 text-sm font-bold uppercase tracking-[0.2em]">Institutional Service Benchmarks</p>
-             <p className="text-slate-500 text-base max-w-2xl mx-auto pt-2">At FXCElite, we process most requests within 24 business hours.</p>
+             <p className="text-slate-500 text-base max-w-2xl mx-auto pt-2">At Fxcelite, we process most requests within 24 business hours.</p>
           </div>
 
           <div className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl bg-white/[0.01] backdrop-blur-xl overflow-x-auto">
@@ -248,7 +248,7 @@ export default function Withdrawal() {
             <div className="absolute top-[30%] left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-blue-500/20 to-transparent hidden lg:block"></div>
 
             {[
-              { n: "01", t: "Login", d: "Access your FXCElite Secure Client Area.", icon: <Lock /> },
+              { n: "01", t: "Login", d: "Access your Fxcelite Secure Client Area.", icon: <Lock /> },
               { n: "02", t: "Verify Info", d: "Make sure accounts are closed or have sufficient margin.", icon: <Scale /> },
               { n: "03", t: "Request", d: "Access 'Funds' and choose trading account withdrawal.", icon: <ArrowUpRight /> },
               { n: "04", t: "Amount", d: "Enter the amount and select your verified option.", icon: <TrendingUp /> },
@@ -287,7 +287,7 @@ export default function Withdrawal() {
                    <div className="text-base text-slate-400 leading-relaxed font-light italic space-y-6">
                       <p>In our quest for a secure online forex withdrawal service, we conform fully to the Anti-Money Laundering (AML) regulations.</p>
                       <div className="p-6 bg-white/[0.03] border-l-4 border-blue-500 italic font-medium text-white shadow-xl rounded-r-lg">
-                        This ensures that the name on your withdrawal matches the name on your FXCElite account. Our community is fully protected from fraud.
+                        This ensures that the name on your withdrawal matches the name on your Fxcelite account. Our community is fully protected from fraud.
                       </div>
                    </div>
                 </div>
@@ -324,9 +324,9 @@ export default function Withdrawal() {
       {/* --- FINAL CTA: THE FRUIT GATE --- */}
       <section className="py-24 bg-[#02030d] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why FXCElite is the Best <br/> Choice for Withdrawals?</h2>
+           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why Fxcelite is the Best <br/> Choice for Withdrawals?</h2>
            <p className="text-base md:text-lg text-slate-400 leading-relaxed font-light italic max-w-3xl mx-auto">
-             We are dedicated to transparency, and as the fastest way to withdraw trading funds, FXCElite is one of a kind. We make sure you get to enjoy the fruits of your labor with absolute peace of mind.
+             We are dedicated to transparency, and as the fastest way to withdraw trading funds, Fxcelite is one of a kind. We make sure you get to enjoy the fruits of your labor with absolute peace of mind.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
@@ -358,7 +358,7 @@ export default function Withdrawal() {
           <div className="space-y-4">
             {[
               { q: "1. How long does forex withdrawal take?", a: "Internal processing takes up to 24 hours. The transfer of funds happens instantly or in a matter of business days depending on the transfer method." },
-              { q: "2. Are there any fees for a trading account withdrawal?", a: "FXCElite does not charge any internal fees for making withdrawals, though there may be associated charges from your banking or processing service." },
+              { q: "2. Are there any fees for a trading account withdrawal?", a: "Fxcelite does not charge any internal fees for making withdrawals, though there may be associated charges from your banking or processing service." },
               { q: "3. What is the fastest method of withdrawing trading funds?", a: "E-Wallets and Cryptocurrencies offer the fastest means to withdraw trade funds, which are often reflected the same day." },
               { q: "4. Can I withdraw money if I have open trades?", a: "Yes, but you must have \"Free Margin\" in your Forex account to keep those positions open." },
               { q: "5. Why is my withdrawal taking longer than expected?", a: "Most often, the cause relates to bank processing time or KYC verification. Ensure your account is fully verified." },

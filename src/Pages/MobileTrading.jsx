@@ -93,7 +93,7 @@ export default function MobileTrading() {
                  <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight leading-tight italic underline decoration-indigo-500 decoration-4 underline-offset-[8px]">What Is a Mobile <br/> Trading App?</h2>
                  <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                    <p>
-                     At FXCElite, we offer an efficient online trading app through which you can handle your portfolio, study charts, and place orders just with one tap. No matter if you are on a bus, in a plane, or simply away from your computer, our app will make sure that you continue to be in touch with the markets.
+                     At Fxcelite, we offer an efficient online trading app through which you can handle your portfolio, study charts, and place orders just with one tap. No matter if you are on a bus, in a plane, or simply away from your computer, our app will make sure that you continue to be in touch with the markets.
                    </p>
                    <p className="text-white font-medium italic border-l-2 border-indigo-500 pl-4 bg-white/[0.02] py-2">
                      Our CFD trading app is built for speed and stability, thus the smooth experience whenever you decide to switch from a desktop to mobile.
@@ -168,7 +168,7 @@ export default function MobileTrading() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-8 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Key Features of the <br/> FXCElite Mobile App</h2>
+                 <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Key Features of the <br/> Fxcelite Mobile App</h2>
                  <p className="text-base text-slate-500 italic leading-relaxed font-light">
                    We have packed our online trading app with features that empower you to trade with professional precision.
                  </p>
@@ -273,7 +273,7 @@ export default function MobileTrading() {
                 { 
                   n: "01", 
                   t: "Download", 
-                  d: "To download FXCELite trading app, one can simply go to App Store or Google Play.", 
+                  d: "To download Fxcelite trading app, one can simply go to App Store or Google Play.", 
                   icon: <Download />,
                   align: "left"
                 },
@@ -396,7 +396,7 @@ export default function MobileTrading() {
       {/* --- FINAL CTA: POCKET DESK --- */}
       <section className="py-24 bg-[#02030d] text-center relative overflow-hidden">
         <div className="max-w-5xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why FXCElite is the Best <br/> Mobile Trading Choice?</h2>
+           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why Fxcelite is the Best <br/> Mobile Trading Choice?</h2>
            <p className="text-base md:text-lg text-slate-400 leading-relaxed font-light italic max-w-3xl mx-auto">
              With our forex trading app designed for Android and iPhone, we have redefined what it means by trading on the go. We have brought to you the ultimate mobile trading app experience, with lightning-fast trade execution, along with real-time charts.
            </p>
@@ -429,16 +429,16 @@ export default function MobileTrading() {
           
           <div className="space-y-4">
             {[
-              { q: "1. Is this mobile trading app free to download?", a: "The FXCElite online trading app is free to download, both on Android and iOS." },
+              { q: "1. Is this mobile trading app free to download?", a: "The Fxcelite online trading app is free to download, both on Android and iOS." },
               { q: "2. Can I open a live account through the app?", a: "Yes, sure. You will be able to do all this through the trading app." },
               { q: "3. Is it safe to trade forex on mobile?", a: "Yes, our mobile trading app for online trading is designed with bank-grade encryption and biometric security that ensures the safety of your money." },
-              { q: "4. What is the best mobile trading app for beginners?", a: "The FXCElite app is recommended to beginners, as it offers an intuitive trading platform and a Demo Account option in which one can practice trading." },
+              { q: "4. What is the best mobile trading app for beginners?", a: "The Fxcelite app is recommended to beginners, as it offers an intuitive trading platform and a Demo Account option in which one can practice trading." },
               { q: "5. Is the app capable of providing real-time charts?", a: "The answer is yes; it is a full mobile trading platform providing real-time charts, changing every millisecond." },
               { q: "6. Is it possible to manage my MAM account on the app?", a: "Professional managers can manage their MAM structures and investor sub-accounts using the mobile interface of the trading platform." },
               { q: "7. Will I have a separate login for the mobile app?", a: "No, you use the same credentials for our desktop, web, and mobile trading app platforms." },
               { q: "8. Is it possible to trade stocks and crypto in the application?", a: "Yes, through access to our CFD trading application, you can trade Forex, Stocks, Indices, Commodities, and Cryptocurrencies." },
               { q: "9. What if I get a call during trading?", a: "The App will run in the background, but for security, you may be asked to authenticate again if the App is closed for a pretty long time period." },
-              { q: "10. How can I download the forex trading application for Android and iPhone?", a: "You can download the best mobile trading app from the Google Play Store or Apple App Store by searching for \"FXCElite\"." },
+              { q: "10. How can I download the forex trading application for Android and iPhone?", a: "You can download the best mobile trading app from the Google Play Store or Apple App Store by searching for \"Fxcelite\"." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}

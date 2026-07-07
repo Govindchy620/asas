@@ -180,7 +180,7 @@ export default function Navbar() {
   {/* Logo Image */}
   <img
     src={logo}
-    alt="FXCELITE Logo"
+    alt="Fxcelite Logo"
     className="w-36 h-36 object-contain"
   />
 </div>

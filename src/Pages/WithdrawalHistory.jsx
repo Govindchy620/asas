@@ -94,7 +94,7 @@ export default function WithdrawalHistory() {
                  <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight leading-tight italic border-l-4 border-cyan-500 pl-4">Accessible <br/> Transparency</h2>
                  <div className="space-y-6 text-base text-white/90 leading-relaxed font-light italic">
                    <p>
-                     We at FXCElite are always committed to your peace of mind, so we have provided a 24/7 accessible, accurate, and safe forex withdrawal history portal.
+                     We at Fxcelite are always committed to your peace of mind, so we have provided a 24/7 accessible, accurate, and safe forex withdrawal history portal.
                    </p>
                    <p className="text-white font-medium italic bg-white/10 p-5 border-r-2 border-purple-500 rounded-lg shadow-lg">
                      If you are checking the results of your monthly trading performance or need to get online trading withdrawal records for your financial reports, our safe client section is always there to help you with the information you want.
@@ -279,7 +279,7 @@ export default function WithdrawalHistory() {
 
              <div className="space-y-16">
                 {[
-                  { n: "01", t: "Login", d: "Access your secure FXCElite client area.", icon: <Lock />, align: "left" },
+                  { n: "01", t: "Login", d: "Access your secure Fxcelite client area.", icon: <Lock />, align: "left" },
                   { n: "02", t: "Navigate to Funds", d: "Click on 'History' and select withdrawal history.", icon: <Database />, align: "right" },
                   { n: "03", t: "Review & Filter", d: "You can look for particular deposit transaction information using search tools.", icon: <Search />, align: "left" },
                 ].map((step, i) => (
