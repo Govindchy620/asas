@@ -54,7 +54,7 @@ export default function TradingGrowthSection() {
               <p className="text-slate-300 text-sm">
                 Scale up to
               </p>
-              <p className="text-white text-xl font-bold">
+              <p className="text-white text-xl font-normal">
                 $600,000
               </p>
             </div>
@@ -67,7 +67,7 @@ export default function TradingGrowthSection() {
               <p className="text-slate-300 text-sm">
                 Scale up to
               </p>
-              <p className="text-white text-xl font-bold">
+              <p className="text-white text-xl font-normal">
                 $3,000,000
               </p>
             </div>

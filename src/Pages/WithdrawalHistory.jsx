@@ -53,10 +53,10 @@ export default function WithdrawalHistory() {
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-sm border border-cyan-400/30 bg-cyan-400/10 backdrop-blur-xl mb-8 animate-fade-in">
             <History size={14} className="text-cyan-400" />
-            <span className="text-xs font-bold uppercase tracking-[0.3em] text-cyan-400 italic">Profit Access Audit v13.0</span>
+            <span className="text-xs font-normal uppercase tracking-[0.3em] text-cyan-400 italic">Profit Access Audit v13.0</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6">
+          <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6">
             Withdrawal <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-white to-purple-400 italic uppercase">History</span>
           </h1>
           
@@ -75,12 +75,12 @@ export default function WithdrawalHistory() {
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-3xl blur opacity-40 group-hover:opacity-80 transition duration-1000"></div>
               <button 
-                onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                className="relative px-10 py-4 bg-white text-black font-bold text-base transition-all hover:bg-cyan-500 hover:text-white active:scale-95 shadow-xl uppercase tracking-tight italic flex items-center gap-3 rounded-2xl">
+                onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                className="relative px-10 py-4 bg-white text-black font-normal text-base transition-all hover:bg-cyan-500 hover:text-white active:scale-95 shadow-xl uppercase tracking-tight italic flex items-center gap-3 rounded-2xl">
                 View Your Withdrawal History <ArrowRight size={20} />
               </button>
             </div>
-            <p className="text-cyan-400 text-sm font-bold uppercase tracking-[0.2em] italic animate-pulse">
+            <p className="text-cyan-400 text-sm font-normal uppercase tracking-[0.2em] italic animate-pulse">
               Review your success. Track your payouts now!
             </p>
           </div>
@@ -93,10 +93,10 @@ export default function WithdrawalHistory() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
                <div className="space-y-6">
-                 <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight leading-tight italic border-l-4 border-cyan-500 pl-4">Accessible <br/> Transparency</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white uppercase tracking-tight leading-tight italic border-l-4 border-cyan-500 pl-4">Accessible <br/> Transparency</h2>
                  <div className="space-y-6 text-base text-white/90 leading-relaxed font-light italic">
                    <p>
-                     We at Fxcelite are always committed to your peace of mind, so we have provided a 24/7 accessible, accurate, and safe forex withdrawal history portal.
+                     We at FXCELITE are always committed to your peace of mind, so we have provided a 24/7 accessible, accurate, and safe forex withdrawal history portal.
                    </p>
                    <p className="text-white font-medium italic bg-white/10 p-5 border-r-2 border-purple-500 rounded-lg shadow-lg">
                      If you are checking the results of your monthly trading performance or need to get online trading withdrawal records for your financial reports, our safe client section is always there to help you with the information you want.
@@ -123,11 +123,11 @@ export default function WithdrawalHistory() {
                     </p>
                     <div className="mt-4 grid grid-cols-2 gap-4">
                        <div className="p-3 border border-white/10 bg-white/5 rounded-lg">
-                          <span className="block text-[10px] text-cyan-400 uppercase tracking-widest mb-1 font-bold">Audit Sync</span>
+                          <span className="block text-[10px] text-cyan-400 uppercase tracking-widest mb-1 font-normal">Audit Sync</span>
                           <span className="text-white font-mono text-xs italic">Live Pulse Active</span>
                        </div>
                        <div className="p-3 border border-white/10 bg-white/5 text-right rounded-lg">
-                          <span className="block text-[10px] text-purple-400 uppercase tracking-widest mb-1 font-bold">Encryption</span>
+                          <span className="block text-[10px] text-purple-400 uppercase tracking-widest mb-1 font-normal">Encryption</span>
                           <span className="text-emerald-500 font-mono text-xs italic">AES-256 Verified</span>
                        </div>
                     </div>
@@ -142,8 +142,8 @@ export default function WithdrawalHistory() {
       <section className="py-24 relative bg-black">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 text-center space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">What Information is <br/> in Your Records?</h2>
-            <p className="text-cyan-400 text-sm font-bold uppercase tracking-[0.2em]">Comprehensive Profit Traceability</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">What Information is <br/> in Your Records?</h2>
+            <p className="text-cyan-400 text-sm font-normal uppercase tracking-[0.2em]">Comprehensive Profit Traceability</p>
             <p className="text-white/80 text-base max-w-2xl mx-auto font-light leading-relaxed italic">
               Your withdrawal records page is intended to provide you with a complete "paper trail" of your earnings.
             </p>
@@ -161,7 +161,7 @@ export default function WithdrawalHistory() {
                 <div className="w-12 h-12 bg-white/10 flex items-center justify-center text-white/80 mb-5 border border-white/20 group-hover:bg-cyan-400 group-hover:text-black group-hover:scale-110 transition-all rounded-lg">
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-base font-bold text-white mb-2 tracking-tight leading-tight uppercase italic">{item.title}</h3>
+                <h3 className="text-base font-normal text-white mb-2 tracking-tight leading-tight uppercase italic">{item.title}</h3>
                 <p className="text-white/80 text-xs leading-relaxed font-medium">{item.desc}</p>
               </div>
             ))}
@@ -180,7 +180,7 @@ export default function WithdrawalHistory() {
         <div className="max-w-7xl mx-auto px-6">
            <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
               <div className="space-y-4">
-                <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight underline decoration-purple-500 decoration-4 underline-offset-[8px]">Why Monitor <br/> Your History?</h2>
+                <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight underline decoration-purple-500 decoration-4 underline-offset-[8px]">Why Monitor <br/> Your History?</h2>
                 <p className="text-base text-white/80 italic leading-relaxed font-light">
                   Keeping a record of your online trading withdrawal records is the hallmark of a professional trader.
                 </p>
@@ -205,7 +205,7 @@ export default function WithdrawalHistory() {
                   <div className="w-10 h-10 bg-cyan-400/20 flex items-center justify-center text-cyan-400 mb-4 border border-cyan-400/30 group-hover:scale-110 transition-transform rounded-lg">
                     {React.cloneElement(item.icon, { size: 20 })}
                   </div>
-                  <h4 className="text-lg font-bold text-white mb-2 uppercase tracking-tight italic relative z-10">{item.t}</h4>
+                  <h4 className="text-lg font-normal text-white mb-2 uppercase tracking-tight italic relative z-10">{item.t}</h4>
                   <p className="text-white/80 text-sm font-light leading-relaxed italic relative z-10">{item.d}</p>
                </div>
              ))}
@@ -219,7 +219,7 @@ export default function WithdrawalHistory() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-8 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-purple-500 decoration-4 underline-offset-[8px]">Portal Key <br/> Features</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic underline decoration-purple-500 decoration-4 underline-offset-[8px]">Portal Key <br/> Features</h2>
                  <p className="text-base text-white/80 italic leading-relaxed font-light">
                    Our trading account withdrawal history in simple terms: it is a high-performance ledger designed to be transparent.
                  </p>
@@ -237,7 +237,7 @@ export default function WithdrawalHistory() {
                       <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:scale-110 transition-transform">
                         {React.cloneElement(feature.icon, { size: 60, className: "text-white" })}
                       </div>
-                      <h4 className="text-base font-bold text-white mb-2 uppercase tracking-tight italic leading-tight relative z-10">{feature.t}</h4>
+                      <h4 className="text-base font-normal text-white mb-2 uppercase tracking-tight italic leading-tight relative z-10">{feature.t}</h4>
                       <p className="text-white/80 text-sm leading-relaxed font-light italic relative z-10">{feature.d}</p>
                    </div>
                  ))}
@@ -249,17 +249,17 @@ export default function WithdrawalHistory() {
                   <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:scale-110 transition-transform duration-1000">
                     <History size={100} className="text-cyan-400" />
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-6 tracking-tight uppercase border-b border-white/20 pb-4 italic">Audit Node</h3>
+                  <h3 className="text-xl font-normal text-white mb-6 tracking-tight uppercase border-b border-white/20 pb-4 italic">Audit Node</h3>
                   <div className="space-y-6 relative z-10">
-                     <p className="text-base text-cyan-400 font-bold leading-tight italic">
+                     <p className="text-base text-cyan-400 font-normal leading-tight italic">
                        Professionalism is built on transparency. Login to Your Account to see your complete payout history.
                      </p>
                      <p className="text-white/80 text-sm font-light italic">
                         Access every single entry of your online forex withdrawal history securely from anywhere in the world.
                      </p>
                      <button 
-                        onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                        className="w-full py-4 bg-white text-black font-bold hover:bg-cyan-400 transition-all text-sm uppercase tracking-tight italic rounded-xl shadow-lg">
+                        onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                        className="w-full py-4 bg-white text-black font-normal hover:bg-cyan-400 transition-all text-sm uppercase tracking-tight italic rounded-xl shadow-lg">
                         Login to Portal
                      </button>
                   </div>
@@ -273,8 +273,8 @@ export default function WithdrawalHistory() {
       <section className="py-24 relative bg-[#040715] border-y border-white/10">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">How to View <br/> History Online</h2>
-            <p className="text-cyan-400 text-sm font-bold uppercase tracking-[0.2em]">Simple 3-step archival access</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">How to View <br/> History Online</h2>
+            <p className="text-cyan-400 text-sm font-normal uppercase tracking-[0.2em]">Simple 3-step archival access</p>
           </div>
 
           <div className="max-w-3xl mx-auto relative">
@@ -283,17 +283,17 @@ export default function WithdrawalHistory() {
 
              <div className="space-y-16">
                 {[
-                  { n: "01", t: "Login", d: "Access your secure Fxcelite client area.", icon: <Lock />, align: "left" },
+                  { n: "01", t: "Login", d: "Access your secure FXCELITE client area.", icon: <Lock />, align: "left" },
                   { n: "02", t: "Navigate to Funds", d: "Click on 'History' and select withdrawal history.", icon: <Database />, align: "right" },
                   { n: "03", t: "Review & Filter", d: "You can look for particular deposit transaction information using search tools.", icon: <Search />, align: "left" },
                 ].map((step, i) => (
                   <div key={i} className={`flex flex-col ${step.align === 'right' ? 'md:flex-row-reverse' : 'md:flex-row'} items-center gap-8 relative`}>
                      <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-3 h-3 bg-black border-2 border-cyan-500 rounded-full z-20 hidden md:block shadow-[0_0_10px_#22d3ee]"></div>
                      <div className="md:w-1/2 w-full text-center md:text-left">
-                        <div className={`inline-flex items-center justify-center w-12 h-12 bg-white/10 border border-white/20 text-lg font-bold italic text-cyan-400 mb-4 rounded-xl shadow-lg`}>
+                        <div className={`inline-flex items-center justify-center w-12 h-12 bg-white/10 border border-white/20 text-lg font-normal italic text-cyan-400 mb-4 rounded-xl shadow-lg`}>
                            {step.n}
                         </div>
-                        <h3 className="text-2xl font-bold text-white uppercase italic tracking-tight mb-2">{step.t}</h3>
+                        <h3 className="text-2xl font-normal text-white uppercase italic tracking-tight mb-2">{step.t}</h3>
                         <p className="text-sm text-white/80 font-light leading-relaxed italic md:max-w-sm">{step.d}</p>
                      </div>
                      <div className="md:w-1/2 w-full flex justify-center">
@@ -312,8 +312,8 @@ export default function WithdrawalHistory() {
       <section className="py-24 border-t border-white/10 bg-black">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-black text-white tracking-tight uppercase italic font-mono">[ PAYOUT FAQ ]</h2>
-            <p className="text-white/80 font-bold uppercase tracking-widest text-sm italic font-mono">Knowledge Base Alpha-7</p>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic font-mono">[ PAYOUT FAQ ]</h2>
+            <p className="text-white/80 font-normal uppercase tracking-widest text-sm italic font-mono">Knowledge Base Alpha-7</p>
           </div>
           
           <div className="space-y-px bg-white/20 border border-white/20 rounded-2xl overflow-hidden">
@@ -349,7 +349,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-white/90 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-white/90 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 flex items-center justify-center shrink-0 transition-all duration-500 ml-4 rounded-lg ${

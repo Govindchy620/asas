@@ -45,13 +45,13 @@ export default function TermsAndConditions() {
           {/* DISCLAIMER */}
           <div className="bg-black/40 border border-white/10 rounded-xl p-6 text-white font-semibold uppercase text-xs md:text-sm">
             In accordance with applicable laws, none of the services provided by
-            Fxcelite constitute investment services or investment advice.
+            FXCELITE constitute investment services or investment advice.
             Employees, staff, and representatives are not authorised to provide
             investment recommendations.
           </div>
 
           <p>
-            Fxcelite provides Instant Demo live-Funded Accounts in a simulated
+            FXCELITE provides Instant Demo live-Funded Accounts in a simulated
             trading environment using third-party brokers for educational purposes
             only. All accounts are simulated and do not involve real financial
             instruments.
@@ -71,12 +71,12 @@ export default function TermsAndConditions() {
           </p>
 
           <p>
-            Fxcelite shall supply trading facilities, risk monitoring services,
+            FXCELITE shall supply trading facilities, risk monitoring services,
             and a Demo Live-Funded trading account.
           </p>
 
           {/* SECTION 1 */}
-          <h2 className="text-xl font-bold text-white pt-6">
+          <h2 className="text-xl font-normal text-white pt-6">
             Section 1 – Terms of Online Registration
           </h2>
 
@@ -87,7 +87,7 @@ export default function TermsAndConditions() {
           </p>
 
           {/* SECTION 2 */}
-          <h2 className="text-xl font-bold text-white pt-6">
+          <h2 className="text-xl font-normal text-white pt-6">
             Section 2 – General Conditions
           </h2>
 
@@ -103,7 +103,7 @@ export default function TermsAndConditions() {
           </p>
 
           {/* SECTION 3 */}
-          <h2 className="text-xl font-bold text-white pt-6">
+          <h2 className="text-xl font-normal text-white pt-6">
             Section 3 – Personal Information
           </h2>
 
@@ -111,7 +111,7 @@ export default function TermsAndConditions() {
             Submission of personal information is governed by our Privacy Policy.
             <br />
             <a
-              href="https://www.fxcelite.com/privacy-policy"
+              href="https://www.FXCELITE.com/privacy-policy"
               target="_blank"
               rel="noopener noreferrer"
               className="text-emerald-400 underline"
@@ -121,7 +121,7 @@ export default function TermsAndConditions() {
           </p>
 
           {/* SECTION 4 */}
-          <h2 className="text-xl font-bold text-white pt-6">
+          <h2 className="text-xl font-normal text-white pt-6">
             Section 4 – Affiliate Program
           </h2>
 
@@ -129,7 +129,7 @@ export default function TermsAndConditions() {
             Our Affiliate Program is governed by separate Affiliate Terms.
             <br />
             <a
-              href="https://www.fxcelite.com/affiliate-terms-of-use/"
+              href="https://www.FXCELITE.com/affiliate-terms-of-use/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-emerald-400 underline"
@@ -139,23 +139,23 @@ export default function TermsAndConditions() {
           </p>
 
           {/* SECTION 5 */}
-          <h2 className="text-xl font-bold text-white pt-6">
+          <h2 className="text-xl font-normal text-white pt-6">
             Section 5 – Contact Information
           </h2>
 
           <p>
             For any questions regarding these Terms, please contact us at{" "}
             <a
-              href="mailto:support@Fxcelite.com"
+              href="mailto:support@FXCELITE.com"
               className="text-emerald-400 underline"
             >
-              support@Fxcelite.com
+              support@FXCELITE.com
             </a>
             . We respond within one week.
           </p>
 
           {/* SECTION 6 */}
-          <h2 className="text-xl font-bold text-white pt-6">
+          <h2 className="text-xl font-normal text-white pt-6">
             Section 6 – Giveaway Policy
           </h2>
 

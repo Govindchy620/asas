@@ -48,10 +48,10 @@ export default function DepositHistory() {
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-sm border border-amber-500/30 bg-amber-500/10 backdrop-blur-xl mb-8 animate-fade-in">
             <Archive size={14} className="text-amber-400" />
-            <span className="text-xs font-bold uppercase tracking-[0.3em] text-amber-400 italic">Financial Records Core v12.0</span>
+            <span className="text-xs font-normal uppercase tracking-[0.3em] text-amber-400 italic">Financial Records Core v12.0</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6">
+          <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6">
             Deposit <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-white to-amber-600 italic">History</span>
           </h1>
           
@@ -61,19 +61,19 @@ export default function DepositHistory() {
 
           <div className="max-w-3xl mx-auto text-sm md:text-base text-white/90 leading-relaxed font-light mb-12 px-6 py-8 border-l-2 border-r-2 border-white/20 bg-white/[0.05] backdrop-blur-sm relative">
              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-16 h-[2px] bg-amber-500/80"></div>
-             In the world of professional trading, keeping an accurate record of all your financial transactions is fundamental. Your deposit history trading account page details the entirety of your account funding transactions. Fxcelite is all about openness and honesty, which is why we provide a transparent trading account deposit history accessible at any time, allowing you to keep track of your capital inflows and reconcile your trading records.
+             In the world of professional trading, keeping an accurate record of all your financial transactions is fundamental. Your deposit history trading account page details the entirety of your account funding transactions. FXCELITE is all about openness and honesty, which is why we provide a transparent trading account deposit history accessible at any time, allowing you to keep track of your capital inflows and reconcile your trading records.
           </div>
 
           <div className="flex flex-col items-center gap-6">
             <div className="relative group">
               <div className="absolute -inset-1 bg-amber-500 rounded-none blur opacity-40 group-hover:opacity-80 transition duration-1000"></div>
               <button 
-                onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                className="relative px-10 py-4 bg-white text-black font-bold text-base md:text-lg transition-all hover:bg-amber-400 active:scale-95 shadow-xl uppercase tracking-tight flex items-center gap-2">
+                onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                className="relative px-10 py-4 bg-white text-black font-normal text-base md:text-lg transition-all hover:bg-amber-400 active:scale-95 shadow-xl uppercase tracking-tight flex items-center gap-2">
                 View Your Deposit History <Database size={20} className="ml-2" />
               </button>
             </div>
-            <p className="text-amber-400 text-sm font-bold uppercase tracking-[0.2em] italic animate-pulse">
+            <p className="text-amber-400 text-sm font-normal uppercase tracking-[0.2em] italic animate-pulse">
               Stay organized and informed. Track every dollar now!
             </p>
           </div>
@@ -86,7 +86,7 @@ export default function DepositHistory() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
                <div className="space-y-6">
-                 <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight leading-tight italic border-l-4 border-amber-500 pl-4">Records <br/> Reconciliation</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white uppercase tracking-tight leading-tight italic border-l-4 border-amber-500 pl-4">Records <br/> Reconciliation</h2>
                  <div className="space-y-6 text-base text-white/90 leading-relaxed font-light italic">
                    <p>
                      It doesn't matter if you want to check your deposit history for tax related purposes or you're just getting online trading deposit records to verify an entry that was made recently, through our safe portal, you can have an up to minute update of all your funding actions. As soon as you make your first Deposit and even your most recent. Each and every detail is recorded and kept safe.
@@ -113,11 +113,11 @@ export default function DepositHistory() {
                     </p>
                     <div className="mt-4 grid grid-cols-2 gap-4">
                        <div className="p-3 border border-white/10 bg-white/5 rounded-lg">
-                          <span className="block text-[10px] text-amber-400 uppercase tracking-widest mb-1 font-bold">Archive Access</span>
+                          <span className="block text-[10px] text-amber-400 uppercase tracking-widest mb-1 font-normal">Archive Access</span>
                           <span className="text-white font-mono text-xs italic">Live Sync Active</span>
                        </div>
                        <div className="p-3 border border-white/10 bg-white/5 text-right rounded-lg">
-                          <span className="block text-[10px] text-amber-400 uppercase tracking-widest mb-1 font-bold">Status</span>
+                          <span className="block text-[10px] text-amber-400 uppercase tracking-widest mb-1 font-normal">Status</span>
                           <span className="text-emerald-400 font-mono text-xs italic">256-Bit Encrypted</span>
                        </div>
                     </div>
@@ -132,8 +132,8 @@ export default function DepositHistory() {
       <section className="py-24 relative bg-black">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 text-center space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">What Information is <br/> in Your History?</h2>
-            <p className="text-amber-400 text-sm font-bold uppercase tracking-[0.2em]">Comprehensive Metadata Tracking</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">What Information is <br/> in Your History?</h2>
+            <p className="text-amber-400 text-sm font-normal uppercase tracking-[0.2em]">Comprehensive Metadata Tracking</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-px bg-white/20 border border-white/20 shadow-xl rounded-xl overflow-hidden">
@@ -148,7 +148,7 @@ export default function DepositHistory() {
                 <div className="w-12 h-12 bg-white/10 flex items-center justify-center text-white/80 mb-5 border border-white/20 group-hover:bg-amber-500 group-hover:text-black group-hover:scale-110 transition-all rounded-lg">
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-base font-bold text-white mb-2 tracking-tight leading-tight uppercase italic">{item.title}</h3>
+                <h3 className="text-base font-normal text-white mb-2 tracking-tight leading-tight uppercase italic">{item.title}</h3>
                 <p className="text-white/80 text-xs leading-relaxed font-medium">{item.desc}</p>
               </div>
             ))}
@@ -161,7 +161,7 @@ export default function DepositHistory() {
         <div className="max-w-7xl mx-auto px-6">
            <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
               <div className="space-y-4">
-                <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight underline decoration-amber-500 decoration-4 underline-offset-[8px]">Why Monitor <br/> Your History?</h2>
+                <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight underline decoration-amber-500 decoration-4 underline-offset-[8px]">Why Monitor <br/> Your History?</h2>
                 <p className="text-base text-white/80 italic leading-relaxed font-light">It is important to keep a close watch on your online trading deposit records.</p>
               </div>
               <div className="p-6 bg-amber-500/10 border border-amber-500/30 italic text-base leading-relaxed text-amber-100 rounded-xl shadow-lg">
@@ -181,7 +181,7 @@ export default function DepositHistory() {
                   <div className="w-10 h-10 bg-amber-500/20 flex items-center justify-center text-amber-400 mb-4 border border-amber-500/30 group-hover:scale-110 transition-transform rounded-lg">
                     {React.cloneElement(item.icon, { size: 20 })}
                   </div>
-                  <h4 className="text-lg font-bold text-white mb-2 uppercase tracking-tight italic">{item.t}</h4>
+                  <h4 className="text-lg font-normal text-white mb-2 uppercase tracking-tight italic">{item.t}</h4>
                   <p className="text-white/80 text-sm leading-relaxed font-light italic">{item.d}</p>
                </div>
              ))}
@@ -195,7 +195,7 @@ export default function DepositHistory() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-8 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Key Features of the <br/> Deposit History Portal</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic">Key Features of the <br/> Deposit History Portal</h2>
                  <p className="text-base text-white/80 italic leading-relaxed font-light">
                    Designed for organized traders who demand professional record keeping.
                  </p>
@@ -213,7 +213,7 @@ export default function DepositHistory() {
                       <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:scale-110 transition-transform">
                         {React.cloneElement(feature.icon, { size: 60, className: "text-white" })}
                       </div>
-                      <h4 className="text-lg font-bold text-white mb-2 uppercase tracking-tight italic relative z-10">{feature.t}</h4>
+                      <h4 className="text-lg font-normal text-white mb-2 uppercase tracking-tight italic relative z-10">{feature.t}</h4>
                       <p className="text-white/80 text-sm leading-relaxed font-light italic relative z-10">{feature.d}</p>
                    </div>
                  ))}
@@ -225,17 +225,17 @@ export default function DepositHistory() {
                   <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:scale-110 transition-transform duration-1000">
                     <History size={120} className="text-amber-400" />
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-6 tracking-tight uppercase border-b border-white/20 pb-4">Archive Access</h3>
+                  <h3 className="text-2xl font-normal text-white mb-6 tracking-tight uppercase border-b border-white/20 pb-4">Archive Access</h3>
                   <div className="space-y-6 relative z-10">
-                     <p className="text-base text-amber-400 font-bold leading-tight italic">
+                     <p className="text-base text-amber-400 font-normal leading-tight italic">
                        Professionalism starts with good records. Login to Your Portal to access your complete funding history.
                      </p>
                      <p className="text-white/80 text-sm font-light italic">
                         Access your transparent and permanent financial trail from anywhere in the world.
                      </p>
                      <button 
-                        onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                        className="w-full py-4 bg-white text-black font-bold hover:bg-amber-400 transition-all text-sm uppercase tracking-tight italic rounded-xl shadow-lg">
+                        onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                        className="w-full py-4 bg-white text-black font-normal hover:bg-amber-400 transition-all text-sm uppercase tracking-tight italic rounded-xl shadow-lg">
                         Login to Portal
                      </button>
                   </div>
@@ -249,8 +249,8 @@ export default function DepositHistory() {
       <section className="py-24 relative bg-[#02040a] border-y border-white/10">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">How to View <br/> Forex Deposit History</h2>
-            <p className="text-amber-400 text-sm font-bold uppercase tracking-[0.2em]">Simple 3-step archival access</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">How to View <br/> Forex Deposit History</h2>
+            <p className="text-amber-400 text-sm font-normal uppercase tracking-[0.2em]">Simple 3-step archival access</p>
           </div>
 
           <div className="max-w-3xl mx-auto relative">
@@ -259,17 +259,17 @@ export default function DepositHistory() {
 
              <div className="space-y-16">
                 {[
-                  { n: "01", t: "Login", d: "Access your secure Fxcelite client area.", icon: <Lock />, align: "left" },
+                  { n: "01", t: "Login", d: "Access your secure FXCELITE client area.", icon: <Lock />, align: "left" },
                   { n: "02", t: "Navigate to Funds", d: "Click on 'History' and select deposit history trading account.", icon: <Database />, align: "right" },
                   { n: "03", t: "Review & Filter", d: "You can look for the particular deposit transaction information relating to forex trading using the search tools provided.", icon: <Search />, align: "left" },
                 ].map((step, i) => (
                   <div key={i} className={`flex flex-col ${step.align === 'right' ? 'md:flex-row-reverse' : 'md:flex-row'} items-center gap-8 relative`}>
                      <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-4 h-4 bg-black border-2 border-amber-500 rounded-full z-20 hidden md:block shadow-[0_0_10px_#f59e0b]"></div>
                      <div className="md:w-1/2 w-full text-center md:text-left">
-                        <div className={`inline-flex items-center justify-center w-12 h-12 bg-white/10 border border-white/20 text-lg font-bold italic text-amber-400 mb-4 rounded-xl shadow-lg`}>
+                        <div className={`inline-flex items-center justify-center w-12 h-12 bg-white/10 border border-white/20 text-lg font-normal italic text-amber-400 mb-4 rounded-xl shadow-lg`}>
                            {step.n}
                         </div>
-                        <h3 className="text-2xl font-bold text-white uppercase italic tracking-tight mb-3">{step.t}</h3>
+                        <h3 className="text-2xl font-normal text-white uppercase italic tracking-tight mb-3">{step.t}</h3>
                         <p className="text-sm text-white/80 font-light leading-relaxed italic md:max-w-sm">{step.d}</p>
                      </div>
                      <div className="md:w-1/2 w-full flex justify-center">
@@ -297,7 +297,7 @@ export default function DepositHistory() {
                       <div className="w-12 h-12 bg-amber-500 flex items-center justify-center text-black rounded-xl">
                          <Lock size={24} />
                       </div>
-                      <h2 className="text-2xl font-bold text-white tracking-tight uppercase italic">Security & <br/> Transparency</h2>
+                      <h2 className="text-2xl font-normal text-white tracking-tight uppercase italic">Security & <br/> Transparency</h2>
                    </div>
                    <div className="text-base text-white/90 leading-relaxed font-light italic space-y-6">
                       <p>We realize that your online access to trading deposit history is a very sensitive activity. This is why our secure deposit history trading account is built on the same bank-grade encryption that our trading terminals use.</p>
@@ -310,8 +310,8 @@ export default function DepositHistory() {
 
              <div className="space-y-10 lg:p-8">
                 <div className="space-y-4">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic leading-tight">Who is This <br/> For?</h2>
-                  <p className="text-amber-400 font-bold uppercase tracking-[0.2em] text-xs">Professional Archival Profiles</p>
+                  <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic leading-tight">Who is This <br/> For?</h2>
+                  <p className="text-amber-400 font-normal uppercase tracking-[0.2em] text-xs">Professional Archival Profiles</p>
                 </div>
                 <div className="grid gap-4">
                    {[
@@ -325,7 +325,7 @@ export default function DepositHistory() {
                          {React.cloneElement(item.icon, { size: 24 })}
                        </div>
                        <div>
-                         <span className="text-white text-lg font-bold uppercase tracking-tight italic">{item.l}</span>
+                         <span className="text-white text-lg font-normal uppercase tracking-tight italic">{item.l}</span>
                          <p className="text-white/80 text-sm font-light italic leading-relaxed">{item.d}</p>
                        </div>
                      </div>
@@ -339,21 +339,21 @@ export default function DepositHistory() {
       {/* --- FINAL CTA: THE RECORD GATE --- */}
       <section className="py-24 bg-[#02040a] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why Fxcelite for Transparent <br/> Record Keeping?</h2>
+           <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic">Why FXCELITE for Transparent <br/> Record Keeping?</h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto">
-             Given our commitment to helping you have a secure deposit history trading account, as well as view your deposit history in a user-friendly fashion, Fxcelite remains the best trading platform for organized traders. We offer you the tools you need to not only successfully navigate your trading endeavors, but your financial life as a whole.
+             Given our commitment to helping you have a secure deposit history trading account, as well as view your deposit history in a user-friendly fashion, FXCELITE remains the best trading platform for organized traders. We offer you the tools you need to not only successfully navigate your trading endeavors, but your financial life as a whole.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
                 <div className="absolute -inset-2 bg-amber-500 rounded-2xl blur opacity-40 group-hover:opacity-80 transition duration-1000"></div>
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                  className="relative px-12 py-5 bg-white text-black font-bold text-lg transition-all shadow-[0_20px_60px_-15px_rgba(245,158,11,0.4)] uppercase tracking-tight italic hover:-translate-y-1 rounded-xl">
+                  onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                  className="relative px-12 py-5 bg-white text-black font-normal text-lg transition-all shadow-[0_20px_60px_-15px_rgba(245,158,11,0.4)] uppercase tracking-tight italic hover:-translate-y-1 rounded-xl">
                   Check Your Deposit History
                 </button>
               </div>
               <div className="space-y-4">
-                <p className="text-amber-400 font-bold uppercase tracking-[0.2em] text-xs italic">Total transparency, one click away.</p>
+                <p className="text-amber-400 font-normal uppercase tracking-[0.2em] text-xs italic">Total transparency, one click away.</p>
                 <div className="flex justify-center gap-2">
                    <div className="w-8 h-[2px] bg-white/30"></div>
                    <div className="w-16 h-[2px] bg-amber-400 animate-pulse"></div>
@@ -368,13 +368,13 @@ export default function DepositHistory() {
       <section className="py-24 border-t border-white/10 bg-black">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic underline decoration-amber-500 decoration-4 underline-offset-[8px]">Archive FAQ</h2>
-            <p className="text-white/80 font-bold uppercase tracking-widest text-sm italic font-mono pt-4">[ Records Knowledge Base ]</p>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic underline decoration-amber-500 decoration-4 underline-offset-[8px]">Archive FAQ</h2>
+            <p className="text-white/80 font-normal uppercase tracking-widest text-sm italic font-mono pt-4">[ Records Knowledge Base ]</p>
           </div>
           
           <div className="space-y-px bg-white/20 border border-white/20 rounded-2xl overflow-hidden">
             {[
-              { q: "1. Can I view my deposit history anywhere?", a: "It can be viewed in your client portal with Fxcelite, in the 'Fund' tab or 'History' tab." },
+              { q: "1. Can I view my deposit history anywhere?", a: "It can be viewed in your client portal with FXCELITE, in the 'Fund' tab or 'History' tab." },
               { q: "2. Can I delete my deposit history?", a: "No, for security and regulatory compliance reasons, our records store your trading account deposit history permanently." },
               { q: "3. How far back does deposit history go?", a: "We store your online trading deposit history since the first day you opened your account with us." },
               { q: "4. Can I download my transaction history?", a: "Yes, you can export your history as a PDF or CSV file for your personal records." },
@@ -404,7 +404,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-white/90 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-white/90 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 flex items-center justify-center shrink-0 transition-all duration-500 ml-4 rounded-lg ${

@@ -23,7 +23,7 @@ export default function AffiliateBenefits() {
 
             {/* LEVEL 1 */}
             <div>
-              <h3 className="text-lg font-bold text-white mb-3">
+              <h3 className="text-lg font-normal text-white mb-3">
                 <span className="text-emerald-400 mr-2">➔</span>
                 Level 1: Standard Partner
               </h3>
@@ -35,7 +35,7 @@ export default function AffiliateBenefits() {
 
             {/* LEVEL 2 */}
             <div>
-              <h3 className="text-lg font-bold text-white mb-3">
+              <h3 className="text-lg font-normal text-white mb-3">
                 <span className="text-emerald-400 mr-2">➔</span>
                 Level 2: Premium Partner
               </h3>
@@ -56,7 +56,7 @@ export default function AffiliateBenefits() {
 
             {/* LEVEL 3 */}
             <div>
-              <h3 className="text-lg font-bold text-white mb-3">
+              <h3 className="text-lg font-normal text-white mb-3">
                 <span className="text-emerald-400 mr-2">➔</span>
                 Level 3: Elite Partner
               </h3>

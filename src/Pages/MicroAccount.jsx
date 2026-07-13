@@ -48,10 +48,10 @@ export default function MicroAccount() {
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/5 border border-cyan-500/20 backdrop-blur-md mb-8">
             <Sparkles size={14} className="text-cyan-400" />
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-cyan-400">Micro Precision Trading</span>
+            <span className="text-xs font-normal uppercase tracking-[0.2em] text-cyan-400">Micro Precision Trading</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6">
+          <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6">
             Micro Trading <span className="text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-cyan-500/50">Account</span>
           </h1>
           
@@ -64,31 +64,31 @@ export default function MicroAccount() {
                 <div className="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-5 group-hover:scale-110 transition-transform">
                   <Scaling size={24} />
                 </div>
-                <h3 className="text-white font-bold text-lg mb-2 tracking-tight italic">Micro Lots</h3>
+                <h3 className="text-white font-normal text-lg mb-2 tracking-tight italic">Micro Lots</h3>
                 <p className="text-sm text-slate-500 leading-relaxed">Trade in "Micro Lots" which are 1/100th of a standard lot. Perfect for tight risk control.</p>
              </div>
              <div className="p-8 rounded-3xl bg-white/[0.03] border border-white/10 backdrop-blur-xl group hover:border-blue-500/30 transition-all duration-500">
                 <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-5 group-hover:scale-110 transition-transform">
                   <BadgePercent size={24} />
                 </div>
-                <h3 className="text-white font-bold text-lg mb-2 tracking-tight italic">Low Entry</h3>
+                <h3 className="text-white font-normal text-lg mb-2 tracking-tight italic">Low Entry</h3>
                 <p className="text-sm text-slate-500 leading-relaxed">Take advantage of our micro forex account with low entry requirements and affordable deposits.</p>
              </div>
              <div className="p-8 rounded-3xl bg-white/[0.03] border border-white/10 backdrop-blur-xl group hover:border-cyan-500/30 transition-all duration-500">
                 <div className="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-5 group-hover:scale-110 transition-transform">
                   <Zap size={24} />
                 </div>
-                <h3 className="text-white font-bold text-lg mb-2 tracking-tight italic">Fast Execution</h3>
+                <h3 className="text-white font-normal text-lg mb-2 tracking-tight italic">Fast Execution</h3>
                 <p className="text-sm text-slate-500 leading-relaxed">Just like our Standard accounts, your orders are filled in milliseconds on our top-tier platforms.</p>
              </div>
           </div>
 
           <div className="flex flex-col items-center gap-6">
             <a 
-              href="https://trade.fxcelite.com/register"
+              href="https://trade.FXCELITE.com/register"
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block px-10 py-4 rounded-2xl bg-white text-black font-bold text-base hover:bg-cyan-400 transition-all shadow-[0_15px_40px_-15px_rgba(6,182,212,0.4)] hover:-translate-y-1 active:scale-95 text-center"
+              className="inline-block px-10 py-4 rounded-2xl bg-white text-black font-normal text-base hover:bg-cyan-400 transition-all shadow-[0_15px_40px_-15px_rgba(6,182,212,0.4)] hover:-translate-y-1 active:scale-95 text-center"
             >
               Open Your Micro Trading Account
             </a>
@@ -101,7 +101,7 @@ export default function MicroAccount() {
         {/* Scroll Line */}
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
            <div className="w-[1px] h-10 bg-gradient-to-b from-cyan-500 to-transparent"></div>
-           <span className="text-[10px] font-bold text-cyan-500/50 uppercase tracking-[0.2em]">Scroll Down</span>
+           <span className="text-[10px] font-normal text-cyan-500/50 uppercase tracking-[0.2em]">Scroll Down</span>
         </div>
       </section>
 
@@ -110,7 +110,7 @@ export default function MicroAccount() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8 order-2 lg:order-1">
-              <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight leading-tight">
+              <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight leading-tight">
                 What Is a <br/> Micro Trading Account?
               </h2>
               <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
@@ -118,7 +118,7 @@ export default function MicroAccount() {
                   Nevertheless, it can be very frightening for many first time traders to go from a micro account to a live market. This is where a micro trading account steps in. A micro trading account is designed for those traders who want to experience the market without risking their financial situation.
                 </p>
                 <p>
-                  Fxcelite's micro forex trading account allows you to trade with much smaller contract sizes. At Fxcelite, we have the conviction that global markets should be accessible to everyone regardless of how little capital they start with.
+                  FXCELITE's micro forex trading account allows you to trade with much smaller contract sizes. At FXCELITE, we have the conviction that global markets should be accessible to everyone regardless of how little capital they start with.
                 </p>
                 <div className="p-6 rounded-2xl bg-cyan-500/5 border-l-4 border-cyan-500 backdrop-blur-sm">
                    <p className="text-white text-base font-medium leading-relaxed italic">
@@ -153,7 +153,7 @@ export default function MicroAccount() {
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight mb-4">Why Choose a Micro <br/>Account for Beginners?</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight mb-4">Why Choose a Micro <br/>Account for Beginners?</h2>
             <p className="text-slate-500 text-base font-light leading-relaxed max-w-2xl">Choosing a micro account for beginners is a strategic move to build confidence. It offers a "middle ground" between a risk-free demo and a high-stakes professional account.</p>
           </div>
 
@@ -170,7 +170,7 @@ export default function MicroAccount() {
                 <div className={`w-12 h-12 rounded-xl bg-${item.color}-500/10 flex items-center justify-center text-${item.color}-400 mb-6 border border-${item.color}-500/10 group-hover:scale-110 transition-transform`}>
                   {item.icon}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3 tracking-tight">{item.title}</h3>
+                <h3 className="text-lg font-normal text-white mb-3 tracking-tight">{item.title}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed font-medium">{item.desc}</p>
               </div>
             ))}
@@ -184,7 +184,7 @@ export default function MicroAccount() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-7 space-y-10">
                <div>
-                 <h2 className="text-2xl md:text-3xl font-bold text-white tracking-tight mb-4 uppercase">Key Features of the <br/>Micro Trading Account</h2>
+                 <h2 className="text-2xl md:text-3xl font-normal text-white tracking-tight mb-4 uppercase">Key Features of the <br/>Micro Trading Account</h2>
                  <p className="text-base text-slate-500 italic leading-relaxed font-light">
                    Our micro trading account features ensure that while your risk is small, your trading experience is professional and high-quality.
                  </p>
@@ -203,7 +203,7 @@ export default function MicroAccount() {
                         {React.cloneElement(feature.icon, { size: 20 })}
                       </div>
                       <div className="space-y-1">
-                        <h4 className="text-base font-bold text-white group-hover:text-cyan-400 transition-colors uppercase tracking-tight">{feature.t}</h4>
+                        <h4 className="text-base font-normal text-white group-hover:text-cyan-400 transition-colors uppercase tracking-tight">{feature.t}</h4>
                         <p className="text-slate-400 text-sm leading-relaxed">{feature.d}</p>
                       </div>
                    </div>
@@ -223,10 +223,10 @@ export default function MicroAccount() {
                   <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 blur-[60px] rounded-full"></div>
                   
                   <div className="relative z-10">
-                    <h3 className="text-2xl font-bold text-white mb-6 tracking-tight">Trading Conditions</h3>
+                    <h3 className="text-2xl font-normal text-white mb-6 tracking-tight">Trading Conditions</h3>
                     <div className="space-y-6">
                        <div className="space-y-4 text-base text-slate-300 leading-relaxed font-light">
-                          <p>At Fxcelite, we make sure that our micro account forex terms are always fair and transparent. Even with smaller trade volumes, you can enjoy full access to our global liquidity.</p>
+                          <p>At FXCELITE, we make sure that our micro account forex terms are always fair and transparent. Even with smaller trade volumes, you can enjoy full access to our global liquidity.</p>
                           <p>Our Trading Conditions are designed to ensure that your low risk trading account for beginners always works well even during high volatility trading sessions.</p>
                           <p>We also make sure that the Deposit and Withdrawal process is seamless so that you can focus on your growth as a trader.</p>
                        </div>
@@ -235,10 +235,10 @@ export default function MicroAccount() {
                             Perfect your strategy with real skin in the game. Sign Up for a Micro Account and trade with precision.
                           </p>
                           <a 
-                            href="https://trade.fxcelite.com/register"
+                            href="https://trade.FXCELITE.com/register"
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className="block text-center w-full py-4 rounded-xl bg-white text-black font-bold hover:bg-cyan-400 transition-all text-base shadow-lg shadow-cyan-500/20"
+                            className="block text-center w-full py-4 rounded-xl bg-white text-black font-normal hover:bg-cyan-400 transition-all text-base shadow-lg shadow-cyan-500/20"
                           >
                              Sign Up for a Micro Account
                           </a>
@@ -255,7 +255,7 @@ export default function MicroAccount() {
       <section className="py-24 bg-[#020410] relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight mb-4">How to Open a <br/>Micro Trading Account</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight mb-4">How to Open a <br/>Micro Trading Account</h2>
             <p className="text-slate-500 text-sm md:text-base font-medium uppercase tracking-[0.1em]">Joining the world of online forex trading is simple:</p>
           </div>
 
@@ -268,13 +268,13 @@ export default function MicroAccount() {
               { n: "05", t: "Trade", d: "Begin trading with 0.01 lots and build your account at your preferred speed.", icon: <TrendingUp /> },
             ].map((step, i) => (
               <div key={i} className="group relative p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] hover:border-cyan-500/40 transition-all duration-300 text-center mt-6 lg:mt-0">
-                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-8 rounded-lg bg-[#020410] border border-white/10 flex items-center justify-center font-bold text-sm text-cyan-400 group-hover:bg-cyan-400 group-hover:text-black transition-all">
+                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-8 rounded-lg bg-[#020410] border border-white/10 flex items-center justify-center font-normal text-sm text-cyan-400 group-hover:bg-cyan-400 group-hover:text-black transition-all">
                     {step.n}
                  </div>
                  <div className="w-12 h-12 rounded-full bg-cyan-500/5 text-cyan-400 flex items-center justify-center mx-auto mb-4 border border-cyan-500/10 group-hover:scale-110 transition-transform mt-2">
                    {React.cloneElement(step.icon, { size: 20 })}
                  </div>
-                 <h4 className="text-base font-bold text-white mb-2 tracking-tight leading-tight">{step.t}</h4>
+                 <h4 className="text-base font-normal text-white mb-2 tracking-tight leading-tight">{step.t}</h4>
                  <p className="text-sm text-slate-500 leading-relaxed font-medium">{step.d}</p>
               </div>
             ))}
@@ -303,10 +303,10 @@ export default function MicroAccount() {
                    <div className="w-12 h-12 rounded-xl bg-cyan-500/20 flex items-center justify-center text-cyan-400 border border-cyan-500/30">
                      <Shield size={24} />
                    </div>
-                   <h2 className="text-2xl font-bold text-white tracking-tight">Security & Reliability</h2>
+                   <h2 className="text-2xl font-normal text-white tracking-tight">Security & Reliability</h2>
                  </div>
                  <p className="text-base text-slate-300 leading-relaxed font-light italic">
-                   Even with a low deposit trading account, your security is our priority. At FXCElite, your data and funds are protected by advanced encryption. Your funds are held in segregated accounts, ensuring a secure micro account for small traders to grow their portfolios.
+                   Even with a low deposit trading account, your security is our priority. At FXCELITE, your data and funds are protected by advanced encryption. Your funds are held in segregated accounts, ensuring a secure micro account for small traders to grow their portfolios.
                  </p>
                </div>
             </div>
@@ -326,7 +326,7 @@ export default function MicroAccount() {
                     <div className="w-12 h-12 rounded-xl bg-blue-500/20 flex items-center justify-center text-blue-400 border border-blue-500/30">
                       <UserCheck size={24} />
                     </div>
-                    <h2 className="text-2xl font-bold text-white tracking-tight">Who Should Use?</h2>
+                    <h2 className="text-2xl font-normal text-white tracking-tight">Who Should Use?</h2>
                  </div>
                  <div className="grid gap-4">
                     {[
@@ -338,7 +338,7 @@ export default function MicroAccount() {
                       <div key={i} className="flex gap-3 group/item">
                         <div className="shrink-0 w-1.5 h-1.5 rounded-full bg-cyan-500 mt-2 shadow-[0_0_10px_#06b6d4] group-hover/item:scale-150 transition-transform"></div>
                         <div className="text-sm md:text-base">
-                          <span className="text-white font-bold">{item.l}: </span>
+                          <span className="text-white font-normal">{item.l}: </span>
                           <span className="text-slate-400 font-light leading-relaxed">{item.d}</span>
                         </div>
                       </div>
@@ -353,21 +353,21 @@ export default function MicroAccount() {
       {/* --- ELITE CHOICE FINALE --- */}
       <section className="py-24 relative">
         <div className="max-w-3xl mx-auto px-6 text-center space-y-8">
-           <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight leading-tight">Why FXCElite Is The Best Choice?</h2>
+           <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight leading-tight">Why FXCELITE Is The Best Choice?</h2>
            <p className="text-base md:text-lg text-slate-400 leading-relaxed font-light">
              We provide a micro trading account that doesn’t compromise on quality. With institutional-grade execution and a supportive environment, we help you bridge the gap to professional trading.
            </p>
            <div className="space-y-6 pt-4">
               <a 
-                href="https://trade.fxcelite.com/register"
+                href="https://trade.FXCELITE.com/register"
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-block text-center px-10 py-4 rounded-2xl bg-white text-black font-bold text-base hover:bg-cyan-400 transition-all shadow-[0_15px_40px_-15px_rgba(6,182,212,0.4)] hover:-translate-y-1"
+                className="inline-block text-center px-10 py-4 rounded-2xl bg-white text-black font-normal text-base hover:bg-cyan-400 transition-all shadow-[0_15px_40px_-15px_rgba(6,182,212,0.4)] hover:-translate-y-1"
               >
                 Launch Your Micro Account Today
               </a>
               <div className="flex flex-col items-center gap-3">
-                 <p className="text-cyan-400 font-bold uppercase tracking-widest text-xs">
+                 <p className="text-cyan-400 font-normal uppercase tracking-widest text-xs">
                    Start small, dream big. Join us today!
                  </p>
                  <div className="flex gap-1.5">
@@ -384,7 +384,7 @@ export default function MicroAccount() {
       <section className="py-24 border-t border-white/5">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight mb-3">Frequently Asked</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight mb-3">Frequently Asked</h2>
             <p className="text-slate-500 font-medium uppercase tracking-widest text-sm">Micro Account Knowledge Base</p>
           </div>
           
@@ -397,7 +397,7 @@ export default function MicroAccount() {
               { q: "5. What is a micro lot size?", a: "A micro lot is 0.01 of a standard lot, which is 1,000 units of the base currency." },
               { q: "6. Does a micro account have the same characteristics as a standard account?", a: "Yes, you get the same micro trading account features, including fast execution and powerful charting." },
               { q: "7. Can I use leverage on a micro account?", a: "Absolutely. Leverage is available to help you manage your positions effectively." },
-              { q: "8. Is the execution speed slow on micro accounts?", a: "Not at all. At Fxcelite, we offer a micro account with fast execution on all account types." },
+              { q: "8. Is the execution speed slow on micro accounts?", a: "Not at all. At FXCELITE, we offer a micro account with fast execution on all account types." },
               { q: "9. How do I manage my risk?", a: "With micro lots, you can risk a few cents or dollars per trade, which is perfect for learning." },
               { q: "10. How do I open a micro trading account?", a: "Just register on our website, choose the 'Micro' account type, and you are ready to trade." },
             ].map((faq, i) => (
@@ -422,7 +422,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-base md:text-lg transition-colors ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
+        <span className={`font-normal text-base md:text-lg transition-colors ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex shrink-0 items-center justify-center transition-all duration-300 ml-4 ${

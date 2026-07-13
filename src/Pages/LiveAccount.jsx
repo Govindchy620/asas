@@ -51,15 +51,15 @@ export default function LiveAccount() {
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-6 py-2 rounded-full bg-emerald-500/5 border border-emerald-500/20 backdrop-blur-md mb-10 animate-fade-in">
             <Sparkles size={16} className="text-emerald-400" />
-            <span className="text-xs font-bold uppercase tracking-[0.3em] text-emerald-400 italic">Institutional Grade Environment</span>
+            <span className="text-xs font-normal uppercase tracking-[0.3em] text-emerald-400 italic">Institutional Grade Environment</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-8">
+          <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-8">
             Live Trading <span className="text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-emerald-500/50">Account</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-slate-400 max-w-5xl mx-auto leading-relaxed font-light mb-8 uppercase tracking-tighter">
-            Start Trading with Real Money at Fxcelite
+            Start Trading with Real Money at FXCELITE
           </p>
 
           <div className="max-w-3xl mx-auto text-base md:text-lg text-slate-500 leading-relaxed font-light mb-12 px-4">
@@ -68,11 +68,11 @@ export default function LiveAccount() {
 
           <div className="flex flex-col items-center gap-6">
             <button 
-              onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-              className="px-12 py-5 rounded-full bg-white text-black font-black text-lg hover:bg-emerald-400 transition-all shadow-[0_20px_60px_-15px_rgba(16,185,129,0.4)] hover:-translate-y-1 active:scale-95">
+              onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+              className="px-12 py-5 rounded-full bg-white text-black font-normal text-lg hover:bg-emerald-400 transition-all shadow-[0_20px_60px_-15px_rgba(16,185,129,0.4)] hover:-translate-y-1 active:scale-95">
               Open Your Live Trading Account
             </button>
-            <p className="text-emerald-400 text-sm font-bold uppercase tracking-[0.2em] italic">
+            <p className="text-emerald-400 text-sm font-normal uppercase tracking-[0.2em] italic">
               Ready to turn your analysis into action? Start trading today!
             </p>
           </div>
@@ -91,11 +91,11 @@ export default function LiveAccount() {
             <div className="space-y-8">
               <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                 <p>
-                  At Fxcelite, we create an environment for a live forex trading account which is highly capable of supporting the dynamic and fast-changing global market needs. Our live trading environment is perfect for retail traders as well as professionals to have a flawless, fair, and safe trading experience.
+                  At FXCELITE, we create an environment for a live forex trading account which is highly capable of supporting the dynamic and fast-changing global market needs. Our live trading environment is perfect for retail traders as well as professionals to have a flawless, fair, and safe trading experience.
                 </p>
                 <div className="p-6 rounded-3xl bg-emerald-500/5 border-l-4 border-emerald-400 backdrop-blur-xl relative overflow-hidden group">
                    <img src="https://images.unsplash.com/photo-1551288049-bbbda536339a?q=80&w=2070&auto=format&fit=crop" className="absolute inset-0 w-full h-full object-cover opacity-[0.05] group-hover:scale-105 transition-transform duration-[2000ms]" alt="" />
-                   <p className="text-white text-lg font-bold leading-relaxed relative z-10 italic">
+                   <p className="text-white text-lg font-normal leading-relaxed relative z-10 italic">
                      "Through a live trading account, you get the chance to enjoy institutional-level liquidity and state of the art technology."
                    </p>
                 </div>
@@ -117,7 +117,7 @@ export default function LiveAccount() {
                  <div className="absolute bottom-6 left-6 right-6 p-8 rounded-2xl bg-black/80 backdrop-blur-xl border border-white/10">
                     <div className="flex items-center gap-4 mb-4">
                       <TrendingUp size={24} className="text-emerald-400" />
-                      <span className="text-white text-xl font-bold tracking-tight uppercase">What is a Live Account?</span>
+                      <span className="text-white text-xl font-normal tracking-tight uppercase">What is a Live Account?</span>
                     </div>
                     <p className="text-slate-400 text-sm leading-relaxed font-medium">
                       A live trading account allows you to trade with real money in the financial markets. In contrast to the Demo account, operating with real money means real profit and real loss.
@@ -136,8 +136,8 @@ export default function LiveAccount() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase">Difference Between <br/> Demo and Live Account</h2>
-            <p className="text-emerald-400 text-sm font-bold uppercase tracking-[0.2em]">Crucial for long-term success</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase">Difference Between <br/> Demo and Live Account</h2>
+            <p className="text-emerald-400 text-sm font-normal uppercase tracking-[0.2em]">Crucial for long-term success</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -151,7 +151,7 @@ export default function LiveAccount() {
                 <div className={`w-16 h-16 rounded-2xl bg-${item.color === 'emerald' ? 'emerald-500/10' : 'white/5'} flex items-center justify-center text-${item.color === 'emerald' ? 'emerald-400' : 'white'} mb-6 border border-white/10 group-hover:scale-110 transition-transform`}>
                    {React.cloneElement(item.icon, { size: 28 })}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3 tracking-tight uppercase">{item.title}</h3>
+                <h3 className="text-lg font-normal text-white mb-3 tracking-tight uppercase">{item.title}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed font-medium">{item.desc}</p>
               </div>
             ))}
@@ -164,10 +164,10 @@ export default function LiveAccount() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 flex flex-col lg:flex-row lg:items-end justify-between gap-6">
             <div className="max-w-2xl space-y-4">
-              <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Why Choose Fxcelite for Your <br/> Live Trading Account?</h2>
+              <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight">Why Choose FXCELITE for Your <br/> Live Trading Account?</h2>
               <p className="text-slate-500 text-base font-medium leading-relaxed italic">We focus on the three pillars of trading: speed, cost, and security.</p>
             </div>
-            <div className="shrink-0 flex items-center gap-3 text-emerald-400 font-bold uppercase tracking-[0.2em] text-xs">
+            <div className="shrink-0 flex items-center gap-3 text-emerald-400 font-normal uppercase tracking-[0.2em] text-xs">
                <div className="w-10 h-[1px] bg-emerald-500/30"></div>
                Elite Selection
             </div>
@@ -189,7 +189,7 @@ export default function LiveAccount() {
                 <div className="w-14 h-14 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 mb-6 border border-emerald-500/10 group-hover:scale-110 transition-transform">
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3 tracking-tight uppercase leading-tight">{item.title}</h3>
+                <h3 className="text-xl font-normal text-white mb-3 tracking-tight uppercase leading-tight">{item.title}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed font-medium">{item.desc}</p>
               </div>
             ))}
@@ -203,7 +203,7 @@ export default function LiveAccount() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-7 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic">Key Features of the Live Account</h2>
+                 <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic">Key Features of the Live Account</h2>
                  <p className="text-base text-slate-500 italic leading-relaxed font-light">
                    Our live trading account for beginners and pros alike includes a suite of premium features.
                  </p>
@@ -222,7 +222,7 @@ export default function LiveAccount() {
                         {React.cloneElement(feature.icon, { size: 24 })}
                       </div>
                       <div className="space-y-1">
-                        <h4 className="text-lg font-bold text-white group-hover:text-emerald-400 transition-colors uppercase tracking-tight">{feature.t}</h4>
+                        <h4 className="text-lg font-normal text-white group-hover:text-emerald-400 transition-colors uppercase tracking-tight">{feature.t}</h4>
                         <p className="text-slate-400 text-sm leading-relaxed">{feature.d}</p>
                       </div>
                    </div>
@@ -233,18 +233,18 @@ export default function LiveAccount() {
             <div className="lg:col-span-5 lg:sticky lg:top-32 space-y-8">
                <div className="relative p-8 rounded-3xl bg-[#0B0E2A] border border-white/10 shadow-2xl overflow-hidden group">
                   <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc51?q=80&w=2026&auto=format&fit=crop" className="absolute inset-0 w-full h-full object-cover opacity-[0.05] group-hover:scale-105 transition-transform duration-1000" alt="" />
-                  <h3 className="text-2xl font-bold text-white mb-6 tracking-tight uppercase relative z-10">Trade with Confidence</h3>
+                  <h3 className="text-2xl font-normal text-white mb-6 tracking-tight uppercase relative z-10">Trade with Confidence</h3>
                   <div className="space-y-6 relative z-10">
                      <p className="text-base text-emerald-400 font-medium leading-relaxed italic">
                        Experience the best live forex trading account. Sign Up Now and trade with a broker that values your growth.
                      </p>
                      <div className="space-y-4 text-sm text-slate-400 leading-relaxed font-light italic">
-                        <p>When you trade with a professional live trading account at Fxcelite, security is our number one concern. We employ high-level SSL encryption to protect your information, and our site is constantly monitored for reliability.</p>
+                        <p>When you trade with a professional live trading account at FXCELITE, security is our number one concern. We employ high-level SSL encryption to protect your information, and our site is constantly monitored for reliability.</p>
                         <p>When trading with real money, you need a partner who adheres to strict financial guidelines to bring you peace of mind.</p>
                      </div>
                      <button
-                        onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                        className="w-full py-4 rounded-2xl bg-white text-black font-bold hover:bg-emerald-400 transition-all text-base shadow-lg shadow-emerald-500/20">
+                        onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                        className="w-full py-4 rounded-2xl bg-white text-black font-normal hover:bg-emerald-400 transition-all text-base shadow-lg shadow-emerald-500/20">
                         Sign Up Now
                      </button>
                   </div>
@@ -258,8 +258,8 @@ export default function LiveAccount() {
       <section className="py-24 bg-black relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase">How to Start Trading <br/> with a Live Account</h2>
-            <p className="text-emerald-400 text-sm font-bold uppercase tracking-[0.2em]">A Secure and Simple Process</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase">How to Start Trading <br/> with a Live Account</h2>
+            <p className="text-emerald-400 text-sm font-normal uppercase tracking-[0.2em]">A Secure and Simple Process</p>
           </div>
 
           <div className="grid lg:grid-cols-5 gap-6">
@@ -271,13 +271,13 @@ export default function LiveAccount() {
               { n: "05", t: "Trade", d: "Analyze the markets and execute your first trade.", icon: <TrendingUp /> },
             ].map((step, i) => (
               <div key={i} className="group relative p-8 rounded-3xl bg-white/[0.02] border border-white/5 hover:border-emerald-500/40 transition-all duration-500 text-center mt-6 lg:mt-0">
-                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-xl bg-black border border-emerald-500/20 flex items-center justify-center font-bold text-emerald-400 text-sm group-hover:bg-emerald-400 group-hover:text-black transition-all">
+                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-xl bg-black border border-emerald-500/20 flex items-center justify-center font-normal text-emerald-400 text-sm group-hover:bg-emerald-400 group-hover:text-black transition-all">
                     {step.n}
                  </div>
                  <div className="w-16 h-16 rounded-full bg-emerald-500/5 text-emerald-400 flex items-center justify-center mx-auto mb-6 border border-emerald-500/10 group-hover:scale-110 transition-transform mt-2">
                    {React.cloneElement(step.icon, { size: 24 })}
                  </div>
-                 <h4 className="text-lg font-bold text-white mb-3 tracking-tight uppercase">{step.t}</h4>
+                 <h4 className="text-lg font-normal text-white mb-3 tracking-tight uppercase">{step.t}</h4>
                  <p className="text-sm text-slate-500 leading-relaxed font-medium">{step.d}</p>
               </div>
             ))}
@@ -298,7 +298,7 @@ export default function LiveAccount() {
                     <div className="w-14 h-14 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 border border-emerald-500/20">
                       <Users size={28} />
                     </div>
-                    <h2 className="text-2xl font-bold text-white tracking-tight uppercase">Who is it For?</h2>
+                    <h2 className="text-2xl font-normal text-white tracking-tight uppercase">Who is it For?</h2>
                  </div>
                  <div className="grid gap-5">
                     {[
@@ -310,7 +310,7 @@ export default function LiveAccount() {
                       <div key={i} className="flex gap-4 group/item">
                         <div className="shrink-0 w-2 h-2 rounded-full bg-emerald-500 mt-2 shadow-[0_0_10px_#10b981] group-hover/item:scale-150 transition-transform"></div>
                         <div className="text-sm md:text-base">
-                          <span className="text-white font-bold uppercase tracking-tight">{item.l}: </span>
+                          <span className="text-white font-normal uppercase tracking-tight">{item.l}: </span>
                           <span className="text-slate-400 font-light leading-relaxed">{item.d}</span>
                         </div>
                       </div>
@@ -320,7 +320,7 @@ export default function LiveAccount() {
             </div>
 
             <div className="flex flex-col justify-center space-y-8 lg:p-8 text-center lg:text-left">
-               <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Why Fxcelite is The Best Choice?</h2>
+               <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight">Why FXCELITE is The Best Choice?</h2>
                <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light italic">
                  <p>
                    With an instant live trading account opening and a world-class trading environment, we offer the best experience in having a live forex trading account. We don't just offer a platform; we offer the bridge to your financial independence.
@@ -329,7 +329,7 @@ export default function LiveAccount() {
                    
                     <div className="flex items-center gap-3">
                        <div className="w-8 h-[1px] bg-white/20"></div>
-                       <span className="text-emerald-400 font-bold uppercase tracking-widest text-xs">Your trading career starts here</span>
+                       <span className="text-emerald-400 font-normal uppercase tracking-widest text-xs">Your trading career starts here</span>
                        <div className="w-8 h-[1px] bg-white/20"></div>
                     </div>
                  </div>
@@ -343,7 +343,7 @@ export default function LiveAccount() {
       <section className="py-24 border-t border-white/5 bg-[#010208]">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase">Frequently Asked</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase">Frequently Asked</h2>
             <p className="text-slate-500 font-medium uppercase tracking-widest text-sm italic">Live Account Knowledge Base</p>
           </div>
           
@@ -351,7 +351,7 @@ export default function LiveAccount() {
             {[
               { q: "1. How can I open a live trading account?", a: "It is very easy; you just need to click on the \"Sign Up\" button and fill in the required information, and then you will be able to open a live trading account." },
               { q: "2. What is the minimum deposit for a live trading account?", a: "We have different types of accounts to cater to the needs of all traders, no matter how much money they have." },
-              { q: "3. Is my money safe in a live trading account?", a: "Yes, at Fxcelite, we keep all of our clients' money in a separate account at a reputable bank." },
+              { q: "3. Is my money safe in a live trading account?", a: "Yes, at FXCELITE, we keep all of our clients' money in a separate account at a reputable bank." },
               { q: "4. What is the difference between demo and live account execution?", a: "Live account execution is done in real market conditions, while demo account execution is simulated." },
               { q: "5. How long does it take to open an instant live trading account?", a: "If your documents are in order, you can open an instant live trading account on the same day." },
               { q: "6. Can I trade using my mobile phone?", a: "Yes. Our live account forex trading platform is fully optimized for smartphones and tablets." },
@@ -380,7 +380,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors uppercase tracking-tight ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors uppercase tracking-tight ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex shrink-0 items-center justify-center transition-all duration-300 ml-4 ${

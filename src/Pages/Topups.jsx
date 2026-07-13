@@ -45,10 +45,10 @@ export default function Topups() {
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/5 border border-emerald-500/20 backdrop-blur-md mb-8 animate-fade-in">
             <Zap size={14} className="text-emerald-400" />
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-emerald-400">Instant Liquidity Deployment</span>
+            <span className="text-xs font-normal uppercase tracking-[0.2em] text-emerald-400">Instant Liquidity Deployment</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6">
+          <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6">
             Trading Account <br/> <span className="text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-emerald-500/50">Top Up</span>
           </h1>
           
@@ -57,16 +57,16 @@ export default function Topups() {
           </p>
 
           <div className="max-w-3xl mx-auto text-sm md:text-base text-slate-400 leading-relaxed font-light mb-12 px-4">
-            In the rapidly changing environment of financial markets, timing is a crucial factor. It is indeed very irritating when one loses the chance of making money due to a lack of funds. That's why we've made the process of depositing money to your trading account extremely simple. At Fxcelite, we offer multiple options for adding funds instantly, so you can take advantage of market changes without delay.
+            In the rapidly changing environment of financial markets, timing is a crucial factor. It is indeed very irritating when one loses the chance of making money due to a lack of funds. That's why we've made the process of depositing money to your trading account extremely simple. At FXCELITE, we offer multiple options for adding funds instantly, so you can take advantage of market changes without delay.
           </div>
 
           <div className="flex flex-col items-center gap-6">
             <button 
-              onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-              className="px-10 py-4 rounded-2xl bg-white text-black font-bold text-base hover:bg-emerald-400 transition-all shadow-[0_15px_40px_-15px_rgba(16,185,129,0.4)] hover:-translate-y-1 active:scale-95">
+              onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+              className="px-10 py-4 rounded-2xl bg-white text-black font-normal text-base hover:bg-emerald-400 transition-all shadow-[0_15px_40px_-15px_rgba(16,185,129,0.4)] hover:-translate-y-1 active:scale-95">
               Top Up Your Trading Account
             </button>
-            <p className="text-emerald-400 text-sm font-bold uppercase tracking-[0.2em] animate-pulse">
+            <p className="text-emerald-400 text-sm font-normal uppercase tracking-[0.2em] animate-pulse">
               Don't let your balance hold you back.
             </p>
           </div>
@@ -84,7 +84,7 @@ export default function Topups() {
           <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div className="space-y-10">
               <div className="space-y-6">
-                <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight leading-tight uppercase">
+                <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight leading-tight uppercase">
                   Why Speed Matters in <br/> Account Funding
                 </h2>
                 <div className="text-base text-slate-400 leading-relaxed font-light space-y-4">
@@ -110,7 +110,7 @@ export default function Topups() {
                       {React.cloneElement(item.icon, { size: 20 })}
                     </div>
                     <div className="space-y-1">
-                      <h4 className="text-base font-bold text-white group-hover:text-emerald-400 transition-colors uppercase tracking-tight">{item.t}</h4>
+                      <h4 className="text-base font-normal text-white group-hover:text-emerald-400 transition-colors uppercase tracking-tight">{item.t}</h4>
                       <p className="text-slate-500 text-sm leading-relaxed">{item.d}</p>
                     </div>
                   </div>
@@ -130,7 +130,7 @@ export default function Topups() {
                  <div className="absolute bottom-6 left-6 right-6 p-6 rounded-2xl bg-black/80 backdrop-blur-xl border border-white/10">
                     <div className="flex items-center gap-3 mb-4">
                       <Wallet size={24} className="text-emerald-400" />
-                      <span className="text-white text-xl font-bold tracking-tight uppercase">How to Add Funds</span>
+                      <span className="text-white text-xl font-normal tracking-tight uppercase">How to Add Funds</span>
                     </div>
                     <p className="text-slate-400 text-sm leading-relaxed font-medium mb-4">
                       We have made the trading account funding process simple and intuitive for all our users.
@@ -144,9 +144,9 @@ export default function Topups() {
                         { s: "Confirm", d: "Finish the secure process for instant balance updates." }
                       ].map((step, idx) => (
                         <div key={idx} className="flex gap-3 items-center">
-                          <div className="w-5 h-5 rounded-full bg-emerald-500 flex items-center justify-center text-black font-bold text-xs shrink-0">{idx + 1}</div>
+                          <div className="w-5 h-5 rounded-full bg-emerald-500 flex items-center justify-center text-black font-normal text-xs shrink-0">{idx + 1}</div>
                           <div>
-                            <span className="text-white font-bold text-sm">{step.s}: </span>
+                            <span className="text-white font-normal text-sm">{step.s}: </span>
                             <span className="text-slate-400 text-xs">{step.d}</span>
                           </div>
                         </div>
@@ -164,10 +164,10 @@ export default function Topups() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 flex flex-col lg:flex-row lg:items-end justify-between gap-6">
             <div className="max-w-2xl space-y-4">
-              <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Key Features of <br/> Fxcelite Top Ups</h2>
+              <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight">Key Features of <br/> FXCELITE Top Ups</h2>
               <p className="text-slate-500 text-base font-medium leading-relaxed italic">Our online trading account top up system is designed with a "Trader-First" philosophy.</p>
             </div>
-            <div className="shrink-0 flex items-center gap-3 text-emerald-400 font-bold uppercase tracking-[0.2em] text-xs">
+            <div className="shrink-0 flex items-center gap-3 text-emerald-400 font-normal uppercase tracking-[0.2em] text-xs">
                <div className="w-10 h-[1px] bg-emerald-500/30"></div>
                Seamless Experience
             </div>
@@ -189,7 +189,7 @@ export default function Topups() {
                 <div className="w-14 h-14 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 mb-6 border border-emerald-500/10 group-hover:scale-110 transition-transform">
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3 tracking-tight uppercase leading-tight">{item.title}</h3>
+                <h3 className="text-lg font-normal text-white mb-3 tracking-tight uppercase leading-tight">{item.title}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed font-medium">{item.desc}</p>
               </div>
             ))}
@@ -210,11 +210,11 @@ export default function Topups() {
                   <div className="w-14 h-14 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 border border-emerald-500/20">
                     <Lock size={24} />
                   </div>
-                  <h2 className="text-2xl font-bold text-white tracking-tight uppercase">Secure & Reliable</h2>
+                  <h2 className="text-2xl font-normal text-white tracking-tight uppercase">Secure & Reliable</h2>
                 </div>
                 <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                   <p>
-                    By opting for Fxcelite, you are opting for the best online broker for instant account top up. We understand that security is your topmost priority when it comes to adding funds to your trading account. Our system ensures your financial information is never stored on our servers and is processed by PCI-DSS compliant gateways.
+                    By opting for FXCELITE, you are opting for the best online broker for instant account top up. We understand that security is your topmost priority when it comes to adding funds to your trading account. Our system ensures your financial information is never stored on our servers and is processed by PCI-DSS compliant gateways.
                   </p>
                   <p className="text-white font-medium">
                     Are you currently using a Demo Account and ready to enter the live markets? Our online top up system is the bridge that helps you convert your practice into real-life profits.
@@ -225,8 +225,8 @@ export default function Topups() {
 
             <div className="space-y-10 lg:p-8">
               <div className="space-y-4 text-center lg:text-left">
-                <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase leading-tight">Top Up Methods <br/> Available</h2>
-                <p className="text-emerald-400 font-bold uppercase tracking-[0.2em] text-xs">Fastest options for global traders</p>
+                <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase leading-tight">Top Up Methods <br/> Available</h2>
+                <p className="text-emerald-400 font-normal uppercase tracking-[0.2em] text-xs">Fastest options for global traders</p>
               </div>
               <div className="grid gap-4">
                 {[
@@ -240,7 +240,7 @@ export default function Topups() {
                       {React.cloneElement(item.icon, { size: 24 })}
                     </div>
                     <div>
-                      <span className="text-white text-lg font-bold uppercase tracking-tight">{item.l}</span>
+                      <span className="text-white text-lg font-normal uppercase tracking-tight">{item.l}</span>
                       <p className="text-slate-400 text-sm font-light mt-1">{item.d}</p>
                     </div>
                   </div>
@@ -255,8 +255,8 @@ export default function Topups() {
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Who is This For?</h2>
-            <p className="text-emerald-400 text-sm font-bold uppercase tracking-[0.2em]">Fueling Every Strategy</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight">Who is This For?</h2>
+            <p className="text-emerald-400 text-sm font-normal uppercase tracking-[0.2em]">Fueling Every Strategy</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -270,7 +270,7 @@ export default function Topups() {
                  <div className="w-16 h-16 rounded-full bg-emerald-500/5 text-emerald-400 flex items-center justify-center mx-auto mb-6 border border-emerald-500/10 group-hover:scale-110 transition-transform shadow-[0_0_30px_-10px_rgba(16,185,129,0.3)]">
                    {React.cloneElement(item.icon, { size: 28 })}
                  </div>
-                 <h4 className="text-lg font-bold text-white mb-3 tracking-tight uppercase">{item.l}</h4>
+                 <h4 className="text-lg font-normal text-white mb-3 tracking-tight uppercase">{item.l}</h4>
                  <p className="text-sm text-slate-400 leading-relaxed font-light">{item.d}</p>
               </div>
             ))}
@@ -282,20 +282,20 @@ export default function Topups() {
       <section className="py-24 bg-black relative">
         <div className="max-w-4xl mx-auto px-6 text-center space-y-10">
           <div className="space-y-4">
-            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Why Fxcelite for <br/> Instant Funding?</h2>
-            <p className="text-emerald-400 font-bold uppercase tracking-[0.2em] text-xs">The Fuel for Your Success</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight">Why FXCELITE for <br/> Instant Funding?</h2>
+            <p className="text-emerald-400 font-normal uppercase tracking-[0.2em] text-xs">The Fuel for Your Success</p>
           </div>
           <div className="text-base md:text-lg text-slate-400 leading-relaxed font-light italic">
              With our emphasis on safe, secure top-ups and our dedication to zero-latency processing, we deliver the ultimate funding experience. We do not only deliver a top-up service; we deliver the fuel for your success.
           </div>
           <div className="space-y-8 pt-4">
               <button 
-                onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                className="px-12 py-5 rounded-2xl bg-white text-black font-bold text-lg hover:bg-emerald-400 transition-all shadow-[0_20px_60px_-15px_rgba(16,185,129,0.4)] hover:-translate-y-1">
+                onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                className="px-12 py-5 rounded-2xl bg-white text-black font-normal text-lg hover:bg-emerald-400 transition-all shadow-[0_20px_60px_-15px_rgba(16,185,129,0.4)] hover:-translate-y-1">
                 Top Up Now
               </button>
               <div className="flex flex-col items-center gap-4">
-                 <p className="text-emerald-400 font-bold uppercase tracking-[0.2em] text-xs">
+                 <p className="text-emerald-400 font-normal uppercase tracking-[0.2em] text-xs">
                    Take control of your capital. Trade with confidence today!
                  </p>
                  <div className="flex gap-2">
@@ -312,14 +312,14 @@ export default function Topups() {
       <section className="py-24 border-t border-white/5 bg-[#010208]">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase">Frequently Asked</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase">Frequently Asked</h2>
             <p className="text-slate-500 font-medium uppercase tracking-widest text-sm">Account Funding Knowledge Base</p>
           </div>
           
           <div className="space-y-4">
             {[
               { q: "1. How long does a trading account top up take?", a: "For most payment options such as cards and e-wallets, the forex account top up is done instantly." },
-              { q: "2. Is there a fee to add funds to my trading account?", a: "Fxcelite does not charge any deposit fees for a trading account funding top up, but your payment provider may." },
+              { q: "2. Is there a fee to add funds to my trading account?", a: "FXCELITE does not charge any deposit fees for a trading account funding top up, but your payment provider may." },
               { q: "3. What is the fastest way to top up a trading account?", a: "Credit/Debit card or a popular E-wallet is the fastest way to top up a trading account." },
               { q: "4. Is it safe to add money to my trading account online?", a: "Yes, we offer a safe and secure trading account top up environment with high-level encryption." },
               { q: "5. Can I top up my account using Cryptocurrency?", a: "Yes, we support multiple digital currencies for a fast and secure trading account top up." },
@@ -350,7 +350,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors uppercase tracking-tight ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors uppercase tracking-tight ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex shrink-0 items-center justify-center transition-all duration-500 ml-4 ${

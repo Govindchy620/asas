@@ -46,10 +46,10 @@ export default function StandardAccount() {
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/5 border border-emerald-500/20 backdrop-blur-md mb-8 animate-fade-in">
             <Sparkles size={14} className="text-emerald-400" />
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-emerald-400">Institutional Standard v2.0</span>
+            <span className="text-xs font-normal uppercase tracking-[0.2em] text-emerald-400">Institutional Standard v2.0</span>
           </div>
           
-          <h1 className="text-4xl md:text-5xl font-black text-white leading-[1.1] tracking-tight mb-6">
+          <h1 className="text-4xl md:text-5xl font-normal text-white leading-[1.1] tracking-tight mb-6">
             Standard Trading <span className="text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-emerald-500/50">Account</span>
           </h1>
           
@@ -62,31 +62,31 @@ export default function StandardAccount() {
                 <div className="w-10 h-10 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 mb-4">
                   <BadgePercent size={20} />
                 </div>
-                <h3 className="text-white font-bold text-base mb-2 italic tracking-tight">Commission-Free</h3>
+                <h3 className="text-white font-normal text-base mb-2 italic tracking-tight">Commission-Free</h3>
                 <p className="text-sm md:text-base text-slate-500 leading-relaxed">Enjoy a commission-free trading experience where all expenses are clearly reflected in the spread.</p>
              </div>
              <div className="p-6 rounded-3xl bg-white/[0.03] border border-white/10 backdrop-blur-xl group hover:border-cyan-500/30 transition-all">
                 <div className="w-10 h-10 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-4">
                   <Activity size={20} />
                 </div>
-                <h3 className="text-white font-bold text-base mb-2 italic tracking-tight">Consistent Performance</h3>
+                <h3 className="text-white font-normal text-base mb-2 italic tracking-tight">Consistent Performance</h3>
                 <p className="text-sm md:text-base text-slate-500 leading-relaxed">A powerful trading tool meant for consistency. Straightforward experience without complex calculations.</p>
              </div>
              <div className="p-6 rounded-3xl bg-white/[0.03] border border-white/10 backdrop-blur-xl group hover:border-emerald-500/30 transition-all">
                 <div className="w-10 h-10 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 mb-4">
                   <Layers size={20} />
                 </div>
-                <h3 className="text-white font-bold text-base mb-2 italic tracking-tight">Flexible Assets</h3>
+                <h3 className="text-white font-normal text-base mb-2 italic tracking-tight">Flexible Assets</h3>
                 <p className="text-sm md:text-base text-slate-500 leading-relaxed">Whether you are trading major currency pairs or CFDs, this account gives you the consistency you need.</p>
              </div>
           </div>
 
           <div className="flex flex-col items-center gap-6">
             <a 
-              href="https://trade.fxcelite.com/register"
+              href="https://trade.FXCELITE.com/register"
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block text-center px-10 py-4 rounded-2xl bg-white text-black font-bold text-base hover:bg-emerald-400 transition-all shadow-[0_15px_40px_-15px_rgba(16,185,129,0.3)] hover:-translate-y-1 active:scale-95"
+              className="inline-block text-center px-10 py-4 rounded-2xl bg-white text-black font-normal text-base hover:bg-emerald-400 transition-all shadow-[0_15px_40px_-15px_rgba(16,185,129,0.3)] hover:-translate-y-1 active:scale-95"
             >
               Open Your Standard Trading Account
             </a>
@@ -99,7 +99,7 @@ export default function StandardAccount() {
         {/* Scroll Indicator */}
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
            <div className="w-[1px] h-10 bg-gradient-to-b from-emerald-500 to-transparent"></div>
-           <span className="text-xs font-bold text-emerald-500/50 uppercase tracking-[0.2em]">Explore</span>
+           <span className="text-xs font-normal text-emerald-500/50 uppercase tracking-[0.2em]">Explore</span>
         </div>
       </section>
 
@@ -109,14 +109,14 @@ export default function StandardAccount() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8 order-2 lg:order-1">
               <div className="relative">
-                <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight leading-tight">
+                <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight leading-tight">
                   What Is a <br/> Standard Account?
                 </h2>
-                <div className="absolute -top-6 -left-6 text-[80px] font-black text-white/[0.02] pointer-events-none select-none">BASIC</div>
+                <div className="absolute -top-6 -left-6 text-[80px] font-normal text-white/[0.02] pointer-events-none select-none">BASIC</div>
               </div>
               <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                 <p>
-                  For most people, the entry point into the financial markets is through a standard trading account. This is the most flexible and widely used account type, which is meant to create a balanced platform for both new and experienced traders. At Fxcelite, our standard forex trading account is based on the "spread-only" system, which means that you get to enjoy a commission-free trading experience where all expenses are clearly reflected in the spread.
+                  For most people, the entry point into the financial markets is through a standard trading account. This is the most flexible and widely used account type, which is meant to create a balanced platform for both new and experienced traders. At FXCELITE, our standard forex trading account is based on the "spread-only" system, which means that you get to enjoy a commission-free trading experience where all expenses are clearly reflected in the spread.
                 </p>
                 <div className="p-6 rounded-2xl bg-emerald-500/5 border-l-4 border-emerald-500 backdrop-blur-sm">
                    <p className="text-white text-base font-medium leading-relaxed italic">
@@ -124,7 +124,7 @@ export default function StandardAccount() {
                    </p>
                 </div>
                 <p>
-                  But with the flexible leverage provided by Fxcelite, you can trade these large positions with a small amount of capital, making it the best standard forex account for traders.
+                  But with the flexible leverage provided by FXCELITE, you can trade these large positions with a small amount of capital, making it the best standard forex account for traders.
                 </p>
               </div>
             </div>
@@ -140,7 +140,7 @@ export default function StandardAccount() {
                  <div className="absolute inset-0 bg-gradient-to-t from-[#020410] via-transparent to-transparent"></div>
                  <div className="absolute bottom-6 left-6 right-6 p-6 rounded-xl bg-black/60 backdrop-blur-xl border border-white/10">
                     <div className="flex items-center justify-between mb-3">
-                      <span className="text-white font-bold tracking-tight text-base">Market Access</span>
+                      <span className="text-white font-normal tracking-tight text-base">Market Access</span>
                       <div className="flex gap-1">
                         <div className="w-1.5 h-1.5 rounded-full bg-emerald-400"></div>
                         <div className="w-1.5 h-1.5 rounded-full bg-emerald-400/30"></div>
@@ -159,10 +159,10 @@ export default function StandardAccount() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 flex flex-col lg:flex-row lg:items-end justify-between gap-6">
             <div className="max-w-2xl">
-              <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight mb-4">Why Choose a Standard Account?</h2>
+              <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight mb-4">Why Choose a Standard Account?</h2>
               <p className="text-slate-500 text-base font-medium leading-relaxed">Choosing a standard account for online trading is about peace of mind. You don't have to worry about hidden fees or complex math.</p>
             </div>
-            <div className="shrink-0 flex items-center gap-3 text-emerald-400 font-bold uppercase tracking-widest text-sm">
+            <div className="shrink-0 flex items-center gap-3 text-emerald-400 font-normal uppercase tracking-widest text-sm">
                <div className="w-10 h-[1px] bg-emerald-500/30"></div>
                Seamless Trading
             </div>
@@ -184,7 +184,7 @@ export default function StandardAccount() {
                 <div className={`w-12 h-12 rounded-xl bg-${item.color}-500/10 flex items-center justify-center text-${item.color}-400 mb-6 border border-${item.color}-500/10 group-hover:scale-110 transition-transform`}>
                   {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3 tracking-tight">{item.title}</h3>
+                <h3 className="text-lg font-normal text-white mb-3 tracking-tight">{item.title}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed font-medium">{item.desc}</p>
               </div>
             ))}
@@ -198,7 +198,7 @@ export default function StandardAccount() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-7 space-y-10">
                <div>
-                 <h2 className="text-2xl lg:text-3xl font-bold text-white tracking-tight mb-4">Key Features of the Standard Trading Account</h2>
+                 <h2 className="text-2xl lg:text-3xl font-normal text-white tracking-tight mb-4">Key Features of the Standard Trading Account</h2>
                  <p className="text-base text-slate-500 italic leading-relaxed font-light">
                    Our standard trading account features are engineered to provide a professional edge with a user-friendly interface.
                  </p>
@@ -217,7 +217,7 @@ export default function StandardAccount() {
                         {React.cloneElement(feature.icon, { size: 20 })}
                       </div>
                       <div className="space-y-1">
-                        <h4 className="text-base font-bold text-white group-hover:text-emerald-400 transition-colors">{feature.t}</h4>
+                        <h4 className="text-base font-normal text-white group-hover:text-emerald-400 transition-colors">{feature.t}</h4>
                         <p className="text-slate-500 text-sm leading-relaxed">{feature.d}</p>
                       </div>
                    </div>
@@ -228,10 +228,10 @@ export default function StandardAccount() {
             <div className="lg:col-span-5 lg:sticky lg:top-32">
                <div className="relative p-8 rounded-3xl bg-[#0B0E2A] border border-white/10 shadow-2xl overflow-hidden group">
                   <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/5 blur-[60px] rounded-full"></div>
-                  <h3 className="text-2xl font-bold text-white mb-6 tracking-tight">Trading Conditions</h3>
+                  <h3 className="text-2xl font-normal text-white mb-6 tracking-tight">Trading Conditions</h3>
                   <div className="space-y-6">
                      <div className="space-y-4 text-base text-slate-400 leading-relaxed font-light">
-                        <p>At Fxcelite, we operate on the principle of transparency. Our standard account terms of trading are made to be competitive and fair.</p>
+                        <p>At FXCELITE, we operate on the principle of transparency. Our standard account terms of trading are made to be competitive and fair.</p>
                         <p>We offer a standard trading account with low spreads, ensuring that the markup is as tight as possible. This enables you to break even on your trades much faster than with traditional high-markup brokers.</p>
                         <p>Moreover, our standard account with fast execution ensures that your trades are executed in milliseconds, putting you in control of your entries and exits.</p>
                      </div>
@@ -240,10 +240,10 @@ export default function StandardAccount() {
                           Experience precision without the complexity. Try a Free Demo and see why our standard account is a trader favorite.
                         </p>
                         <a 
-                          href="https://trade.fxcelite.com/register"
+                          href="https://trade.FXCELITE.com/register"
                           target="_blank" 
                           rel="noopener noreferrer"
-                          className="block text-center w-full py-4 rounded-xl bg-white text-black font-bold hover:bg-emerald-400 transition-all text-base shadow-lg shadow-emerald-500/10"
+                          className="block text-center w-full py-4 rounded-xl bg-white text-black font-normal hover:bg-emerald-400 transition-all text-base shadow-lg shadow-emerald-500/10"
                         >
                            Try a Free Demo Now
                         </a>
@@ -263,7 +263,7 @@ export default function StandardAccount() {
                 <Layers size={100} />
               </div>
               <div className="relative z-10 text-center space-y-6">
-                <h2 className="text-2xl md:text-3xl font-bold text-white tracking-tight">Standard vs. Raw Spread Account</h2>
+                <h2 className="text-2xl md:text-3xl font-normal text-white tracking-tight">Standard vs. Raw Spread Account</h2>
                 <div className="max-w-3xl mx-auto text-base text-slate-400 leading-relaxed font-light">
                    Whereas a Raw account is ideal for scalpers, the trading account is the best option for swing traders and long-term traders. Since there are no commissions per lot, you can trade for days or weeks without having to worry about entry fees. It is the best standard forex account for traders who appreciate a “set and forget” strategy.
                 </div>
@@ -281,7 +281,7 @@ export default function StandardAccount() {
       <section className="py-24 bg-[#020410] relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight mb-4">Start in Minutes</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight mb-4">Start in Minutes</h2>
             <p className="text-slate-500 text-base font-medium uppercase tracking-[0.1em]">Quick & Secure Process</p>
           </div>
 
@@ -294,13 +294,13 @@ export default function StandardAccount() {
               { n: "05", t: "Trade", d: "Choose your favorite pair and make your first commission-free trade.", icon: <TrendingUp /> },
             ].map((step, i) => (
               <div key={i} className="group relative p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] hover:border-emerald-500/40 transition-all duration-300 text-center mt-6 lg:mt-0">
-                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-8 rounded-lg bg-[#020410] border border-white/10 flex items-center justify-center font-bold text-sm text-emerald-400 group-hover:bg-emerald-400 group-hover:text-black transition-all">
+                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-8 rounded-lg bg-[#020410] border border-white/10 flex items-center justify-center font-normal text-sm text-emerald-400 group-hover:bg-emerald-400 group-hover:text-black transition-all">
                     {step.n}
                  </div>
                  <div className="w-12 h-12 rounded-full bg-emerald-500/5 text-emerald-400 flex items-center justify-center mx-auto mb-4 border border-emerald-500/10 group-hover:scale-110 transition-transform mt-2">
                    {React.cloneElement(step.icon, { size: 20 })}
                  </div>
-                 <h4 className="text-base font-bold text-white mb-2 tracking-tight leading-tight">{step.t}</h4>
+                 <h4 className="text-base font-normal text-white mb-2 tracking-tight leading-tight">{step.t}</h4>
                  <p className="text-sm text-slate-500 leading-relaxed font-medium">{step.d}</p>
                  
                  {i < 4 && (
@@ -325,10 +325,10 @@ export default function StandardAccount() {
                    <div className="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400">
                      <Shield size={24} />
                    </div>
-                   <h2 className="text-2xl font-bold text-white tracking-tight">Security & Reliability</h2>
+                   <h2 className="text-2xl font-normal text-white tracking-tight">Security & Reliability</h2>
                  </div>
                  <p className="text-base text-slate-400 leading-relaxed font-light">
-                   Your funds are protected at Fxcelite. Our basic trading account is operated in a highly regulated environment with secure transactions and client funds segregation. We offer a secure basic account for online trading so that you can concentrate 100% on the markets.
+                   Your funds are protected at FXCELITE. Our basic trading account is operated in a highly regulated environment with secure transactions and client funds segregation. We offer a secure basic account for online trading so that you can concentrate 100% on the markets.
                  </p>
                </div>
             </div>
@@ -339,7 +339,7 @@ export default function StandardAccount() {
                     <div className="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400">
                       <UserCheck size={24} />
                     </div>
-                    <h2 className="text-2xl font-bold text-white tracking-tight">Who Should Use?</h2>
+                    <h2 className="text-2xl font-normal text-white tracking-tight">Who Should Use?</h2>
                  </div>
                  <div className="grid gap-4">
                     {[
@@ -351,7 +351,7 @@ export default function StandardAccount() {
                       <div key={i} className="flex gap-3 group/item">
                         <div className="shrink-0 w-1.5 h-1.5 rounded-full bg-emerald-500 mt-2 shadow-[0_0_8px_#10b981] group-hover/item:scale-150 transition-transform"></div>
                         <div className="text-sm md:text-base">
-                          <span className="text-white font-bold">{item.l}: </span>
+                          <span className="text-white font-normal">{item.l}: </span>
                           <span className="text-slate-400">{item.d}</span>
                         </div>
                       </div>
@@ -366,21 +366,21 @@ export default function StandardAccount() {
       {/* --- ELITE FINALE --- */}
       <section className="py-24 relative">
         <div className="max-w-3xl mx-auto px-6 text-center space-y-8">
-           <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight leading-tight">Why Fxcelite Is The Best Choice?</h2>
+           <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight leading-tight">Why FXCELITE Is The Best Choice?</h2>
            <p className="text-base md:text-lg text-slate-400 leading-relaxed font-light">
-             We bring together a standard trading account with low spreads and elite-tier technology. With no hidden costs and fast execution, Fxcelite brings you the ultimate trading platform to achieve your financial objectives.
+             We bring together a standard trading account with low spreads and elite-tier technology. With no hidden costs and fast execution, FXCELITE brings you the ultimate trading platform to achieve your financial objectives.
            </p>
            <div className="space-y-6 pt-4">
               <a 
-                href="https://trade.fxcelite.com/register"
+                href="https://trade.FXCELITE.com/register"
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-block text-center px-10 py-4 rounded-2xl bg-white text-black font-bold text-base hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-[0_15px_40px_-15px_rgba(16,185,129,0.4)]"
+                className="inline-block text-center px-10 py-4 rounded-2xl bg-white text-black font-normal text-base hover:bg-emerald-400 hover:-translate-y-1 transition-all shadow-[0_15px_40px_-15px_rgba(16,185,129,0.4)]"
               >
                 Sign Up for a Standard Account
               </a>
               <div className="flex flex-col items-center gap-3">
-                 <p className="text-emerald-400 font-bold uppercase tracking-widest text-xs">
+                 <p className="text-emerald-400 font-normal uppercase tracking-widest text-xs">
                    Trade with a broker that puts you first
                  </p>
                  <div className="flex gap-1.5">
@@ -397,14 +397,14 @@ export default function StandardAccount() {
       <section className="py-24 border-t border-white/5">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight mb-3">Frequently Asked</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight mb-3">Frequently Asked</h2>
             <p className="text-slate-500 font-medium uppercase tracking-widest text-sm">Standard Account FAQ</p>
           </div>
           
           <div className="space-y-4">
             {[
               { q: "1. What is a standard trading account?", a: "A standard trading account is a commission-free account where the broker’s commission is included in the spread (the difference between the buy and sell price)." },
-              { q: "2. Do I pay commissions on a standard account?", a: "No, a standard forex trading account at Fxcelite has zero commissions per trade." },
+              { q: "2. Do I pay commissions on a standard account?", a: "No, a standard forex trading account at FXCELITE has zero commissions per trade." },
               { q: "3. Is the standard account minimum deposit high?", a: "Not at all. We make it easy for everyone to open a standard trading account with an affordable starting balance." },
               { q: "4. What are the best standard trading account features?", a: "The best features of a standard trading account include zero commissions, instant execution, and access to all tradable assets." },
               { q: "5. How fast is the execution on a standard account?", a: "We provide a standard account with fast execution, meaning that your trades are executed in milliseconds." },
@@ -434,7 +434,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-base md:text-lg transition-colors ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
+        <span className={`font-normal text-base md:text-lg transition-colors ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex shrink-0 items-center justify-center transition-all duration-300 ml-4 ${

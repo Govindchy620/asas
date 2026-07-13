@@ -9,15 +9,15 @@ const FAQ_DATA = [
     category: "General",
     items: [
       {
-        q: "What is Fxcelite?",
-        a: "Fxcelite is a proprietary trading firm that provides traders with access to funded accounts, allowing them to trade financial markets using the firm's capital."
+        q: "What is FXCELITE?",
+        a: "FXCELITE is a proprietary trading firm that provides traders with access to funded accounts, allowing them to trade financial markets using the firm's capital."
       },
       {
         q: "Are there any countries where trading is restricted?",
         a: "Yes. Traders from sanctioned or restricted jurisdictions are not allowed due to compliance and regulatory requirements."
       },
       {
-        q: "How does Fxcelite make money?",
+        q: "How does FXCELITE make money?",
         a: "We generate revenue through challenge fees, subscriptions, and a share of profits from successful traders."
       }
     ]
@@ -147,7 +147,7 @@ export default function FAQ() {
         <div className="space-y-10">
           {filteredData.map((section, sIdx) => (
             <div key={sIdx}>
-              <h2 className="text-xl font-bold text-white mb-6">
+              <h2 className="text-xl font-normal text-white mb-6">
                 {section.category}
               </h2>
 

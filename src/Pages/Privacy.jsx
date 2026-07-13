@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
         <div className="space-y-8 text-white/90 text-sm md:text-base leading-relaxed">
 
           <p>
-            Welcome to Fxcelite ("we, " "our, " or "us"). We make sure that your personal data is secure by implementing all the necessary measures and we respect your privacy. Here through this Privacy Policy we give you a full insight on how we collect, utilize, distribute and protect your personal details if you happen to log on to our site [Insert Website URL], trading infrastructure, services, or platform.
+            Welcome to FXCELITE ("we, " "our, " or "us"). We make sure that your personal data is secure by implementing all the necessary measures and we respect your privacy. Here through this Privacy Policy we give you a full insight on how we collect, utilize, distribute and protect your personal details if you happen to log on to our site [Insert Website URL], trading infrastructure, services, or platform.
           </p>
 
           <p>
@@ -22,7 +22,7 @@ export default function PrivacyPolicy() {
           </p>
 
           {/* 1. INFORMATION WE COLLECT */}
-          <h2 className="text-xl font-bold text-white pt-6">
+          <h2 className="text-xl font-normal text-white pt-6">
             1. Information We Collect
           </h2>
 
@@ -53,7 +53,7 @@ export default function PrivacyPolicy() {
           </div>
 
           {/* 2. HOW WE USE YOUR INFORMATION */}
-          <h2 className="text-xl font-bold text-white pt-6">
+          <h2 className="text-xl font-normal text-white pt-6">
             2. How We Use Your Information
           </h2>
 
@@ -70,7 +70,7 @@ export default function PrivacyPolicy() {
           </ul>
 
           {/* 3. DISCLOSURE OF YOUR INFORMATION */}
-          <h2 className="text-xl font-bold text-white pt-6">
+          <h2 className="text-xl font-normal text-white pt-6">
             3. Disclosure of Your Information
           </h2>
 
@@ -96,7 +96,7 @@ export default function PrivacyPolicy() {
           </div>
 
           {/* 4. SECURITY OF YOUR INFORMATION */}
-          <h2 className="text-xl font-bold text-white pt-6">
+          <h2 className="text-xl font-normal text-white pt-6">
             4. Security of Your Information
           </h2>
 
@@ -105,7 +105,7 @@ export default function PrivacyPolicy() {
           </p>
 
           {/* 5. COOKIES AND TRACKING TECHNOLOGIES */}
-          <h2 className="text-xl font-bold text-white pt-6">
+          <h2 className="text-xl font-normal text-white pt-6">
             5. Cookies and Tracking Technologies
           </h2>
 
@@ -114,7 +114,7 @@ export default function PrivacyPolicy() {
           </p>
 
           {/* 6. YOUR RIGHTS */}
-          <h2 className="text-xl font-bold text-white pt-6">
+          <h2 className="text-xl font-normal text-white pt-6">
             6. Your Rights
           </h2>
 
@@ -138,7 +138,7 @@ export default function PrivacyPolicy() {
               If you want to close your account and erase all of your personal information, then you can submit a request for deletion at any point in time.
             </p>
             <p className="mb-3">
-              <span className="font-semibold">Process of Deletion Request:</span> You can either submit your request for deletion via the settings of your account in the Fxcelite App or through the App Support URL/e-mail.
+              <span className="font-semibold">Process of Deletion Request:</span> You can either submit your request for deletion via the settings of your account in the FXCELITE App or through the App Support URL/e-mail.
             </p>
             <p className="mb-3">
               <span className="font-semibold">Data Storage Policy:</span> After receiving your deletion request, we will start deleting your personal information from our live database. However, please keep in mind that as a financial and trading services company, we are mandated to store some transaction history, KYC documents, etc., for a certain time.
@@ -165,7 +165,7 @@ export default function PrivacyPolicy() {
           </div>
 
           {/* 7. CHANGES TO THIS PRIVACY POLICY */}
-          <h2 className="text-xl font-bold text-white pt-6">
+          <h2 className="text-xl font-normal text-white pt-6">
             7. Changes to This Privacy Policy
           </h2>
 
@@ -174,7 +174,7 @@ export default function PrivacyPolicy() {
           </p>
 
           {/* 8. CONTACT US */}
-          <h2 className="text-xl font-bold text-white pt-6">
+          <h2 className="text-xl font-normal text-white pt-6">
             8. Contact Us
           </h2>
 
@@ -183,7 +183,7 @@ export default function PrivacyPolicy() {
           </p>
           
           <p>
-            Fxcelite Support Team<br />
+            FXCELITE Support Team<br />
             Email:<br />
             Website:
           </p>

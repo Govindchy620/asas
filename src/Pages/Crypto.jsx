@@ -60,18 +60,18 @@ export default function Crypto() {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
                 <a 
-                  href="https://trade.fxcelite.com/register"
+                  href="https://trade.FXCELITE.com/register"
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-purple-500 hover:bg-purple-400 text-white font-bold text-base transition-all shadow-[0_0_40px_-10px_rgba(168,85,247,0.6)] hover:shadow-[0_0_60px_-15px_rgba(168,85,247,0.8)] hover:-translate-y-1 flex items-center justify-center gap-2"
+                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-purple-500 hover:bg-purple-400 text-white font-normal text-base transition-all shadow-[0_0_40px_-10px_rgba(168,85,247,0.6)] hover:shadow-[0_0_60px_-15px_rgba(168,85,247,0.8)] hover:-translate-y-1 flex items-center justify-center gap-2"
                 >
                   Start Trading Crypto <ArrowRight size={18} />
                 </a>
                 <a 
-                  href="https://trade.fxcelite.com/login"
+                  href="https://trade.FXCELITE.com/login"
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-transparent border border-white/20 text-white font-bold text-base hover:bg-white/10 transition-all flex items-center justify-center gap-2 text-center"
+                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-transparent border border-white/20 text-white font-normal text-base hover:bg-white/10 transition-all flex items-center justify-center gap-2 text-center"
                 >
                   Explore Assets
                 </a>
@@ -91,7 +91,7 @@ export default function Crypto() {
                 <div className="p-5 border-b border-white/10 bg-white/[0.02] flex justify-between items-center">
                   <div className="flex items-center gap-3">
                     <Activity size={20} className="text-purple-400" />
-                    <span className="font-bold text-base text-white tracking-wide">Live CFDs</span>
+                    <span className="font-normal text-base text-white tracking-wide">Live CFDs</span>
                   </div>
                   <span className="text-xs font-medium bg-purple-500/20 text-purple-400 px-3 py-1 rounded-full animate-pulse">24/7 Market</span>
                 </div>
@@ -109,12 +109,12 @@ export default function Crypto() {
                           <Bitcoin size={20} />
                         </div>
                         <div>
-                          <div className="font-bold text-sm text-white group-hover:text-purple-400 transition-colors">{coin.name}</div>
+                          <div className="font-normal text-sm text-white group-hover:text-purple-400 transition-colors">{coin.name}</div>
                           <div className="text-xs text-slate-500">{coin.code}</div>
                         </div>
                       </div>
                       <div className="text-right">
-                        <div className="font-mono font-bold text-sm text-white">{coin.price}</div>
+                        <div className="font-mono font-normal text-sm text-white">{coin.price}</div>
                         <div className={`text-xs font-semibold ${coin.isUp ? 'text-emerald-400' : 'text-rose-400'}`}>{coin.change}</div>
                       </div>
                     </div>
@@ -139,7 +139,7 @@ export default function Crypto() {
               {/* Floating Element 1 */}
               <div className="absolute -right-8 top-10 w-32 p-4 bg-[#0B0E2A]/90 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl z-20 animate-bounce" style={{animationDuration: '4s'}}>
                 <div className="text-xs text-slate-500 mb-1">24h Vol</div>
-                <div className="font-bold text-white text-sm">$84.2B</div>
+                <div className="font-normal text-white text-sm">$84.2B</div>
                 <div className="text-emerald-400 text-xs mt-1 flex items-center gap-1"><TrendingUp size={12}/> High</div>
               </div>
 
@@ -175,7 +175,7 @@ export default function Crypto() {
               <div className="inline-flex p-3 rounded-2xl bg-purple-500/10 text-purple-400 border border-purple-500/20">
                 <RefreshCcw size={24} />
               </div>
-              <h2 className="text-3xl font-bold text-white tracking-tight">What Is Cryptocurrency Trading?</h2>
+              <h2 className="text-3xl font-normal text-white tracking-tight">What Is Cryptocurrency Trading?</h2>
               <div className="space-y-4 text-base leading-relaxed text-slate-400">
                 <p>
                   Basically, cryptocurrency trading involves speculating on the price movements of digital currencies. Although a few people buy coins with the idea of storing them over a long period, most modern traders prefer to trade digital currencies through CFDs (Contracts for Difference).
@@ -201,7 +201,7 @@ export default function Crypto() {
         </div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">Why Choose Fxcelite for Crypto?</h2>
+            <h2 className="text-3xl font-normal text-white mb-4">Why Choose FXCELITE for Crypto?</h2>
             <p className="text-slate-400 max-w-2xl mx-auto text-base leading-relaxed">Navigating the crypto markets requires a partner you can trust. We offer a trading platform built for high performance and maximum security.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -215,7 +215,7 @@ export default function Crypto() {
                 <div className="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center text-purple-400 mb-5 group-hover:scale-110 transition-transform">
                   {feature.icon}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2 tracking-tight">{feature.title}</h3>
+                <h3 className="text-lg font-normal text-white mb-2 tracking-tight">{feature.title}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed">{feature.desc}</p>
               </div>
             ))}
@@ -230,7 +230,7 @@ export default function Crypto() {
             
             {/* Left Col: Features */}
             <div className="space-y-8">
-              <h2 className="text-3xl font-bold text-white tracking-tight">Platform Features</h2>
+              <h2 className="text-3xl font-normal text-white tracking-tight">Platform Features</h2>
               <div className="text-base text-slate-400 italic">
                 Our crypto trading platform is designed to handle the unique volatility of the digital asset market. We provide the tools you need to stay ahead of the curve.
               </div>
@@ -260,7 +260,7 @@ export default function Crypto() {
                       <CheckCircle2 size={16} />
                     </div>
                     <div>
-                      <h4 className="font-bold text-white text-base mb-0.5">{item.t}</h4>
+                      <h4 className="font-normal text-white text-base mb-0.5">{item.t}</h4>
                       <p className="text-slate-500 text-sm">{item.d}</p>
                     </div>
                   </div>
@@ -274,7 +274,7 @@ export default function Crypto() {
                 <div className="absolute top-0 right-0 p-6 opacity-[0.03] pointer-events-none">
                   <Cpu size={120} />
                 </div>
-                <h2 className="text-2xl font-bold text-white mb-6 tracking-tight relative z-10">Best Cryptos to Trade</h2>
+                <h2 className="text-2xl font-normal text-white mb-6 tracking-tight relative z-10">Best Cryptos to Trade</h2>
                 <p className="text-slate-400 mb-6 text-sm leading-relaxed relative z-10">
                   Liquidity is concentrated in high-utility assets. While there are thousands of coins, these are considered the top tier for CFD traders:
                 </p>
@@ -288,7 +288,7 @@ export default function Crypto() {
                   ].map((coin, i) => (
                     <div key={i} className="flex items-center justify-between p-4 rounded-xl bg-white/5 border border-white/5 hover:bg-white/[0.08] hover:border-purple-400/40 transition-all">
                       <div>
-                        <div className="font-bold text-sm text-white tracking-tight">{coin.n}</div>
+                        <div className="font-normal text-sm text-white tracking-tight">{coin.n}</div>
                         <div className="text-xs text-slate-500 mt-0.5">{coin.d}</div>
                       </div>
                       <TrendingUp size={16} className="text-purple-400" />
@@ -303,7 +303,7 @@ export default function Crypto() {
                   alt="Coins" 
                   className="absolute inset-0 w-full h-full object-cover opacity-10 group-hover:scale-105 transition-transform duration-1000" 
                  />
-                 <h2 className="text-xl font-bold text-white mb-4 relative z-10 tracking-tight">Crypto vs Traditional Trading</h2>
+                 <h2 className="text-xl font-normal text-white mb-4 relative z-10 tracking-tight">Crypto vs Traditional Trading</h2>
                  <p className="text-slate-400 text-sm leading-relaxed relative z-10">
                  Cryptocurrency trading is based on technology adoption and global liquidity. Volatility in crypto markets is often much higher, which means bigger trading opportunities in a shorter period of time.
                  </p>
@@ -317,7 +317,7 @@ export default function Crypto() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">How to Trade Crypto CFDs</h2>
+            <h2 className="text-3xl font-normal text-white mb-4">How to Trade Crypto CFDs</h2>
             <p className="text-slate-400 text-base">Starting your journey into digital asset trading is simple:</p>
           </div>
           <div className="grid md:grid-cols-5 gap-5">
@@ -330,10 +330,10 @@ export default function Crypto() {
             ].map((step, i) => (
               <div key={i} className="p-6 rounded-3xl bg-[#0B0E2A] border border-white/5 hover:border-purple-500/40 hover:-translate-y-1 transition-all duration-300 text-center relative overflow-hidden shadow-lg">
                 <div className="absolute top-0 right-0 w-20 h-20 bg-purple-500/5 blur-[30px] rounded-full"></div>
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-400 to-blue-600 text-white flex items-center justify-center font-black text-lg mx-auto mb-4 shadow-md">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-400 to-blue-600 text-white flex items-center justify-center font-normal text-lg mx-auto mb-4 shadow-md">
                   {step.n}
                 </div>
-                <h4 className="text-base font-bold text-white mb-2 tracking-tight">{step.t}</h4>
+                <h4 className="text-base font-normal text-white mb-2 tracking-tight">{step.t}</h4>
                 <p className="text-xs text-slate-500 leading-relaxed">{step.d}</p>
               </div>
             ))}
@@ -356,7 +356,7 @@ export default function Crypto() {
                   <div className="p-3 rounded-xl bg-purple-400/10 text-purple-400 border border-purple-400/20">
                     <Lock size={24} />
                   </div>
-                  <h2 className="text-xl md:text-2xl font-bold text-white tracking-tight">Security & Reliability</h2>
+                  <h2 className="text-xl md:text-2xl font-normal text-white tracking-tight">Security & Reliability</h2>
                 </div>
                 <p className="text-base text-slate-400 leading-relaxed font-light">
                   We are aware of the concerns regarding digital assets. This is why we offer a safe crypto trading platform that uses bank-standard encryption. With CFD trading, you can forget about losing your assets to "lost passwords" or "wallet hacks."
@@ -375,7 +375,7 @@ export default function Crypto() {
                   <div className="p-3 rounded-xl bg-blue-400/10 text-blue-400 border border-blue-400/20">
                     <Smartphone size={24} />
                   </div>
-                  <h2 className="text-xl md:text-2xl font-bold text-white tracking-tight">Who Should Trade Crypto?</h2>
+                  <h2 className="text-xl md:text-2xl font-normal text-white tracking-tight">Who Should Trade Crypto?</h2>
                 </div>
                 <ul className="space-y-4">
                   {[
@@ -395,21 +395,21 @@ export default function Crypto() {
           </div>
 
           <div className="mt-24 text-center max-w-4xl mx-auto px-6">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-6 tracking-tight">Why is FXCElite the Best Choice?</h2>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-6 tracking-tight">Why is FXCELITE the Best Choice?</h2>
             <p className="text-lg md:text-xl text-slate-400 leading-relaxed mb-10 font-light">
               You get the thrill of the crypto market and the dependability of a professional trading brokerage. Enjoy low spreads, 24/7 market access, and a team of experts ready to assist you.
             </p>
             <div className="space-y-6">
               <a 
-                href="https://trade.Fxcelite.com/register"
+                href="https://trade.FXCELITE.com/register"
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-block px-10 py-4 rounded-full bg-white text-black font-bold text-base hover:bg-purple-500 hover:text-white hover:-translate-y-1 transition-all shadow-[0_10px_30px_-10px_rgba(168,85,247,0.3)] text-center"
+                className="inline-block px-10 py-4 rounded-full bg-white text-black font-normal text-base hover:bg-purple-500 hover:text-white hover:-translate-y-1 transition-all shadow-[0_10px_30px_-10px_rgba(168,85,247,0.3)] text-center"
               >
-                Join Fxcelite Today
+                Join FXCELITE Today
               </a>
               <div className="flex flex-col items-center gap-3">
-                <p className="text-purple-400 font-bold uppercase tracking-widest text-xs">
+                <p className="text-purple-400 font-normal uppercase tracking-widest text-xs">
                   The future is digital. Start trading today!
                 </p>
                 <div className="flex gap-1.5">
@@ -430,20 +430,20 @@ export default function Crypto() {
             <div className="inline-flex p-3 rounded-2xl bg-purple-500/10 text-purple-400 mb-4 border border-purple-500/20">
               <HelpCircle size={32} />
             </div>
-            <h2 className="text-2xl md:text-3xl font-bold text-white tracking-tight">Frequently Asked Questions</h2>
+            <h2 className="text-2xl md:text-3xl font-normal text-white tracking-tight">Frequently Asked Questions</h2>
           </div>
           <div className="space-y-4">
             {[
               { q: "1. What is cryptocurrency trading?", a: "It is the speculation on the price movements of digital assets such as Bitcoin or Ethereum." },
               { q: "2. Can I trade cryptocurrencies online 24/7?", a: "Yes, unlike stocks or forex, the crypto market is open 24 hours a day, 7 days a week." },
               { q: "3. What is crypto CFD trading?", a: "It allows you to trade the price movement of a coin without owning the actual coin or managing a digital wallet." },
-              { q: "4. Is Bitcoin trading safe?", a: "When trading through a secure crypto trading platform like Fxcelite, your account is protected by professional security protocols." },
+              { q: "4. Is Bitcoin trading safe?", a: "When trading through a secure crypto trading platform like FXCELITE, your account is protected by professional security protocols." },
               { q: "5. What is the best crypto to trade for beginners?", a: "Bitcoin and Ethereum are usually recommended due to their high liquidity and stability compared to smaller altcoins." },
-              { q: "6. Do I require a wallet to trade on Fxcelite?", a: "No, as you will be trading CFDs, you will not need to create or maintain a personal digital wallet." },
+              { q: "6. Do I require a wallet to trade on FXCELITE?", a: "No, as you will be trading CFDs, you will not need to create or maintain a personal digital wallet." },
               { q: "7. Can I trade crypto with low spreads?", a: "Yes, we provide cryptocurrency trading with low spreads so that you can retain more of your profits." },
               { q: "8. What influences the price of cryptocurrencies?", a: "The most important factors include supply and demand, technological advancements, regulatory announcements, and market liquidity." },
               { q: "9. Can I trade Ethereum and Bitcoin on the same platform?", a: "Yes, our bitcoin and ethereum trading platform enables you to manage all your digital assets from one place." },
-              { q: "10. How do I begin trading digital assets?", a: "Simply register with Fxcelite, make a deposit, and you can start trading crypto CFDs within minutes." },
+              { q: "10. How do I begin trading digital assets?", a: "Simply register with FXCELITE, make a deposit, and you can start trading crypto CFDs within minutes." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}
@@ -465,7 +465,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-base md:text-lg transition-colors ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
+        <span className={`font-normal text-base md:text-lg transition-colors ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex shrink-0 items-center justify-center transition-all duration-300 ml-4 ${

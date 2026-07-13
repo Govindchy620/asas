@@ -46,10 +46,10 @@ export default function IbDashboard() {
           <div className="flex flex-col items-center text-center">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-sm border border-teal-500/30 bg-teal-500/10 backdrop-blur-xl mb-8 animate-fade-in">
               <Cpu size={14} className="text-teal-400" />
-              <span className="text-xs font-bold uppercase tracking-[0.3em] text-teal-400">Node Management v7.2-IB</span>
+              <span className="text-xs font-normal uppercase tracking-[0.3em] text-teal-400">Node Management v7.2-IB</span>
             </div>
             
-            <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6 uppercase italic">
+            <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6 uppercase italic">
               IB Dashboard <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-white to-teal-200">Advanced</span>
             </h1>
             
@@ -61,19 +61,19 @@ export default function IbDashboard() {
                <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:scale-110 transition-transform">
                  <GitBranch size={80} className="text-teal-400" />
                </div>
-               In the affiliate marketing and partnership business, data is the most essential resource to have at your disposal. The Fxcelite IB dashboard is a sophisticated, highly efficient control panel that enables Introducing Brokers (IBs) to get a granular look at their business down to each detail. Our forex IB dashboard offers the level of transparency necessary for you to easily scale your network by handling only a few hours of daily work and still observing multi-tier earnings along with client activities in real time.
+               In the affiliate marketing and partnership business, data is the most essential resource to have at your disposal. The FXCELITE IB dashboard is a sophisticated, highly efficient control panel that enables Introducing Brokers (IBs) to get a granular look at their business down to each detail. Our forex IB dashboard offers the level of transparency necessary for you to easily scale your network by handling only a few hours of daily work and still observing multi-tier earnings along with client activities in real time.
             </div>
 
             <div className="flex flex-col items-center gap-6">
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-teal-400 to-emerald-600 rounded-2xl blur opacity-40 group-hover:opacity-80 transition duration-1000"></div>
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                  className="relative px-10 py-4 bg-white text-black font-bold text-base md:text-lg rounded-xl transition-all hover:scale-[1.02] active:scale-95 shadow-xl uppercase tracking-tight flex items-center gap-2 italic">
+                  onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                  className="relative px-10 py-4 bg-white text-black font-normal text-base md:text-lg rounded-xl transition-all hover:scale-[1.02] active:scale-95 shadow-xl uppercase tracking-tight flex items-center gap-2 italic">
                   Access Your IB Dashboard <LayoutDashboard size={20} className="ml-2" />
                 </button>
               </div>
-              <p className="text-teal-400 text-sm font-bold uppercase tracking-[0.2em] italic animate-pulse font-mono">
+              <p className="text-teal-400 text-sm font-normal uppercase tracking-[0.2em] italic animate-pulse font-mono">
                 [ Monitor your earnings in real-time today ]
               </p>
             </div>
@@ -87,7 +87,7 @@ export default function IbDashboard() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
                <div className="space-y-6">
-                 <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight leading-tight italic border-l-4 border-teal-500 pl-4">What is an IB Client <br/> Management Dashboard?</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white uppercase tracking-tight leading-tight italic border-l-4 border-teal-500 pl-4">What is an IB Client <br/> Management Dashboard?</h2>
                  <div className="space-y-6 text-base text-white/90 leading-relaxed font-light italic">
                    <p>
                      We have designed our IB partner dashboard following an "all-in-one" concept. If you want to be able to handle your leads or calculate your rebates effortlessly, simply use just one tool that does it all. No matter if you are a single partner or operating a huge multi-level network, our IB commission dashboard will spare you the time spent on the work chores thus allowing you to concentrate on your main activities such as building up solid relationships and enlarging your area.
@@ -96,9 +96,9 @@ export default function IbDashboard() {
                       <div className="absolute top-0 right-0 p-4 opacity-10">
                         <Activity size={40} className="text-white" />
                       </div>
-                      <p className="text-white font-bold text-lg leading-tight mb-3 uppercase tracking-tight italic">Granular Control</p>
+                      <p className="text-white font-normal text-lg leading-tight mb-3 uppercase tracking-tight italic">Granular Control</p>
                       <p className="text-white/80 text-sm">
-                        In the affiliate marketing and partnership business, data is the most essential resource to have at your disposal. The FXCElite IB dashboard is a sophisticated, highly efficient control panel that enables Introducing Brokers (IBs) to get a granular look at their business down to each detail.
+                        In the affiliate marketing and partnership business, data is the most essential resource to have at your disposal. The FXCELITE IB dashboard is a sophisticated, highly efficient control panel that enables Introducing Brokers (IBs) to get a granular look at their business down to each detail.
                       </p>
                    </div>
                    <p>
@@ -121,14 +121,14 @@ export default function IbDashboard() {
                     <p className="text-white/90 text-sm leading-relaxed font-medium italic font-mono uppercase tracking-widest border-b border-teal-500/30 pb-4 mb-4">
                       System Node: Partner Interface
                     </p>
-                    <p className="text-white text-base font-bold italic leading-tight">
+                    <p className="text-white text-base font-normal italic leading-tight">
                       "Handle your leads or calculate your rebates effortlessly, simply use just one tool that does it all."
                     </p>
                     <div className="mt-4 flex items-center gap-3">
                       <div className="p-2 bg-teal-500/20 rounded-lg">
                         <TrendingUp size={16} className="text-teal-400" />
                       </div>
-                      <span className="text-teal-400 font-bold uppercase tracking-widest text-[10px] font-mono">Real-Time Sync Protocol Active</span>
+                      <span className="text-teal-400 font-normal uppercase tracking-widest text-[10px] font-mono">Real-Time Sync Protocol Active</span>
                     </div>
                  </div>
                </div>
@@ -141,8 +141,8 @@ export default function IbDashboard() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 text-center space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Why Use a Real-Time <br/> IB Commission Dashboard?</h2>
-            <p className="text-teal-400 text-sm font-bold uppercase tracking-[0.2em] font-mono">[ Zero Variance Transparency ]</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">Why Use a Real-Time <br/> IB Commission Dashboard?</h2>
+            <p className="text-teal-400 text-sm font-normal uppercase tracking-[0.2em] font-mono">[ Zero Variance Transparency ]</p>
             <p className="text-white/80 text-base max-w-2xl mx-auto font-light italic mt-4">
               Transparency is the foundation of a successful partnership. A real-time IB commission dashboard ensures that there are never any disputes about your payouts.
             </p>
@@ -164,7 +164,7 @@ export default function IbDashboard() {
                 <div className="w-12 h-12 rounded-lg bg-teal-500/20 flex items-center justify-center text-teal-400 mb-5 border border-teal-500/30 group-hover:bg-teal-500 group-hover:text-black transition-all">
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3 uppercase tracking-tight italic leading-tight relative z-10">{item.title}</h3>
+                <h3 className="text-lg font-normal text-white mb-3 uppercase tracking-tight italic leading-tight relative z-10">{item.title}</h3>
                 <p className="text-white/80 text-sm leading-relaxed font-light italic relative z-10">{item.desc}</p>
               </div>
             ))}
@@ -178,7 +178,7 @@ export default function IbDashboard() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-8 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-teal-500 decoration-4 underline-offset-[8px]">Key Features of the <br/> Partner Dashboard</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic underline decoration-teal-500 decoration-4 underline-offset-[8px]">Key Features of the <br/> Partner Dashboard</h2>
                  <p className="text-base text-white/80 italic leading-relaxed font-light pt-4">
                    Our IB dashboard designed specifically for our forex partners is chock-full of institutional-grade tools to enable you to run your business like a pro:
                  </p>
@@ -196,7 +196,7 @@ export default function IbDashboard() {
                       <div className="w-12 h-12 bg-teal-500/20 flex items-center justify-center text-teal-400 mb-5 border border-teal-500/30 group-hover:scale-110 transition-transform rounded-xl">
                         {React.cloneElement(feature.icon, { size: 24 })}
                       </div>
-                      <h4 className="text-base font-bold text-white mb-2 uppercase tracking-tight italic leading-tight">{feature.t}</h4>
+                      <h4 className="text-base font-normal text-white mb-2 uppercase tracking-tight italic leading-tight">{feature.t}</h4>
                       <p className="text-white/80 text-sm leading-relaxed font-light italic">{feature.d}</p>
                    </div>
                  ))}
@@ -208,17 +208,17 @@ export default function IbDashboard() {
                   <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:scale-110 transition-transform duration-1000">
                     <Database size={100} className="text-teal-500" />
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-6 tracking-tight uppercase border-b border-white/20 pb-4 font-mono">Unlock Access</h3>
+                  <h3 className="text-xl font-normal text-white mb-6 tracking-tight uppercase border-b border-white/20 pb-4 font-mono">Unlock Access</h3>
                   <div className="space-y-6 relative z-10">
-                     <p className="text-base text-teal-400 font-bold leading-tight italic">
-                       Empower your network with the best tools. Become an Fxcelite Partner and unlock your dashboard today.
+                     <p className="text-base text-teal-400 font-normal leading-tight italic">
+                       Empower your network with the best tools. Become an FXCELITE Partner and unlock your dashboard today.
                      </p>
                      <div className="text-sm text-white/80 leading-relaxed font-light italic">
                         <p>Scaling a multi-level network starts here. Take command of your partnership architecture.</p>
                      </div>
                      <button
-                        onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                        className="w-full py-4 bg-white text-black font-bold hover:bg-teal-400 transition-all text-sm uppercase tracking-tight italic rounded-xl shadow-lg">
+                        onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                        className="w-full py-4 bg-white text-black font-normal hover:bg-teal-400 transition-all text-sm uppercase tracking-tight italic rounded-xl shadow-lg">
                         Unlock Dashboard
                      </button>
                   </div>
@@ -232,8 +232,8 @@ export default function IbDashboard() {
       <section className="py-24 bg-black relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">How to Manage Clients <br/> Using IB Dashboard</h2>
-            <p className="text-teal-400 text-sm font-bold uppercase tracking-[0.2em] font-mono">Management Protocol Sequence</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">How to Manage Clients <br/> Using IB Dashboard</h2>
+            <p className="text-teal-400 text-sm font-normal uppercase tracking-[0.2em] font-mono">Management Protocol Sequence</p>
             <p className="text-white/80 text-base font-light italic pt-4 max-w-2xl mx-auto">Running a successful IB business is a simple 3-step process within our portal:</p>
           </div>
 
@@ -244,13 +244,13 @@ export default function IbDashboard() {
               { n: "03", t: "Scale", d: "Use Your Forex IB dashboard to recruit sub-IBs, creating a passive income model.", icon: <GitBranch /> },
             ].map((step, i) => (
               <div key={i} className="group relative p-8 bg-[#020617] border border-white/10 hover:border-teal-500/50 transition-all duration-500 text-center shadow-xl rounded-3xl mt-6 lg:mt-0">
-                 <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 bg-black border-2 border-teal-500 flex items-center justify-center font-bold text-white text-lg shadow-[0_0_20px_-5px_rgba(45,212,191,0.5)] rounded-full group-hover:bg-teal-500 transition-colors">
+                 <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 bg-black border-2 border-teal-500 flex items-center justify-center font-normal text-white text-lg shadow-[0_0_20px_-5px_rgba(45,212,191,0.5)] rounded-full group-hover:bg-teal-500 transition-colors">
                     {step.n}
                  </div>
                  <div className="w-16 h-16 bg-teal-500/20 text-teal-400 flex items-center justify-center mx-auto mb-6 border border-teal-500/30 group-hover:scale-110 transition-transform rounded-2xl mt-2">
                    {React.cloneElement(step.icon, { size: 32 })}
                  </div>
-                 <h4 className="text-xl font-bold text-white mb-3 tracking-tight leading-tight uppercase italic">{step.t}</h4>
+                 <h4 className="text-xl font-normal text-white mb-3 tracking-tight leading-tight uppercase italic">{step.t}</h4>
                  <p className="text-sm text-white/80 leading-relaxed font-light italic">{step.d}</p>
               </div>
             ))}
@@ -271,10 +271,10 @@ export default function IbDashboard() {
                       <div className="w-12 h-12 bg-teal-500/20 flex items-center justify-center text-white shadow-[0_0_20px_rgba(45,212,191,0.4)] rounded-xl border border-teal-500/50 group-hover:bg-teal-500 transition-all">
                          <Lock size={24} />
                       </div>
-                      <h2 className="text-2xl font-bold text-white tracking-tight uppercase italic">Security & <br/> Transparency</h2>
+                      <h2 className="text-2xl font-normal text-white tracking-tight uppercase italic">Security & <br/> Transparency</h2>
                    </div>
                    <div className="text-base text-white/90 leading-relaxed font-light italic space-y-6">
-                      <p>A secure IB Partner Dashboard is crucial for the safety of your precious business information. At Fxcelite, we achieve this through the use of 256-bit encryption and multi-factor authentication mechanisms.</p>
+                      <p>A secure IB Partner Dashboard is crucial for the safety of your precious business information. At FXCELITE, we achieve this through the use of 256-bit encryption and multi-factor authentication mechanisms.</p>
                       <div className="p-6 bg-white/10 border border-white/20 italic font-medium text-white shadow-lg font-mono rounded-xl">
                         Our IB Commission Dashboard for forex is audited regularly to ensure the IB logic for the computation of your rebate is 100% accurate.
                       </div>
@@ -284,8 +284,8 @@ export default function IbDashboard() {
 
              <div className="space-y-10 lg:p-8">
                 <div className="space-y-4">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic leading-tight">Who is the <br/> Dashboard For?</h2>
-                  <p className="text-teal-400 font-bold uppercase tracking-[0.2em] text-xs font-mono">[ Quantum Target Profiles ]</p>
+                  <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic leading-tight">Who is the <br/> Dashboard For?</h2>
+                  <p className="text-teal-400 font-normal uppercase tracking-[0.2em] text-xs font-mono">[ Quantum Target Profiles ]</p>
                 </div>
                 <div className="grid gap-4">
                    {[
@@ -299,7 +299,7 @@ export default function IbDashboard() {
                          {React.cloneElement(item.icon, { size: 24 })}
                        </div>
                        <div>
-                         <span className="text-white text-lg font-bold uppercase tracking-tight italic">{item.l}</span>
+                         <span className="text-white text-lg font-normal uppercase tracking-tight italic">{item.l}</span>
                          <p className="text-white/80 text-sm font-light leading-relaxed italic mt-1">{item.d}</p>
                        </div>
                      </div>
@@ -310,24 +310,24 @@ export default function IbDashboard() {
         </div>
       </section>
 
-      {/* --- SECTION 6: WHY Fxcelite (IMAGE GRID) --- */}
+      {/* --- SECTION 6: WHY FXCELITE (IMAGE GRID) --- */}
       <section className="py-24 bg-black text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-teal-500 decoration-4 underline-offset-[8px]">Quantum Partner</h2>
+           <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic underline decoration-teal-500 decoration-4 underline-offset-[8px]">Quantum Partner</h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto">
-             With our focus on the provision of a Forex IB dashboard with reports and the most transparent IB commission dashboard in the industry, Fxcelite is the top choice for partners in the year 2026. We do not just give you a link; we give you a business suite.
+             With our focus on the provision of a Forex IB dashboard with reports and the most transparent IB commission dashboard in the industry, FXCELITE is the top choice for partners in the year 2026. We do not just give you a link; we give you a business suite.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
                 <div className="absolute -inset-2 bg-teal-500 rounded-2xl blur opacity-40 group-hover:opacity-80 transition duration-1000"></div>
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                  className="relative px-12 py-5 bg-white text-black font-bold text-lg transition-all shadow-[0_15px_40px_-15px_rgba(45,212,191,0.6)] uppercase tracking-tight italic hover:-translate-y-1 rounded-xl">
+                  onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                  className="relative px-12 py-5 bg-white text-black font-normal text-lg transition-all shadow-[0_15px_40px_-15px_rgba(45,212,191,0.6)] uppercase tracking-tight italic hover:-translate-y-1 rounded-xl">
                   Sign Up as an IB Now
                 </button>
               </div>
               <div className="space-y-4">
-                <p className="text-teal-400 font-bold uppercase tracking-[0.2em] text-xs italic font-mono">Your growth is our priority. Experience the best today!</p>
+                <p className="text-teal-400 font-normal uppercase tracking-[0.2em] text-xs italic font-mono">Your growth is our priority. Experience the best today!</p>
                 <div className="flex justify-center gap-3">
                    <div className="w-8 h-[2px] bg-white/30"></div>
                    <div className="w-16 h-[2px] bg-teal-400 animate-pulse"></div>
@@ -342,8 +342,8 @@ export default function IbDashboard() {
       <section className="py-24 border-t border-white/10 bg-[#010208]">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-black text-white tracking-tight uppercase italic font-mono underline decoration-teal-500 decoration-4 underline-offset-[8px]">[ PARTNER FAQ ]</h2>
-            <p className="text-white/80 font-bold uppercase tracking-widest text-sm italic font-mono pt-4">Technical Knowledge Base</p>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic font-mono underline decoration-teal-500 decoration-4 underline-offset-[8px]">[ PARTNER FAQ ]</h2>
+            <p className="text-white/80 font-normal uppercase tracking-widest text-sm italic font-mono pt-4">Technical Knowledge Base</p>
           </div>
           
           <div className="space-y-px bg-white/20 border border-white/20 shadow-xl rounded-2xl overflow-hidden">
@@ -357,7 +357,7 @@ export default function IbDashboard() {
               { q: "7. Is the IB client management dashboard secure?", a: "Yes, we use bank-grade encryption and two-factor authentication to make your introducing broker dashboard secure." },
               { q: "8. Can I export my earnings reports?", a: "Yes, you can download detailed reports from your forex IB dashboard with reports in CSV or PDF format." },
               { q: "9. What is the difference between an IB and an affiliate?", a: "An affiliate usually gets a one-time CPA, while an IB receives ongoing rebates depending on the trading volume of their clients." },
-              { q: "10. How do I access my IB partner dashboard?", a: "Once you are approved as a partner, you will be able to log in through the main Fxcelite portal and select the 'Partner' tab." },
+              { q: "10. How do I access my IB partner dashboard?", a: "Once you are approved as a partner, you will be able to log in through the main FXCELITE portal and select the 'Partner' tab." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}
@@ -380,7 +380,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-white/90 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-white/90 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 flex items-center justify-center shrink-0 transition-all duration-500 ml-4 rounded-lg ${

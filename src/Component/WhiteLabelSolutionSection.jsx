@@ -33,7 +33,7 @@ export default function WhiteLabelSolutionSection() {
 
               {/* TradingView badge */}
               <div className="absolute -bottom-6 -right-6 w-28 h-28 rounded-2xl bg-black/60 border border-white/10 flex items-center justify-center shadow-xl">
-                <span className="text-white font-bold text-lg">
+                <span className="text-white font-normal text-lg">
                   TV
                 </span>
               </div>
@@ -49,13 +49,13 @@ export default function WhiteLabelSolutionSection() {
 
             <h3 className="text-3xl md:text-4xl font-extrabold text-white mb-6 leading-tight">
               Tailor-Made Prop Trading: <br />
-              Fxcelite’s White Label Solution
+              FXCELITE’s White Label Solution
             </h3>
 
             <div className="space-y-4 text-white/85 leading-relaxed max-w-xl">
               <p>
                 Is your prop trading firm missing out on opportunities due to a
-                lack of brand presence and customization? Fxcelite’s White
+                lack of brand presence and customization? FXCELITE’s White
                 Label solution is your best option.
               </p>
 

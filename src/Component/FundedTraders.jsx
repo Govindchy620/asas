@@ -152,7 +152,7 @@ function TraderCard({ name, country, flag, payout, image }) {
         <p className="font-semibold text-base sm:text-lg mb-1">{name}</p>
 
         <div className="flex items-center gap-3">
-          <span className="text-lg sm:text-xl font-bold">{payout}</span>
+          <span className="text-lg sm:text-xl font-normal">{payout}</span>
           <span className="px-3 py-1 rounded-full bg-indigo-600 text-xs font-semibold">
             Payout
           </span>

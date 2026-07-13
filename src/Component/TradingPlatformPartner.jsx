@@ -42,7 +42,7 @@ export default function TradingPlatformPartner() {
               </p>
 
               <p className="text-slate-300 text-lg leading-relaxed">
-                Through Match Trade, Fxcelite clients enjoy seamless
+                Through Match Trade, FXCELITE clients enjoy seamless
                 integration with TradingView. Perfect for traders of all
                 levels, our charts help track assets like{" "}
                 <span className="text-emerald-400 font-semibold">EUR/USD</span>{" "}
@@ -79,7 +79,7 @@ export default function TradingPlatformPartner() {
               <div className="flex items-center justify-between border-b border-white/10 pb-3">
                 <p className="text-indigo-400 font-semibold">Login ID</p>
                 <div className="flex items-center gap-3 text-white font-medium">
-                  mt@fxcelite.com
+                  mt@FXCELITE.com
                   <Copy size={16} className="cursor-pointer opacity-70 hover:opacity-100" />
                 </div>
               </div>
@@ -97,7 +97,7 @@ export default function TradingPlatformPartner() {
               <div className="flex items-center justify-between border-b border-white/10 pb-6">
                 <p className="text-indigo-400 font-semibold">Server</p>
                 <div className="flex items-center gap-3 text-white font-medium">
-                  MatchTrade Fxcelite
+                  MatchTrade FXCELITE
                   <Copy size={16} className="cursor-pointer opacity-70 hover:opacity-100" />
                 </div>
               </div>

@@ -31,17 +31,17 @@ export default function GrowthPlan() {
 
             {/* BRAND */}
             <div className="flex items-center gap-2 mb-6">
-              <div className="w-7 h-7 rounded bg-indigo-500 flex items-center justify-center text-white font-bold">
+              <div className="w-7 h-7 rounded bg-indigo-500 flex items-center justify-center text-white font-normal">
                 F
               </div>
               <span className="text-white font-semibold tracking-wide">
-                Fxcelite
+                FXCELITE
               </span>
             </div>
 
             {/* TITLE */}
             <h3 className="text-2xl md:text-3xl font-extrabold text-white leading-snug mb-6">
-              Fxcelite <br />
+              FXCELITE <br />
               NEW GROWTH <br />
               PLAN SUMMARY
             </h3>

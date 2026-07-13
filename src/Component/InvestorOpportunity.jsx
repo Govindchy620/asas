@@ -29,7 +29,7 @@ export default function InvestorOpportunity() {
 
               {/* TradingView badge */}
               <div className="absolute -bottom-6 -right-6 w-28 h-28 rounded-2xl bg-black/60 border border-white/10 flex items-center justify-center shadow-xl">
-                <span className="text-white font-bold text-lg">TV</span>
+                <span className="text-white font-normal text-lg">TV</span>
               </div>
 
             </div>

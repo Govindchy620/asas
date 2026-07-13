@@ -37,7 +37,7 @@ export default function DepositBonusLandingPage() {
             
             {/* Main Headline */}
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white leading-[1.1] tracking-tight">
-              Fxcelite Deposit Bonus – <br className="hidden md:block"/>
+              FXCELITE Deposit Bonus – <br className="hidden md:block"/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400 drop-shadow-[0_0_30px_rgba(52,211,153,0.3)]">
                 Boost Your Trading Power
               </span>
@@ -53,8 +53,8 @@ export default function DepositBonusLandingPage() {
               
               {/* Sign Up Button */}
               <button 
-                onClick={() => window.open("https://trade.fxcelite.com/register", "_blank")}
-                className="group relative w-full sm:w-auto px-8 py-4 font-bold text-base sm:text-lg rounded-full text-[#050617] bg-gradient-to-r from-emerald-400 to-emerald-500 hover:from-emerald-300 hover:to-emerald-400 transition-all duration-300 shadow-[0_0_30px_rgba(52,211,153,0.4)] hover:shadow-[0_0_50px_rgba(52,211,153,0.6)] hover:-translate-y-1 overflow-hidden"
+                onClick={() => window.open("https://trade.FXCELITE.com/register", "_blank")}
+                className="group relative w-full sm:w-auto px-8 py-4 font-normal text-base sm:text-lg rounded-full text-[#050617] bg-gradient-to-r from-emerald-400 to-emerald-500 hover:from-emerald-300 hover:to-emerald-400 transition-all duration-300 shadow-[0_0_30px_rgba(52,211,153,0.4)] hover:shadow-[0_0_50px_rgba(52,211,153,0.6)] hover:-translate-y-1 overflow-hidden"
               >
                 <span className="relative z-10 flex items-center justify-center gap-2">
                   Claim your deposit bonuses now
@@ -68,8 +68,8 @@ export default function DepositBonusLandingPage() {
 
               {/* Sign In Button */}
               <button 
-                onClick={() => window.open("https://trade.fxcelite.com/login", "_blank")}
-                className="w-full sm:w-auto px-8 py-4 font-bold text-base sm:text-lg rounded-full text-white bg-transparent border-2 border-emerald-400/30 hover:border-emerald-400 hover:bg-emerald-400/10 transition-all duration-300 hover:-translate-y-1"
+                onClick={() => window.open("https://trade.FXCELITE.com/login", "_blank")}
+                className="w-full sm:w-auto px-8 py-4 font-normal text-base sm:text-lg rounded-full text-white bg-transparent border-2 border-emerald-400/30 hover:border-emerald-400 hover:bg-emerald-400/10 transition-all duration-300 hover:-translate-y-1"
               >
                 Sign In
               </button>
@@ -122,7 +122,7 @@ export default function DepositBonusLandingPage() {
           {/* Top Intro Paragraphs */}
           <div className="bg-[#070A23]/80 backdrop-blur-xl border border-white/10 rounded-2xl p-6 sm:p-10 shadow-lg space-y-4 max-w-5xl mx-auto">
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed font-light">
-              Are you looking for a way to trade bigger without putting more of your own money at risk? Would you like to maximise your profit potential and avoid augmenting stress? Fxcelite offers you the best of opportunities, the Deposit Bonus Offer.
+              Are you looking for a way to trade bigger without putting more of your own money at risk? Would you like to maximise your profit potential and avoid augmenting stress? FXCELITE offers you the best of opportunities, the Deposit Bonus Offer.
             </p>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed font-light">
               It is no hoax. It’s not a loan. It is an easy and clear bonus that provides you with additional trading funds whenever you deposit money into your account. This offer is available to a beginner who wants to learn without much fear or an experienced trader who wants to realise maximum returns.
@@ -151,11 +151,11 @@ export default function DepositBonusLandingPage() {
             <div className="md:col-span-7 space-y-6 order-1 md:order-2 bg-[#070A23]/80 backdrop-blur-xl border border-white/10 rounded-2xl p-6 sm:p-8 shadow-lg border-l-4 border-l-emerald-500">
               <h2 className="text-2xl sm:text-3xl font-extrabold text-white">What Exactly is a Deposit Bonus?</h2>
               <p className="text-sm sm:text-base text-slate-300 leading-relaxed font-light">
-                In simple words: You deposit real money into your Fxcelite trading account. Fxcelite contributes a fixed percentage of such amounts as bonus funds. Those bonus funds can be used to open bigger trades. Any profit you get on such trades is yours to take away and withdraw at any time.
+                In simple words: You deposit real money into your FXCELITE trading account. FXCELITE contributes a fixed percentage of such amounts as bonus funds. Those bonus funds can be used to open bigger trades. Any profit you get on such trades is yours to take away and withdraw at any time.
               </p>
               
               <div className="bg-[#050617]/60 rounded-xl p-5 sm:p-6 border border-white/5">
-                <h3 className="text-emerald-400 font-bold mb-3 text-sm sm:text-base">Case in point to make it crystal clear:</h3>
+                <h3 className="text-emerald-400 font-normal mb-3 text-sm sm:text-base">Case in point to make it crystal clear:</h3>
                 <ul className="space-y-2 text-sm sm:text-base text-slate-300 font-light list-disc pl-5">
                   <li>You deposit $1,000.</li>
                   <li>The bonus package is 20%.</li>
@@ -182,17 +182,17 @@ export default function DepositBonusLandingPage() {
       <section className="py-12 sm:py-16 md:py-20 relative z-10 border-t border-white/5 bg-[#070A23]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center space-y-8 sm:space-y-12">
           <div className="space-y-3 max-w-3xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">Key Features of Fxcelite Deposit Bonus</h2>
-            <p className="text-sm sm:text-base text-slate-400 font-light">Fxcelite is a highly reputable Forex and CFD broker in the world. Their deposit bonus deal is easy, simple, and is meant to make traders prosper. The following is what is special about it:</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">Key Features of FXCELITE Deposit Bonus</h2>
+            <p className="text-sm sm:text-base text-slate-400 font-light">FXCELITE is a highly reputable Forex and CFD broker in the world. Their deposit bonus deal is easy, simple, and is meant to make traders prosper. The following is what is special about it:</p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 text-left">
             {[
-              { icon: '👥', title: 'Available for New and Existing Clients', desc: 'You have only opened your account the day before yesterday or have been trading with Fxcelite all your life - you can join and receive the bonus on each deposit.' },
+              { icon: '👥', title: 'Available for New and Existing Clients', desc: 'You have only opened your account the day before yesterday or have been trading with FXCELITE all your life - you can join and receive the bonus on each deposit.' },
               { icon: '🔄', title: 'Bonus on every Deposit', desc: 'There is no restriction on the number of occasions you can receive the bonus. Make one deposit, receive a bonus. Deposit once more the following week, and receive a bonus once more. Simple.' },
               { icon: '💸', title: 'No Extra Fees', desc: 'The bonus is completely free. There is no fee, commission or interest to receive it.' },
               { icon: '🏦', title: 'Withdraw Your Profits Anytime', desc: 'This is important. The amount of bonus itself is not withdrawable. Still, all the profit earned under the bonus could be deposited into the bank account or payment method of your choice without any inquiries at all.' },
-              { icon: '📈', title: 'Works on All Trading Instruments', desc: 'Trade Forex pairs, Gold, Silver, Crude Oil, Indices, Shares, Cryptocurrencies or almost everything that Fxcelite has to offer with the bonus.' },
+              { icon: '📈', title: 'Works on All Trading Instruments', desc: 'Trade Forex pairs, Gold, Silver, Crude Oil, Indices, Shares, Cryptocurrencies or almost everything that FXCELITE has to offer with the bonus.' },
               { icon: '🤖', title: 'Compatible with EAs and Robots', desc: 'Do you have automated strategies in trading? Bonus funds are well-suited to Expert Advisors (EAs).' },
             ].map((feature, i) => (
               <div 
@@ -203,7 +203,7 @@ export default function DepositBonusLandingPage() {
                 <div className="w-10 h-10 md:w-12 md:h-12 rounded-lg bg-gradient-to-br from-[#070A23] to-[#050617] border border-white/10 flex items-center justify-center text-lg md:text-xl shadow-[inset_0_2px_10px_rgba(255,255,255,0.05)] mb-4 group-hover:scale-110 group-hover:border-emerald-500/30 transition-all duration-300">
                   <span className="drop-shadow-md">{feature.icon}</span>
                 </div>
-                <h3 className="text-base sm:text-lg font-bold text-white mb-2 group-hover:text-emerald-400 transition-colors">{feature.title}</h3>
+                <h3 className="text-base sm:text-lg font-normal text-white mb-2 group-hover:text-emerald-400 transition-colors">{feature.title}</h3>
                 <p className="text-xs sm:text-sm text-slate-400 leading-relaxed font-light">{feature.desc}</p>
               </div>
             ))}
@@ -218,8 +218,8 @@ export default function DepositBonusLandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 space-y-8 sm:space-y-12">
           
           <div className="text-center space-y-3 max-w-3xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">Why Choose Fxcelite' Deposit Bonus Over Others?</h2>
-            <p className="text-sm sm:text-base text-slate-400 font-light">Bonuses are provided by a number of brokers. However, most of them have their own tricks and traps, like massive requirements of trading volume, withdrawal limitations, or unfavourable conditions. Fxcelite are different.</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">Why Choose FXCELITE' Deposit Bonus Over Others?</h2>
+            <p className="text-sm sm:text-base text-slate-400 font-light">Bonuses are provided by a number of brokers. However, most of them have their own tricks and traps, like massive requirements of trading volume, withdrawal limitations, or unfavourable conditions. FXCELITE are different.</p>
           </div>
 
           <div className="grid md:grid-cols-12 gap-8 lg:gap-12 items-start">
@@ -238,7 +238,7 @@ export default function DepositBonusLandingPage() {
             {/* Features Side */}
             <div className="md:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
               {[
-                { num: '1', title: 'Transparent and Fair Terms', desc: 'Fxcelite is licensed and reputable all over the world. The terms of their bonuses are evident. You may read them, comprehend them, and then make decisions. No tricks of fine print.' },
+                { num: '1', title: 'Transparent and Fair Terms', desc: 'FXCELITE is licensed and reputable all over the world. The terms of their bonuses are evident. You may read them, comprehend them, and then make decisions. No tricks of fine print.' },
                 { num: '2', title: 'Lower Risk for You', desc: 'Since bonus funds tend to be withdrawn initially to settle any losses, your actual capital remains intact over a longer period. This would be a massive risk management benefit.' },
                 { num: '3', title: 'Perfect for Beginners', desc: 'You are likely to be scared of losing money if you are new to trading. The bonus provides you with additional practice money at no expense to you. You are able to test, learn the market behavior and get confidence quicker.' },
                 { num: '4', title: 'Great for Experienced Traders', desc: 'In case you already have a lucrative plan, additional funds will translate into additional revenue. Suppose you earn a profit of 5% on your own capital every month. Your trading capital is 20% greater with a 20% bonus. And you have the potential to grow your profit by almost 20%, without any additional effort.' },
@@ -250,10 +250,10 @@ export default function DepositBonusLandingPage() {
                 >
                   <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="w-8 h-8 rounded-lg bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400 font-bold shrink-0">
+                    <div className="w-8 h-8 rounded-lg bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400 font-normal shrink-0">
                       {item.num}
                     </div>
-                    <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-emerald-400 transition-colors leading-tight">{item.title}</h3>
+                    <h3 className="text-base sm:text-lg font-normal text-white group-hover:text-emerald-400 transition-colors leading-tight">{item.title}</h3>
                   </div>
                   <p className="text-xs sm:text-sm text-slate-400 leading-relaxed font-light">{item.desc}</p>
                 </div>
@@ -270,29 +270,29 @@ export default function DepositBonusLandingPage() {
       <section className="py-12 sm:py-16 md:py-20 border-t border-white/5 bg-[#070A23] relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center space-y-8 sm:space-y-12">
           <div className="space-y-3 max-w-3xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">How to Get the Fxcelite Deposit Bonus (Step-by-Step)</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">How to Get the FXCELITE Deposit Bonus (Step-by-Step)</h2>
             <p className="text-sm sm:text-base text-slate-400 font-light">It takes only a few steps to trade with more money today:</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-left relative max-w-5xl mx-auto">
             {[
-              { num: 'Step 1', title: 'Open a Live Trading Account', text: 'In case you do not have an account with Fxcelite yet, visit their site and choose the Open Account button. Enter your personal information. It is fast (less than 5 minutes) and free.' },
+              { num: 'Step 1', title: 'Open a Live Trading Account', text: 'In case you do not have an account with FXCELITE yet, visit their site and choose the Open Account button. Enter your personal information. It is fast (less than 5 minutes) and free.' },
               { num: 'Step 2', title: 'Verify Your Identity', text: 'Attach your ID (Passport, driver\'s license or national id) and address (utility bill or bank statement). It is a single KYC process that is mandatory for all regulated brokers.' },
-              { num: 'Step 3', title: 'Opt in to the Deposit Bonus Offer', text: 'Access your Fxcelite Client Area. Find the deposit bonus section. Select Opt In or Participate. This is the only time you have to do this.' },
+              { num: 'Step 3', title: 'Opt in to the Deposit Bonus Offer', text: 'Access your FXCELITE Client Area. Find the deposit bonus section. Select Opt In or Participate. This is the only time you have to do this.' },
               { num: 'Step 4', title: 'Make your First Deposit (Minimum Deposit)', text: 'Confirm the existing minimum deposit required to obtain the bonus (typically, 200 or so). Make a deposit in the way that suits you best, such as a Bank Transfer, Credit Card, Skrill, Neteller, Bitcoin, or others.' },
               { num: 'Step 5', title: 'Receive Your Bonus Automatically', text: 'The bonus percentage will be credited to your trading account balance within a couple of minutes. You will have two balances, one your real balance and the other your bonus balance.' },
               { num: 'Step 6', title: 'Start Trading', text: 'Launch your MetaTrader 4, MetaTrader 5, or cTrader platform. The composite balance will be seen. Begin trading and increasing profits.' }
             ].map((step, i) => (
               <div key={i} className="flex gap-4 group">
                 <div className="flex flex-col items-center">
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center bg-[#050617] border border-emerald-500/50 text-emerald-400 font-bold shadow-[0_0_15px_rgba(52,211,153,0.2)] shrink-0 group-hover:scale-110 transition-transform">
+                  <div className="w-10 h-10 rounded-full flex items-center justify-center bg-[#050617] border border-emerald-500/50 text-emerald-400 font-normal shadow-[0_0_15px_rgba(52,211,153,0.2)] shrink-0 group-hover:scale-110 transition-transform">
                     {i+1}
                   </div>
                   {/* Vertical connector line for visual flow */}
                   {i !== 5 && <div className="w-px h-full bg-white/10 mt-2"></div>}
                 </div>
                 <div className="pb-8">
-                  <h4 className="text-white font-bold text-sm sm:text-base mb-1">{step.title}</h4>
+                  <h4 className="text-white font-normal text-sm sm:text-base mb-1">{step.title}</h4>
                   <p className="text-xs sm:text-sm text-slate-400 font-light leading-relaxed">{step.text}</p>
                 </div>
               </div>
@@ -311,7 +311,7 @@ export default function DepositBonusLandingPage() {
             
             <h2 className="text-xl sm:text-2xl font-extrabold text-white mb-4">Important Terms You Should Know (But Don’t Worry – They Are Fair)</h2>
             <p className="text-sm sm:text-base text-slate-300 font-light mb-6">
-              There are certain basic rules in every bonus offer. Fxcelite makes them straightforward. The following are the main arguments:
+              There are certain basic rules in every bonus offer. FXCELITE makes them straightforward. The following are the main arguments:
             </p>
             
             <ul className="space-y-4 text-sm sm:text-base text-slate-300 font-light mb-6 list-disc pl-5 relative z-10">
@@ -324,7 +324,7 @@ export default function DepositBonusLandingPage() {
 
             <div className="bg-emerald-500/10 border border-emerald-500/30 rounded-xl p-4 sm:p-5 relative z-10">
               <p className="text-sm sm:text-base text-emerald-100 font-light">
-                <strong className="text-emerald-400 font-bold">Pro Tip:</strong> You got a free week or a month to trade with additional money, even when you have not fulfilled the volume requirement. Any gain you have already drawn out is pure gain.
+                <strong className="text-emerald-400 font-normal">Pro Tip:</strong> You got a free week or a month to trade with additional money, even when you have not fulfilled the volume requirement. Any gain you have already drawn out is pure gain.
               </p>
             </div>
           </div>
@@ -345,41 +345,41 @@ export default function DepositBonusLandingPage() {
             <table className="w-full text-left min-w-[600px] relative z-10">
               <thead className="bg-black/40 border-b border-white/5">
                 <tr>
-                  <th className="px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-bold tracking-widest uppercase text-slate-400">Feature</th>
-                  <th className="px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-bold tracking-widest uppercase text-slate-400">Without Bonus</th>
-                  <th className="px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-bold tracking-widest uppercase text-emerald-400 bg-emerald-900/10">With Fxcelite Deposit Bonus</th>
+                  <th className="px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-normal tracking-widest uppercase text-slate-400">Feature</th>
+                  <th className="px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-normal tracking-widest uppercase text-slate-400">Without Bonus</th>
+                  <th className="px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-normal tracking-widest uppercase text-emerald-400 bg-emerald-900/10">With FXCELITE Deposit Bonus</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-white/5">
                 <tr className="hover:bg-white/5 transition-colors">
                   <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-medium text-slate-300">Your deposit</td>
-                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-bold text-white">$1,000</td>
-                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-bold text-white bg-emerald-900/5">$1,000</td>
+                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-normal text-white">$1,000</td>
+                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-normal text-white bg-emerald-900/5">$1,000</td>
                 </tr>
                 <tr className="hover:bg-white/5 transition-colors">
                   <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-medium text-slate-300">Bonus received</td>
-                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-bold text-white">$0</td>
-                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-bold text-emerald-400 bg-emerald-900/5">$200 (example 20%)</td>
+                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-normal text-white">$0</td>
+                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-normal text-emerald-400 bg-emerald-900/5">$200 (example 20%)</td>
                 </tr>
                 <tr className="hover:bg-white/5 transition-colors">
                   <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-medium text-slate-300">Total trading balance</td>
-                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-bold text-white">$1,000</td>
-                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-bold text-white bg-emerald-900/5">$1,200</td>
+                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-normal text-white">$1,000</td>
+                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-normal text-white bg-emerald-900/5">$1,200</td>
                 </tr>
                 <tr className="hover:bg-white/5 transition-colors">
                   <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-medium text-slate-300">Profit on 10% gain</td>
-                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-bold text-white">$100</td>
-                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-bold text-emerald-400 drop-shadow-sm bg-emerald-900/5">$120</td>
+                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-normal text-white">$100</td>
+                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-normal text-emerald-400 drop-shadow-sm bg-emerald-900/5">$120</td>
                 </tr>
                 <tr className="hover:bg-white/5 transition-colors">
                   <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-medium text-slate-300">Risk to your capital</td>
-                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-bold text-red-400">Full $1,000</td>
-                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-bold text-emerald-400 bg-emerald-900/5">Still $1,000 <span className="text-[10px] font-normal text-slate-400 block">(bonus takes first loss)</span></td>
+                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-normal text-red-400">Full $1,000</td>
+                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-normal text-emerald-400 bg-emerald-900/5">Still $1,000 <span className="text-[10px] font-normal text-slate-400 block">(bonus takes first loss)</span></td>
                 </tr>
                 <tr className="hover:bg-white/5 transition-colors">
                   <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-medium text-slate-300">Can withdraw profit?</td>
-                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-bold text-white">Yes</td>
-                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-bold text-white bg-emerald-900/5">Yes</td>
+                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-normal text-white">Yes</td>
+                  <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-normal text-white bg-emerald-900/5">Yes</td>
                 </tr>
               </tbody>
             </table>
@@ -408,7 +408,7 @@ export default function DepositBonusLandingPage() {
               <p><strong className="text-white font-semibold">2. Use the Bonus to Test New Strategies:</strong> Also, always wanted to give gold trading or a new indicator a go? Experiment with the bonus funds. You lose bonus money first, in case you lose. In case you win, you get the profit.</p>
               <p><strong className="text-white font-semibold">3. Focus on High-Probability Trades:</strong> Since the bonus increases your capital, you are able to be more discriminating. Wait for the most favourable formations rather than coercing trades.</p>
               <p><strong className="text-white font-semibold">4. Withdraw Profits Regularly:</strong> Don’t have all your profit in the book. Take away some of it each week or month. This traps your profits and minimises emotional trading.</p>
-              <p><strong className="text-white font-semibold">5. Read the Exact Terms for Your Region:</strong> The conditions and percentage of bonuses may be different in countries. Always have a look at the recent deal in your Fxcelite client account.</p>
+              <p><strong className="text-white font-semibold">5. Read the Exact Terms for Your Region:</strong> The conditions and percentage of bonuses may be different in countries. Always have a look at the recent deal in your FXCELITE client account.</p>
             </div>
           </div>
 
@@ -456,7 +456,7 @@ export default function DepositBonusLandingPage() {
                 <li>Traders are loathed of any conditions (although conditions are just, some people want no strings attached at all).</li>
               </ul>
 
-              <p className="font-bold text-white pt-2">This is a definite win for 95% of the retail traders.</p>
+              <p className="font-normal text-white pt-2">This is a definite win for 95% of the retail traders.</p>
             </div>
           </div>
         </div>
@@ -469,7 +469,7 @@ export default function DepositBonusLandingPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 space-y-6">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white">Final Words – Don’t Miss This Opportunity</h2>
           <p className="text-sm sm:text-base text-slate-300 font-light">
-            It is hard enough to trade in the first place. Why not have an added advantage for yourself? Fxcelite is giving you free trading capital as a mere deposit. It is something like a store giving you the extra money to spend, but you get to pocket the profits here.
+            It is hard enough to trade in the first place. Why not have an added advantage for yourself? FXCELITE is giving you free trading capital as a mere deposit. It is something like a store giving you the extra money to spend, but you get to pocket the profits here.
           </p>
           <div className="bg-[#070A23] border border-white/10 rounded-xl p-5 sm:p-6 text-left inline-block mt-4 text-slate-300 font-light text-sm sm:text-base shadow-lg">
             <p className="font-semibold text-white mb-2">It is quite easy:</p>
@@ -490,8 +490,8 @@ export default function DepositBonusLandingPage() {
           
           <div className="pt-6">
             <button 
-              onClick={() => window.open("https://trade.fxcelite.com/register", "_blank")}
-              className="px-6 sm:px-10 py-3 sm:py-4 font-bold text-sm sm:text-lg rounded-full text-[#050617] bg-emerald-400 hover:bg-emerald-300 transition-all shadow-[0_0_20px_rgba(52,211,153,0.3)] hover:shadow-[0_0_30px_rgba(52,211,153,0.5)] hover:-translate-y-0.5"
+              onClick={() => window.open("https://trade.FXCELITE.com/register", "_blank")}
+              className="px-6 sm:px-10 py-3 sm:py-4 font-normal text-sm sm:text-lg rounded-full text-[#050617] bg-emerald-400 hover:bg-emerald-300 transition-all shadow-[0_0_20px_rgba(52,211,153,0.3)] hover:shadow-[0_0_30px_rgba(52,211,153,0.5)] hover:-translate-y-0.5"
             >
               Sign up
             </button>
@@ -514,9 +514,9 @@ export default function DepositBonusLandingPage() {
               { q: "Q2: Is the bonus actual cash? Can I lose it?", a: "Yes, it is real trading funds. When you take a losing trade, you will lose the bonus money first. That is in fact, good since your personal deposit is secured at a longer period." },
               { q: "Q3: Am I obliged to pay tax on the bonus?", a: "The tax regulations are country-specific. Mostly, you are taxed on the trading gains rather than the bonus itself. Ask your local tax advisor." },
               { q: "Q4: Do I qualify to get the bonus several times?", a: "Yes. When you make deposits within the promotion period, the percentage of bonus on the deposits will be awarded on the deposits." },
-              { q: "Q5: What is the case of going negative with a bonus?", a: "Fxcelite provides negative balance cover to retail customers. You have nothing to lose except your deposit. The bonus does not become an additional liability." },
+              { q: "Q5: What is the case of going negative with a bonus?", a: "FXCELITE provides negative balance cover to retail customers. You have nothing to lose except your deposit. The bonus does not become an additional liability." },
               { q: "Q6: Does the bonus apply to every type of account?", a: "Usually, it works on Standard and Raw Spread accounts. See the details of the particular offer for any exceptions." },
-              { q: "Q7: Is it possible to use the bonus with an EA or copy trading?", a: "Absolutely. Fxcelite permits Expert Advisor, copy trading, and algorithmic trading on bonus funds." },
+              { q: "Q7: Is it possible to use the bonus with an EA or copy trading?", a: "Absolutely. FXCELITE permits Expert Advisor, copy trading, and algorithmic trading on bonus funds." },
             ].map((faq, i) => (
               <div 
                 key={i} 
@@ -524,7 +524,7 @@ export default function DepositBonusLandingPage() {
                 onClick={() => toggleFaq(i)}
               >
                 <div className="p-4 sm:p-6 flex justify-between items-center select-none">
-                  <h3 className="text-sm sm:text-base font-bold text-white pr-4">{faq.q}</h3>
+                  <h3 className="text-sm sm:text-base font-normal text-white pr-4">{faq.q}</h3>
                   <div className={`transform transition-transform duration-300 text-emerald-400 shrink-0 ${openFaq === i ? 'rotate-180' : 'rotate-0'}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -545,9 +545,9 @@ export default function DepositBonusLandingPage() {
       {/* ============================================ */}
       <footer className="bg-[#050617] border-t border-white/5 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-10 text-center space-y-3 sm:space-y-4">
-          <p className="text-[10px] sm:text-xs text-slate-400">&copy; {new Date().getFullYear()} Fxcelite. All rights reserved.</p>
+          <p className="text-[10px] sm:text-xs text-slate-400">&copy; {new Date().getFullYear()} FXCELITE. All rights reserved.</p>
           <p className="text-[10px] sm:text-xs text-slate-600 max-w-4xl mx-auto leading-relaxed">
-            Disclosure: Forex trading and CFDs are very risky investments that can make one lose money easily. This bonus package does not alter the riskiness of trading. Trade responsibly, and only trade with the money that you can afford to part with. Bonus conditions are negotiable. The latest details of the offers may be found on Visit Fxcelite' official website.
+            Disclosure: Forex trading and CFDs are very risky investments that can make one lose money easily. This bonus package does not alter the riskiness of trading. Trade responsibly, and only trade with the money that you can afford to part with. Bonus conditions are negotiable. The latest details of the offers may be found on Visit FXCELITE' official website.
           </p>
         </div>
       </footer>

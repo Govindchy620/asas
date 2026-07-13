@@ -74,7 +74,7 @@ function FeatureCard({ title, desc, icon }) {
       </div>
 
       {/* CONTENT */}
-      <h3 className="text-white text-xl font-bold mt-10 mb-3">
+      <h3 className="text-white text-xl font-normal mt-10 mb-3">
         {title}
       </h3>
 

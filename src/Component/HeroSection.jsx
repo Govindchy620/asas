@@ -44,11 +44,11 @@ export default function Home() {
   // FAQ Data derived from your content
   const faqData = [
     { q: "What online trading platform is the best for beginners?", a: "FXCE is usually regarded as the top online trading platform thanks to its user-friendly interface, range of informative materials, and offering you start trading on a Demo Account." },
-    { q: "Can I trade forex online through Fxcelite?", a: "We are a forex trading platform at the forefront of providing trading accounts for forex majors, minors, and exotics at very low spreads." },
-    { q: "Is Fxcelite a worldwide trading platform?", a: "Certainly. We offer our forex trading services to the whole world and provide 24/5 multilingual support." },
+    { q: "Can I trade forex online through FXCELITE?", a: "We are a forex trading platform at the forefront of providing trading accounts for forex majors, minors, and exotics at very low spreads." },
+    { q: "Is FXCELITE a worldwide trading platform?", a: "Certainly. We offer our forex trading services to the whole world and provide 24/5 multilingual support." },
     { q: "What are the advanced trading platforms and tools offered by your company?", a: "We provide MT5, a WebTrader that is high performance, and a feature packed mobile app, all with charting and technical analysis toolsets." },
     { q: "How can I initiate trading online?", a: "All you need to do is click the registration button on our website, confirm your identity and make a deposit for market access." },
-    { q: "Is this an all-in-one online trading platform?", a: "Absolutely, you can trade Forex, Metals, Indices, and Crypto all from one Fxcelite account." },
+    { q: "Is this an all-in-one online trading platform?", a: "Absolutely, you can trade Forex, Metals, Indices, and Crypto all from one FXCELITE account." },
     { q: "Can I trade on my phone?", a: "Definitely, you can trade from anywhere through web and mobile trading by installing our app for iOS or Android." },
     { q: "What is a CFD trading platform?", a: "A CFD trading platform enables you to bet on the price changes of various assets like stocks or gold without the necessity of owning the physical asset." },
     { q: "Why choose online forex trading over traditional investing?", a: "Online forex trading provides you with major benefits such as high liquidity, market access 24/5, and the opportunity to make a profit not only in rising but also in falling markets." },
@@ -78,18 +78,18 @@ export default function Home() {
 
         <div className="max-w-5xl mx-auto px-6 relative z-10 text-center space-y-8">
           
-          <h1 className="text-4xl md:text-7xl font-bold text-white tracking-tight leading-[1.1]">
-            Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">Fxcelite</span> <br/>
+          <h1 className="text-4xl md:text-7xl font-normal text-white tracking-tight leading-[1.1]">
+            Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">FXCELITE</span> <br/>
             Your All-in-One Online Trading Platform
           </h1>
           
           <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            Welcome to the future of your financial prosperity. FXCElite is a global premier trading platform that offers both retail and institutional investors direct access to the world's most liquid markets.
+            Welcome to the future of your financial prosperity. FXCELITE is a global premier trading platform that offers both retail and institutional investors direct access to the world's most liquid markets.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
            <a 
-  href="https://trade.fxcelite.com/register"
+  href="https://trade.FXCELITE.com/register"
   target="_blank"
   rel="noopener noreferrer"
   className="inline-flex px-8 py-4 bg-teal-500 hover:bg-teal-400 text-white font-semibold rounded-full transition-all shadow-lg shadow-teal-500/20 items-center justify-center gap-2 group"
@@ -108,7 +108,7 @@ export default function Home() {
                { label: "Environment", val: "Digital 2026" },
              ].map((stat, i) => (
                <div key={i} className="text-center">
-                 <p className="text-2xl font-bold text-white">{stat.val}</p>
+                 <p className="text-2xl font-normal text-white">{stat.val}</p>
                  <p className="text-sm text-slate-500">{stat.label}</p>
                </div>
              ))}
@@ -127,7 +127,7 @@ export default function Home() {
           {/* LEFT PART: Text Content */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-3xl md:text-5xl font-bold text-white leading-tight">
+              <h3 className="text-3xl md:text-5xl font-normal text-white leading-tight">
                 Trade Global Financial Markets from{' '}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">
                   One Unified Account
@@ -136,7 +136,7 @@ export default function Home() {
             </div>
             
             <p className="text-lg text-slate-400 border-l-2 border-teal-500/50 pl-6">
-              Why manage multiple logins when you can use one single all-in-one online trading platform? Fxcelite offers you the opportunity to explore the global financial markets trading platform with ease.
+              Why manage multiple logins when you can use one single all-in-one online trading platform? FXCELITE offers you the opportunity to explore the global financial markets trading platform with ease.
             </p>
             
             <div className="flex flex-wrap gap-4 pt-2">
@@ -148,7 +148,7 @@ export default function Home() {
     </button>
               
              <button
-        onClick={() => window.open("https://trade.fxcelite.com/login", "_blank")}
+        onClick={() => window.open("https://trade.FXCELITE.com/login", "_blank")}
         className="px-6 py-3 text-teal-400 font-medium hover:text-teal-300 flex items-center gap-2 group transition-colors"
 >
   See Spreads
@@ -183,7 +183,7 @@ export default function Home() {
       <section className="py-24 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">CFD Trading Platform</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white mb-4">CFD Trading Platform</h2>
             <p className="text-slate-400 max-w-2xl mx-auto">
               In a market where every second matters, we deliver the best online trading experience.
             </p>
@@ -227,7 +227,7 @@ export default function Home() {
                 <h2 className="text-xs font-semibold text-blue-400 tracking-wider uppercase">Professional Gear</h2>
               </div>
               
-              <h3 className="text-3xl md:text-5xl font-bold text-white leading-tight">
+              <h3 className="text-3xl md:text-5xl font-normal text-white leading-tight">
                 Advanced <br className="hidden md:block" /> 
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">
                   Trading Tools
@@ -290,7 +290,7 @@ export default function Home() {
     
     <div className="mt-10 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
       <a 
-  href="https://trade.fxcelite.com/login" 
+  href="https://trade.FXCELITE.com/login" 
   target="_blank" 
   rel="noopener noreferrer"
   className="inline-block px-8 py-3.5 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg shadow-lg hover:shadow-blue-500/30 transition-all duration-300 transform hover:-translate-y-1 text-center"
@@ -305,7 +305,7 @@ export default function Home() {
       <section className="py-24">
   <div className="max-w-7xl mx-auto px-6">
     <div className="text-center mb-16">
-      <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">The Best Online Trading Platform</h2>
+      <h2 className="text-3xl md:text-4xl font-normal text-white mb-4">The Best Online Trading Platform</h2>
       <p className="text-slate-400">Scalable environments for Beginners and Professionals.</p>
     </div>
 
@@ -315,7 +315,7 @@ export default function Home() {
         icon={<Target />} 
         features={["Risk-Free Demo Account", "Simplified WebTrader Access", "Helpdesk Tutorials"]}
         cta="Try Demo"
-        href="https://trade.fxcelite.com/register"
+        href="https://trade.FXCELITE.com/register"
         accent="teal"
       />
       <PricingCard 
@@ -323,7 +323,7 @@ export default function Home() {
         icon={<Zap />} 
         features={["MT5 ECN Infrastructure", "Trading Algorithms (EAs)", "Market Depth (DOM)"]}
         cta="Go Pro"
-        href="https://trade.fxcelite.com/register"
+        href="https://trade.FXCELITE.com/register"
         accent="blue"
         highlight={true}
       />
@@ -332,7 +332,7 @@ export default function Home() {
         icon={<Users />} 
         features={["Elite IB Dashboard", "Affiliate Programs", "Expand Your Business"]}
         cta="Join Network"
-        href="https://trade.fxcelite.com/register"
+        href="https://trade.FXCELITE.com/register"
         accent="purple"
       />
     </div>
@@ -344,9 +344,9 @@ export default function Home() {
   <div className="max-w-7xl mx-auto px-6">
     <div className="flex flex-col lg:flex-row items-center gap-16">
       <div className="lg:w-1/2 space-y-8">
-        <h2 className="text-3xl md:text-5xl font-bold text-white">Trade Anywhere</h2>
+        <h2 className="text-3xl md:text-5xl font-normal text-white">Trade Anywhere</h2>
         <p className="text-lg text-slate-400">
-          In 2026, your trading desk will be wherever you are. With FXCElite, trade anywhere, anytime, thanks to web and smartphone trading solutions that sync instantly across all of your devices.
+          In 2026, your trading desk will be wherever you are. With FXCELITE, trade anywhere, anytime, thanks to web and smartphone trading solutions that sync instantly across all of your devices.
         </p>
         <div className="grid gap-4">
           <FeatureRow title="Desktop Power" desc="The complete forex trading platform experience for Windows and Mac computers." icon={<Laptop size={24} />} />
@@ -377,7 +377,7 @@ export default function Home() {
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Why Choose FXCElite?</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white mb-4">Why Choose FXCELITE?</h2>
             <p className="text-slate-400">Your Forex Trading Platform of choice.</p>
           </div>
           
@@ -412,7 +412,7 @@ export default function Home() {
     
     {/* Modern pulsing glass badge */}
     {/* Enhanced Heading with gradient text and heavy drop-shadow */}
-    <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)] max-w-4xl">
+    <h2 className="text-4xl md:text-6xl lg:text-7xl font-normal text-white tracking-tight drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)] max-w-4xl">
       Experience the <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">Elite</span> difference.
     </h2>
     
@@ -423,10 +423,10 @@ export default function Home() {
 
     {/* Modern Neon Glow Button */}
    <a 
-  href="https://trade.fxcelite.com/login"
+  href="https://trade.FXCELITE.com/login"
   target="_blank" 
   rel="noopener noreferrer"
-  className="inline-block mt-8 px-8 py-4 bg-gradient-to-r from-teal-500 to-teal-400 hover:from-teal-400 hover:to-teal-300 text-[#050a18] font-bold rounded-xl transition-all duration-300 shadow-[0_0_20px_rgba(45,212,191,0.3)] hover:shadow-[0_0_30px_rgba(45,212,191,0.5)] hover:-translate-y-1 text-center"
+  className="inline-block mt-8 px-8 py-4 bg-gradient-to-r from-teal-500 to-teal-400 hover:from-teal-400 hover:to-teal-300 text-[#050a18] font-normal rounded-xl transition-all duration-300 shadow-[0_0_20px_rgba(45,212,191,0.3)] hover:shadow-[0_0_30px_rgba(45,212,191,0.5)] hover:-translate-y-1 text-center"
 >
   Open Live Account
 </a>
@@ -437,7 +437,7 @@ export default function Home() {
       {/* --- 3 STEPS --- */}
       <section className="py-24 bg-gradient-to-b from-[#050a18] to-slate-900">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-16">How to Start Your Trading Journey</h2>
+          <h2 className="text-3xl md:text-4xl font-normal text-white mb-16">How to Start Your Trading Journey</h2>
           
           <div className="grid md:grid-cols-3 gap-8 relative">
             <div className="hidden md:block absolute top-12 left-[16%] right-[16%] h-0.5 bg-gradient-to-r from-teal-500/0 via-teal-500/20 to-teal-500/0"></div>
@@ -448,10 +448,10 @@ export default function Home() {
           </div>
 
          <a 
-  href="https://trade.fxcelite.com/register"
+  href="https://trade.FXCELITE.com/register"
   target="_blank" 
   rel="noopener noreferrer"
-  className="inline-block mt-8 px-8 py-4 bg-gradient-to-r from-teal-500 to-teal-400 hover:from-teal-400 hover:to-teal-300 text-[#050a18] font-bold rounded-xl transition-all duration-300 shadow-[0_0_20px_rgba(45,212,191,0.3)] hover:shadow-[0_0_30px_rgba(45,212,191,0.5)] hover:-translate-y-1 text-center"
+  className="inline-block mt-8 px-8 py-4 bg-gradient-to-r from-teal-500 to-teal-400 hover:from-teal-400 hover:to-teal-300 text-[#050a18] font-normal rounded-xl transition-all duration-300 shadow-[0_0_20px_rgba(45,212,191,0.3)] hover:shadow-[0_0_30px_rgba(45,212,191,0.5)] hover:-translate-y-1 text-center"
 >
   Open Live Account
 </a>
@@ -461,7 +461,7 @@ export default function Home() {
       {/* --- FAQ SECTION --- */}
       <section className="py-24 border-t border-white/5 bg-blue-400/10">
         <div className="max-w-3xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-white text-center mb-12">Frequently Asked Questions (FAQs)</h2>
+          <h2 className="text-3xl font-normal text-white text-center mb-12">Frequently Asked Questions (FAQs)</h2>
           <div className="space-y-4">
             {faqData.map((item, index) => (
                <FaqItem key={index} question={item.q} answer={item.a} />
@@ -489,7 +489,7 @@ function MarketCard({ title, desc, icon, color }) {
       <div className={`w-12 h-12 ${colors[color]}/10 text-${color}-400 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}>
         {React.cloneElement(icon, { size: 24 })}
       </div>
-      <h3 className="text-lg font-bold text-white mb-1">{title}</h3>
+      <h3 className="text-lg font-normal text-white mb-1">{title}</h3>
       <p className="text-sm text-slate-500">{desc}</p>
     </div>
   );
@@ -500,7 +500,7 @@ function FeatureRow({ title, desc, icon }) {
     <div className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.03] border border-white/5">
        <div className="shrink-0 text-teal-400 mt-1">{icon}</div>
        <div>
-         <h4 className="font-bold text-white">{title}</h4>
+         <h4 className="font-normal text-white">{title}</h4>
          <p className="text-sm text-slate-400">{desc}</p>
        </div>
     </div>
@@ -519,7 +519,7 @@ function PricingCard({ title, icon, features, cta, accent, highlight, href }) {
       <div className={`w-12 h-12 rounded-full ${accentColor} flex items-center justify-center mb-6`}>
         {icon}
       </div>
-      <h3 className="text-2xl font-bold text-white mb-6">{title}</h3>
+      <h3 className="text-2xl font-normal text-white mb-6">{title}</h3>
       <ul className="space-y-4 mb-8 flex-1">
         {features.map((f, i) => (
           <li key={i} className="flex items-center gap-3 text-sm text-slate-300">
@@ -551,7 +551,7 @@ function WhyCard({ title, desc, icon }) {
   return (
     <div className="p-6 bg-slate-900/50 border border-white/5 rounded-2xl hover:bg-slate-800/50 transition-colors">
       <div className="text-teal-400 mb-4">{icon}</div>
-      <h3 className="text-lg font-bold text-white mb-2">{title}</h3>
+      <h3 className="text-lg font-normal text-white mb-2">{title}</h3>
       <p className="text-sm text-slate-400 leading-relaxed">{desc}</p>
     </div>
   );
@@ -572,8 +572,8 @@ function StepCard({ number, title, desc, icon }) {
       <div className="w-16 h-16 rounded-2xl bg-[#0B1221] border border-white/10 flex items-center justify-center text-teal-400 mb-6 shadow-lg shadow-teal-900/20 group hover:scale-110 transition-transform duration-300">
          {React.cloneElement(icon, { size: 28 })}
       </div>
-      <div className="text-sm font-bold text-teal-500 mb-2">Step {number}</div>
-      <h3 className="text-xl font-bold text-white mb-2">{title}</h3>
+      <div className="text-sm font-normal text-teal-500 mb-2">Step {number}</div>
+      <h3 className="text-xl font-normal text-white mb-2">{title}</h3>
       <p className="text-slate-400 text-sm">{desc}</p>
     </div>
   );

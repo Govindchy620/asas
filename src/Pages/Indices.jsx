@@ -62,18 +62,18 @@ export default function Indices() {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
                 <a 
-                  href="https://trade.Fxcelite.com/register"
+                  href="https://trade.FXCELITE.com/register"
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-bold text-base transition-all shadow-[0_0_40px_-10px_rgba(6,182,212,0.6)] hover:shadow-[0_0_60px_-15px_rgba(6,182,212,0.8)] hover:-translate-y-1 flex items-center justify-center gap-2"
+                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-normal text-base transition-all shadow-[0_0_40px_-10px_rgba(6,182,212,0.6)] hover:shadow-[0_0_60px_-15px_rgba(6,182,212,0.8)] hover:-translate-y-1 flex items-center justify-center gap-2"
                 >
                   Launch Trading Desk <ArrowRight size={18} />
                 </a>
                 <a 
-                  href="https://trade.fxcelite.com/login"
+                  href="https://trade.FXCELITE.com/login"
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-transparent border border-white/20 text-white font-bold text-base hover:bg-white/10 transition-all flex items-center justify-center gap-2"
+                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-transparent border border-white/20 text-white font-normal text-base hover:bg-white/10 transition-all flex items-center justify-center gap-2"
                 >
                   View Market Live
                 </a>
@@ -90,7 +90,7 @@ export default function Indices() {
                 <div className="p-5 border-b border-white/10 bg-white/[0.02] flex justify-between items-center">
                   <div className="flex items-center gap-3">
                     <BarChart3 size={20} className="text-cyan-400" />
-                    <span className="font-bold text-base text-white tracking-wide">Top Movers</span>
+                    <span className="font-normal text-base text-white tracking-wide">Top Movers</span>
                   </div>
                   <span className="text-xs font-medium bg-emerald-500/20 text-emerald-400 px-3 py-1 rounded-full animate-pulse">Markets Open</span>
                 </div>
@@ -109,12 +109,12 @@ export default function Indices() {
                           {idx.isUp ? <TrendingUp size={18} /> : <Activity size={18} />}
                         </div>
                         <div>
-                          <div className="font-bold text-sm text-white group-hover:text-cyan-400 transition-colors">{idx.name}</div>
+                          <div className="font-normal text-sm text-white group-hover:text-cyan-400 transition-colors">{idx.name}</div>
                           <div className="text-xs text-slate-500">{idx.code}</div>
                         </div>
                       </div>
                       <div className="text-right">
-                        <div className="font-mono font-bold text-sm text-white">{idx.price}</div>
+                        <div className="font-mono font-normal text-sm text-white">{idx.price}</div>
                         <div className={`text-xs font-semibold ${idx.isUp ? 'text-emerald-400' : 'text-rose-400'}`}>{idx.change}</div>
                       </div>
                     </div>
@@ -156,8 +156,8 @@ export default function Indices() {
                 <div className="p-6 space-y-3">
                   <div className="flex justify-between items-end">
                     <div className="space-y-1">
-                      <span className="text-xs text-slate-500 uppercase tracking-widest font-bold">Benchmark Performance</span>
-                      <div className="text-xl font-bold text-white">Global Indices</div>
+                      <span className="text-xs text-slate-500 uppercase tracking-widest font-normal">Benchmark Performance</span>
+                      <div className="text-xl font-normal text-white">Global Indices</div>
                     </div>
                     <Layers className="text-cyan-400" size={28} />
                   </div>
@@ -173,7 +173,7 @@ export default function Indices() {
               <div className="inline-flex p-3 rounded-2xl bg-cyan-500/10 text-cyan-400">
                 <Search size={24} />
               </div>
-              <h2 className="text-2xl lg:text-3xl font-bold text-white tracking-tight">What Is Indices Trading?</h2>
+              <h2 className="text-2xl lg:text-3xl font-normal text-white tracking-tight">What Is Indices Trading?</h2>
               <div className="text-base leading-relaxed space-y-5 text-slate-400">
                 <p>
                   Fundamentally, index trading is all about speculating on the price action of a basket of stocks that comprise an index. Rather than investing in 500 individual stocks, you are investing in one product that follows all of them. This approach to global indices trading is extremely popular because it minimizes the risk that is inherent in the price fluctuations of individual stocks.
@@ -194,8 +194,8 @@ export default function Indices() {
         </div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">Why Choose Fxcelite for Stock Indices Trading?</h2>
-            <p className="text-slate-400 max-w-2xl mx-auto text-base leading-relaxed">When searching for an indices trading platform, you require stability and low costs. Fxcelite differs from other platforms because it provides a global index CFD trading platform that suits all levels of traders.</p>
+            <h2 className="text-2xl md:text-3xl font-normal text-white mb-4">Why Choose FXCELITE for Stock Indices Trading?</h2>
+            <p className="text-slate-400 max-w-2xl mx-auto text-base leading-relaxed">When searching for an indices trading platform, you require stability and low costs. FXCELITE differs from other platforms because it provides a global index CFD trading platform that suits all levels of traders.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
             {[
@@ -208,13 +208,13 @@ export default function Indices() {
                 <div className="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-5 group-hover:scale-110 transition-transform">
                   {feature.icon}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2 tracking-tight">{feature.title}</h3>
+                <h3 className="text-lg font-normal text-white mb-2 tracking-tight">{feature.title}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed">{feature.desc}</p>
               </div>
             ))}
           </div>
           <div className="mt-10 p-6 rounded-xl bg-gradient-to-r from-cyan-500/5 to-transparent border border-cyan-500/10 text-center">
-            <p className="text-cyan-400 font-bold italic text-sm tracking-wide">Seamless Integration: Switch between Forex Trading and indices from one single login.</p>
+            <p className="text-cyan-400 font-normal italic text-sm tracking-wide">Seamless Integration: Switch between Forex Trading and indices from one single login.</p>
           </div>
         </div>
       </section>
@@ -224,7 +224,7 @@ export default function Indices() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div className="space-y-8">
-              <h2 className="text-2xl lg:text-3xl font-bold text-white tracking-tight">Key Features of Our Indices Trading Platform</h2>
+              <h2 className="text-2xl lg:text-3xl font-normal text-white tracking-tight">Key Features of Our Indices Trading Platform</h2>
               <div className="prose prose-invert max-w-none text-slate-400 text-base leading-relaxed italic">
                 Our system is packed with index trading tools that will give you the edge you need in the rapidly changing stock market.
               </div>
@@ -241,7 +241,7 @@ export default function Indices() {
                       <CheckCircle2 size={16} />
                     </div>
                     <div>
-                      <h4 className="font-bold text-white text-base mb-1">{item.t}</h4>
+                      <h4 className="font-normal text-white text-base mb-1">{item.t}</h4>
                       <p className="text-slate-500 text-sm leading-relaxed">{item.d}</p>
                     </div>
                   </div>
@@ -254,10 +254,10 @@ export default function Indices() {
                   </div>
                   <p className="text-white text-base font-medium mb-6 leading-relaxed italic relative z-10">Not ready for live markets? Open a Demo Account and practice your indices strategy with zero risk.</p>
                   <a 
-                    href="https://trade.fxcelite.com/register"
+                    href="https://trade.FXCELITE.com/register"
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="inline-block px-8 py-3 rounded-full bg-cyan-400 text-black font-bold hover:bg-white transition-colors relative z-10 shadow-lg shadow-cyan-500/20 text-sm text-center"
+                    className="inline-block px-8 py-3 rounded-full bg-cyan-400 text-black font-normal hover:bg-white transition-colors relative z-10 shadow-lg shadow-cyan-500/20 text-sm text-center"
                   >
                     Open a Demo Account
                   </a>
@@ -270,7 +270,7 @@ export default function Indices() {
                 <div className="absolute top-0 right-0 w-full h-full opacity-5 pointer-events-none">
                   <img src="https://images.unsplash.com/photo-1591696208162-a97b73c70f08?q=80&w=2070&auto=format&fit=crop" alt="Indices" className="w-full h-full object-cover" />
                 </div>
-                <h2 className="text-xl md:text-2xl font-bold text-white mb-6 relative z-10 tracking-tight">Best Indices to Trade</h2>
+                <h2 className="text-xl md:text-2xl font-normal text-white mb-6 relative z-10 tracking-tight">Best Indices to Trade</h2>
                 <p className="text-slate-400 mb-6 text-sm leading-relaxed relative z-10">
                   We give you access to the most liquid and volatile markets in the world. Depending on your strategy, here are some of the best indices to trade:
                 </p>
@@ -284,7 +284,7 @@ export default function Indices() {
                   ].map((idx, i) => (
                     <div key={i} className="flex items-center justify-between p-4 rounded-xl bg-white/5 border border-white/10 hover:bg-white/[0.08] hover:border-cyan-400/40 transition-all cursor-default">
                       <div>
-                        <div className="font-bold text-sm text-white tracking-tight">{idx.n}</div>
+                        <div className="font-normal text-sm text-white tracking-tight">{idx.n}</div>
                         <div className="text-xs text-slate-500 mt-0.5">{idx.d}</div>
                       </div>
                       <TrendingUp size={16} className="text-cyan-400" />
@@ -292,7 +292,7 @@ export default function Indices() {
                   ))}
                 </div>
                 <div className="mt-8 p-4 rounded-xl bg-cyan-500/10 border border-cyan-500/20">
-                  <p className="text-cyan-400 font-bold flex items-center justify-center gap-2 cursor-pointer hover:text-white transition-colors group text-xs">
+                  <p className="text-cyan-400 font-normal flex items-center justify-center gap-2 cursor-pointer hover:text-white transition-colors group text-xs">
                     View our Range of Products <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
                   </p>
                 </div>
@@ -304,7 +304,7 @@ export default function Indices() {
                     alt="Comparison" 
                     className="absolute inset-0 w-full h-full object-cover opacity-5 group-hover:scale-105 transition-transform duration-1000"
                 />
-                <h2 className="text-xl font-bold text-white mb-4 tracking-tight">Indices vs Forex Trading</h2>
+                <h2 className="text-xl font-normal text-white mb-4 tracking-tight">Indices vs Forex Trading</h2>
                 <p className="text-slate-400 leading-relaxed text-sm">
                   Whereas Forex Trading is centered on the value of one currency relative to another, the trading of indices is centered on the health of the entire stock market. Indices tend to be less volatile than stocks but can provide more predictable trends based on national economic policy. Traders will often hedge their positions by trading the USD while taking a position in the S&P 500.
                 </p>
@@ -319,7 +319,7 @@ export default function Indices() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-cyan-500/5 blur-[120px] rounded-full pointer-events-none"></div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">How to Start Trading Indices Online</h2>
+            <h2 className="text-2xl md:text-3xl font-normal text-white mb-4">How to Start Trading Indices Online</h2>
             <p className="text-slate-400 text-base">Setting up your account on our indices trading platform is a simple 5-step process:</p>
           </div>
           <div className="grid md:grid-cols-5 gap-5">
@@ -331,10 +331,10 @@ export default function Indices() {
               { n: "05", t: "Trade", d: "Open your position and manage it using our real-time Trading Charts." },
             ].map((step, i) => (
               <div key={i} className="relative p-6 rounded-3xl bg-[#0B0E2A] border border-white/5 hover:border-cyan-500/40 hover:-translate-y-1 transition-all duration-300 text-center shadow-xl">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-cyan-400 to-blue-600 text-black flex items-center justify-center font-black text-lg mx-auto mb-5 shadow-[0_0_15px_rgba(34,211,238,0.3)]">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-cyan-400 to-blue-600 text-black flex items-center justify-center font-normal text-lg mx-auto mb-5 shadow-[0_0_15px_rgba(34,211,238,0.3)]">
                   {step.n}
                 </div>
-                <h4 className="text-base font-bold text-white mb-2 tracking-tight">{step.t}</h4>
+                <h4 className="text-base font-normal text-white mb-2 tracking-tight">{step.t}</h4>
                 <p className="text-xs text-slate-500 leading-relaxed">{step.d}</p>
               </div>
             ))}
@@ -357,10 +357,10 @@ export default function Indices() {
                   <div className="p-3 rounded-xl bg-cyan-400/10 text-cyan-400 border border-cyan-400/20">
                     <Shield size={24} />
                   </div>
-                  <h2 className="text-xl lg:text-2xl font-bold text-white tracking-tight">Security & Reliability</h2>
+                  <h2 className="text-xl lg:text-2xl font-normal text-white tracking-tight">Security & Reliability</h2>
                 </div>
                 <p className="text-base text-slate-400 leading-relaxed">
-                  When you trade indices online using Fxcelite, you are using a global indices CFD trading platform that focuses on security. All transactions are encrypted, and your money is held in segregated accounts. Our reliability ensures that even in the midst of major market crashes or rallies, your platform will remain stable and responsive.
+                  When you trade indices online using FXCELITE, you are using a global indices CFD trading platform that focuses on security. All transactions are encrypted, and your money is held in segregated accounts. Our reliability ensures that even in the midst of major market crashes or rallies, your platform will remain stable and responsive.
                 </p>
               </div>
             </div>
@@ -376,7 +376,7 @@ export default function Indices() {
                   <div className="p-3 rounded-xl bg-blue-400/10 text-blue-400 border border-blue-400/20">
                     <PieChart size={24} />
                   </div>
-                  <h2 className="text-xl lg:text-2xl font-bold text-white tracking-tight">Who Should Trade Indices?</h2>
+                  <h2 className="text-xl lg:text-2xl font-normal text-white tracking-tight">Who Should Trade Indices?</h2>
                 </div>
                 <p className="text-slate-400 mb-6 font-medium text-base">Indices trading is ideal for those who prefer a "big picture" approach to the markets. It is perfect for:</p>
                 <ul className="space-y-4">
@@ -397,21 +397,21 @@ export default function Indices() {
           </div>
 
           <div className="mt-24 text-center max-w-4xl mx-auto px-6">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-6 tracking-tight">Why Fxcelite is the Best Choice?</h2>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-6 tracking-tight">Why FXCELITE is the Best Choice?</h2>
             <p className="text-lg md:text-xl text-slate-400 leading-relaxed mb-10">
               With our unique blend of indices trading with low spreads, ultra-fast execution, and an easy-to-use platform, we offer everything you need to succeed.
             </p>
             <div className="space-y-6">
               <a 
-                href="https://trade.fxcelite.com/register"
+                href="https://trade.FXCELITE.com/register"
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-block px-10 py-4 rounded-full bg-white text-black font-bold text-base hover:bg-cyan-400 hover:-translate-y-1 transition-all shadow-[0_10px_30px_-10px_rgba(255,255,255,0.2)] text-center"
+                className="inline-block px-10 py-4 rounded-full bg-white text-black font-normal text-base hover:bg-cyan-400 hover:-translate-y-1 transition-all shadow-[0_10px_30px_-10px_rgba(255,255,255,0.2)] text-center"
               >
-                Join Fxcelite Today
+                Join FXCELITE Today
               </a>
               <div className="flex flex-col items-center gap-3">
-                <p className="text-cyan-400 font-bold uppercase tracking-wider text-xs">
+                <p className="text-cyan-400 font-normal uppercase tracking-wider text-xs">
                   Take control of the markets. Start your journey today!
                 </p>
                 <div className="flex gap-1.5">
@@ -432,7 +432,7 @@ export default function Indices() {
             <div className="inline-flex p-3 rounded-2xl bg-cyan-500/10 text-cyan-400 mb-4">
               <HelpCircle size={32} />
             </div>
-            <h2 className="text-2xl md:text-3xl font-bold text-white tracking-tight">Frequently Asked Questions</h2>
+            <h2 className="text-2xl md:text-3xl font-normal text-white tracking-tight">Frequently Asked Questions</h2>
             <p className="text-slate-500 mt-3 text-base">Clear answers for your trading journey</p>
           </div>
           <div className="space-y-4">
@@ -444,9 +444,9 @@ export default function Indices() {
               { q: "5. Can I trade indices on my phone?", a: "Yes, our trading platform is fully mobile-friendly, so you can trade stock indices online from anywhere." },
               { q: "6. Are the indices open 24/7?", a: "Though the stock markets are operational for a certain number of hours, most of the global indices are available to trade almost 24/5 on our platform." },
               { q: "7. Is there any difference between an index and a stock?", a: "A stock is a symbol of a single company, while an index is a symbol of a number of companies. Trading in indices is more diversified." },
-              { q: "8. Does Fxcelite offer indices trading with low spreads?", a: "Yes, we offer highly competitive spreads on all major global indices to keep your trading costs low." },
+              { q: "8. Does FXCELITE offer indices trading with low spreads?", a: "Yes, we offer highly competitive spreads on all major global indices to keep your trading costs low." },
               { q: "9. How do I manage risk while trading indices?", a: "Always trade with Stop-Loss orders and never trade more than you can afford to lose. Our platform offers you all the risk management tools." },
-              { q: "10. How do I start trading on the best indices trading platform?", a: "Just register with Fxcelite, deposit money into your account, and choose the index you wish to trade from the dashboard." },
+              { q: "10. How do I start trading on the best indices trading platform?", a: "Just register with FXCELITE, deposit money into your account, and choose the index you wish to trade from the dashboard." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}
@@ -468,7 +468,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-base md:text-lg transition-colors ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
+        <span className={`font-normal text-base md:text-lg transition-colors ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex shrink-0 items-center justify-center transition-all duration-300 ml-4 ${

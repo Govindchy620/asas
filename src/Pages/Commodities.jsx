@@ -61,18 +61,18 @@ export default function Commodities() {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
                 <a 
-                  href="https://trade.fxcelite.com/register"
+                  href="https://trade.FXCELITE.com/register"
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-amber-500 hover:bg-amber-400 text-slate-900 font-bold text-base transition-all shadow-[0_0_40px_-10px_rgba(245,158,11,0.6)] hover:shadow-[0_0_60px_-15px_rgba(245,158,11,0.8)] hover:-translate-y-1 flex items-center justify-center gap-2 text-center"
+                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-amber-500 hover:bg-amber-400 text-slate-900 font-normal text-base transition-all shadow-[0_0_40px_-10px_rgba(245,158,11,0.6)] hover:shadow-[0_0_60px_-15px_rgba(245,158,11,0.8)] hover:-translate-y-1 flex items-center justify-center gap-2 text-center"
                 >
                   Start Trading Commodities <ArrowRight size={18} />
                 </a>
                 <a 
-                  href="https://trade.fxcelite.com/login"
+                  href="https://trade.FXCELITE.com/login"
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-transparent border border-white/20 text-white font-bold text-base hover:bg-white/10 transition-all flex items-center justify-center gap-2 text-center"
+                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-transparent border border-white/20 text-white font-normal text-base hover:bg-white/10 transition-all flex items-center justify-center gap-2 text-center"
                 >
                   Explore Assets
                 </a>
@@ -92,7 +92,7 @@ export default function Commodities() {
                 <div className="p-5 border-b border-white/10 bg-white/[0.02] flex justify-between items-center">
                   <div className="flex items-center gap-3">
                     <Droplets size={20} className="text-amber-400" />
-                    <span className="font-bold text-base text-white tracking-wide">Commodities Live</span>
+                    <span className="font-normal text-base text-white tracking-wide">Commodities Live</span>
                   </div>
                   <span className="text-xs font-medium bg-emerald-500/20 text-emerald-400 px-3 py-1 rounded-full animate-pulse">Markets Open</span>
                 </div>
@@ -106,16 +106,16 @@ export default function Commodities() {
                   ].map((asset, i) => (
                     <div key={i} className="flex justify-between items-center p-4 hover:bg-white/5 rounded-2xl transition-colors cursor-pointer group">
                       <div className="flex items-center gap-4">
-                        <div className={`w-10 h-10 rounded-full flex items-center justify-center border font-bold text-xs ${asset.bg} ${asset.color}`}>
+                        <div className={`w-10 h-10 rounded-full flex items-center justify-center border font-normal text-xs ${asset.bg} ${asset.color}`}>
                           {asset.name.substring(0,2).toUpperCase()}
                         </div>
                         <div>
-                          <div className="font-bold text-sm text-white group-hover:text-amber-400 transition-colors">{asset.name}</div>
+                          <div className="font-normal text-sm text-white group-hover:text-amber-400 transition-colors">{asset.name}</div>
                           <div className="text-xs text-slate-500">{asset.code}</div>
                         </div>
                       </div>
                       <div className="text-right">
-                        <div className="font-mono font-bold text-sm text-white">{asset.price}</div>
+                        <div className="font-mono font-normal text-sm text-white">{asset.price}</div>
                         <div className={`text-xs font-semibold ${asset.isUp ? 'text-emerald-400' : 'text-rose-400'}`}>{asset.change}</div>
                       </div>
                     </div>
@@ -140,7 +140,7 @@ export default function Commodities() {
               {/* Floating Element */}
               <div className="absolute -right-8 top-10 w-36 p-4 bg-[#0B0E2A]/90 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl z-20 animate-bounce" style={{animationDuration: '4s'}}>
                 <div className="text-xs text-slate-500 mb-1">XAU/USD Trend</div>
-                <div className="font-bold text-white text-sm">Strong Buy</div>
+                <div className="font-normal text-white text-sm">Strong Buy</div>
                 <div className="text-emerald-400 text-xs mt-1 flex items-center gap-1"><TrendingUp size={12}/> High Volatility</div>
               </div>
 
@@ -177,14 +177,14 @@ export default function Commodities() {
               <div className="inline-flex p-3 rounded-2xl bg-amber-500/10 text-amber-400 border border-amber-500/20">
                 <Layers size={24} />
               </div>
-              <h2 className="text-2xl lg:text-3xl font-bold text-white tracking-tight">What Is Commodities Trading?</h2>
+              <h2 className="text-2xl lg:text-3xl font-normal text-white tracking-tight">What Is Commodities Trading?</h2>
               <div className="space-y-4 text-base leading-relaxed text-slate-400">
                 <p>
                   In layman's terms, commodity trading is the act of buying and selling commodities that fuel the world economy. These are usually categorized into "Hard Commodities" (mined commodities such as Gold and Oil) and "Soft Commodities" (agricultural commodities such as Coffee or Wheat).
                 </p>
                 <div className="p-5 rounded-2xl bg-white/5 border-l-4 border-amber-500 my-4">
                   <p className="text-white font-medium text-sm">
-                    With Fxcelite, you are engaging in commodity CFD trading. This means that you are entering into a contract based on the price action of the underlying asset, bypassing delivery and storage.
+                    With FXCELITE, you are engaging in commodity CFD trading. This means that you are entering into a contract based on the price action of the underlying asset, bypassing delivery and storage.
                   </p>
                 </div>
                 <p>
@@ -203,7 +203,7 @@ export default function Commodities() {
         </div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">Why Choose FXCElite for Commodities?</h2>
+            <h2 className="text-2xl md:text-3xl font-normal text-white mb-4">Why Choose FXCELITE for Commodities?</h2>
             <p className="text-slate-400 max-w-2xl mx-auto text-base leading-relaxed">When dealing with global resources, execution speed and cost are vital. We offer a low spread commodity trading platform designed to maximize your efficiency.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -217,7 +217,7 @@ export default function Commodities() {
                 <div className="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-400 mb-5 group-hover:scale-110 transition-transform">
                   {feature.icon}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2 tracking-tight">{feature.title}</h3>
+                <h3 className="text-lg font-normal text-white mb-2 tracking-tight">{feature.title}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed">{feature.desc}</p>
               </div>
             ))}
@@ -232,7 +232,7 @@ export default function Commodities() {
             
             {/* Left Col: Features */}
             <div className="space-y-8">
-              <h2 className="text-2xl lg:text-3xl font-bold text-white tracking-tight">Platform Features</h2>
+              <h2 className="text-2xl lg:text-3xl font-normal text-white tracking-tight">Platform Features</h2>
               <div className="text-base text-slate-400 italic">
                 Our best commodity trading platform online is equipped with technical tools that simplify the complexity of raw material markets.
               </div>
@@ -262,7 +262,7 @@ export default function Commodities() {
                       <CheckCircle2 size={16} />
                     </div>
                     <div>
-                      <h4 className="font-bold text-white text-base mb-1">{item.t}</h4>
+                      <h4 className="font-normal text-white text-base mb-1">{item.t}</h4>
                       <p className="text-slate-500 text-sm leading-relaxed">{item.d}</p>
                     </div>
                   </div>
@@ -276,7 +276,7 @@ export default function Commodities() {
                 <div className="absolute top-0 right-0 w-full h-full opacity-5 pointer-events-none">
                   <img src="https://images.unsplash.com/photo-1496247749665-49cf94b99568?q=80&w=2070&auto=format&fit=crop" alt="Resources" className="w-full h-full object-cover" />
                 </div>
-                <h2 className="text-xl md:text-2xl font-bold text-white mb-6 relative z-10 tracking-tight">Best Commodities to Trade</h2>
+                <h2 className="text-xl md:text-2xl font-normal text-white mb-6 relative z-10 tracking-tight">Best Commodities to Trade</h2>
                 <p className="text-slate-400 mb-6 text-sm leading-relaxed relative z-10">
                   The current market landscape sees high demand for energy and precious metals. Here are the best commodities to trade:
                 </p>
@@ -290,7 +290,7 @@ export default function Commodities() {
                   ].map((idx, i) => (
                     <div key={i} className="flex items-center justify-between p-4 rounded-xl bg-white/5 border border-white/10 hover:bg-white/[0.08] hover:border-amber-400/40 transition-all cursor-default">
                       <div>
-                        <div className="font-bold text-sm text-white tracking-tight">{idx.n}</div>
+                        <div className="font-normal text-sm text-white tracking-tight">{idx.n}</div>
                         <div className="text-xs text-slate-500 mt-0.5">{idx.d}</div>
                       </div>
                       <TrendingUp size={16} className="text-amber-400" />
@@ -305,7 +305,7 @@ export default function Commodities() {
                     alt="Comparison" 
                     className="absolute inset-0 w-full h-full object-cover opacity-5 group-hover:scale-105 transition-transform duration-1000"
                 />
-                <h2 className="text-xl font-bold text-white mb-4 tracking-tight relative z-10">Commodities vs Indices</h2>
+                <h2 className="text-xl font-normal text-white mb-4 tracking-tight relative z-10">Commodities vs Indices</h2>
                 <p className="text-slate-400 leading-relaxed text-sm relative z-10">
                   Whereas Crypto is driven by tech sentiment and Indices by corporate health, commodities are driven by supply chains, weather, and geopolitics. Gold tends to trade inversely to the US Dollar, making it a great hedge for forex traders.
                 </p>
@@ -320,7 +320,7 @@ export default function Commodities() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-amber-500/5 blur-[120px] rounded-full pointer-events-none"></div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">How to Trade Commodity CFDs</h2>
+            <h2 className="text-2xl md:text-3xl font-normal text-white mb-4">How to Trade Commodity CFDs</h2>
             <p className="text-slate-400 text-base">Starting your journey into the world of resources is simple:</p>
           </div>
           <div className="grid md:grid-cols-5 gap-5">
@@ -333,10 +333,10 @@ export default function Commodities() {
             ].map((step, i) => (
               <div key={i} className="p-6 rounded-3xl bg-[#0B0E2A] border border-white/5 hover:border-amber-500/40 hover:-translate-y-1 transition-all duration-300 text-center relative overflow-hidden shadow-lg">
                 <div className="absolute top-0 right-0 w-20 h-20 bg-amber-500/5 blur-[30px] rounded-full"></div>
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-400 to-orange-600 text-black flex items-center justify-center font-black text-lg mx-auto mb-4 shadow-[0_0_15px_rgba(245,158,11,0.3)]">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-400 to-orange-600 text-black flex items-center justify-center font-normal text-lg mx-auto mb-4 shadow-[0_0_15px_rgba(245,158,11,0.3)]">
                   {step.n}
                 </div>
-                <h4 className="text-base font-bold text-white mb-2 tracking-tight">{step.t}</h4>
+                <h4 className="text-base font-normal text-white mb-2 tracking-tight">{step.t}</h4>
                 <p className="text-xs text-slate-500 leading-relaxed">{step.d}</p>
               </div>
             ))}
@@ -359,10 +359,10 @@ export default function Commodities() {
                   <div className="p-3 rounded-xl bg-amber-400/10 text-amber-400 border border-amber-400/20">
                     <Shield size={24} />
                   </div>
-                  <h2 className="text-xl md:text-2xl font-bold text-white tracking-tight">Security & Reliability</h2>
+                  <h2 className="text-xl md:text-2xl font-normal text-white tracking-tight">Security & Reliability</h2>
                 </div>
                 <p className="text-base text-slate-400 leading-relaxed font-light">
-                  At Fxcelite, we ensure that you have a safe commodity trading platform that uses end-to-end encryption. Since you are trading CFDs, you are protected from the dangers of physical theft or storage failures, allowing for complete peace of mind.
+                  At FXCELITE, we ensure that you have a safe commodity trading platform that uses end-to-end encryption. Since you are trading CFDs, you are protected from the dangers of physical theft or storage failures, allowing for complete peace of mind.
                 </p>
               </div>
             </div>
@@ -378,7 +378,7 @@ export default function Commodities() {
                   <div className="p-3 rounded-xl bg-orange-400/10 text-orange-400 border border-orange-400/20">
                     <Globe size={24} />
                   </div>
-                  <h2 className="text-xl md:text-2xl font-bold text-white tracking-tight">Who Should Trade Them?</h2>
+                  <h2 className="text-xl md:text-2xl font-normal text-white tracking-tight">Who Should Trade Them?</h2>
                 </div>
                 <ul className="space-y-4">
                   {[
@@ -398,21 +398,21 @@ export default function Commodities() {
           </div>
 
           <div className="mt-24 text-center max-w-4xl mx-auto px-6">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-6 tracking-tight">Why is FXCElite the Best Choice?</h2>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-6 tracking-tight">Why is FXCELITE the Best Choice?</h2>
             <p className="text-lg md:text-xl text-slate-400 leading-relaxed mb-10 font-light">
               With our low spread platform, you get more than just access—you get an edge. From elite tools to 24/5 expert support, we empower you to master gold trading, oil trading, and beyond.
             </p>
             <div className="space-y-6">
               <a 
-                href="https://trade.fxcelite.com/register"
+                href="https://trade.FXCELITE.com/register"
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-block px-10 py-4 rounded-full bg-white text-black font-bold text-base hover:bg-amber-400 hover:-translate-y-1 transition-all shadow-[0_10px_30px_-10px_rgba(245,158,11,0.2)] text-center"
+                className="inline-block px-10 py-4 rounded-full bg-white text-black font-normal text-base hover:bg-amber-400 hover:-translate-y-1 transition-all shadow-[0_10px_30px_-10px_rgba(245,158,11,0.2)] text-center"
               >
-                Join Fxcelite Today
+                Join FXCELITE Today
               </a>
               <div className="flex flex-col items-center gap-3">
-                <p className="text-amber-400 font-bold uppercase tracking-widest text-xs">
+                <p className="text-amber-400 font-normal uppercase tracking-widest text-xs">
                   Own the assets that drive the world.
                 </p>
                 <div className="flex gap-1.5">
@@ -433,7 +433,7 @@ export default function Commodities() {
             <div className="inline-flex p-3 rounded-2xl bg-amber-500/10 text-amber-400 mb-4 border border-amber-500/20">
               <HelpCircle size={32} />
             </div>
-            <h2 className="text-2xl md:text-3xl font-bold text-white tracking-tight">Frequently Asked Questions</h2>
+            <h2 className="text-2xl md:text-3xl font-normal text-white tracking-tight">Frequently Asked Questions</h2>
           </div>
           <div className="space-y-4">
             {[
@@ -441,12 +441,12 @@ export default function Commodities() {
               { q: "2. Can I trade commodities online?", a: "Yes, with our commodity trading platform, you can trade different resources directly from your browser or mobile." },
               { q: "3. What is gold trading?", a: "It is the speculation on the price of gold, usually against the US Dollar (XAU/USD), and is often used as a safe-haven asset." },
               { q: "4. How does oil trading work on a CFD platform?", a: "You trade the price difference of crude oil without owning the actual barrels. You can profit from both rising and falling oil prices." },
-              { q: "5. Is there a minimum deposit for commodities?", a: "FXCElite provides flexible account options, and you can start commodities trading with a budget that suits you." },
+              { q: "5. Is there a minimum deposit for commodities?", a: "FXCELITE provides flexible account options, and you can start commodities trading with a budget that suits you." },
               { q: "6. What are the best commodities to trade for beginners?", a: "Gold and Crude Oil are the most popular commodities for beginners because of their high liquidity and plenty of market news available." },
               { q: "7. Do you offer commodities trading with low spreads?", a: "Yes, we are a leading low spread commodity trading platform, ensuring that your spreads are among the lowest in the market." },
               { q: "8. Can I trade commodities 24/7?", a: "Most commodity markets are open 24/5, following global exchange hours from Monday to Friday." },
-              { q: "9. Is a commodities CFD trading platform secure?", a: "Absolutely. Fxcelite employs advanced encryption and segregated accounts to provide a secure commodity trading platform." },
-              { q: "10. How do I start metal trading?", a: "Simply sign up at Fxcelite, fund your account, and choose metals such as Gold, Silver, or Copper from the dashboard." },
+              { q: "9. Is a commodities CFD trading platform secure?", a: "Absolutely. FXCELITE employs advanced encryption and segregated accounts to provide a secure commodity trading platform." },
+              { q: "10. How do I start metal trading?", a: "Simply sign up at FXCELITE, fund your account, and choose metals such as Gold, Silver, or Copper from the dashboard." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}
@@ -467,7 +467,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-base md:text-lg transition-colors ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
+        <span className={`font-normal text-base md:text-lg transition-colors ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex shrink-0 items-center justify-center transition-all duration-300 ml-4 ${

@@ -60,7 +60,7 @@ export default function HowToInvest() {
               </div>
 
               {/* TITLE */}
-              <h3 className="text-lg font-bold text-white mb-4 leading-snug">
+              <h3 className="text-lg font-normal text-white mb-4 leading-snug">
                 {item.title}
               </h3>
 

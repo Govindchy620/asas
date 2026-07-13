@@ -43,13 +43,13 @@ export default function PammAccountExactContent() {
           <div className="flex flex-col items-center text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/5 border border-indigo-500/20 backdrop-blur-md mb-8">
               <Activity size={14} className="text-indigo-400" />
-              <span className="text-xs font-bold uppercase tracking-[0.2em] text-indigo-400">Analytical Precision v4.1</span>
+              <span className="text-xs font-normal uppercase tracking-[0.2em] text-indigo-400">Analytical Precision v4.1</span>
             </div>
             
-            <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6 uppercase">
+            <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6 uppercase">
               PAMM Trading Account – <br/> 
               <span className="text-transparent bg-clip-text bg-gradient-to-b from-white via-indigo-200 to-indigo-500/50">
-                The Power of Pooled Investing at FXCElite
+                The Power of Pooled Investing at FXCELITE
               </span>
             </h1>
             
@@ -58,10 +58,10 @@ export default function PammAccountExactContent() {
             </p>
 
             <div className="max-w-3xl mx-auto text-sm md:text-base text-slate-500 leading-relaxed font-light mb-8 px-4 border-x border-white/5 py-4">
-              At FXCElite, we offer a PAMM investment platform that is a transparent, secure, and automated ecosystem in which investors and expert traders cooperate for mutual success. If you want a forex managed investment account to increase your savings, or if you are a professional trader wishing to expand your strategy, our PAMM forex account infrastructure can handle large amounts of capital with institutional precision.
+              At FXCELITE, we offer a PAMM investment platform that is a transparent, secure, and automated ecosystem in which investors and expert traders cooperate for mutual success. If you want a forex managed investment account to increase your savings, or if you are a professional trader wishing to expand your strategy, our PAMM forex account infrastructure can handle large amounts of capital with institutional precision.
             </div>
 
-            <p className="text-lg md:text-xl text-indigo-400 font-bold italic mb-12">
+            <p className="text-lg md:text-xl text-indigo-400 font-normal italic mb-12">
               It is a perfect solution for people who want to rely on market experts to generate a passive income.
             </p>
 
@@ -69,12 +69,12 @@ export default function PammAccountExactContent() {
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-fuchsia-500 rounded-xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                  className="relative px-10 py-4 rounded-xl bg-white text-black font-bold text-base transition-all active:scale-95 flex items-center gap-3">
+                  onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                  className="relative px-10 py-4 rounded-xl bg-white text-black font-normal text-base transition-all active:scale-95 flex items-center gap-3">
                   Join Our PAMM Platform <Monitor size={20} />
                 </button>
               </div>
-              <p className="text-indigo-400 text-sm font-bold uppercase tracking-[0.2em] max-w-md mx-auto leading-snug">
+              <p className="text-indigo-400 text-sm font-normal uppercase tracking-[0.2em] max-w-md mx-auto leading-snug">
                 Let the experts trade for you. Join Our PAMM Platform and start growing your wealth with a managed forex investment account today!
               </p>
             </div>
@@ -96,7 +96,7 @@ export default function PammAccountExactContent() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
               <div className="p-1 border-l-4 border-indigo-500 pl-6">
-                 <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight mb-6 uppercase">What is a PAMM Account in Forex?</h2>
+                 <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight mb-6 uppercase">What is a PAMM Account in Forex?</h2>
                  <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                    <p>
                      A PAMM account forex setup creates a very innovative piece of software that enables the pooling of all the investment assets of different investors into one Master Account. This Master Account is then used by the professional money manager to trade the markets. The most interesting feature of a percentage allocation management module plan is that all the profits and losses are distributed in proportion to the investment amounts of the different individuals.
@@ -115,7 +115,7 @@ export default function PammAccountExactContent() {
                  <div className="mt-12 p-6 rounded-xl bg-black/80 backdrop-blur-2xl border border-white/10">
                     <div className="flex items-center gap-3 mb-4">
                       <Grid3X3 size={20} className="text-indigo-500" />
-                      <span className="text-white text-lg font-bold tracking-tight uppercase">Allocation Example</span>
+                      <span className="text-white text-lg font-normal tracking-tight uppercase">Allocation Example</span>
                     </div>
                     <p className="text-slate-400 text-sm leading-relaxed font-medium italic">
                       For instance, if your contribution is 10% of the total pool, then you will earn 10% of the profits, excluding the money manager's fees, thus ensuring that all investors, regardless of their amounts, earn a satisfactory percentage on their contributed amount.
@@ -132,8 +132,8 @@ export default function PammAccountExactContent() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-end justify-between gap-8 mb-16">
             <div className="max-w-2xl space-y-4">
-              <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Why Invest in a PAMM Account for Passive Income?</h2>
-              <p className="text-indigo-400 text-sm font-bold uppercase tracking-[0.2em]">The "Why" behind the "What"</p>
+              <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight">Why Invest in a PAMM Account for Passive Income?</h2>
+              <p className="text-indigo-400 text-sm font-normal uppercase tracking-[0.2em]">The "Why" behind the "What"</p>
             </div>
           </div>
 
@@ -149,7 +149,7 @@ export default function PammAccountExactContent() {
                 <div className="w-12 h-12 rounded-xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 mb-6 border border-white/5 group-hover:bg-indigo-400 group-hover:text-black transition-all">
                    {React.cloneElement(feature.icon, { size: 24 })}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3 tracking-tight uppercase">{feature.t}</h3>
+                <h3 className="text-lg font-normal text-white mb-3 tracking-tight uppercase">{feature.t}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed font-medium">{feature.d}</p>
               </div>
             ))}
@@ -169,7 +169,7 @@ export default function PammAccountExactContent() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-7 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase leading-tight">PAMM Account vs. MAM Account: Which One to Choose?</h2>
+                 <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase leading-tight">PAMM Account vs. MAM Account: Which One to Choose?</h2>
                  <p className="text-base text-slate-500 leading-relaxed font-light">
                    While both are managed solutions, understanding the PAMM account vs MAM account difference is key for both investors and managers:
                  </p>
@@ -180,7 +180,7 @@ export default function PammAccountExactContent() {
                     <div className="w-10 h-10 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400 mb-4 border border-indigo-500/10 group-hover:scale-110 transition-transform">
                       <Layers size={20} />
                     </div>
-                    <h4 className="text-base font-bold text-white mb-2 uppercase tracking-tight">PAMM (Percentage Allocation)</h4>
+                    <h4 className="text-base font-normal text-white mb-2 uppercase tracking-tight">PAMM (Percentage Allocation)</h4>
                     <p className="text-slate-500 text-sm leading-relaxed font-light">All the money is invested together in a pool. It is easy for the investors and suitable for those who require a passive income with no management involvement.</p>
                  </div>
 
@@ -188,7 +188,7 @@ export default function PammAccountExactContent() {
                     <div className="w-10 h-10 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400 mb-4 border border-indigo-500/10 group-hover:scale-110 transition-transform">
                       <Users size={20} />
                     </div>
-                    <h4 className="text-base font-bold text-white mb-2 uppercase tracking-tight">MAM (Multi-Account Manager)</h4>
+                    <h4 className="text-base font-normal text-white mb-2 uppercase tracking-tight">MAM (Multi-Account Manager)</h4>
                     <p className="text-slate-500 text-sm leading-relaxed font-light">The accounts have a common relationship. The accounts are managed separately. MAM is suitable for a higher net-worth individual. Check out more about MAM here.</p>
                  </div>
                </div>
@@ -199,7 +199,7 @@ export default function PammAccountExactContent() {
                   <div className="absolute top-0 right-0 p-8 opacity-[0.03] group-hover:scale-110 transition-transform">
                     <Monitor size={120} />
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-6 tracking-tight uppercase">2026 Tech</h3>
+                  <h3 className="text-2xl font-normal text-white mb-6 tracking-tight uppercase">2026 Tech</h3>
                   <div className="space-y-6">
                      <p className="text-base text-indigo-400 font-medium leading-relaxed">
                        Experience the power of 2026 technology. Open a Live Account to unlock full charting capabilities.
@@ -208,8 +208,8 @@ export default function PammAccountExactContent() {
                         <p>Our interactive technical analysis charts for Forex and CFDs are designed to enable you to recognize repeatable patterns.</p>
                      </div>
                      <button 
-                       onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                       className="w-full py-4 rounded-xl bg-white text-black font-bold hover:bg-indigo-400 transition-all text-base shadow-lg">
+                       onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                       className="w-full py-4 rounded-xl bg-white text-black font-normal hover:bg-indigo-400 transition-all text-base shadow-lg">
                        Open Live Account
                      </button>
                   </div>
@@ -227,10 +227,10 @@ export default function PammAccountExactContent() {
             
             {/* Heading Section (Centered in the Middle) */}
             <div className="space-y-4 max-w-3xl mx-auto text-center">
-                <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">
-                Key Features of the FXCElite PAMM Platform
+                <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight">
+                Key Features of the FXCELITE PAMM Platform
                 </h2>
-                <p className="text-indigo-400 text-sm font-bold uppercase tracking-[0.2em]">
+                <p className="text-indigo-400 text-sm font-normal uppercase tracking-[0.2em]">
                 We provide a professional PAMM account environment that prioritizes the investor experience.
                 </p>
             </div>
@@ -250,7 +250,7 @@ export default function PammAccountExactContent() {
                         <CheckCircle size={20} />
                     </div>
                     <div className="text-left">
-                        <span className="text-white text-base font-bold uppercase tracking-tight">{feature.t}</span>
+                        <span className="text-white text-base font-normal uppercase tracking-tight">{feature.t}</span>
                         <p className="text-slate-500 text-sm font-light mt-1">{feature.d}</p>
                     </div>
                     </div>
@@ -267,7 +267,7 @@ export default function PammAccountExactContent() {
                         <CheckCircle size={20} />
                     </div>
                     <div className="text-left">
-                        <span className="text-white text-base font-bold uppercase tracking-tight">{feature.t}</span>
+                        <span className="text-white text-base font-normal uppercase tracking-tight">{feature.t}</span>
                         <p className="text-slate-500 text-sm font-light mt-1">{feature.d}</p>
                     </div>
                     </div>
@@ -283,25 +283,25 @@ export default function PammAccountExactContent() {
       <section className="py-24 bg-black relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase">How to Invest in a Forex PAMM Account</h2>
-            <p className="text-indigo-400 text-sm font-bold uppercase tracking-[0.2em]">Starting your journey into managed investing is a 4-step process:</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase">How to Invest in a Forex PAMM Account</h2>
+            <p className="text-indigo-400 text-sm font-normal uppercase tracking-[0.2em]">Starting your journey into managed investing is a 4-step process:</p>
           </div>
 
           <div className="grid lg:grid-cols-4 gap-6">
             {[
-              { t: "Registration", d: "Open your Live account with FXCElite.", icon: <FileText /> },
+              { t: "Registration", d: "Open your Live account with FXCELITE.", icon: <FileText /> },
               { t: "Browse", d: "Go to the PAMM-investment platform and consider the manager leaderboard.", icon: <Globe /> },
               { t: "Invest", d: "Select a manager and determine the amount of your capital to be invested.", icon: <Target /> },
               { t: "Monitor", d: "Your growth in real time through your investor dashboard.", icon: <Activity /> },
             ].map((step, i) => (
               <div key={i} className="group relative p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:border-indigo-500/40 transition-all duration-500 text-center mt-6 lg:mt-0">
-                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-xl bg-black border border-indigo-500/20 flex items-center justify-center font-bold text-indigo-400 text-sm group-hover:bg-indigo-400 group-hover:text-black transition-all">
+                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-xl bg-black border border-indigo-500/20 flex items-center justify-center font-normal text-indigo-400 text-sm group-hover:bg-indigo-400 group-hover:text-black transition-all">
                     0{i + 1}
                  </div>
                  <div className="w-14 h-14 rounded-full bg-indigo-500/5 text-indigo-400 flex items-center justify-center mx-auto mb-6 border border-indigo-500/10 group-hover:scale-110 transition-transform mt-2">
                    {React.cloneElement(step.icon, { size: 24 })}
                  </div>
-                 <h4 className="text-base font-bold text-white mb-2 tracking-tight uppercase">{step.t}</h4>
+                 <h4 className="text-base font-normal text-white mb-2 tracking-tight uppercase">{step.t}</h4>
                  <p className="text-sm text-slate-500 leading-relaxed font-medium">{step.d}</p>
               </div>
             ))}
@@ -322,7 +322,7 @@ export default function PammAccountExactContent() {
                       <div className="w-14 h-14 rounded-xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 border border-indigo-500/20">
                          <Shield size={24} />
                       </div>
-                      <h2 className="text-2xl font-bold text-white tracking-tight uppercase">Security & Reliability for Investors</h2>
+                      <h2 className="text-2xl font-normal text-white tracking-tight uppercase">Security & Reliability for Investors</h2>
                    </div>
                    <div className="text-base text-slate-400 leading-relaxed font-light space-y-4">
                       <p>The main concern of any investor is the safety of their capital. Our PAMM account designed for investors in forex is designed in a highly regulated and encrypted system.</p>
@@ -332,7 +332,7 @@ export default function PammAccountExactContent() {
              </div>
 
              <div className="space-y-8 lg:p-6">
-                <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase">Who is the PAMM Account For?</h2>
+                <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase">Who is the PAMM Account For?</h2>
                 <div className="grid gap-4">
                    {[
                      { t: "Busy Professionals", d: "This includes people who wish to have market exposure but do not have time to do their own trading." },
@@ -345,7 +345,7 @@ export default function PammAccountExactContent() {
                          <Users size={20} />
                        </div>
                        <div>
-                         <span className="text-white text-base font-bold uppercase tracking-tight">{item.t}</span>
+                         <span className="text-white text-base font-normal uppercase tracking-tight">{item.t}</span>
                          <p className="text-slate-500 text-sm font-light mt-1">{item.d}</p>
                        </div>
                      </div>
@@ -359,7 +359,7 @@ export default function PammAccountExactContent() {
       {/* --- WHY FXCELITE CTA --- */}
       <section className="py-24 bg-[#010208] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Why FXCElite is the Best Choice for PAMM Trading?</h2>
+           <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight">Why FXCELITE is the Best Choice for PAMM Trading?</h2>
            <p className="text-base md:text-lg text-slate-400 leading-relaxed font-light">
              We offer the best PAMM account for forex trading by specializing in transparency, data authenticity, and a user-friendly investment platform. Our goal is to empower investors in creating and building wealth by linking them with the top forex traders in the world.
            </p>
@@ -367,12 +367,12 @@ export default function PammAccountExactContent() {
               <div className="relative group">
                 <div className="absolute -inset-1 bg-indigo-500 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                  className="relative px-12 py-5 rounded-xl bg-white text-black font-bold text-lg transition-all shadow-[0_15px_40px_-15px_rgba(99,102,241,0.4)] hover:-translate-y-1">
+                  onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                  className="relative px-12 py-5 rounded-xl bg-white text-black font-normal text-lg transition-all shadow-[0_15px_40px_-15px_rgba(99,102,241,0.4)] hover:-translate-y-1">
                   Start Your PAMM Investment
                 </button>
               </div>
-              <p className="text-indigo-400 font-bold uppercase tracking-[0.2em] text-xs">Your wealth, professionally managed. Start Your PAMM Investment and take the first step toward passive financial growth!</p>
+              <p className="text-indigo-400 font-normal uppercase tracking-[0.2em] text-xs">Your wealth, professionally managed. Start Your PAMM Investment and take the first step toward passive financial growth!</p>
            </div>
         </div>
       </section>
@@ -381,7 +381,7 @@ export default function PammAccountExactContent() {
       <section className="py-24 border-t border-white/5 bg-[#000000]">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase">Frequently Asked Questions (FAQs)</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase">Frequently Asked Questions (FAQs)</h2>
             <p className="text-slate-500 font-medium uppercase tracking-widest text-sm">Advanced Charting Knowledge Base</p>
           </div>
           
@@ -396,7 +396,7 @@ export default function PammAccountExactContent() {
               { q: "7. Who is the best PAMM-account provider in forex trading?", a: "The answer is that the best PAMM-account provider is the one whose manager demonstrates consistent performance in increasing capital without taking unnecessary risks—performance which is clearly reflected in our leaderboard." },
               { q: "8. Do I have to give a fee to the manager?", a: "Yes, but only a \"Performance Fee\" on the profits made. If the manager does not make a profit, no fee is paid." },
               { q: "9. Can I manage my own PAMM account?", a: "If you are a professional trader, you can apply to become a Manager and offer your professional PAMM account to our investor community." },
-              { q: "10. How do I start?", a: "You can open a Live account with FXCElite and proceed to the section called PAMM, which can be accessed via our client area." },
+              { q: "10. How do I start?", a: "You can open a Live account with FXCELITE and proceed to the section called PAMM, which can be accessed via our client area." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}
@@ -418,7 +418,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors uppercase tracking-tight ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors uppercase tracking-tight ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex shrink-0 items-center justify-center transition-all duration-300 ml-4 ${

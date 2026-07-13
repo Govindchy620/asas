@@ -59,7 +59,7 @@ function StepCard({ step, title, description }) {
       </div>
 
       {/* CONTENT */}
-      <h3 className="text-xl font-bold text-white mb-4">
+      <h3 className="text-xl font-normal text-white mb-4">
         {title}
       </h3>
 

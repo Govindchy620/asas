@@ -48,10 +48,10 @@ export default function MamAccount() {
           <div className="flex flex-col items-center text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-sm border-l-2 border-amber-500 bg-amber-500/5 backdrop-blur-md mb-8 animate-fade-in">
               <Network size={14} className="text-amber-500" />
-              <span className="text-xs font-bold uppercase tracking-[0.4em] text-amber-500">Block Execution Engine v5.0</span>
+              <span className="text-xs font-normal uppercase tracking-[0.4em] text-amber-500">Block Execution Engine v5.0</span>
             </div>
             
-            <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6 uppercase italic">
+            <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6 uppercase italic">
               MAM Trading <br/> <span className="text-transparent bg-clip-text bg-gradient-to-b from-white via-slate-400 to-amber-500/40 text-glow-amber">Account</span>
             </h1>
             
@@ -68,13 +68,13 @@ export default function MamAccount() {
             <div className="flex flex-col items-center gap-6">
               <div className="group relative">
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                  className="relative px-12 py-5 bg-amber-500 text-black font-black text-lg uppercase tracking-tight hover:bg-white transition-all active:scale-95 shadow-[0_15px_40px_-15px_rgba(245,158,11,0.4)]">
+                  onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                  className="relative px-12 py-5 bg-amber-500 text-black font-normal text-lg uppercase tracking-tight hover:bg-white transition-all active:scale-95 shadow-[0_15px_40px_-15px_rgba(245,158,11,0.4)]">
                   Apply for a MAM Account
                 </button>
                 <div className="absolute -inset-1 border border-amber-500/20 group-hover:-inset-2 transition-all"></div>
               </div>
-              <p className="text-amber-500 text-sm font-bold uppercase tracking-[0.2em] italic animate-pulse">
+              <p className="text-amber-500 text-sm font-normal uppercase tracking-[0.2em] italic animate-pulse">
                 Manage global capital with institutional-grade technology!
               </p>
             </div>
@@ -90,10 +90,10 @@ export default function MamAccount() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
-               <h2 className="text-3xl md:text-4xl font-black text-white uppercase tracking-tight leading-tight italic underline decoration-amber-500/50 underline-offset-4">What is a MAM <br/> Account in Forex?</h2>
+               <h2 className="text-3xl md:text-4xl font-normal text-white uppercase tracking-tight leading-tight italic underline decoration-amber-500/50 underline-offset-4">What is a MAM <br/> Account in Forex?</h2>
                <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                  <p>
-                   At Fxcelite, we have prepared our MAM account forex trading solution to equip professional money managers with the accuracy, adaptability, and clarity that managing large-scale capital can be done effortlessly.
+                   At FXCELITE, we have prepared our MAM account forex trading solution to equip professional money managers with the accuracy, adaptability, and clarity that managing large-scale capital can be done effortlessly.
                  </p>
                  <p>
                    Our MAM trading platform serves as a connecting link between your master strategy and your investors' sub accounts. Contrary to traditional systems, our multi account manager trading software enables proportional equity allocation so each investor gets their portion of the profits accurately depending on their individual balance.
@@ -120,7 +120,7 @@ export default function MamAccount() {
                     </p>
                     <div className="mt-4 flex items-center gap-3">
                        <div className="h-[2px] w-8 bg-amber-500"></div>
-                       <span className="text-amber-500 font-bold uppercase tracking-widest text-[10px]">Zero Latency Fill Guarantee</span>
+                       <span className="text-amber-500 font-normal uppercase tracking-widest text-[10px]">Zero Latency Fill Guarantee</span>
                     </div>
                  </div>
                </div>
@@ -134,8 +134,8 @@ export default function MamAccount() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 flex flex-col lg:flex-row lg:items-end justify-between gap-6">
             <div className="max-w-2xl space-y-4">
-              <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Why Choose Fxcelite <br/> for MAM Trading?</h2>
-              <p className="text-amber-500 text-sm font-bold uppercase tracking-[0.2em]">Scaling Technical Needs</p>
+              <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic">Why Choose FXCELITE <br/> for MAM Trading?</h2>
+              <p className="text-amber-500 text-sm font-normal uppercase tracking-[0.2em]">Scaling Technical Needs</p>
               <p className="text-slate-500 text-base font-light">We provide the best MAM account for forex trading by focusing on the technical needs of professional managers.</p>
             </div>
             <div className="hidden lg:flex items-center gap-2 font-mono text-slate-700 text-xs">
@@ -156,7 +156,7 @@ export default function MamAccount() {
                 <div className="w-10 h-10 bg-amber-500/5 border border-amber-500/10 flex items-center justify-center text-amber-500 mb-5 group-hover:bg-amber-500 group-hover:text-black transition-all">
                    {React.cloneElement(item.icon, { size: 20 })}
                 </div>
-                <h3 className="text-base font-black text-white mb-2 uppercase tracking-tight leading-tight italic">{item.title}</h3>
+                <h3 className="text-base font-normal text-white mb-2 uppercase tracking-tight leading-tight italic">{item.title}</h3>
                 <p className="text-slate-500 text-xs leading-relaxed font-medium">{item.desc}</p>
               </div>
             ))}
@@ -170,7 +170,7 @@ export default function MamAccount() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-8 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Key Features of the <br/> MAM Trading Solution</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic">Key Features of the <br/> MAM Trading Solution</h2>
                  <p className="text-base text-slate-500 italic leading-relaxed font-light">
                    Our MAM trading solution for fund managers is packed with advanced features to streamline your operations.
                  </p>
@@ -191,7 +191,7 @@ export default function MamAccount() {
                       <div className="w-10 h-10 bg-amber-500/10 flex items-center justify-center text-amber-500 mb-5 group-hover:scale-110 transition-transform rounded-lg">
                         {React.cloneElement(feature.icon, { size: 20 })}
                       </div>
-                      <h4 className="text-base font-black text-white mb-2 uppercase tracking-tight italic">{feature.t}</h4>
+                      <h4 className="text-base font-normal text-white mb-2 uppercase tracking-tight italic">{feature.t}</h4>
                       <p className="text-slate-400 text-sm leading-relaxed font-light italic">{feature.d}</p>
                    </div>
                  ))}
@@ -203,16 +203,16 @@ export default function MamAccount() {
                   <div className="absolute top-0 right-0 p-6 opacity-[0.03] group-hover:scale-110 transition-transform duration-1000">
                     <Database size={100} />
                   </div>
-                  <h3 className="text-xl font-black text-white mb-6 tracking-tight uppercase border-b border-white/10 pb-4">Sandbox Mode</h3>
+                  <h3 className="text-xl font-normal text-white mb-6 tracking-tight uppercase border-b border-white/10 pb-4">Sandbox Mode</h3>
                   <div className="space-y-6">
-                     <p className="text-base text-amber-500 font-bold leading-relaxed italic">
+                     <p className="text-base text-amber-500 font-normal leading-relaxed italic">
                        Not ready to manage live funds? Open a Demo Account to test the MAM software interface first.
                      </p>
                      <p className="text-slate-500 text-sm font-light leading-relaxed">
                         Familiarize yourself with block execution and allocation methods in a risk-free environment.
                      </p>
                      <button 
-                        onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
+                        onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
                         className="w-full py-4 bg-white text-black font-black hover:bg-amber-500 transition-all text-sm uppercase tracking-tight rounded-xl shadow-lg shadow-amber-500/10">
                         Open Demo Account
                      </button>
@@ -227,8 +227,8 @@ export default function MamAccount() {
       <section className="py-24 bg-black relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-             <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight">MAM vs. PAMM</h2>
-             <p className="text-amber-500 text-sm font-bold uppercase tracking-[0.2em] italic underline decoration-amber-500/50 underline-offset-4">Which is Right for You?</p>
+             <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight">MAM vs. PAMM</h2>
+             <p className="text-amber-500 text-sm font-normal uppercase tracking-[0.2em] italic underline decoration-amber-500/50 underline-offset-4">Which is Right for You?</p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-px bg-white/10 border border-white/10 rounded-2xl overflow-hidden shadow-2xl">
@@ -237,7 +237,7 @@ export default function MamAccount() {
                    <div className="w-12 h-12 bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-500 rounded-xl">
                       <Settings size={24} />
                    </div>
-                   <h3 className="text-2xl font-black text-white uppercase italic">MAM Account</h3>
+                   <h3 className="text-2xl font-normal text-white uppercase italic">MAM Account</h3>
                 </div>
                 <div className="text-base text-slate-400 leading-relaxed font-light space-y-6 italic">
                    <p>More control is possible with MAM, and managers can adjust risk for individual sub-accounts and use different lot sizes.</p>
@@ -268,10 +268,10 @@ export default function MamAccount() {
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center justify-between mb-16 gap-6">
-            <h2 className="text-3xl md:text-4xl font-black text-white tracking-tight uppercase leading-tight italic">How to Manage <br/> multiple accounts</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase leading-tight italic">How to Manage <br/> multiple accounts</h2>
             <div className="text-center lg:text-right">
-               <p className="text-amber-500 text-sm font-bold uppercase tracking-[0.2em]">Professional Deployment</p>
-               <p className="text-slate-500 text-sm font-light mt-1">Starting your professional management journey with Fxcelite</p>
+               <p className="text-amber-500 text-sm font-normal uppercase tracking-[0.2em]">Professional Deployment</p>
+               <p className="text-slate-500 text-sm font-light mt-1">Starting your professional management journey with FXCELITE</p>
             </div>
           </div>
 
@@ -290,7 +290,7 @@ export default function MamAccount() {
                  <div className="w-12 h-12 bg-amber-500/5 text-amber-500 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform rounded-lg">
                    {React.cloneElement(step.icon, { size: 24 })}
                  </div>
-                 <h4 className="text-lg font-black text-white mb-3 tracking-tight leading-tight uppercase italic">{step.t}</h4>
+                 <h4 className="text-lg font-normal text-white mb-3 tracking-tight leading-tight uppercase italic">{step.t}</h4>
                  <p className="text-sm text-slate-500 leading-relaxed font-medium italic">{step.d}</p>
               </div>
             ))}
@@ -311,7 +311,7 @@ export default function MamAccount() {
                       <div className="w-14 h-14 bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-500 rounded-xl">
                          <Lock size={24} />
                       </div>
-                      <h2 className="text-2xl font-black text-white tracking-tight uppercase italic border-b-2 border-amber-500 pb-1">Security & Reliability</h2>
+                      <h2 className="text-2xl font-normal text-white tracking-tight uppercase italic border-b-2 border-amber-500 pb-1">Security & Reliability</h2>
                    </div>
                    <div className="text-base text-slate-400 leading-relaxed font-light italic space-y-6">
                       <p>Trust is the most valuable asset a fund manager can have. Our forex MAM account, designed specifically for money managers, has an extremely secure and encrypted system.</p>
@@ -322,8 +322,8 @@ export default function MamAccount() {
 
              <div className="space-y-10 lg:p-8">
                 <div className="space-y-4">
-                  <h2 className="text-3xl md:text-4xl font-black text-white tracking-tight uppercase italic leading-tight">Who is a MAM <br/> Account For?</h2>
-                  <p className="text-amber-500 font-bold uppercase tracking-[0.2em] text-xs">Targeted Institutional Profiles</p>
+                  <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic leading-tight">Who is a MAM <br/> Account For?</h2>
+                  <p className="text-amber-500 font-normal uppercase tracking-[0.2em] text-xs">Targeted Institutional Profiles</p>
                 </div>
                 <div className="grid gap-5">
                    {[
@@ -351,19 +351,19 @@ export default function MamAccount() {
       {/* --- FINAL CTA: MULTIPLIED SUCCESS --- */}
       <section className="py-24 bg-black text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Why Fxcelite is the Best <br/> MAM Trading Choice?</h2>
+           <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic">Why FXCELITE is the Best <br/> MAM Trading Choice?</h2>
            <p className="text-base md:text-lg text-slate-400 leading-relaxed font-light italic max-w-3xl mx-auto">
              Benefit from the best MAM account for forex trading with our professional MAM trading platform, ultra-low latency execution, and transparent reporting. We won't just give you an account; we'll give you the technology to grow your management business.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                  className="relative px-12 py-5 bg-white text-black font-black text-lg uppercase tracking-tight hover:bg-amber-500 transition-all shadow-[0_20px_60px_-15px_rgba(245,158,11,0.4)] rounded-2xl">
+                  onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                  className="relative px-12 py-5 bg-white text-black font-normal text-lg uppercase tracking-tight hover:bg-amber-500 transition-all shadow-[0_20px_60px_-15px_rgba(245,158,11,0.4)] rounded-2xl">
                   Contact Institutional Team
                 </button>
               </div>
-              <p className="text-amber-500 font-bold uppercase tracking-[0.3em] text-xs italic">Your success, multiplied. Launch your MAM solution today!</p>
+              <p className="text-amber-500 font-normal uppercase tracking-[0.3em] text-xs italic">Your success, multiplied. Launch your MAM solution today!</p>
            </div>
         </div>
       </section>
@@ -372,8 +372,8 @@ export default function MamAccount() {
       <section className="py-24 border-t border-white/5 bg-[#000000]">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-amber-500/50 underline-offset-[8px]">MAM FAQ</h2>
-            <p className="text-slate-500 font-bold uppercase tracking-widest text-sm italic mt-4">Institutional Knowledge Base</p>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase leading-tight italic underline decoration-amber-500/50 underline-offset-[8px]">MAM FAQ</h2>
+            <p className="text-slate-500 font-normal uppercase tracking-widest text-sm italic mt-4">Institutional Knowledge Base</p>
           </div>
           
           <div className="space-y-3">
@@ -384,10 +384,10 @@ export default function MamAccount() {
               { q: "4. How do I get paid as a money manager?", a: "The system automatically calculates and pays your performance and management fees, as established by your agreements with investors." },
               { q: "5. Is there a limit to the number of accounts I can manage?", a: "No, our professional MAM trading platform has the ability to support an unlimited number of sub-accounts." },
               { q: "6. Do the investors maintain control of their funds?", a: "Yes, they can check their accounts at any time and withdraw their control if they wish to do so." },
-              { q: "7. What makes a MAM account suitable for Forex?", a: "The most suitable is one which incorporates minimal latency and a secure space—a factor considered essential in the Fxcelite MAM scheme." },
+              { q: "7. What makes a MAM account suitable for Forex?", a: "The most suitable is one which incorporates minimal latency and a secure space—a factor considered essential in the FXCELITE MAM scheme." },
               { q: "8. Can I manage various lot sizes of various clients?", a: "Yes, the MAM trading solution offered to fund managers can handle various allocation styles." },
               { q: "9. How secure is the MAM account forex trading setup?", a: "The security of the MAM account forex trading setup is very high. The managers have restricted rights to trade, while the individuals are responsible for any funds that are transferred." },
-              { q: "10. How do I start managing multiple trading accounts with MAM?", a: "Become a Professional Trader by signing up with Fxcelite, then contact us for assistance in activating your MAM Master Account." },
+              { q: "10. How do I start managing multiple trading accounts with MAM?", a: "Become a Professional Trader by signing up with FXCELITE, then contact us for assistance in activating your MAM Master Account." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}
@@ -408,7 +408,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-slate-500 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-slate-500 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex shrink-0 items-center justify-center transition-all duration-500 ml-4 ${

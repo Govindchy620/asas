@@ -22,7 +22,7 @@ export default function MultiLevelAffiliate() {
 
             {/* PROGRAM DESCRIPTION */}
             <div>
-              <h3 className="text-lg font-bold text-white mb-4">
+              <h3 className="text-lg font-normal text-white mb-4">
                 Our Multi-Level Affiliate Program
               </h3>
 
@@ -50,7 +50,7 @@ export default function MultiLevelAffiliate() {
 
             {/* COMMISSION STRUCTURE */}
             <div>
-              <h3 className="text-lg font-bold text-white mb-4">
+              <h3 className="text-lg font-normal text-white mb-4">
                 Multi-Level Affiliate Commission Structure
               </h3>
 

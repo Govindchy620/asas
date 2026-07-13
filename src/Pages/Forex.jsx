@@ -30,7 +30,7 @@ export default function Forex() {
             <div className="w-full lg:w-3/5 text-center lg:text-left">
               
               {/* Main Headline */}
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-[1.15]">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-normal text-white mb-6 leading-[1.15]">
                 Your Gateway to <br className="hidden md:block" />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">
                   Global Markets
@@ -39,16 +39,16 @@ export default function Forex() {
               
               {/* Subheadline */}
               <p className="text-lg md:text-xl text-slate-400 leading-relaxed mb-10 max-w-2xl mx-auto lg:mx-0">
-                Selecting the right trading partner is your first step to success. Get access to a secure platform, lightning-fast execution, and institutional-grade liquidity with Fxcelite.
+                Selecting the right trading partner is your first step to success. Get access to a secure platform, lightning-fast execution, and institutional-grade liquidity with FXCELITE.
               </p>
               
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-10">
                 <a 
-                  href="https://trade.fxcelite.com/register"
+                  href="https://trade.FXCELITE.com/register"
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-bold text-lg hover:shadow-[0_0_30px_-5px_rgba(52,211,153,0.4)] hover:scale-105 transition-all flex items-center justify-center gap-2"
+                  className="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-normal text-lg hover:shadow-[0_0_30px_-5px_rgba(52,211,153,0.4)] hover:scale-105 transition-all flex items-center justify-center gap-2"
                 >
                   Open Live Account <ArrowRight size={20} />
                 </a>
@@ -85,9 +85,9 @@ export default function Forex() {
                       <div className="w-6 h-6 rounded-full bg-red-600 border border-white/20 -ml-3"></div>
                       <p className="text-slate-400 text-sm font-medium ml-1">EUR/USD</p>
                     </div>
-                    <p className="text-3xl font-bold text-white tracking-tight">1.094<span className="text-emerald-400">25</span></p>
+                    <p className="text-3xl font-normal text-white tracking-tight">1.094<span className="text-emerald-400">25</span></p>
                   </div>
-                  <div className="px-3 py-1.5 rounded-full bg-emerald-500/20 text-emerald-400 text-sm font-bold flex items-center gap-1">
+                  <div className="px-3 py-1.5 rounded-full bg-emerald-500/20 text-emerald-400 text-sm font-normal flex items-center gap-1">
                     <TrendingUp size={16} /> +0.42%
                   </div>
                 </div>
@@ -107,11 +107,11 @@ export default function Forex() {
                 <div className="grid grid-cols-2 gap-4 pt-6 border-t border-white/10">
                   <div>
                     <p className="text-slate-500 text-xs uppercase tracking-wider mb-1 font-semibold">Live Spread</p>
-                    <p className="text-white font-bold text-lg">From 0.0 pips</p>
+                    <p className="text-white font-normal text-lg">From 0.0 pips</p>
                   </div>
                   <div>
                     <p className="text-slate-500 text-xs uppercase tracking-wider mb-1 font-semibold">Max Leverage</p>
-                    <p className="text-white font-bold text-lg">Up to 1:500</p>
+                    <p className="text-white font-normal text-lg">Up to 1:500</p>
                   </div>
                 </div>
               </div>
@@ -129,13 +129,13 @@ export default function Forex() {
               <div className="inline-flex p-3 rounded-2xl bg-emerald-500/10 text-emerald-400">
                 <Globe size={32} />
               </div>
-              <h2 className="text-3xl font-bold text-white">What Is a Forex Broker?</h2>
+              <h2 className="text-3xl font-normal text-white">What Is a Forex Broker?</h2>
               <div className="text-lg leading-relaxed space-y-4">
                 <p>
                   With us, you will have more than just a trading platform; you will have a complete forex and CFD trading platform with elite tools. We provide forex trading with low spreads, ensuring that your expenses are low and your potential is infinite. If you have been looking for the best forex trading experience, you are in the right place.
                 </p>
                 <p>
-                  In layman’s terms, a forex broker is a financial institution that offers traders access to a trading platform for the purchase and sale of foreign currencies. Since the forex market is an unregulated market, it is impossible for an individual to trade on the forex market directly; therefore, a global forex broker such as Fxcelite must be used as the middleman.
+                  In layman’s terms, a forex broker is a financial institution that offers traders access to a trading platform for the purchase and sale of foreign currencies. Since the forex market is an unregulated market, it is impossible for an individual to trade on the forex market directly; therefore, a global forex broker such as FXCELITE must be used as the middleman.
                 </p>
                 <p>
                   We offer the infrastructure for access to a currency trading platform, enabling you to trade on the price actions of currency pairs such as EUR/USD or GBP/JPY. Our forex trading platform is intended to be a secure forex trading platform, ensuring your safety as you trade in the $7.5 trillion per day global market.
@@ -156,7 +156,7 @@ export default function Forex() {
                       <TrendingUp size={24} />
                     </div>
                     <div>
-                      <h3 className="font-bold text-white text-xl">Global Leader</h3>
+                      <h3 className="font-normal text-white text-xl">Global Leader</h3>
                       <p className="text-slate-500">Regulated Trading Environment</p>
                     </div>
                   </div>
@@ -170,11 +170,11 @@ export default function Forex() {
                   </div>
                   <div className="mt-10 grid grid-cols-2 gap-4">
                     <div className="p-4 rounded-2xl bg-white/5 border border-white/5">
-                      <div className="text-2xl font-bold text-white">$7.5T</div>
+                      <div className="text-2xl font-normal text-white">$7.5T</div>
                       <div className="text-xs text-slate-500 uppercase">Daily Volume</div>
                     </div>
                     <div className="p-4 rounded-2xl bg-white/5 border border-white/5">
-                      <div className="text-2xl font-bold text-white">24/5</div>
+                      <div className="text-2xl font-normal text-white">24/5</div>
                       <div className="text-xs text-slate-500 uppercase">Market Access</div>
                     </div>
                   </div>
@@ -189,7 +189,7 @@ export default function Forex() {
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Why Choose Fxcelite for Online Forex Trading?</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white mb-4">Why Choose FXCELITE for Online Forex Trading?</h2>
             <p className="text-slate-400 max-w-2xl mx-auto">When looking for the best forex trading platform, reliability and cost are key. We pride ourselves on being a forex broker that puts the trader first.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -203,7 +203,7 @@ export default function Forex() {
                 <div className="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center text-emerald-400 mb-6 group-hover:scale-110 transition-transform">
                   {feature.icon}
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3">{feature.title}</h3>
+                <h3 className="text-xl font-normal text-white mb-3">{feature.title}</h3>
                 <p className="text-slate-400">{feature.desc}</p>
               </div>
             ))}
@@ -219,7 +219,7 @@ export default function Forex() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16">
             <div>
-              <h2 className="text-3xl font-bold text-white mb-8">Key Features of Our Forex Trading Platform</h2>
+              <h2 className="text-3xl font-normal text-white mb-8">Key Features of Our Forex Trading Platform</h2>
               <div className="prose prose-invert max-w-none text-slate-400 mb-10">
                 Our forex and CFD trading platform is chock-full of features that will give you the edge you need to succeed. We give you the best forex trading tools right in your browser or desktop.
               </div>
@@ -234,7 +234,7 @@ export default function Forex() {
                   <div key={i} className="flex gap-4 p-4 rounded-2xl bg-white/5 hover:bg-white/[0.08] transition-colors border border-transparent hover:border-white/10">
                     <CheckCircle2 className="text-emerald-400 shrink-0 mt-1" size={20} />
                     <div>
-                      <h4 className="font-bold text-white">{item.t}</h4>
+                      <h4 className="font-normal text-white">{item.t}</h4>
                       <p className="text-sm text-slate-400">{item.d}</p>
                     </div>
                   </div>
@@ -243,10 +243,10 @@ export default function Forex() {
               <div className="mt-10 flex flex-col items-start gap-4">
                 <p className="text-emerald-400 font-medium mb-2">Experience the difference. Try Our Demo Account and test our low spreads risk-free.</p>
                 <a 
-                  href="https://trade.fxcelite.com/register"
+                  href="https://trade.FXCELITE.com/register"
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-block px-8 py-3 rounded-full border border-emerald-400 text-emerald-400 font-bold hover:bg-emerald-400 hover:text-black transition-all text-center"
+                  className="inline-block px-8 py-3 rounded-full border border-emerald-400 text-emerald-400 font-normal hover:bg-emerald-400 hover:text-black transition-all text-center"
                 >
                   Open Demo Account
                 </a>
@@ -261,9 +261,9 @@ export default function Forex() {
                   className="absolute inset-0 w-full h-full object-cover opacity-10 group-hover:scale-110 transition-transform duration-700 pointer-events-none"
                 />
                 <div className="relative z-10">
-                  <h2 className="text-3xl font-bold text-white mb-6">Markets You Can Trade</h2>
+                  <h2 className="text-3xl font-normal text-white mb-6">Markets You Can Trade</h2>
                   <p className="text-slate-400 mb-8 leading-relaxed">
-                    Being one of the best currency trading platforms, we provide an enormous number of symbols. When you partner with Fxcelite as your forex broker, you will have access to:
+                    Being one of the best currency trading platforms, we provide an enormous number of symbols. When you partner with FXCELITE as your forex broker, you will have access to:
                   </p>
                   <ul className="space-y-4">
                     {[
@@ -278,7 +278,7 @@ export default function Forex() {
                       </li>
                     ))}
                   </ul>
-                  <p className="mt-8 text-cyan-400 font-bold">Check out our MAM Accounts for specialized investment solutions.</p>
+                  <p className="mt-8 text-cyan-400 font-normal">Check out our MAM Accounts for specialized investment solutions.</p>
                 </div>
               </div>
 
@@ -291,7 +291,7 @@ export default function Forex() {
                 <div className="relative z-10">
                   <div className="flex items-center gap-4 mb-6">
                     <Smartphone className="text-emerald-400" size={32} />
-                    <h2 className="text-2xl font-bold text-white">WebTrader vs Desktop</h2>
+                    <h2 className="text-2xl font-normal text-white">WebTrader vs Desktop</h2>
                   </div>
                   <p className="text-slate-400 leading-relaxed">
                     Although many people prefer our desktop software for automated bots, our best forex trading platform for flexibility is the WebTrader. This forex trading platform enables you to trade forex online without installing any software. Whether you are using a Mac, Windows, or a shared computer, you can access your forex broker account instantly, ensuring that you never miss a trading opportunity.
@@ -306,7 +306,7 @@ export default function Forex() {
       {/* STEPS SECTION */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-white mb-16 text-center">How to Start Trading with Fxcelite</h2>
+          <h2 className="text-3xl font-normal text-white mb-16 text-center">How to Start Trading with FXCELITE</h2>
           <div className="grid md:grid-cols-5 gap-8">
             {[
               { n: "01", t: "Register", d: "Sign up for a Live Trading Account." },
@@ -316,8 +316,8 @@ export default function Forex() {
               { n: "05", t: "Execute", d: "Place your first trade and monitor your progress in real-time." },
             ].map((step, i) => (
               <div key={i} className="relative group text-center md:text-left">
-                <div className="text-5xl font-black text-white/5 group-hover:text-emerald-500/10 transition-colors mb-4">{step.n}</div>
-                <h4 className="text-lg font-bold text-white mb-2">{step.t}</h4>
+                <div className="text-5xl font-normal text-white/5 group-hover:text-emerald-500/10 transition-colors mb-4">{step.n}</div>
+                <h4 className="text-lg font-normal text-white mb-2">{step.t}</h4>
                 <p className="text-sm text-slate-500">{step.d}</p>
               </div>
             ))}
@@ -337,7 +337,7 @@ export default function Forex() {
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="p-10 rounded-3xl bg-white/[0.02] border border-white/10 backdrop-blur-sm">
-              <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+              <h2 className="text-2xl font-normal text-white mb-6 flex items-center gap-3">
                 <Shield className="text-emerald-400" /> Security & Reliability
               </h2>
               <p className="text-slate-400 leading-relaxed mb-8">
@@ -345,7 +345,7 @@ export default function Forex() {
               </p>
             </div>
             <div className="p-10 rounded-3xl bg-white/[0.02] border border-white/10 backdrop-blur-sm">
-              <h2 className="text-2xl font-bold text-white mb-6">Who Should Trade with Us?</h2>
+              <h2 className="text-2xl font-normal text-white mb-6">Who Should Trade with Us?</h2>
               <p className="text-slate-400 leading-relaxed">
                 Our services are designed for everyone. Whether you are a beginner in forex trading and are looking for educational materials or a professional firm searching for MAM Accounts and fast execution, we are the forex broker designed for every level of expertise.
               </p>
@@ -353,20 +353,20 @@ export default function Forex() {
           </div>
 
           <div className="mt-20 text-center max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Why Fxcelite is the Best Forex Trading Choice?</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white mb-6">Why FXCELITE is the Best Forex Trading Choice?</h2>
             <p className="text-xl text-slate-400 leading-relaxed mb-10">
               We don’t just provide a platform; we provide a partnership. With our forex trading with low spreads, 24/7 support, and our powerful forex and CFD trading platform, we empower you to succeed in the international markets.
             </p>
             <a 
-              href="https://trade.fxcelite.com/register"
+              href="https://trade.FXCELITE.com/register"
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block px-12 py-4 rounded-full bg-white text-black font-bold text-xl hover:bg-emerald-400 transition-colors shadow-2xl shadow-white/10 text-center"
+              className="inline-block px-12 py-4 rounded-full bg-white text-black font-normal text-xl hover:bg-emerald-400 transition-colors shadow-2xl shadow-white/10 text-center"
             >
-              Join Fxcelite Now
+              Join FXCELITE Now
             </a>
-            <p className="mt-6 text-emerald-400 font-bold">
-              Take the first step. Join Fxcelite Now and trade with the world's most reliable forex broker!
+            <p className="mt-6 text-emerald-400 font-normal">
+              Take the first step. Join FXCELITE Now and trade with the world's most reliable forex broker!
             </p>
           </div>
         </div>
@@ -377,7 +377,7 @@ export default function Forex() {
         <div className="max-w-4xl mx-auto px-6">
           <div className="flex items-center gap-4 mb-12">
             <HelpCircle className="text-emerald-400" size={32} />
-            <h2 className="text-3xl font-bold text-white">Frequently Asked Questions (FAQs)</h2>
+            <h2 className="text-3xl font-normal text-white">Frequently Asked Questions (FAQs)</h2>
           </div>
           <div className="space-y-4">
             {[
@@ -387,10 +387,10 @@ export default function Forex() {
               { q: "4. Can I trade forex online for free?", a: "You can practice using a demo account, but you will have to make a deposit to realize actual profits." },
               { q: "5. How does a global forex broker process payments?", a: "We provide several secure payment options, including wire transfers, credit cards, and e-wallets." },
               { q: "6. What is a currency trading platform?", a: "It is the software interface (such as WebTrader or MT4) that enables you to view charts and execute trades." },
-              { q: "7. Do you offer forex trading with low spreads?", a: "Yes, Fxcelite is renowned for offering some of the lowest spreads available in the market." },
+              { q: "7. Do you offer forex trading with low spreads?", a: "Yes, FXCELITE is renowned for offering some of the lowest spreads available in the market." },
               { q: "8. What is forex CFD trading?", a: "It is a method of trading the movement of currencies without actually holding the physical money." },
               { q: "9. Is your platform a secure forex trading platform?", a: "Yes, we employ high-level encryption and adhere to all regulatory guidelines to ensure the security of our users." },
-              { q: "10. How do I choose the best forex trading platform?", a: "You should look for a broker who provides low latency, low spreads, 24/5 support, and an easy-to-use interface such as Fxcelite." },
+              { q: "10. How do I choose the best forex trading platform?", a: "You should look for a broker who provides low latency, low spreads, 24/5 support, and an easy-to-use interface such as FXCELITE." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}
@@ -410,7 +410,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left hover:bg-white/5 transition-colors"
       >
-        <span className="font-bold text-white">{question}</span>
+        <span className="font-normal text-white">{question}</span>
         {isOpen ? <ChevronUp className="text-emerald-400" /> : <ChevronDown className="text-slate-500" />}
       </button>
       {isOpen && (

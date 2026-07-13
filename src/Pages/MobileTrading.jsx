@@ -52,10 +52,10 @@ export default function MobileTrading() {
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/30 backdrop-blur-xl mb-8 animate-fade-in">
             <Smartphone size={14} className="text-indigo-400" />
-            <span className="text-xs font-bold uppercase tracking-[0.4em] text-indigo-400 italic font-mono">Mobile Core Engine v8.0</span>
+            <span className="text-xs font-normal uppercase tracking-[0.4em] text-indigo-400 italic font-mono">Mobile Core Engine v8.0</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6">
+          <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6">
             Mobile Trading <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-pink-400 to-white italic">App</span>
           </h1>
           
@@ -74,12 +74,12 @@ export default function MobileTrading() {
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-pink-500 rounded-2xl blur opacity-25 group-hover:opacity-100 transition duration-1000"></div>
               <button 
-                onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                className="relative px-10 py-4 rounded-2xl bg-white text-black font-bold text-base transition-all hover:scale-[1.03] active:scale-95 shadow-2xl flex items-center gap-3">
+                onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                className="relative px-10 py-4 rounded-2xl bg-white text-black font-normal text-base transition-all hover:scale-[1.03] active:scale-95 shadow-2xl flex items-center gap-3">
                 Download Our Mobile App <Download size={20} />
               </button>
             </div>
-            <p className="text-indigo-400 text-sm font-bold uppercase tracking-[0.2em] italic animate-pulse">
+            <p className="text-indigo-400 text-sm font-normal uppercase tracking-[0.2em] italic animate-pulse">
               The markets never sleep. Start trading on the go!
             </p>
           </div>
@@ -92,10 +92,10 @@ export default function MobileTrading() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
                <div className="space-y-6">
-                 <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight leading-tight italic underline decoration-indigo-500 decoration-4 underline-offset-[8px]">What Is a Mobile <br/> Trading App?</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white uppercase tracking-tight leading-tight italic underline decoration-indigo-500 decoration-4 underline-offset-[8px]">What Is a Mobile <br/> Trading App?</h2>
                  <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                    <p>
-                     At Fxcelite, we offer an efficient online trading app through which you can handle your portfolio, study charts, and place orders just with one tap. No matter if you are on a bus, in a plane, or simply away from your computer, our app will make sure that you continue to be in touch with the markets.
+                     At FXCELITE, we offer an efficient online trading app through which you can handle your portfolio, study charts, and place orders just with one tap. No matter if you are on a bus, in a plane, or simply away from your computer, our app will make sure that you continue to be in touch with the markets.
                    </p>
                    <p className="text-white font-medium italic border-l-2 border-indigo-500 pl-4 bg-white/[0.02] py-2">
                      Our CFD trading app is built for speed and stability, thus the smooth experience whenever you decide to switch from a desktop to mobile.
@@ -122,7 +122,7 @@ export default function MobileTrading() {
                     </p>
                     <div className="mt-4 flex items-center gap-3">
                       <RefreshCw size={16} className="text-indigo-400" />
-                      <span className="text-indigo-400 font-bold uppercase tracking-widest text-[10px] font-mono">Synced with Professional Desktop</span>
+                      <span className="text-indigo-400 font-normal uppercase tracking-widest text-[10px] font-mono">Synced with Professional Desktop</span>
                     </div>
                  </div>
                </div>
@@ -135,8 +135,8 @@ export default function MobileTrading() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 text-center space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Why Use a Forex <br/> Trading App?</h2>
-            <p className="text-pink-500 text-sm font-bold uppercase tracking-[0.2em]">The Ultimate Edge in Flexibility</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">Why Use a Forex <br/> Trading App?</h2>
+            <p className="text-pink-500 text-sm font-normal uppercase tracking-[0.2em]">The Ultimate Edge in Flexibility</p>
             <p className="text-slate-500 text-base max-w-2xl mx-auto font-light leading-relaxed italic">
               In a market where seconds can define your profit margins, having a secure mobile trading app for online trading is your most valuable tool.
             </p>
@@ -155,7 +155,7 @@ export default function MobileTrading() {
                 <div className="w-12 h-12 rounded-xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 mb-6 border border-white/5 group-hover:scale-110 group-hover:bg-indigo-400 group-hover:text-black transition-all">
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-base font-bold text-white mb-2 tracking-tight leading-tight uppercase italic">{item.title}</h3>
+                <h3 className="text-base font-normal text-white mb-2 tracking-tight leading-tight uppercase italic">{item.title}</h3>
                 <p className="text-slate-500 text-xs leading-relaxed font-medium">{item.desc}</p>
               </div>
             ))}
@@ -170,7 +170,7 @@ export default function MobileTrading() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-8 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Key Features of the <br/> Fxcelite Mobile App</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic">Key Features of the <br/> FXCELITE Mobile App</h2>
                  <p className="text-base text-slate-500 italic leading-relaxed font-light">
                    We have packed our online trading app with features that empower you to trade with professional precision.
                  </p>
@@ -188,7 +188,7 @@ export default function MobileTrading() {
                       <div className="w-12 h-12 rounded-xl bg-pink-500/10 flex items-center justify-center text-pink-400 mb-4 border border-white/5 group-hover:scale-110 transition-transform">
                         {React.cloneElement(feature.icon, { size: 24 })}
                       </div>
-                      <h4 className="text-base font-bold text-white mb-2 uppercase tracking-tight italic leading-tight">{feature.t}</h4>
+                      <h4 className="text-base font-normal text-white mb-2 uppercase tracking-tight italic leading-tight">{feature.t}</h4>
                       <p className="text-slate-400 text-sm leading-relaxed font-light italic">{feature.d}</p>
                    </div>
                  ))}
@@ -200,17 +200,17 @@ export default function MobileTrading() {
                   <div className="absolute top-0 right-0 p-6 opacity-[0.03] group-hover:scale-110 transition-transform duration-1000">
                     <Rocket size={100} />
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-6 tracking-tight uppercase border-b border-white/10 pb-4 font-mono">v8.0 Sandbox</h3>
+                  <h3 className="text-xl font-normal text-white mb-6 tracking-tight uppercase border-b border-white/10 pb-4 font-mono">v8.0 Sandbox</h3>
                   <div className="space-y-6">
-                     <p className="text-base text-indigo-400 font-bold leading-tight italic">
+                     <p className="text-base text-indigo-400 font-normal leading-tight italic">
                        Transitioning from practice to profit? Use your Demo Account on our mobile app to master the interface risk-free.
                      </p>
                      <div className="text-sm text-slate-500 leading-relaxed font-light italic">
                         <p>Our app handles the transition from virtual to real markets with absolute continuity.</p>
                      </div>
                      <button 
-                        onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                        className="w-full py-4 rounded-2xl bg-white text-black font-bold hover:bg-indigo-500 transition-all text-sm shadow-xl shadow-indigo-500/20 uppercase tracking-tight italic">
+                        onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                        className="w-full py-4 rounded-2xl bg-white text-black font-normal hover:bg-indigo-500 transition-all text-sm shadow-xl shadow-indigo-500/20 uppercase tracking-tight italic">
                         Try Demo Mode
                      </button>
                   </div>
@@ -225,8 +225,8 @@ export default function MobileTrading() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-5 space-y-6">
-               <h2 className="text-3xl md:text-4xl font-black text-white tracking-tight uppercase italic leading-tight">Beginners vs. <br/> Professionals</h2>
-               <p className="text-base text-pink-500 font-bold uppercase tracking-widest italic">The Best App for Everyone</p>
+               <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic leading-tight">Beginners vs. <br/> Professionals</h2>
+               <p className="text-base text-pink-500 font-normal uppercase tracking-widest italic">The Best App for Everyone</p>
                <p className="text-sm md:text-base text-slate-500 font-light leading-relaxed">
                  Whether you are opening your first trade or managing a multi-million dollar fund, our app adapts to your level of expertise.
                </p>
@@ -238,7 +238,7 @@ export default function MobileTrading() {
                     <div className="w-12 h-12 rounded-xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 group-hover:scale-110 transition-transform">
                       <Sparkles size={24} />
                     </div>
-                    <h3 className="text-xl font-bold text-white uppercase italic">Easy Mode</h3>
+                    <h3 className="text-xl font-normal text-white uppercase italic">Easy Mode</h3>
                   </div>
                   <p className="text-sm text-slate-400 leading-relaxed font-light italic">
                     For inexperienced traders, we have an ease of use feature for learning the basics of trading with intuitive controls and educational overlays.
@@ -249,7 +249,7 @@ export default function MobileTrading() {
                     <div className="w-12 h-12 rounded-xl bg-pink-500/10 flex items-center justify-center text-pink-400 group-hover:scale-110 transition-transform">
                       <Zap size={24} />
                     </div>
-                    <h3 className="text-xl font-bold text-white uppercase italic">Pro Mode</h3>
+                    <h3 className="text-xl font-normal text-white uppercase italic">Pro Mode</h3>
                   </div>
                   <p className="text-sm text-slate-400 leading-relaxed font-light italic">
                     For experienced traders, we offer complex order types, in-depth market depth (Level II products), and integrated MAM management!
@@ -264,8 +264,8 @@ export default function MobileTrading() {
       <section className="py-24 relative bg-black overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">How to Trade <br/> on Mobile</h2>
-            <p className="text-indigo-400 text-sm font-bold uppercase tracking-[0.2em]">A simple 3-step kinetic process</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">How to Trade <br/> on Mobile</h2>
+            <p className="text-indigo-400 text-sm font-normal uppercase tracking-[0.2em]">A simple 3-step kinetic process</p>
           </div>
 
           <div className="relative max-w-4xl mx-auto">
@@ -277,7 +277,7 @@ export default function MobileTrading() {
                 { 
                   n: "01", 
                   t: "Download", 
-                  d: "To download Fxcelite trading app, one can simply go to App Store or Google Play.", 
+                  d: "To download FXCELITE trading app, one can simply go to App Store or Google Play.", 
                   icon: <Download />,
                   align: "left"
                 },
@@ -329,10 +329,10 @@ export default function MobileTrading() {
 
                   {/* Content Segment */}
                   <div className={`md:w-1/2 w-full ${step.align === 'left' ? 'md:text-left' : 'md:text-right'} text-center space-y-4`}>
-                    <div className={`inline-flex items-center justify-center w-12 h-12 rounded-full bg-white/[0.03] border border-white/10 text-xl font-bold italic text-indigo-400 mb-2 font-mono shadow-xl`}>
+                    <div className={`inline-flex items-center justify-center w-12 h-12 rounded-full bg-white/[0.03] border border-white/10 text-xl font-normal italic text-indigo-400 mb-2 font-mono shadow-xl`}>
                       {step.n}
                     </div>
-                    <h3 className="text-2xl md:text-4xl font-bold text-white uppercase italic tracking-tight">{step.t}</h3>
+                    <h3 className="text-2xl md:text-4xl font-normal text-white uppercase italic tracking-tight">{step.t}</h3>
                     <p className="text-base text-slate-500 leading-relaxed font-light italic max-w-sm mx-auto md:mx-0">
                       {step.d}
                     </p>
@@ -358,7 +358,7 @@ export default function MobileTrading() {
                       <div className="w-14 h-14 rounded-xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 border border-indigo-500/20 group-hover:bg-indigo-500 group-hover:text-black transition-all duration-500">
                          <Lock size={24} />
                       </div>
-                      <h2 className="text-2xl font-bold text-white tracking-tight uppercase italic underline decoration-indigo-500 decoration-4 underline-offset-[8px]">Security & Reliability</h2>
+                      <h2 className="text-2xl font-normal text-white tracking-tight uppercase italic underline decoration-indigo-500 decoration-4 underline-offset-[8px]">Security & Reliability</h2>
                    </div>
                    <div className="text-base text-slate-400 leading-relaxed font-light italic space-y-6">
                       <p>Security is at the heart of our innovative and secure mobile trading application, which is the best for online trading.</p>
@@ -371,8 +371,8 @@ export default function MobileTrading() {
 
              <div className="space-y-10 lg:p-8">
                 <div className="space-y-4">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic leading-tight">Who Should Use <br/> the Mobile App?</h2>
-                  <p className="text-pink-500 font-bold uppercase tracking-[0.2em] text-xs font-mono">Mobile Optimization Profiles</p>
+                  <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic leading-tight">Who Should Use <br/> the Mobile App?</h2>
+                  <p className="text-pink-500 font-normal uppercase tracking-[0.2em] text-xs font-mono">Mobile Optimization Profiles</p>
                 </div>
                 <div className="grid gap-5">
                    {[
@@ -386,7 +386,7 @@ export default function MobileTrading() {
                          {React.cloneElement(item.icon, { size: 20 })}
                        </div>
                        <div>
-                         <span className="text-white text-lg font-bold uppercase tracking-tight italic">{item.l}</span>
+                         <span className="text-white text-lg font-normal uppercase tracking-tight italic">{item.l}</span>
                          <p className="text-slate-500 text-sm font-light leading-relaxed italic">{item.d}</p>
                        </div>
                      </div>
@@ -400,7 +400,7 @@ export default function MobileTrading() {
       {/* --- FINAL CTA: POCKET DESK --- */}
       <section className="py-24 bg-[#02030d] text-center relative overflow-hidden">
         <div className="max-w-5xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why Fxcelite is the Best <br/> Mobile Trading Choice?</h2>
+           <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic">Why FXCELITE is the Best <br/> Mobile Trading Choice?</h2>
            <p className="text-base md:text-lg text-slate-400 leading-relaxed font-light italic max-w-3xl mx-auto">
              With our forex trading app designed for Android and iPhone, we have redefined what it means by trading on the go. We have brought to you the ultimate mobile trading app experience, with lightning-fast trade execution, along with real-time charts.
            </p>
@@ -408,13 +408,13 @@ export default function MobileTrading() {
               <div className="relative group">
                 <div className="absolute -inset-2 bg-indigo-500 rounded-3xl blur-xl opacity-20 group-hover:opacity-60 transition duration-1000"></div>
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                  className="relative px-12 py-5 rounded-3xl bg-white text-black font-bold text-lg md:text-xl transition-all shadow-[0_20px_60px_-15px_rgba(99,102,241,0.4)] uppercase tracking-tight italic hover:-translate-y-1">
+                  onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                  className="relative px-12 py-5 rounded-3xl bg-white text-black font-normal text-lg md:text-xl transition-all shadow-[0_20px_60px_-15px_rgba(99,102,241,0.4)] uppercase tracking-tight italic hover:-translate-y-1">
                   Download the App Today
                 </button>
               </div>
               <div className="space-y-4">
-                <p className="text-indigo-400 font-bold uppercase tracking-[0.3em] text-xs italic font-mono">Your trading desk is now in your pocket.</p>
+                <p className="text-indigo-400 font-normal uppercase tracking-[0.3em] text-xs italic font-mono">Your trading desk is now in your pocket.</p>
                 <div className="flex justify-center gap-2">
                    <div className="w-6 h-1 bg-white/10 rounded-full"></div>
                    <div className="w-12 h-1 bg-pink-500 rounded-full animate-pulse"></div>
@@ -429,22 +429,22 @@ export default function MobileTrading() {
       <section className="py-24 border-t border-white/5 bg-black">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic">Mobile FAQ</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic">Mobile FAQ</h2>
             <p className="text-slate-500 font-medium uppercase tracking-widest text-sm italic font-mono">Portable Knowledge Base</p>
           </div>
           
           <div className="space-y-4">
             {[
-              { q: "1. Is this mobile trading app free to download?", a: "The Fxcelite online trading app is free to download, both on Android and iOS." },
+              { q: "1. Is this mobile trading app free to download?", a: "The FXCELITE online trading app is free to download, both on Android and iOS." },
               { q: "2. Can I open a live account through the app?", a: "Yes, sure. You will be able to do all this through the trading app." },
               { q: "3. Is it safe to trade forex on mobile?", a: "Yes, our mobile trading app for online trading is designed with bank-grade encryption and biometric security that ensures the safety of your money." },
-              { q: "4. What is the best mobile trading app for beginners?", a: "The Fxcelite app is recommended to beginners, as it offers an intuitive trading platform and a Demo Account option in which one can practice trading." },
+              { q: "4. What is the best mobile trading app for beginners?", a: "The FXCELITE app is recommended to beginners, as it offers an intuitive trading platform and a Demo Account option in which one can practice trading." },
               { q: "5. Is the app capable of providing real-time charts?", a: "The answer is yes; it is a full mobile trading platform providing real-time charts, changing every millisecond." },
               { q: "6. Is it possible to manage my MAM account on the app?", a: "Professional managers can manage their MAM structures and investor sub-accounts using the mobile interface of the trading platform." },
               { q: "7. Will I have a separate login for the mobile app?", a: "No, you use the same credentials for our desktop, web, and mobile trading app platforms." },
               { q: "8. Is it possible to trade stocks and crypto in the application?", a: "Yes, through access to our CFD trading application, you can trade Forex, Stocks, Indices, Commodities, and Cryptocurrencies." },
               { q: "9. What if I get a call during trading?", a: "The App will run in the background, but for security, you may be asked to authenticate again if the App is closed for a pretty long time period." },
-              { q: "10. How can I download the forex trading application for Android and iPhone?", a: "You can download the best mobile trading app from the Google Play Store or Apple App Store by searching for \"Fxcelite\"." },
+              { q: "10. How can I download the forex trading application for Android and iPhone?", a: "You can download the best mobile trading app from the Google Play Store or Apple App Store by searching for \"FXCELITE\"." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}
@@ -465,7 +465,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-slate-500 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-slate-500 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex items-center justify-center shrink-0 transition-all duration-500 ml-4 ${

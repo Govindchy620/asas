@@ -72,7 +72,7 @@ export default function AccountDeletion() {
                         Account Deletion Request
                     </h1>
                     <p className="text-muted text-lg font-medium max-w-2xl mx-auto">
-                        We are sorry to see you go. Please review the prerequisites and regulatory information before submitting your request to close your Fxcelite account.
+                        We are sorry to see you go. Please review the prerequisites and regulatory information before submitting your request to close your FXCELITE account.
                     </p>
                 </AnimatedSection>
 
@@ -87,7 +87,7 @@ export default function AccountDeletion() {
                             animate="visible"
                             className="space-y-6"
                         >
-                            <motion.h3 variants={fadeInUp} className="text-2xl font-bold text-foreground tracking-tight">
+                            <motion.h3 variants={fadeInUp} className="text-2xl font-normal text-foreground tracking-tight">
                                 Before you proceed
                             </motion.h3>
 
@@ -96,7 +96,7 @@ export default function AccountDeletion() {
                                     <Activity className="w-6 h-6 text-primary" />
                                 </div>
                                 <div>
-                                    <h4 className="text-lg font-bold text-foreground mb-1">1. Close All Active Trades</h4>
+                                    <h4 className="text-lg font-normal text-foreground mb-1">1. Close All Active Trades</h4>
                                     <p className="text-sm text-muted leading-relaxed">Ensure all open positions across your live trading accounts are closed. The system cannot delete an account with floating P&L.</p>
                                 </div>
                             </motion.div>
@@ -106,7 +106,7 @@ export default function AccountDeletion() {
                                     <Wallet className="w-6 h-6 text-primary" />
                                 </div>
                                 <div>
-                                    <h4 className="text-lg font-bold text-foreground mb-1">2. Withdraw Your Funds</h4>
+                                    <h4 className="text-lg font-normal text-foreground mb-1">2. Withdraw Your Funds</h4>
                                     <p className="text-sm text-muted leading-relaxed">Please submit a withdrawal request for all remaining equity in your wallets. Accounts with a positive balance cannot be immediately deleted.</p>
                                 </div>
                             </motion.div>
@@ -115,9 +115,9 @@ export default function AccountDeletion() {
                         <AnimatedSection delay={0.3} className="bg-blue-50 border border-blue-200 p-6 rounded-2xl flex gap-4 shadow-sm">
                             <Info className="w-8 h-8 text-primary flex-shrink-0 mt-0.5" />
                             <div>
-                                <h4 className="text-base font-bold mb-2 text-primary">Data Retention Policy (AML/KYC)</h4>
+                                <h4 className="text-base font-normal mb-2 text-primary">Data Retention Policy (AML/KYC)</h4>
                                 <p className="text-sm leading-relaxed text-slate-600">
-                                    As a regulated financial institution, Fxcelite is required by international Anti-Money Laundering (AML) laws to retain certain personal data, KYC documents, and transaction histories for a period of up to <strong>7 years</strong> after account closure.
+                                    As a regulated financial institution, FXCELITE is required by international Anti-Money Laundering (AML) laws to retain certain personal data, KYC documents, and transaction histories for a period of up to <strong>7 years</strong> after account closure.
                                     <br /><br />
                                     Your account will be permanently deactivated and you will no longer receive marketing communications, but your core financial records will be securely archived to comply with regulatory mandates.
                                 </p>
@@ -141,11 +141,11 @@ export default function AccountDeletion() {
                                     >
                                         <div className="flex items-center gap-3 mb-6 border-b border-border-light pb-4">
                                             <ShieldAlert className="w-6 h-6 text-trade-sell" />
-                                            <h3 className="text-xl font-bold text-foreground">Submit Request</h3>
+                                            <h3 className="text-xl font-normal text-foreground">Submit Request</h3>
                                         </div>
 
                                         <div className="space-y-2">
-                                            <label className="text-sm font-bold text-foreground">Registered Email Address</label>
+                                            <label className="text-sm font-normal text-foreground">Registered Email Address</label>
                                             <div className="relative">
                                                 <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted" />
                                                 <input
@@ -160,7 +160,7 @@ export default function AccountDeletion() {
                                         </div>
 
                                         <div className="space-y-2">
-                                            <label className="text-sm font-bold text-foreground">Account ID (Optional)</label>
+                                            <label className="text-sm font-normal text-foreground">Account ID (Optional)</label>
                                             <input
                                                 type="text"
                                                 value={accountId}
@@ -171,7 +171,7 @@ export default function AccountDeletion() {
                                         </div>
 
                                         <div className="space-y-2 pt-4">
-                                            <label className="text-sm font-bold text-trade-sell">Type "DELETE" to confirm</label>
+                                            <label className="text-sm font-normal text-trade-sell">Type "DELETE" to confirm</label>
                                             <input
                                                 type="text"
                                                 required
@@ -185,7 +185,7 @@ export default function AccountDeletion() {
                                         <button
                                             type="submit"
                                             disabled={confirmation !== "DELETE" || isSubmitting}
-                                            className={`w-full py-4 rounded-xl font-bold text-white transition-all shadow-md flex items-center justify-center gap-2 ${confirmation === "DELETE" && !isSubmitting ? 'bg-trade-sell hover:bg-red-600 hover:shadow-lg' : 'bg-red-300 cursor-not-allowed'}`}
+                                            className={`w-full py-4 rounded-xl font-normal text-white transition-all shadow-md flex items-center justify-center gap-2 ${confirmation === "DELETE" && !isSubmitting ? 'bg-trade-sell hover:bg-red-600 hover:shadow-lg' : 'bg-red-300 cursor-not-allowed'}`}
                                         >
                                             {isSubmitting ? (
                                                 <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
@@ -208,14 +208,14 @@ export default function AccountDeletion() {
                                             <CheckCircle2 className="w-10 h-10 text-green-500" />
                                         </div>
                                         <div>
-                                            <h3 className="text-2xl font-bold text-foreground mb-2">Request Received</h3>
+                                            <h3 className="text-2xl font-normal text-foreground mb-2">Request Received</h3>
                                             <p className="text-muted text-sm leading-relaxed">
                                                 Your account deletion request has been successfully submitted to our compliance team.
                                             </p>
                                         </div>
                                         <div className="bg-surface border border-border-light p-4 rounded-xl text-left">
                                             <p className="text-xs text-muted font-medium mb-1">Status</p>
-                                            <p className="text-sm font-bold text-orange-500 flex items-center gap-2">
+                                            <p className="text-sm font-normal text-orange-500 flex items-center gap-2">
                                                 <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse" /> Pending Review
                                             </p>
                                         </div>
@@ -224,7 +224,7 @@ export default function AccountDeletion() {
                                         </p>
                                         <button
                                             onClick={() => window.location.href = '/'}
-                                            className="w-full py-3 bg-surface border border-border-light hover:border-primary text-foreground font-bold rounded-xl transition-all text-sm mt-4"
+                                            className="w-full py-3 bg-surface border border-border-light hover:border-primary text-foreground font-normal rounded-xl transition-all text-sm mt-4"
                                         >
                                             Return to Homepage
                                         </button>

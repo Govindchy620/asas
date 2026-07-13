@@ -37,10 +37,10 @@ export default function WebTrading() {
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/5 border border-cyan-500/20 backdrop-blur-xl mb-8 animate-fade-in">
             <Cloud size={14} className="text-cyan-400" />
-            <span className="text-xs font-bold uppercase tracking-[0.4em] text-cyan-400 italic">Cloud Native Interface v2.0</span>
+            <span className="text-xs font-normal uppercase tracking-[0.4em] text-cyan-400 italic">Cloud Native Interface v2.0</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6">
+          <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6">
             Web Trading <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-white italic">Platform</span>
           </h1>
           
@@ -59,12 +59,12 @@ export default function WebTrading() {
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl blur opacity-25 group-hover:opacity-100 transition duration-1000"></div>
               <button 
-                onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                className="relative px-10 py-4 rounded-xl bg-white text-black font-bold text-base transition-all hover:scale-[1.03] active:scale-95 shadow-2xl flex items-center gap-3">
+                onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                className="relative px-10 py-4 rounded-xl bg-white text-black font-normal text-base transition-all hover:scale-[1.03] active:scale-95 shadow-2xl flex items-center gap-3">
                 Launch Our Web Platform <ArrowRight size={20} />
               </button>
             </div>
-            <p className="text-cyan-400 text-sm font-bold uppercase tracking-[0.2em] italic animate-pulse">
+            <p className="text-cyan-400 text-sm font-normal uppercase tracking-[0.2em] italic animate-pulse">
               No download, no delays. Start trading in seconds!
             </p>
           </div>
@@ -77,12 +77,12 @@ export default function WebTrading() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
                <div className="space-y-6">
-                 <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tighter leading-tight italic underline decoration-cyan-500 decoration-4 underline-offset-[8px]">What Is a Web <br/> Trading Platform?</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white uppercase tracking-tighter leading-tight italic underline decoration-cyan-500 decoration-4 underline-offset-[8px]">What Is a Web <br/> Trading Platform?</h2>
                  <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                    <p>
-                     Fxcelite's online web trading platform is an innovative tool that offers users a smooth experience, combining the best features of the desktop version with the convenience of a browser. You can now trade online without download wherever you are—at home, in the office, or on the road, and never miss a market movement.
+                     FXCELITE's online web trading platform is an innovative tool that offers users a smooth experience, combining the best features of the desktop version with the convenience of a browser. You can now trade online without download wherever you are—at home, in the office, or on the road, and never miss a market movement.
                    </p>
-                   <p className="text-white font-bold italic">
+                   <p className="text-white font-normal italic">
                      Our web based trading platform is equipped to deliver outstanding performance, featuring ultra-low latency and a secure environment. It is the ideal choice of a CFD web trading platform for those who cherish versatility.
                    </p>
                    <p>
@@ -99,7 +99,7 @@ export default function WebTrading() {
                     <div className="w-2 h-2 rounded-full bg-rose-500/50"></div>
                     <div className="w-2 h-2 rounded-full bg-amber-500/50"></div>
                     <div className="w-2 h-2 rounded-full bg-emerald-500/50"></div>
-                    <div className="ml-3 h-4 w-40 bg-white/5 rounded-sm border border-white/5 text-[8px] flex items-center px-2 text-slate-500">https://webtrader.fxcelite.com</div>
+                    <div className="ml-3 h-4 w-40 bg-white/5 rounded-sm border border-white/5 text-[8px] flex items-center px-2 text-slate-500">https://webtrader.FXCELITE.com</div>
                  </div>
                  <div className="relative h-[400px] w-full overflow-hidden bg-[#050617]">
                    <img 
@@ -112,11 +112,11 @@ export default function WebTrading() {
                  
                  <div className="absolute bottom-6 left-6 right-6 p-6 rounded-2xl bg-black/80 backdrop-blur-2xl border border-white/10 z-10">
                     <p className="text-slate-300 text-sm leading-relaxed font-medium">
-                      It is simply trading online through a browser that instantly syncs with your account, giving you a consistent experience on all your devices. Although being browser based, a secure web trading platform at FXCElite does not sacrifice analytical capabilities.
+                      It is simply trading online through a browser that instantly syncs with your account, giving you a consistent experience on all your devices. Although being browser based, a secure web trading platform at FXCELITE does not sacrifice analytical capabilities.
                     </p>
                     <div className="mt-4 flex items-center gap-3">
                       <RefreshCw size={16} className="text-cyan-400" />
-                      <span className="text-cyan-400 font-bold uppercase tracking-widest text-[10px]">Real-Time Account Sync</span>
+                      <span className="text-cyan-400 font-normal uppercase tracking-widest text-[10px]">Real-Time Account Sync</span>
                     </div>
                  </div>
                </div>
@@ -129,8 +129,8 @@ export default function WebTrading() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 text-center space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Why Choose Web Trading <br/> Without Software Download?</h2>
-            <p className="text-cyan-400 text-sm font-bold uppercase tracking-[0.2em]">Zero Weight, Max Power</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">Why Choose Web Trading <br/> Without Software Download?</h2>
+            <p className="text-cyan-400 text-sm font-normal uppercase tracking-[0.2em]">Zero Weight, Max Power</p>
             <p className="text-slate-500 text-base max-w-2xl mx-auto font-light leading-relaxed italic">
               Choosing a web trading without software download offers several strategic advantages for active traders.
             </p>
@@ -149,7 +149,7 @@ export default function WebTrading() {
                 <div className="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-6 border border-white/5 group-hover:scale-110 group-hover:bg-cyan-400 group-hover:text-black transition-all">
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-base font-bold text-white mb-3 tracking-tight leading-tight uppercase italic">{item.title}</h3>
+                <h3 className="text-base font-normal text-white mb-3 tracking-tight leading-tight uppercase italic">{item.title}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed font-medium">{item.desc}</p>
               </div>
             ))}
@@ -164,7 +164,7 @@ export default function WebTrading() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-8 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Key Features of <br/> the Web Platform</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic">Key Features of <br/> the Web Platform</h2>
                  <p className="text-base text-slate-500 italic leading-relaxed font-light">
                    Our online web trading platform is packed with high-end features that provide a professional edge.
                  </p>
@@ -182,7 +182,7 @@ export default function WebTrading() {
                       <div className="w-10 h-10 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-4 border border-white/5 group-hover:scale-110 transition-transform">
                         {React.cloneElement(feature.icon, { size: 20 })}
                       </div>
-                      <h4 className="text-base font-bold text-white mb-2 uppercase tracking-tight italic leading-tight">{feature.t}</h4>
+                      <h4 className="text-base font-normal text-white mb-2 uppercase tracking-tight italic leading-tight">{feature.t}</h4>
                       <p className="text-slate-400 text-sm leading-relaxed font-light italic">{feature.d}</p>
                    </div>
                  ))}
@@ -194,17 +194,17 @@ export default function WebTrading() {
                   <div className="absolute top-0 right-0 p-6 opacity-[0.03] group-hover:scale-110 transition-transform duration-1000">
                     <Monitor size={100} />
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-6 tracking-tight uppercase border-b border-white/10 pb-4">Instant Access</h3>
+                  <h3 className="text-2xl font-normal text-white mb-6 tracking-tight uppercase border-b border-white/10 pb-4">Instant Access</h3>
                   <div className="space-y-6">
-                     <p className="text-base text-cyan-400 font-bold leading-tight italic">
+                     <p className="text-base text-cyan-400 font-normal leading-tight italic">
                        Experience the flexibility of the cloud. Open Your Live Account and access the web platform today.
                      </p>
                      <div className="text-sm text-slate-500 leading-relaxed font-light italic">
                         <p>No downloads. No latency. Just pure institutional-grade trading through your browser.</p>
                      </div>
                      <button 
-                        onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                        className="w-full py-4 rounded-xl bg-white text-black font-bold hover:bg-cyan-500 transition-all text-sm shadow-xl shadow-cyan-500/20 uppercase tracking-tight">
+                        onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                        className="w-full py-4 rounded-xl bg-white text-black font-normal hover:bg-cyan-500 transition-all text-sm shadow-xl shadow-cyan-500/20 uppercase tracking-tight">
                         Access WebTrader
                      </button>
                   </div>
@@ -218,17 +218,17 @@ export default function WebTrading() {
       <section className="py-24 bg-black border-y border-white/5">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-16 space-y-2">
-             <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight">Web vs. Desktop</h2>
-             <p className="text-slate-500 text-sm font-bold uppercase tracking-[0.2em] italic underline decoration-cyan-500 decoration-4 underline-offset-[8px]">Performance Head-to-Head</p>
+             <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight">Web vs. Desktop</h2>
+             <p className="text-slate-500 text-sm font-normal uppercase tracking-[0.2em] italic underline decoration-cyan-500 decoration-4 underline-offset-[8px]">Performance Head-to-Head</p>
           </div>
 
           <div className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl bg-black/40 backdrop-blur-xl overflow-x-auto">
             <table className="w-full text-left border-collapse min-w-[600px]">
               <thead>
                 <tr className="bg-cyan-900/20">
-                  <th className="p-5 text-sm font-bold text-white uppercase italic tracking-widest border-b border-white/10">Feature</th>
-                  <th className="p-5 text-sm font-bold text-cyan-400 uppercase italic tracking-widest border-b border-white/10 bg-cyan-500/5">Web Platform</th>
-                  <th className="p-5 text-sm font-bold text-slate-500 uppercase italic tracking-widest border-b border-white/10">Desktop</th>
+                  <th className="p-5 text-sm font-normal text-white uppercase italic tracking-widest border-b border-white/10">Feature</th>
+                  <th className="p-5 text-sm font-normal text-cyan-400 uppercase italic tracking-widest border-b border-white/10 bg-cyan-500/5">Web Platform</th>
+                  <th className="p-5 text-sm font-normal text-slate-500 uppercase italic tracking-widest border-b border-white/10">Desktop</th>
                 </tr>
               </thead>
               <tbody className="text-sm md:text-base">
@@ -240,8 +240,8 @@ export default function WebTrading() {
                   { f: "Ease of Use", c: "Highly Intuitive", m: "Learning Curve" }
                 ].map((row, i) => (
                   <tr key={i} className="group hover:bg-white/[0.02] transition-colors">
-                    <td className="p-5 font-bold text-slate-400 border-b border-white/5">{row.f}</td>
-                    <td className="p-5 font-bold text-white border-b border-white/5 bg-cyan-500/[0.02] group-hover:text-cyan-400 transition-colors italic">{row.c}</td>
+                    <td className="p-5 font-normal text-slate-400 border-b border-white/5">{row.f}</td>
+                    <td className="p-5 font-normal text-white border-b border-white/5 bg-cyan-500/[0.02] group-hover:text-cyan-400 transition-colors italic">{row.c}</td>
                     <td className="p-5 font-medium text-slate-600 border-b border-white/5">{row.m}</td>
                   </tr>
                 ))}
@@ -258,13 +258,13 @@ export default function WebTrading() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">How to Trade Online <br/> Without Download</h2>
-            <p className="text-cyan-400 text-sm font-bold uppercase tracking-[0.2em]">Starting your journey is a 3-step process</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">How to Trade Online <br/> Without Download</h2>
+            <p className="text-cyan-400 text-sm font-normal uppercase tracking-[0.2em]">Starting your journey is a 3-step process</p>
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8">
             {[
-              { n: "01", t: "Login", d: "Please input your Fxcelite credentials on our safe web portal.", icon: <Lock /> },
+              { n: "01", t: "Login", d: "Please input your FXCELITE credentials on our safe web portal.", icon: <Lock /> },
               { n: "02", t: "Choose Asset", d: "At the web trading platform, with live charts, select your asset of preference, either a pair or a CFD.", icon: <Activity /> },
               { n: "03", t: "Place Trade", d: "Assess price action and click to instantly execute 'Buy' or 'Sell'.", icon: <MousePointer2 /> },
             ].map((step, i) => (
@@ -275,7 +275,7 @@ export default function WebTrading() {
                  <div className="w-16 h-16 rounded-2xl bg-cyan-500/5 text-cyan-400 flex items-center justify-center mx-auto mb-6 border border-white/5 group-hover:scale-110 transition-transform mt-4">
                    {React.cloneElement(step.icon, { size: 32 })}
                  </div>
-                 <h4 className="text-xl font-black text-white mb-3 tracking-tight leading-tight uppercase italic">{step.t}</h4>
+                 <h4 className="text-xl font-normal text-white mb-3 tracking-tight leading-tight uppercase italic">{step.t}</h4>
                  <p className="text-sm text-slate-500 leading-relaxed font-medium italic">{step.d}</p>
               </div>
             ))}
@@ -296,7 +296,7 @@ export default function WebTrading() {
                       <div className="w-14 h-14 rounded-2xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 border border-cyan-500/20 group-hover:bg-cyan-500 group-hover:text-black transition-all duration-500">
                          <Lock size={24} />
                       </div>
-                      <h2 className="text-2xl font-black text-white tracking-tight uppercase italic underline decoration-cyan-500 decoration-4 underline-offset-[8px]">Security & Reliability</h2>
+                      <h2 className="text-2xl font-normal text-white tracking-tight uppercase italic underline decoration-cyan-500 decoration-4 underline-offset-[8px]">Security & Reliability</h2>
                    </div>
                    <div className="text-base text-slate-400 leading-relaxed font-light italic space-y-6">
                       <p>Security is the backbone of our secure web trading site. We know the value of the security of data for our online traders while they trade online without the need for download.</p>
@@ -309,8 +309,8 @@ export default function WebTrading() {
 
              <div className="space-y-10 lg:p-8">
                 <div className="space-y-4">
-                  <h2 className="text-3xl md:text-4xl font-black text-white tracking-tight uppercase italic leading-tight">Who is Web <br/> Trading For?</h2>
-                  <p className="text-cyan-400 font-bold uppercase tracking-[0.2em] text-xs">Diversified Access Profiles</p>
+                  <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic leading-tight">Who is Web <br/> Trading For?</h2>
+                  <p className="text-cyan-400 font-normal uppercase tracking-[0.2em] text-xs">Diversified Access Profiles</p>
                 </div>
                 <div className="grid gap-5">
                    {[
@@ -324,7 +324,7 @@ export default function WebTrading() {
                          {React.cloneElement(item.icon, { size: 24 })}
                        </div>
                        <div>
-                         <span className="text-white text-lg font-bold uppercase tracking-tight italic">{item.l}</span>
+                         <span className="text-white text-lg font-normal uppercase tracking-tight italic">{item.l}</span>
                          <p className="text-slate-500 text-sm font-light leading-relaxed italic mt-1">{item.d}</p>
                        </div>
                      </div>
@@ -338,7 +338,7 @@ export default function WebTrading() {
       {/* --- FINAL CTA: THE TERMINAL GATE --- */}
       <section className="py-24 bg-[#02030d] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Why Fxcelite is the Best <br/> Web Trading Choice?</h2>
+           <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic">Why FXCELITE is the Best <br/> Web Trading Choice?</h2>
            <p className="text-base md:text-lg text-slate-400 leading-relaxed font-light italic max-w-3xl mx-auto">
              With our online web trading platform, you can take advantage of the benefits offered by the modern web in association with the power of institutional-grade trading. From a web platform with real-time charts to ultra-secure execution, you can do all you need in trading forex online.
            </p>
@@ -346,13 +346,13 @@ export default function WebTrading() {
               <div className="relative group">
                 <div className="absolute -inset-2 bg-cyan-500 rounded-3xl blur opacity-20 group-hover:opacity-60 transition duration-[1000ms]"></div>
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                  className="relative px-12 py-5 rounded-2xl bg-white text-black font-bold text-lg transition-all shadow-[0_20px_60px_-15px_rgba(34,211,238,0.4)] uppercase tracking-tight italic hover:-translate-y-1">
+                  onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                  className="relative px-12 py-5 rounded-2xl bg-white text-black font-normal text-lg transition-all shadow-[0_20px_60px_-15px_rgba(34,211,238,0.4)] uppercase tracking-tight italic hover:-translate-y-1">
                   Start Trading Online
                 </button>
               </div>
               <div className="space-y-3">
-                <p className="text-cyan-400 font-bold uppercase tracking-[0.2em] text-xs italic">The markets are just a click away. Experience the freedom now!</p>
+                <p className="text-cyan-400 font-normal uppercase tracking-[0.2em] text-xs italic">The markets are just a click away. Experience the freedom now!</p>
                 <div className="flex justify-center gap-2">
                    <div className="w-6 h-1 bg-white/10 rounded-full"></div>
                    <div className="w-12 h-1 bg-cyan-500 rounded-full animate-pulse"></div>
@@ -367,7 +367,7 @@ export default function WebTrading() {
       <section className="py-24 border-t border-white/5 bg-black">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic">Web FAQ</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic">Web FAQ</h2>
             <p className="text-slate-500 font-medium uppercase tracking-widest text-sm italic">Browser Terminal Knowledge Base</p>
           </div>
           
@@ -375,14 +375,14 @@ export default function WebTrading() {
             {[
               { q: "1. What is a Web Trading Platform?", a: "It is a terminal that enables you to trade financial markets directly through your web browsers without having to download any special software." },
               { q: "2. Is Web trading safe?", a: "Yes, our web trading platform has high-level encryption and a secure login mechanism in place to protect your data." },
-              { q: "3. Do I need to pay for web-based trading software?", a: "No, Fxcelite offers its online web trading platform for free for all its registered account holders." },
+              { q: "3. Do I need to pay for web-based trading software?", a: "No, FXCELITE offers its online web trading platform for free for all its registered account holders." },
               { q: "4. Can I trade Forex & CFDs on a web platform?", a: "Absolutely. Our CFD-based web trading platform provides users with an opportunity to trade Forex, Stocks, Indices, and Commodities." },
               { q: "5. Does web trading support real-time charts?", a: "Yes, we do have a web-based trading platform, and we have real-time charts that will update with each tick of the market." },
               { q: "6. Will it work on my Mac or Linux?", a: "Yes, a browser-based trading platform would be OS-independent and work with just about any computer that has a web browser." },
               { q: "7. How to trade online without download?", a: "All you need to do is access the website, click the link that says 'WebTrader', and you're trading in an instant." },
               { q: "8. Is the execution speed slow in a browser?", a: "Not at all. Online trading via browser is optimized for ultra-low latency and competence with desktop applications." },
               { q: "9. Am I able to set Stop-Loss and Take-Profit orders?", a: "Yes, all standard and advanced order types are fully supported on our web trading platform." },
-              { q: "10. What is the best web trading platform for forex and CFDs?", a: "The best platform would offer security, speed, and real-time data, all core features of the Fxcelite web terminal." },
+              { q: "10. What is the best web trading platform for forex and CFDs?", a: "The best platform would offer security, speed, and real-time data, all core features of the FXCELITE web terminal." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}
@@ -403,7 +403,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-slate-500 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-slate-500 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex shrink-0 items-center justify-center transition-all duration-500 ml-4 ${

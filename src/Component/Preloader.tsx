@@ -50,7 +50,7 @@ export default function Preloader({ onComplete }) {
               {/* Ensure the path to Logo.png is correct based on your setup */}
               <img 
                 src={Logo} 
-                alt="Fxcelite Logo" 
+                alt="FXCELITE Logo" 
                 className="h-66 md:h-74 w-auto object-contain drop-shadow-[0_0_25px_rgba(0,255,209,0.3)]"
               />
             </motion.div>
@@ -62,7 +62,7 @@ export default function Preloader({ onComplete }) {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 1, duration: 0.5 }}
-                  className="text-[#00FFD1] text-[10px] md:text-xs font-mono tracking-[0.3em] uppercase font-bold drop-shadow-[0_0_8px_rgba(0,255,209,0.8)]"
+                  className="text-[#00FFD1] text-[10px] md:text-xs font-mono tracking-[0.3em] uppercase font-normal drop-shadow-[0_0_8px_rgba(0,255,209,0.8)]"
                 >
                   Initializing Core
                 </motion.span>

@@ -63,7 +63,7 @@ export default function PartnerProgram() {
 function PartnerCard({ title, subtitle, percent }) {
   return (
     <div className="rounded-2xl bg-gradient-to-br from-[#0b1025] to-[#050617] border border-white/10 px-8 py-10 text-left shadow-xl hover:scale-[1.02] transition">
-      <h3 className="text-2xl font-bold text-white mb-2">
+      <h3 className="text-2xl font-normal text-white mb-2">
         {title}
       </h3>
 

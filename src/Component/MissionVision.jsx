@@ -9,7 +9,7 @@ export default function MissionVision() {
         {/* QUOTE */}
         <div className="text-center max-w-4xl mx-auto mb-20">
           <p className="text-2xl md:text-3xl font-extrabold text-white leading-snug">
-            <span className="text-indigo-400">“Fxcelite:</span> Where traders create
+            <span className="text-indigo-400">“FXCELITE:</span> Where traders create
             opportunities for traders to succeed.”
           </p>
         </div>
@@ -40,7 +40,7 @@ export default function MissionVision() {
 
             <div className="space-y-5 text-slate-300 text-lg leading-relaxed max-w-xl">
               <p>
-                At Fxcelite, we recognized early on that many funding programs
+                At FXCELITE, we recognized early on that many funding programs
                 fail to truly support talented traders.
               </p>
 

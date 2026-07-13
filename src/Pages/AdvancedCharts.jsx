@@ -49,15 +49,15 @@ export default function AdvancedCharts() {
           <div className="flex flex-col items-center text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/5 border border-indigo-500/20 backdrop-blur-md mb-8">
               <Activity size={14} className="text-indigo-400" />
-              <span className="text-xs font-bold uppercase tracking-[0.2em] text-indigo-400">Analytical Precision v4.1</span>
+              <span className="text-xs font-normal uppercase tracking-[0.2em] text-indigo-400">Analytical Precision v4.1</span>
             </div>
             
-            <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6">
+            <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6">
               Advanced Trading <br/> <span className="text-transparent bg-clip-text bg-gradient-to-b from-white via-indigo-200 to-indigo-500/50">Charts</span>
             </h1>
             
             <p className="text-base md:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed font-light mb-8 uppercase tracking-tight">
-              Master Technical Analysis at Fxcelite
+              Master Technical Analysis at FXCELITE
             </p>
 
             <div className="max-w-3xl mx-auto text-sm md:text-base text-slate-500 leading-relaxed font-light mb-12 px-4 border-x border-white/5 py-4">
@@ -68,12 +68,12 @@ export default function AdvancedCharts() {
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-fuchsia-500 rounded-xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                  className="relative px-10 py-4 rounded-xl bg-white text-black font-bold text-base transition-all active:scale-95 flex items-center gap-3">
+                  onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                  className="relative px-10 py-4 rounded-xl bg-white text-black font-normal text-base transition-all active:scale-95 flex items-center gap-3">
                   Launch Advanced Charts <Monitor size={20} />
                 </button>
               </div>
-              <p className="text-indigo-400 text-sm font-bold uppercase tracking-[0.2em]">
+              <p className="text-indigo-400 text-sm font-normal uppercase tracking-[0.2em]">
                 Visualize your success. Start analyzing today!
               </p>
             </div>
@@ -95,13 +95,13 @@ export default function AdvancedCharts() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
               <div className="p-1 border-l-4 border-indigo-500 pl-6">
-                 <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight mb-6">What are Advanced Trading Charts?</h2>
+                 <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight mb-6">What are Advanced Trading Charts?</h2>
                  <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                    <p>
                      In the trading profession, your judgments are dependent on the accuracy of the data you use. Sophisticated trading charts are the essence of a good strategy as they present the most lucid visuals which allow the trader to instantly spot high-probability setups.
                    </p>
                    <p>
-                     Fxcelite provides you with real-time trading charts that combine institutional-level data and a user-friendly interface. Whether you are trading short-term 1-minute charts or thinking about long-term weekly trends, our professional trading charts will keep you informed of the most important price action signals.
+                     FXCELITE provides you with real-time trading charts that combine institutional-level data and a user-friendly interface. Whether you are trading short-term 1-minute charts or thinking about long-term weekly trends, our professional trading charts will keep you informed of the most important price action signals.
                    </p>
                    <p>
                      We have developed our forex charting platform for the new generation: speedy, highly responsive, and filled with more than 100 technical indicators. You can also get access to advanced forex charts for currency pairs, and detailed CFD trading charts for indices and commodities.
@@ -126,7 +126,7 @@ export default function AdvancedCharts() {
                  <div className="absolute bottom-6 left-6 right-6 p-6 rounded-xl bg-black/80 backdrop-blur-2xl border border-white/10">
                     <div className="flex items-center gap-3 mb-4">
                       <Grid3X3 size={20} className="text-indigo-500" />
-                      <span className="text-white text-lg font-bold tracking-tight uppercase">Multi-Asset Precision</span>
+                      <span className="text-white text-lg font-normal tracking-tight uppercase">Multi-Asset Precision</span>
                     </div>
                     <p className="text-slate-400 text-sm leading-relaxed font-medium">
                       Developed for the new generation: speedy, highly responsive, and filled with more than 100 technical indicators.
@@ -143,8 +143,8 @@ export default function AdvancedCharts() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-end justify-between gap-8 mb-16">
             <div className="max-w-2xl space-y-4">
-              <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Why Use Professional <br/> Trading Charts?</h2>
-              <p className="text-indigo-400 text-sm font-bold uppercase tracking-[0.2em]">The "Why" behind the "What"</p>
+              <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight">Why Use Professional <br/> Trading Charts?</h2>
+              <p className="text-indigo-400 text-sm font-normal uppercase tracking-[0.2em]">The "Why" behind the "What"</p>
             </div>
             <div className="flex items-center gap-3 text-slate-500 font-mono text-xs uppercase tracking-widest bg-white/5 p-3 rounded-lg border border-white/5">
                 <Eye size={16} /> Momentum Analysis
@@ -163,7 +163,7 @@ export default function AdvancedCharts() {
                 <div className="w-12 h-12 rounded-xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 mb-6 border border-white/5 group-hover:bg-indigo-400 group-hover:text-black transition-all">
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3 tracking-tight uppercase">{item.title}</h3>
+                <h3 className="text-lg font-normal text-white mb-3 tracking-tight uppercase">{item.title}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed font-medium">{item.desc}</p>
               </div>
             ))}
@@ -183,9 +183,9 @@ export default function AdvancedCharts() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-7 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase leading-tight">Best Advanced Charting <br/> Tools for Traders</h2>
+                 <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase leading-tight">Best Advanced Charting <br/> Tools for Traders</h2>
                  <p className="text-base text-slate-500 leading-relaxed font-light">
-                   To be the best, you need the best advanced charting tools. At FXCElite, we provide a suite of features that go beyond the industry standard.
+                   To be the best, you need the best advanced charting tools. At FXCELITE, we provide a suite of features that go beyond the industry standard.
                  </p>
                </div>
 
@@ -201,7 +201,7 @@ export default function AdvancedCharts() {
                       <div className="w-10 h-10 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400 mb-4 border border-indigo-500/10 group-hover:scale-110 transition-transform">
                         {React.cloneElement(tool.icon, { size: 20 })}
                       </div>
-                      <h4 className="text-base font-bold text-white mb-2 uppercase tracking-tight">{tool.t}</h4>
+                      <h4 className="text-base font-normal text-white mb-2 uppercase tracking-tight">{tool.t}</h4>
                       <p className="text-slate-500 text-sm leading-relaxed font-light">{tool.d}</p>
                    </div>
                  ))}
@@ -213,7 +213,7 @@ export default function AdvancedCharts() {
                   <div className="absolute top-0 right-0 p-8 opacity-[0.03] group-hover:scale-110 transition-transform">
                     <Monitor size={120} />
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-6 tracking-tight uppercase">2026 Tech</h3>
+                  <h3 className="text-2xl font-normal text-white mb-6 tracking-tight uppercase">2026 Tech</h3>
                   <div className="space-y-6">
                      <p className="text-base text-indigo-400 font-medium leading-relaxed">
                        Experience the power of 2026 technology. Open a Live Account to unlock full charting capabilities.
@@ -222,8 +222,8 @@ export default function AdvancedCharts() {
                         <p>Our interactive technical analysis charts for Forex and CFDs are designed to enable you to recognize repeatable patterns.</p>
                      </div>
                      <button 
-                        onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                        className="w-full py-4 rounded-xl bg-white text-black font-bold hover:bg-indigo-400 transition-all text-base shadow-lg">
+                        onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                        className="w-full py-4 rounded-xl bg-white text-black font-normal hover:bg-indigo-400 transition-all text-base shadow-lg">
                         Open Live Account
                      </button>
                   </div>
@@ -253,7 +253,7 @@ export default function AdvancedCharts() {
             </div>
 
             <div className="order-1 lg:order-2 space-y-8">
-               <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Technical Analysis <br/> Charts for <br/> Forex and CFDs</h2>
+               <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight">Technical Analysis <br/> Charts for <br/> Forex and CFDs</h2>
                <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                  <p>The whole theory of technical analysis is based on the fact that history always repeats itself. Our interactive technical analysis charts are designed to enable you to recognize repeatable patterns.</p>
                  <p>On our charting platform, you could spot "ascending staircases" in a bull market or "head and shoulders" reversals. Our platform helps you trace out the correlation between indices or parabolic trends in commodities.</p>
@@ -267,8 +267,8 @@ export default function AdvancedCharts() {
       <section className="py-24 bg-black relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase">How to Master <br/>Advanced Charts</h2>
-            <p className="text-indigo-400 text-sm font-bold uppercase tracking-[0.2em]">A journey of 5 simple steps</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase">How to Master <br/>Advanced Charts</h2>
+            <p className="text-indigo-400 text-sm font-normal uppercase tracking-[0.2em]">A journey of 5 simple steps</p>
           </div>
 
           <div className="grid lg:grid-cols-5 gap-6">
@@ -280,13 +280,13 @@ export default function AdvancedCharts() {
               { n: "05", t: "Execute", d: "Take the trade in just one click.", icon: <Activity /> },
             ].map((step, i) => (
               <div key={i} className="group relative p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:border-indigo-500/40 transition-all duration-500 text-center mt-6 lg:mt-0">
-                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-xl bg-black border border-indigo-500/20 flex items-center justify-center font-bold text-indigo-400 text-sm group-hover:bg-indigo-400 group-hover:text-black transition-all">
+                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-xl bg-black border border-indigo-500/20 flex items-center justify-center font-normal text-indigo-400 text-sm group-hover:bg-indigo-400 group-hover:text-black transition-all">
                     {step.n}
                  </div>
                  <div className="w-14 h-14 rounded-full bg-indigo-500/5 text-indigo-400 flex items-center justify-center mx-auto mb-6 border border-indigo-500/10 group-hover:scale-110 transition-transform mt-2">
                    {React.cloneElement(step.icon, { size: 24 })}
                  </div>
-                 <h4 className="text-base font-bold text-white mb-2 tracking-tight uppercase">{step.t}</h4>
+                 <h4 className="text-base font-normal text-white mb-2 tracking-tight uppercase">{step.t}</h4>
                  <p className="text-sm text-slate-500 leading-relaxed font-medium">{step.d}</p>
               </div>
             ))}
@@ -307,7 +307,7 @@ export default function AdvancedCharts() {
                       <div className="w-14 h-14 rounded-xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 border border-indigo-500/20">
                          <Shield size={24} />
                       </div>
-                      <h2 className="text-2xl font-bold text-white tracking-tight uppercase">Security & Performance</h2>
+                      <h2 className="text-2xl font-normal text-white tracking-tight uppercase">Security & Performance</h2>
                    </div>
                    <div className="text-base text-slate-400 leading-relaxed font-light space-y-4">
                       <p>Speed is a form of security. Our web-based online trading platform with advanced charts is located on high-speed servers with ultra-low latency.</p>
@@ -317,7 +317,7 @@ export default function AdvancedCharts() {
              </div>
 
              <div className="space-y-8 lg:p-6">
-                <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase">Who Needs Advanced <br/> Trading Charts?</h2>
+                <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase">Who Needs Advanced <br/> Trading Charts?</h2>
                 <div className="grid gap-4">
                    {[
                      { l: "Day Traders", d: "Utilize up-to-the-second charts for fast entry.", icon: <Activity /> },
@@ -330,7 +330,7 @@ export default function AdvancedCharts() {
                          {React.cloneElement(item.icon, { size: 20 })}
                        </div>
                        <div>
-                         <span className="text-white text-base font-bold uppercase tracking-tight">{item.l}</span>
+                         <span className="text-white text-base font-normal uppercase tracking-tight">{item.l}</span>
                          <p className="text-slate-500 text-sm font-light mt-1">{item.d}</p>
                        </div>
                      </div>
@@ -344,7 +344,7 @@ export default function AdvancedCharts() {
       {/* --- FINAL CTA: OBSIDIAN POWER --- */}
       <section className="py-24 bg-[#010208] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Why FXCElite is the Best <br/> Choice for Charting?</h2>
+           <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight">Why FXCELITE is the Best <br/> Choice for Charting?</h2>
            <p className="text-base md:text-lg text-slate-400 leading-relaxed font-light">
              With our best advanced charts designed for traders and a platform developed for 2026 conditions, we offer the edge required to be successful. We are not just giving the price; we are giving the vision to forecast the price movement.
            </p>
@@ -352,12 +352,12 @@ export default function AdvancedCharts() {
               <div className="relative group">
                 <div className="absolute -inset-1 bg-indigo-500 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                  className="relative px-12 py-5 rounded-xl bg-white text-black font-bold text-lg transition-all shadow-[0_15px_40px_-15px_rgba(99,102,241,0.4)] hover:-translate-y-1">
+                  onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                  className="relative px-12 py-5 rounded-xl bg-white text-black font-normal text-lg transition-all shadow-[0_15px_40px_-15px_rgba(99,102,241,0.4)] hover:-translate-y-1">
                   Register Now & Gain Access
                 </button>
               </div>
-              <p className="text-indigo-400 font-bold uppercase tracking-[0.2em] text-xs">See the market clearly. Build your vision today.</p>
+              <p className="text-indigo-400 font-normal uppercase tracking-[0.2em] text-xs">See the market clearly. Build your vision today.</p>
            </div>
         </div>
       </section>
@@ -366,7 +366,7 @@ export default function AdvancedCharts() {
       <section className="py-24 border-t border-white/5 bg-[#000000]">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase">Technical FAQ</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase">Technical FAQ</h2>
             <p className="text-slate-500 font-medium uppercase tracking-widest text-sm">Advanced Charting Knowledge Base</p>
           </div>
           
@@ -374,7 +374,7 @@ export default function AdvancedCharts() {
             {[
               { q: "1. Are the charts in Real-Time?", a: "Yes, we provide trading charts in real time, which are updated tick-by-tick through the interbank liquidity pool." },
               { q: "2. Can I use TradingView on your platform?", a: "Our forex charting platform is fully integrated with professional charting engines, and the experience is similar or superior to TradingView." },
-              { q: "3. Is advanced trading charting free?", a: "Indeed, all registered users of Fxcelite can use our professional charts on a complimentary basis." },
+              { q: "3. Is advanced trading charting free?", a: "Indeed, all registered users of FXCELITE can use our professional charts on a complimentary basis." },
               { q: "4. Can I save my chart templates?", a: "Absolutely. It is possible to customize your advanced forex charts and save a number of templates." },
               { q: "5. Do you have charts available for crypto and stocks?", a: "Yes, our charts cover everything from Bitcoin to Tesla and the S&P500." },
               { q: "6. What are the best charting tools for a beginner?", a: "We recommend learning about Candlestick Charts, Support/Resistance, and a Moving Average Indicator." },
@@ -404,7 +404,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors uppercase tracking-tight ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors uppercase tracking-tight ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex shrink-0 items-center justify-center transition-all duration-300 ml-4 ${

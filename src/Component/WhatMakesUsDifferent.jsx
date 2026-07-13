@@ -49,7 +49,7 @@ export default function WhatMakesUsDifferent() {
               </div>
 
               {/* TEXT */}
-              <h3 className="text-lg font-bold text-white mb-3">
+              <h3 className="text-lg font-normal text-white mb-3">
                 {item.title}
               </h3>
               <p className="text-sm text-slate-200 leading-relaxed">

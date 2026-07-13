@@ -49,10 +49,10 @@ export default function Helpdesk() {
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 border border-indigo-500/30 bg-indigo-500/10 backdrop-blur-xl mb-8 animate-fade-in rounded-lg">
             <LifeBuoy size={14} className="text-indigo-400 animate-spin-slow" />
-            <span className="text-xs font-bold uppercase tracking-[0.3em] text-indigo-400">Node Sigma: Support Alpha</span>
+            <span className="text-xs font-normal uppercase tracking-[0.3em] text-indigo-400">Node Sigma: Support Alpha</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6 italic uppercase">
+          <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6 italic uppercase">
             Trading <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-white to-indigo-600">Helpdesk</span>
           </h1>
           
@@ -64,7 +64,7 @@ export default function Helpdesk() {
              <div className="absolute top-0 left-0 w-8 h-[2px] bg-indigo-500"></div>
              <div className="absolute bottom-0 right-0 w-8 h-[2px] bg-indigo-500"></div>
              <p className="mb-4">
-               When trading in the global financial markets, you have to be very precise and a trustworthy trading help desk is a great partner for you to keep your advantage. Fxcelite knows that sometimes, no matter if you are a novice placing your very first order or a seasoned trader handling complicated portfolios, there will be questions in your mind.
+               When trading in the global financial markets, you have to be very precise and a trustworthy trading help desk is a great partner for you to keep your advantage. FXCELITE knows that sometimes, no matter if you are a novice placing your very first order or a seasoned trader handling complicated portfolios, there will be questions in your mind.
              </p>
              <p>
                Our forex trading support team is geared up to give you quick, precise, and completely human-based solutions so that you can concentrate 100% on the charts. We are not just responding to your queries; we deliver trading platform support services that enable you to trade with absolute security.
@@ -75,12 +75,12 @@ export default function Helpdesk() {
             <div className="relative group">
               <div className="absolute -inset-1 border border-indigo-500 opacity-40 group-hover:opacity-100 transition-opacity rounded-xl"></div>
               <button 
-                onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                className="relative px-10 py-4 bg-white text-black font-bold text-base md:text-lg transition-all hover:bg-indigo-600 hover:text-white active:scale-95 shadow-xl uppercase tracking-tight italic flex items-center gap-2 rounded-lg">
+                onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                className="relative px-10 py-4 bg-white text-black font-normal text-base md:text-lg transition-all hover:bg-indigo-600 hover:text-white active:scale-95 shadow-xl uppercase tracking-tight italic flex items-center gap-2 rounded-lg">
                 Access Live Support <MessageSquare size={20} className="ml-2" />
               </button>
             </div>
-            <p className="text-indigo-400 text-sm font-bold uppercase tracking-[0.2em] italic animate-pulse">
+            <p className="text-indigo-400 text-sm font-normal uppercase tracking-[0.2em] italic animate-pulse">
               [ Need immediate assistance? Visit our Contact Us page ]
             </p>
           </div>
@@ -92,9 +92,9 @@ export default function Helpdesk() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
              <div className="space-y-8">
-                <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight leading-tight italic">Comprehensive Customer <br/> Support for Your Trading Platform</h2>
+                <h2 className="text-3xl md:text-5xl font-normal text-white uppercase tracking-tight leading-tight italic">Comprehensive Customer <br/> Support for Your Trading Platform</h2>
                 <div className="space-y-6 text-base text-white/80 leading-relaxed font-light italic">
-                  <p>A high-performance customer support trading platform is the backbone of a great broker. Equipped with a multi-channel support system, Fxcelite aims to resolve your queries in record time.</p>
+                  <p>A high-performance customer support trading platform is the backbone of a great broker. Equipped with a multi-channel support system, FXCELITE aims to resolve your queries in record time.</p>
                   <p>Whether you are experiencing technical issues like some trading platform users run into or need some assistance with trading account verification, we are here to assist you. We offer trading platform customer support with all your requirements met, be it about Forex trading hours or any platform-related issues regarding MT5 or WebTrader.</p>
                 </div>
              </div>
@@ -108,7 +108,7 @@ export default function Helpdesk() {
                    />
                    <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-transparent to-transparent pointer-events-none"></div>
                    <div className="absolute bottom-6 left-6 right-6 p-6 bg-black/90 backdrop-blur-xl border border-white/20 border-t-indigo-500 border-t-4 rounded-xl shadow-xl">
-                      <p className="text-white text-lg font-bold italic mb-2 uppercase tracking-tight">"A world-class online trading partnership rewards influence."</p>
+                      <p className="text-white text-lg font-normal italic mb-2 uppercase tracking-tight">"A world-class online trading partnership rewards influence."</p>
                       <p className="text-indigo-400 text-xs italic font-mono uppercase tracking-[0.2em]">Integrated Support Node V2</p>
                    </div>
                 </div>
@@ -121,8 +121,8 @@ export default function Helpdesk() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Why Choose Fxcelite for <br/> Online Trading Customer Support?</h2>
-            <p className="text-indigo-400 text-sm font-bold uppercase tracking-[0.2em] font-mono">24/5 Precision Ecosystem</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">Why Choose FXCELITE for <br/> Online Trading Customer Support?</h2>
+            <p className="text-indigo-400 text-sm font-normal uppercase tracking-[0.2em] font-mono">24/5 Precision Ecosystem</p>
             <p className="text-white/80 text-base max-w-2xl mx-auto font-light leading-relaxed italic pt-4">
               We have built our forex trading helpdesk support around the needs of the modern trader:
             </p>
@@ -142,7 +142,7 @@ export default function Helpdesk() {
                 <div className="w-12 h-12 bg-indigo-500/20 flex items-center justify-center text-indigo-400 mb-6 border border-indigo-500/50 group-hover:bg-indigo-600 group-hover:text-white transition-all rounded-xl relative z-10">
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3 tracking-tight leading-tight relative z-10">{item.title}</h3>
+                <h3 className="text-lg font-normal text-white mb-3 tracking-tight leading-tight relative z-10">{item.title}</h3>
                 <p className="text-white/80 text-sm leading-relaxed font-medium italic relative z-10">{item.desc}</p>
               </div>
             ))}
@@ -151,7 +151,7 @@ export default function Helpdesk() {
              <div className="inline-flex items-center gap-4 px-8 py-5 bg-white/5 border border-white/20 shadow-xl rounded-2xl">
                 <ShieldCheck className="text-indigo-400" size={28} />
                 <div className="text-left">
-                  <h4 className="text-white font-bold uppercase text-base italic tracking-tight">Secure Support Environment</h4>
+                  <h4 className="text-white font-normal uppercase text-base italic tracking-tight">Secure Support Environment</h4>
                   <p className="text-white/80 text-sm italic">All channels are encrypted, so your account support is private.</p>
                 </div>
              </div>
@@ -166,7 +166,7 @@ export default function Helpdesk() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-8 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Key Helpdesk <br/> Services</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic">Key Helpdesk <br/> Services</h2>
                  <p className="text-base text-white/80 italic leading-relaxed font-light max-w-2xl pt-4">
                    Our trading platform support services are categorized to help you get to the right expert faster:
                  </p>
@@ -183,7 +183,7 @@ export default function Helpdesk() {
                       <div className="w-10 h-10 bg-indigo-500/20 flex items-center justify-center text-indigo-400 mb-4 border border-white/20 group-hover:scale-110 transition-transform rounded-lg">
                         {React.cloneElement(feature.icon, { size: 20 })}
                       </div>
-                      <h4 className="text-base font-bold text-white mb-2 uppercase tracking-tight italic leading-tight">{feature.t}</h4>
+                      <h4 className="text-base font-normal text-white mb-2 uppercase tracking-tight italic leading-tight">{feature.t}</h4>
                       <p className="text-white/80 text-sm leading-relaxed font-light italic">{feature.d}</p>
                    </div>
                  ))}
@@ -195,17 +195,17 @@ export default function Helpdesk() {
                   <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:scale-110 transition-transform duration-1000">
                     <Sparkles size={100} className="text-indigo-400" />
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-6 tracking-tight uppercase border-b border-white/20 pb-4 italic">Premium Care</h3>
+                  <h3 className="text-xl font-normal text-white mb-6 tracking-tight uppercase border-b border-white/20 pb-4 italic">Premium Care</h3>
                   <div className="space-y-6 relative z-10">
-                     <p className="text-base text-indigo-400 font-bold leading-tight italic">
+                     <p className="text-base text-indigo-400 font-normal leading-tight italic">
                        Experience the gold standard of service. Open a Support Ticket and let us handle the technicalities for you.
                      </p>
                      <div className="text-sm text-white/80 leading-relaxed font-light italic">
                         <p>Join thousands of traders who rely on our institutional-grade helpdesk for their daily operations.</p>
                      </div>
                      <button 
-                        onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                        className="w-full py-4 bg-white text-black font-bold hover:bg-indigo-600 hover:text-white transition-all text-sm uppercase tracking-tight italic shadow-lg rounded-xl">
+                        onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                        className="w-full py-4 bg-white text-black font-normal hover:bg-indigo-600 hover:text-white transition-all text-sm uppercase tracking-tight italic shadow-lg rounded-xl">
                         Open a Support Ticket
                      </button>
                   </div>
@@ -219,8 +219,8 @@ export default function Helpdesk() {
       <section className="py-24 relative bg-black">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">How to Get Help with <br/> Your Trading Account</h2>
-            <p className="text-indigo-400 text-sm font-bold uppercase tracking-[0.2em] font-mono">Simple 3-Step Protocol</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">How to Get Help with <br/> Your Trading Account</h2>
+            <p className="text-indigo-400 text-sm font-normal uppercase tracking-[0.2em] font-mono">Simple 3-Step Protocol</p>
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8 relative">
@@ -231,13 +231,13 @@ export default function Helpdesk() {
               { n: "03", t: "Direct Contact", d: "For complex issues, use our Contact Us page for email and phone support.", icon: <Phone /> },
             ].map((step, i) => (
               <div key={i} className="group relative p-8 bg-white/5 border border-white/10 hover:border-indigo-500/50 transition-all duration-500 text-center shadow-xl rounded-3xl mt-6 lg:mt-0">
-                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 bg-black border-2 border-indigo-500/50 flex items-center justify-center font-bold text-indigo-400 text-sm group-hover:bg-indigo-500 group-hover:text-white transition-all rounded-full shadow-lg">
+                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 bg-black border-2 border-indigo-500/50 flex items-center justify-center font-normal text-indigo-400 text-sm group-hover:bg-indigo-500 group-hover:text-white transition-all rounded-full shadow-lg">
                     {step.n}
                  </div>
                  <div className="w-12 h-12 bg-indigo-500/20 text-indigo-400 flex items-center justify-center mx-auto mb-5 border border-white/20 group-hover:scale-110 transition-transform rounded-xl mt-2">
                    {React.cloneElement(step.icon, { size: 24 })}
                  </div>
-                 <h4 className="text-lg font-bold text-white mb-3 tracking-tight leading-tight uppercase italic">{step.t}</h4>
+                 <h4 className="text-lg font-normal text-white mb-3 tracking-tight leading-tight uppercase italic">{step.t}</h4>
                  <p className="text-sm text-white/80 leading-relaxed font-medium italic">{step.d}</p>
               </div>
             ))}
@@ -254,7 +254,7 @@ export default function Helpdesk() {
                 <div className="relative border border-white/20 shadow-2xl bg-black/60 backdrop-blur-xl p-8 rounded-3xl space-y-8">
                    <div className="flex items-center gap-4 border-b border-white/10 pb-6 mb-6">
                       <Terminal className="text-indigo-400" size={32} />
-                      <h2 className="text-3xl font-bold text-white tracking-tight uppercase italic leading-none">Diagnostic <br/> HUD</h2>
+                      <h2 className="text-3xl font-normal text-white tracking-tight uppercase italic leading-none">Diagnostic <br/> HUD</h2>
                    </div>
                    <div className="grid gap-6">
                       {[
@@ -267,7 +267,7 @@ export default function Helpdesk() {
                               {React.cloneElement(item.icon, { size: 20 })}
                            </div>
                            <div className="space-y-1">
-                             <h4 className="text-white font-bold uppercase text-base italic tracking-tight">{item.t}</h4>
+                             <h4 className="text-white font-normal uppercase text-base italic tracking-tight">{item.t}</h4>
                              <p className="text-white/80 text-sm italic leading-relaxed">{item.d}</p>
                            </div>
                         </div>
@@ -277,7 +277,7 @@ export default function Helpdesk() {
              </div>
 
              <div className="order-1 lg:order-2 space-y-8">
-                <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-indigo-500 decoration-4 underline-offset-[8px]">Technical Issues: <br/> Troubleshooting</h2>
+                <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic underline decoration-indigo-500 decoration-4 underline-offset-[8px]">Technical Issues: <br/> Troubleshooting</h2>
                 <p className="text-base text-white/90 leading-relaxed font-light italic border-l-4 border-indigo-500 pl-4 bg-white/5 p-4 rounded-r-xl">
                   After all, even the best of technologies can sometimes have certain hiccups. Our forex trading helpdesk support is specially trained to handle issues quickly.
                 </p>
@@ -296,8 +296,8 @@ export default function Helpdesk() {
       <section className="py-24 relative bg-black">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Who is the <br/> Helpdesk For?</h2>
-            <p className="text-indigo-400 text-sm font-bold uppercase tracking-[0.2em] font-mono">Strategic Support Profiles</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">Who is the <br/> Helpdesk For?</h2>
+            <p className="text-indigo-400 text-sm font-normal uppercase tracking-[0.2em] font-mono">Strategic Support Profiles</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -311,7 +311,7 @@ export default function Helpdesk() {
                  <div className="w-14 h-14 bg-indigo-500/20 text-indigo-400 flex items-center justify-center mx-auto mb-6 border border-white/20 group-hover:bg-indigo-500 group-hover:text-white transition-all rounded-xl">
                    {React.cloneElement(item.icon, { size: 24 })}
                  </div>
-                 <h4 className="text-lg font-bold text-white mb-3 tracking-tight leading-tight uppercase italic">{item.l}</h4>
+                 <h4 className="text-lg font-normal text-white mb-3 tracking-tight leading-tight uppercase italic">{item.l}</h4>
                  <p className="text-sm text-white/80 leading-relaxed font-medium italic">{item.d}</p>
               </div>
             ))}
@@ -322,21 +322,21 @@ export default function Helpdesk() {
       {/* --- SECTION 7: FINAL CTA (MISSION STATEMENT) --- */}
       <section className="py-24 bg-[#020617] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-white/20 decoration-4 underline-offset-[8px]">Why Fxcelite Offers the <br/> Best Trading Support?</h2>
+           <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic underline decoration-white/20 decoration-4 underline-offset-[8px]">Why FXCELITE Offers the <br/> Best Trading Support?</h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto bg-white/5 p-6 rounded-2xl border border-white/10">
-             With our focus on human expertise and trading platform support services, Fxcelite offers a trading help desk that listens. No robots for us; only human professionals who understand the importance of urgency with the Forex market.
+             With our focus on human expertise and trading platform support services, FXCELITE offers a trading help desk that listens. No robots for us; only human professionals who understand the importance of urgency with the Forex market.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
                 <div className="absolute -inset-2 bg-indigo-600 rounded-2xl blur opacity-40 group-hover:opacity-80 transition duration-1000"></div>
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                  className="relative px-12 py-5 bg-white text-black font-bold text-lg transition-all shadow-[0_15px_40px_-15px_rgba(99,102,241,0.5)] uppercase tracking-tight italic rounded-xl hover:-translate-y-1">
+                  onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                  className="relative px-12 py-5 bg-white text-black font-normal text-lg transition-all shadow-[0_15px_40px_-15px_rgba(99,102,241,0.5)] uppercase tracking-tight italic rounded-xl hover:-translate-y-1">
                   Start a Chat
                 </button>
               </div>
               <div className="space-y-4">
-                <p className="text-indigo-400 font-bold uppercase tracking-[0.2em] text-xs italic font-mono max-w-xl mx-auto">Your success is our mission. Experience the best support!</p>
+                <p className="text-indigo-400 font-normal uppercase tracking-[0.2em] text-xs italic font-mono max-w-xl mx-auto">Your success is our mission. Experience the best support!</p>
                 <div className="flex justify-center gap-3">
                    <div className="w-8 h-[2px] bg-white/20"></div>
                    <div className="w-16 h-[2px] bg-indigo-500 animate-pulse"></div>
@@ -351,8 +351,8 @@ export default function Helpdesk() {
       <section className="py-24 border-t border-white/10 bg-black">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-black text-white tracking-tight uppercase italic font-mono underline decoration-indigo-600 decoration-4 underline-offset-[8px]">[ SUPPORT FAQ ]</h2>
-            <p className="text-white/80 font-bold uppercase tracking-widest text-sm italic font-mono pt-4">Node Intelligence Archive Delta-9</p>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic font-mono underline decoration-indigo-600 decoration-4 underline-offset-[8px]">[ SUPPORT FAQ ]</h2>
+            <p className="text-white/80 font-normal uppercase tracking-widest text-sm italic font-mono pt-4">Node Intelligence Archive Delta-9</p>
           </div>
           
           <div className="space-y-4">
@@ -364,7 +364,7 @@ export default function Helpdesk() {
               { q: "5. How long does it take to get a response?", a: "Live chat is usually immediate, while email support can take a few hours." },
               { q: "6. Is the helpdesk available in different languages?", a: "Yes. Our service is available in different major languages to facilitate our international clients." },
               { q: "7. What should I do if I have technical issues?", a: "Check your internet connection. If the problem continues, contact us immediately via live chat." },
-              { q: "8. Is there a fee associated with the help desk?", a: "All trading platform support services are offered free to all Fxcelite clients." },
+              { q: "8. Is there a fee associated with the help desk?", a: "All trading platform support services are offered free to all FXCELITE clients." },
               { q: "9. Can you help with my withdrawal request?", a: "Absolutely. Our support team is available to assist with any information regarding the status of your funds." },
               { q: "10. Where is the best place for beginners to get help?", a: "Try our live chat for quick questions, or visit our comprehensive FAQ section for guides." },
             ].map((faq, i) => (
@@ -388,7 +388,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-white/90 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-white/90 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex items-center justify-center shrink-0 transition-all duration-500 ml-4 ${

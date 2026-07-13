@@ -71,7 +71,7 @@ export default function InstantAccountBenefits() {
               </div>
 
               {/* TITLE */}
-              <h3 className="text-lg font-bold mb-3">
+              <h3 className="text-lg font-normal mb-3">
                 {item.title}
               </h3>
 

@@ -186,12 +186,12 @@ export default function PricingTable() {
             <Row label="Leverage" values={columns.map(c => c.leverage)} />
 
             <tr>
-              <td className="p-6 font-bold">Price</td>
+              <td className="p-6 font-normal">Price</td>
               {columns.map(c => (
                 <td key={c.id} className="p-6 text-center">
                   <div className="flex flex-col gap-3 items-center">
-                    <span className="text-2xl font-bold">{c.price}</span>
-                    <button className="px-6 py-2 rounded-full bg-emerald-400 text-black font-bold hover:scale-105 transition">
+                    <span className="text-2xl font-normal">{c.price}</span>
+                    <button className="px-6 py-2 rounded-full bg-emerald-400 text-black font-normal hover:scale-105 transition">
                       Get Plan
                     </button>
                   </div>

@@ -60,7 +60,7 @@ function PartnerCard({ number, title, desc }) {
         {number}
       </p>
 
-      <h3 className="text-white font-bold mb-2 text-sm">
+      <h3 className="text-white font-normal mb-2 text-sm">
         {title}
       </h3>
 

@@ -87,19 +87,19 @@ export default function Footer() {
           <div className="flex items-center gap-4">
             <img
               src={Logo}
-              alt="Fxcelite Logo"
+              alt="FXCELITE Logo"
               className="w-46 h-46 object-contain"
             />
             {/* <div className="text-left">
-              <h3 className="text-white font-bold text-xl tracking-tight">Fxcelite</h3>
+              <h3 className="text-white font-normal text-xl tracking-tight">FXCELITE</h3>
               <p className="text-slate-500 text-xs uppercase tracking-widest font-semibold">Institutional Trading</p>
             </div> */}
           </div>
 
           <div className="flex gap-4">
             <SocialLink href="https://www.facebook.com/profile.php?id=61586456620414" icon={<Facebook size={18} />} />
-            <SocialLink href="https://www.instagram.com/fxcelite/" icon={<Instagram size={18} />} />
-            <SocialLink href="https://x.com/Fxcelite" icon={<Twitter size={18} />} />
+            <SocialLink href="https://www.instagram.com/FXCELITE/" icon={<Instagram size={18} />} />
+            <SocialLink href="https://x.com/FXCELITE" icon={<Twitter size={18} />} />
           </div>
         </div>
 
@@ -115,7 +115,7 @@ export default function Footer() {
 
         {/* BOTTOM BAR */}
         <div className="flex flex-col md:flex-row items-center justify-between text-slate-500 text-[12px] pb-12 gap-4 border-t border-white/5 pt-8">
-          <p>© 2026 Fxcelite · All rights reserved</p>
+          <p>© 2026 FXCELITE · All rights reserved</p>
           {/* <p>FYFX Capital LTD · Hong Kong Registered: 75280952-000</p> */}
         </div>
       </div>
@@ -129,7 +129,7 @@ export default function Footer() {
 function FooterColumn({ title, children }) {
   return (
     <div className="flex flex-col">
-      <h4 className="text-white font-bold text-sm mb-5 uppercase tracking-wider">{title}</h4>
+      <h4 className="text-white font-normal text-sm mb-5 uppercase tracking-wider">{title}</h4>
       <ul className="space-y-3 text-slate-400 text-sm font-medium">{children}</ul>
     </div>
   );

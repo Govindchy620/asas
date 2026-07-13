@@ -51,10 +51,10 @@ export default function Withdrawal() {
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/5 border border-blue-500/20 backdrop-blur-xl mb-8 animate-fade-in">
             <ArrowUpRight size={14} className="text-blue-400" />
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-blue-400">Profit Transit System v10.0</span>
+            <span className="text-xs font-normal uppercase tracking-[0.2em] text-blue-400">Profit Transit System v10.0</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6">
+          <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6">
             Forex <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-white to-emerald-400 italic uppercase">Withdrawal</span>
           </h1>
           
@@ -66,19 +66,19 @@ export default function Withdrawal() {
              <div className="absolute top-0 right-0 p-6 opacity-5 group-hover:scale-110 transition-transform">
                <LogOut size={80} />
              </div>
-             At Fxcelite, it is our conviction that the most effective measure of a brokerage's excellence is the speed and consistency of their forex withdrawal process. You made the money, so it is only fair that you should enjoy your profits without delay. That's why we've designed a system which puts the forex withdrawal experience at the forefront of our priorities. No matter when you want to withdraw money, our super-efficient portal makes sure your request is given top priority.
+             At FXCELITE, it is our conviction that the most effective measure of a brokerage's excellence is the speed and consistency of their forex withdrawal process. You made the money, so it is only fair that you should enjoy your profits without delay. That's why we've designed a system which puts the forex withdrawal experience at the forefront of our priorities. No matter when you want to withdraw money, our super-efficient portal makes sure your request is given top priority.
           </div>
 
           <div className="flex flex-col items-center gap-6">
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-3xl blur opacity-25 group-hover:opacity-80 transition duration-1000"></div>
               <button 
-                onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                className="relative px-10 py-4 rounded-2xl bg-white text-black font-bold text-base transition-all hover:scale-[1.03] active:scale-95 shadow-xl flex items-center gap-3 uppercase tracking-tight italic">
+                onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                className="relative px-10 py-4 rounded-2xl bg-white text-black font-normal text-base transition-all hover:scale-[1.03] active:scale-95 shadow-xl flex items-center gap-3 uppercase tracking-tight italic">
                 Request a Withdrawal <ArrowUpRight size={20} />
               </button>
             </div>
-            <p className="text-blue-400 text-sm font-bold uppercase tracking-[0.2em] italic animate-pulse">
+            <p className="text-blue-400 text-sm font-normal uppercase tracking-[0.2em] italic animate-pulse">
               Ready to enjoy your profits? Fastest processing starts here!
             </p>
           </div>
@@ -91,7 +91,7 @@ export default function Withdrawal() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
                <div className="space-y-6">
-                 <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight leading-tight italic border-l-4 border-blue-500 pl-4">Withdrawal Process <br/> Explained Simply</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white uppercase tracking-tight leading-tight italic border-l-4 border-blue-500 pl-4">Withdrawal Process <br/> Explained Simply</h2>
                  <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                    <p>
                      We have a broad selection of withdrawal methods at forex brokers, so you can always get your money out in the same way that you made your Deposit. In addition to bank transfers, we also offer instant forex withdrawal options via e-wallets and crypto. With us, you have the freedom to convert your financial achievements through the withdrawal of forex trading profits in a self-sufficient manner.
@@ -121,7 +121,7 @@ export default function Withdrawal() {
                     </p>
                     <div className="mt-4 flex items-center gap-3">
                       <CheckCircle2 size={18} className="text-emerald-400" />
-                      <span className="text-emerald-400 font-bold uppercase tracking-widest text-[10px] font-mono">Verified Return-to-Source Policy</span>
+                      <span className="text-emerald-400 font-normal uppercase tracking-widest text-[10px] font-mono">Verified Return-to-Source Policy</span>
                     </div>
                  </div>
                </div>
@@ -134,8 +134,8 @@ export default function Withdrawal() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 text-center space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Why Choose Fxcelite for <br/> Fast Forex Withdrawal?</h2>
-            <p className="text-emerald-500 text-sm font-bold uppercase tracking-[0.2em]">The fastest way to withdraw funds</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">Why Choose FXCELITE for <br/> Fast Forex Withdrawal?</h2>
+            <p className="text-emerald-500 text-sm font-normal uppercase tracking-[0.2em]">The fastest way to withdraw funds</p>
             <p className="text-slate-500 text-base max-w-2xl mx-auto font-light leading-relaxed italic">
               We understand that for a trader, the fastest way to withdraw trading funds is a non-negotiable requirement.
             </p>
@@ -153,7 +153,7 @@ export default function Withdrawal() {
                 <div className="w-12 h-12 bg-blue-500/10 flex items-center justify-center text-blue-400 mb-5 border border-white/5 group-hover:scale-110 group-hover:bg-blue-500 group-hover:text-black transition-all rounded-xl">
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-base font-bold text-white mb-2 tracking-tight leading-tight uppercase italic">{item.title}</h3>
+                <h3 className="text-base font-normal text-white mb-2 tracking-tight leading-tight uppercase italic">{item.title}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed font-medium">{item.desc}</p>
               </div>
             ))}
@@ -168,7 +168,7 @@ export default function Withdrawal() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-12 space-y-10">
                <div className="space-y-4 text-center">
-                 <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic underline decoration-blue-500 decoration-4 underline-offset-[8px]">Forex Withdrawal <br/> Methods Explained</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic underline decoration-blue-500 decoration-4 underline-offset-[8px]">Forex Withdrawal <br/> Methods Explained</h2>
                  <p className="text-base text-slate-500 italic leading-relaxed font-light max-w-2xl mx-auto pt-4">
                    To ensure flexibility, we support a variety of channels to withdraw money from trading account balances.
                  </p>
@@ -185,7 +185,7 @@ export default function Withdrawal() {
                       <div className="w-12 h-12 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 mb-5 border border-white/5 group-hover:scale-110 transition-transform mx-auto">
                         {React.cloneElement(feature.icon, { size: 24 })}
                       </div>
-                      <h4 className="text-base font-bold text-white mb-2 uppercase tracking-tight italic leading-tight">{feature.t}</h4>
+                      <h4 className="text-base font-normal text-white mb-2 uppercase tracking-tight italic leading-tight">{feature.t}</h4>
                       <p className="text-slate-400 text-sm leading-relaxed font-light italic">{feature.d}</p>
                    </div>
                  ))}
@@ -199,18 +199,18 @@ export default function Withdrawal() {
       <section className="py-24 relative bg-black">
         <div className="max-w-5xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-             <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">How Long Does <br/> Forex Withdrawal Take?</h2>
-             <p className="text-blue-500 text-sm font-bold uppercase tracking-[0.2em]">Institutional Service Benchmarks</p>
-             <p className="text-slate-500 text-base max-w-2xl mx-auto pt-2">At Fxcelite, we process most requests within 24 business hours.</p>
+             <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic">How Long Does <br/> Forex Withdrawal Take?</h2>
+             <p className="text-blue-500 text-sm font-normal uppercase tracking-[0.2em]">Institutional Service Benchmarks</p>
+             <p className="text-slate-500 text-base max-w-2xl mx-auto pt-2">At FXCELITE, we process most requests within 24 business hours.</p>
           </div>
 
           <div className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl bg-white/[0.01] backdrop-blur-xl overflow-x-auto">
             <table className="w-full text-left border-collapse min-w-[600px]">
               <thead>
                 <tr className="bg-blue-600/10 border-b border-white/10">
-                  <th className="p-5 text-sm font-bold text-white uppercase italic tracking-widest">Method</th>
-                  <th className="p-5 text-sm font-bold text-white uppercase italic tracking-widest">Processing Time</th>
-                  <th className="p-5 text-sm font-bold text-white uppercase italic tracking-widest">Speed Rating</th>
+                  <th className="p-5 text-sm font-normal text-white uppercase italic tracking-widest">Method</th>
+                  <th className="p-5 text-sm font-normal text-white uppercase italic tracking-widest">Processing Time</th>
+                  <th className="p-5 text-sm font-normal text-white uppercase italic tracking-widest">Speed Rating</th>
                 </tr>
               </thead>
               <tbody className="text-sm md:text-base font-light italic">
@@ -221,9 +221,9 @@ export default function Withdrawal() {
                   { m: "Bank Wire", t: "3 – 5 Business Days", s: "Reliable for Large Sums", color: "text-slate-500" }
                 ].map((row, i) => (
                   <tr key={i} className="group hover:bg-white/5 transition-colors border-b border-white/5 last:border-0">
-                    <td className="p-5 font-bold text-white uppercase tracking-tight">{row.m}</td>
+                    <td className="p-5 font-normal text-white uppercase tracking-tight">{row.m}</td>
                     <td className="p-5 text-slate-400">{row.t}</td>
-                    <td className={`p-5 font-bold uppercase tracking-widest text-xs ${row.color}`}>
+                    <td className={`p-5 font-normal uppercase tracking-widest text-xs ${row.color}`}>
                        <div className="flex items-center gap-2">
                          <div className={`w-1.5 h-1.5 rounded-full ${row.color.replace('text-', 'bg-')} animate-pulse`}></div>
                          {row.s}
@@ -241,8 +241,8 @@ export default function Withdrawal() {
       <section className="py-24 relative border-y border-white/5">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase italic leading-tight">Step by Step <br/> Funds Withdrawal</h2>
-            <p className="text-emerald-400 text-sm font-bold uppercase tracking-[0.2em]">The route from profit to pocket</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">Step by Step <br/> Funds Withdrawal</h2>
+            <p className="text-emerald-400 text-sm font-normal uppercase tracking-[0.2em]">The route from profit to pocket</p>
           </div>
 
           <div className="grid lg:grid-cols-5 gap-6 relative">
@@ -250,20 +250,20 @@ export default function Withdrawal() {
             <div className="absolute top-[30%] left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-blue-500/20 to-transparent hidden lg:block"></div>
 
             {[
-              { n: "01", t: "Login", d: "Access your Fxcelite Secure Client Area.", icon: <Lock /> },
+              { n: "01", t: "Login", d: "Access your FXCELITE Secure Client Area.", icon: <Lock /> },
               { n: "02", t: "Verify Info", d: "Make sure accounts are closed or have sufficient margin.", icon: <Scale /> },
               { n: "03", t: "Request", d: "Access 'Funds' and choose trading account withdrawal.", icon: <ArrowUpRight /> },
               { n: "04", t: "Amount", d: "Enter the amount and select your verified option.", icon: <TrendingUp /> },
               { n: "05", t: "Confirm", d: "Complete security verification. Our team handles the rest.", icon: <Activity /> },
             ].map((step, i) => (
               <div key={i} className="group relative p-6 bg-white/[0.02] border border-white/5 hover:border-blue-500/50 transition-all duration-500 text-center rounded-2xl shadow-lg mt-6 lg:mt-0">
-                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 bg-black border-2 border-blue-500/20 flex items-center justify-center font-bold text-blue-400 text-sm group-hover:bg-blue-400 group-hover:text-black transition-all rounded-lg">
+                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 bg-black border-2 border-blue-500/20 flex items-center justify-center font-normal text-blue-400 text-sm group-hover:bg-blue-400 group-hover:text-black transition-all rounded-lg">
                     {step.n}
                  </div>
                  <div className="w-12 h-12 bg-blue-500/5 text-blue-400 flex items-center justify-center mx-auto mb-4 border border-white/5 group-hover:scale-110 transition-transform rounded-xl mt-2">
                    {React.cloneElement(step.icon, { size: 24 })}
                  </div>
-                 <h4 className="text-base font-bold text-white mb-2 tracking-tight leading-tight uppercase italic">{step.t}</h4>
+                 <h4 className="text-base font-normal text-white mb-2 tracking-tight leading-tight uppercase italic">{step.t}</h4>
                  <p className="text-xs text-slate-500 leading-relaxed font-medium italic">{step.d}</p>
               </div>
             ))}
@@ -284,12 +284,12 @@ export default function Withdrawal() {
                       <div className="w-12 h-12 bg-blue-500/10 flex items-center justify-center text-blue-400 border border-blue-500/20 group-hover:bg-blue-500 group-hover:text-black transition-all duration-500 rounded-xl">
                          <Lock size={24} />
                       </div>
-                      <h2 className="text-2xl font-bold text-white tracking-tight uppercase italic">Security & AML</h2>
+                      <h2 className="text-2xl font-normal text-white tracking-tight uppercase italic">Security & AML</h2>
                    </div>
                    <div className="text-base text-slate-400 leading-relaxed font-light italic space-y-6">
                       <p>In our quest for a secure online forex withdrawal service, we conform fully to the Anti-Money Laundering (AML) regulations.</p>
                       <div className="p-6 bg-white/[0.03] border-l-4 border-blue-500 italic font-medium text-white shadow-xl rounded-r-lg">
-                        This ensures that the name on your withdrawal matches the name on your Fxcelite account. Our community is fully protected from fraud.
+                        This ensures that the name on your withdrawal matches the name on your FXCELITE account. Our community is fully protected from fraud.
                       </div>
                    </div>
                 </div>
@@ -297,8 +297,8 @@ export default function Withdrawal() {
 
              <div className="space-y-10 lg:p-8">
                 <div className="space-y-4">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic leading-tight">Who is This <br/> For?</h2>
-                  <p className="text-emerald-500 font-bold uppercase tracking-[0.2em] text-xs font-mono">Withdrawal Accessibility Profiles</p>
+                  <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic leading-tight">Who is This <br/> For?</h2>
+                  <p className="text-emerald-500 font-normal uppercase tracking-[0.2em] text-xs font-mono">Withdrawal Accessibility Profiles</p>
                 </div>
                 <div className="grid gap-4">
                    {[
@@ -312,7 +312,7 @@ export default function Withdrawal() {
                          {React.cloneElement(item.icon, { size: 20 })}
                        </div>
                        <div>
-                         <span className="text-white text-lg font-bold uppercase tracking-tight italic">{item.l}</span>
+                         <span className="text-white text-lg font-normal uppercase tracking-tight italic">{item.l}</span>
                          <p className="text-slate-500 text-sm font-light leading-relaxed italic mt-1">{item.d}</p>
                        </div>
                      </div>
@@ -326,21 +326,21 @@ export default function Withdrawal() {
       {/* --- FINAL CTA: THE FRUIT GATE --- */}
       <section className="py-24 bg-[#02030d] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why Fxcelite is the Best <br/> Choice for Withdrawals?</h2>
+           <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic">Why FXCELITE is the Best <br/> Choice for Withdrawals?</h2>
            <p className="text-base md:text-lg text-slate-400 leading-relaxed font-light italic max-w-3xl mx-auto">
-             We are dedicated to transparency, and as the fastest way to withdraw trading funds, Fxcelite is one of a kind. We make sure you get to enjoy the fruits of your labor with absolute peace of mind.
+             We are dedicated to transparency, and as the fastest way to withdraw trading funds, FXCELITE is one of a kind. We make sure you get to enjoy the fruits of your labor with absolute peace of mind.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
                 <div className="absolute -inset-2 bg-blue-500 rounded-2xl blur opacity-20 group-hover:opacity-60 transition duration-1000"></div>
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                  className="relative px-12 py-5 bg-white text-black font-bold text-lg transition-all shadow-[0_15px_40px_-15px_rgba(14,165,233,0.4)] uppercase tracking-tight italic hover:-translate-y-1 rounded-xl">
+                  onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                  className="relative px-12 py-5 bg-white text-black font-normal text-lg transition-all shadow-[0_15px_40px_-15px_rgba(14,165,233,0.4)] uppercase tracking-tight italic hover:-translate-y-1 rounded-xl">
                   Login to Withdraw
                 </button>
               </div>
               <div className="space-y-4">
-                <p className="text-blue-400 font-bold uppercase tracking-[0.3em] text-xs italic font-mono">Your profits, your way.</p>
+                <p className="text-blue-400 font-normal uppercase tracking-[0.3em] text-xs italic font-mono">Your profits, your way.</p>
                 <div className="flex justify-center gap-2">
                    <div className="w-8 h-[2px] bg-white/10"></div>
                    <div className="w-16 h-[2px] bg-emerald-500 animate-pulse"></div>
@@ -355,14 +355,14 @@ export default function Withdrawal() {
       <section className="py-24 border-t border-white/5 bg-black">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic">Withdrawal FAQ</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic">Withdrawal FAQ</h2>
             <p className="text-slate-500 font-medium uppercase tracking-widest text-sm font-mono">Access Knowledge Base</p>
           </div>
           
           <div className="space-y-4">
             {[
               { q: "1. How long does forex withdrawal take?", a: "Internal processing takes up to 24 hours. The transfer of funds happens instantly or in a matter of business days depending on the transfer method." },
-              { q: "2. Are there any fees for a trading account withdrawal?", a: "Fxcelite does not charge any internal fees for making withdrawals, though there may be associated charges from your banking or processing service." },
+              { q: "2. Are there any fees for a trading account withdrawal?", a: "FXCELITE does not charge any internal fees for making withdrawals, though there may be associated charges from your banking or processing service." },
               { q: "3. What is the fastest method of withdrawing trading funds?", a: "E-Wallets and Cryptocurrencies offer the fastest means to withdraw trade funds, which are often reflected the same day." },
               { q: "4. Can I withdraw money if I have open trades?", a: "Yes, but you must have \"Free Margin\" in your Forex account to keep those positions open." },
               { q: "5. Why is my withdrawal taking longer than expected?", a: "Most often, the cause relates to bank processing time or KYC verification. Ensure your account is fully verified." },
@@ -393,7 +393,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 flex items-center justify-center shrink-0 transition-all duration-500 ml-4 rounded-lg ${

@@ -55,10 +55,10 @@ export default function JoinPartner() {
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 border-l-2 border-amber-500 bg-amber-500/10 mb-8 animate-fade-in">
             <Award size={14} className="text-amber-400" />
-            <span className="text-xs font-bold uppercase tracking-[0.3em] text-amber-400 italic">Sovereign Alliance Program 2026</span>
+            <span className="text-xs font-normal uppercase tracking-[0.3em] text-amber-400 italic">Sovereign Alliance Program 2026</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6 italic uppercase">
+          <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6 italic uppercase">
             Forex Partner <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-white to-purple-400">Program</span>
           </h1>
           
@@ -70,7 +70,7 @@ export default function JoinPartner() {
              <div className="absolute -top-px -left-px w-6 h-6 border-t-2 border-l-2 border-amber-500"></div>
              <div className="absolute -bottom-px -right-px w-6 h-6 border-b-2 border-r-2 border-purple-500"></div>
              <p className="mb-4">
-               The journey to financial freedom is, in most cases, the result of partnering with the right people. The moment you decide to become a forex partner with Fxcelite, you are choosing to be on the same side as a globally regulated broker that is determined to provide their clients with trading environments that convert highly.
+               The journey to financial freedom is, in most cases, the result of partnering with the right people. The moment you decide to become a forex partner with FXCELITE, you are choosing to be on the same side as a globally regulated broker that is determined to provide their clients with trading environments that convert highly.
              </p>
              <p>
                We present to you a broker partnership program with multiple tiers that can help you make money from your network. Our program offers instant commission payouts, advanced tracking, and a dedicated support team. You entitle yourself to a world-class partnership that will reward your influence with the most competitive rebates and CPA rates.
@@ -81,12 +81,12 @@ export default function JoinPartner() {
             <div className="relative group">
               <div className="absolute -inset-1 bg-amber-500 blur opacity-40 group-hover:opacity-80 transition duration-1000"></div>
               <button 
-                onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                className="relative px-10 py-4 bg-white text-black font-bold text-base md:text-lg transition-all hover:bg-amber-400 active:scale-95 shadow-xl uppercase tracking-tight italic flex items-center gap-2 rounded-xl">
+                onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                className="relative px-10 py-4 bg-white text-black font-normal text-base md:text-lg transition-all hover:bg-amber-400 active:scale-95 shadow-xl uppercase tracking-tight italic flex items-center gap-2 rounded-xl">
                 Apply to Become a Partner <ArrowRight size={20} className="ml-2" />
               </button>
             </div>
-            <p className="text-amber-400 text-sm font-bold uppercase tracking-[0.2em] italic animate-pulse">
+            <p className="text-amber-400 text-sm font-normal uppercase tracking-[0.2em] italic animate-pulse">
               Turn your network into a business. Unlock your earning potential!
             </p>
           </div>
@@ -97,8 +97,8 @@ export default function JoinPartner() {
       <section className="py-24 relative border-y border-white/10 bg-[#050505]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight italic leading-tight">Forex Affiliate vs. <br/> IB Program</h2>
-            <p className="text-purple-400 text-sm font-bold uppercase tracking-[0.2em] font-mono">Which One is Your Fit?</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white uppercase tracking-tight italic leading-tight">Forex Affiliate vs. <br/> IB Program</h2>
+            <p className="text-purple-400 text-sm font-normal uppercase tracking-[0.2em] font-mono">Which One is Your Fit?</p>
             <p className="text-white/80 text-base max-w-2xl mx-auto font-light italic mt-4">
               Understanding the difference is crucial for optimizing your revenue model. We support both pathways, allowing you to choose the one that aligns with your style.
             </p>
@@ -120,7 +120,7 @@ export default function JoinPartner() {
                     { l: "Primary Goal", v: "Fast, upfront commissions" }
                   ].map((item, i) => (
                     <div key={i} className="flex flex-col gap-1">
-                       <span className="text-[10px] text-white/50 uppercase tracking-[0.2em] font-bold">{item.l}</span>
+                       <span className="text-[10px] text-white/50 uppercase tracking-[0.2em] font-normal">{item.l}</span>
                        <span className="text-base text-white font-medium italic">{item.v}</span>
                     </div>
                   ))}
@@ -141,7 +141,7 @@ export default function JoinPartner() {
                     { l: "Primary Goal", v: "Long-term, sustainable passive income" }
                   ].map((item, i) => (
                     <div key={i} className="flex flex-col gap-1">
-                       <span className="text-[10px] text-white/50 uppercase tracking-[0.2em] font-bold">{item.l}</span>
+                       <span className="text-[10px] text-white/50 uppercase tracking-[0.2em] font-normal">{item.l}</span>
                        <span className="text-base text-white font-medium italic">{item.v}</span>
                     </div>
                   ))}
@@ -156,7 +156,7 @@ export default function JoinPartner() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center mb-24">
             <div>
-              <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight mb-6 border-l-4 border-amber-500 pl-4">Why Choose the <br/> Fxcelite Program?</h2>
+              <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight mb-6 border-l-4 border-amber-500 pl-4">Why Choose the <br/> FXCELITE Program?</h2>
               <p className="text-base text-white/90 italic leading-relaxed font-light">
                 We have developed the best forex partnership program by maintaining the three fundamental pillars of success: Technology, Trust, and Transparency.
               </p>
@@ -187,7 +187,7 @@ export default function JoinPartner() {
                 <div className="w-12 h-12 bg-amber-500/20 flex items-center justify-center text-amber-400 mb-6 border border-white/20 group-hover:bg-amber-500 group-hover:text-black transition-all rounded-xl relative z-10">
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3 uppercase tracking-tight italic leading-tight relative z-10">{item.title}</h3>
+                <h3 className="text-xl font-normal text-white mb-3 uppercase tracking-tight italic leading-tight relative z-10">{item.title}</h3>
                 <p className="text-white/80 text-sm leading-relaxed font-light italic relative z-10">{item.desc}</p>
               </div>
             ))}
@@ -201,9 +201,9 @@ export default function JoinPartner() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-8 space-y-16">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-purple-600 decoration-4 underline-offset-[8px]">How to Become an <br/> Introducing Broker</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic underline decoration-purple-600 decoration-4 underline-offset-[8px]">How to Become an <br/> Introducing Broker</h2>
                  <p className="text-base text-white/80 italic leading-relaxed font-light max-w-2xl pt-4">
-                   Launching your online trading partnership with Fxcelite is a streamlined and professional process:
+                   Launching your online trading partnership with FXCELITE is a streamlined and professional process:
                  </p>
                </div>
 
@@ -218,14 +218,14 @@ export default function JoinPartner() {
                    { n: "04", t: "Earn", d: "Get real-time tracking on your commissions and fast, reliable payouts.", icon: <DollarSign /> },
                  ].map((step, i) => (
                    <div key={i} className="group flex flex-col md:flex-row gap-6 md:gap-12 items-start relative">
-                      <div className="shrink-0 w-12 h-12 bg-black border-2 border-amber-500 flex items-center justify-center font-bold text-white text-lg shadow-[0_0_20px_rgba(212,175,55,0.4)] z-10 rounded-full md:w-16 md:h-16 md:text-2xl absolute -left-[24px] md:static">
+                      <div className="shrink-0 w-12 h-12 bg-black border-2 border-amber-500 flex items-center justify-center font-normal text-white text-lg shadow-[0_0_20px_rgba(212,175,55,0.4)] z-10 rounded-full md:w-16 md:h-16 md:text-2xl absolute -left-[24px] md:static">
                         {step.n}
                       </div>
                       <div className="space-y-3 pt-2 md:pt-0">
                         <div className="inline-flex p-3 bg-purple-500/20 text-purple-400 group-hover:scale-110 transition-transform rounded-xl">
                           {React.cloneElement(step.icon, { size: 20 })}
                         </div>
-                        <h4 className="text-xl font-bold text-white uppercase tracking-tight italic leading-tight">{step.t}</h4>
+                        <h4 className="text-xl font-normal text-white uppercase tracking-tight italic leading-tight">{step.t}</h4>
                         <p className="text-white/80 text-sm leading-relaxed font-light italic">{step.d}</p>
                       </div>
                    </div>
@@ -238,17 +238,17 @@ export default function JoinPartner() {
                   <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:scale-110 transition-transform duration-1000">
                     <Crown size={100} className="text-amber-500" />
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-6 tracking-tight uppercase border-b border-white/20 pb-4 italic">Alliance Hub</h3>
+                  <h3 className="text-xl font-normal text-white mb-6 tracking-tight uppercase border-b border-white/20 pb-4 italic">Alliance Hub</h3>
                   <div className="space-y-6 relative z-10">
-                     <p className="text-base text-amber-400 font-bold leading-tight italic uppercase">
+                     <p className="text-base text-amber-400 font-normal leading-tight italic uppercase">
                        Experience institutional-grade support. Sign Up as a Partner and get a dedicated manager.
                      </p>
                      <div className="text-sm text-white/80 leading-relaxed font-light italic">
                         <p>Our brokerage program is not just about the first deposit. It’s about earning commission for the lifetime of your clients' journey.</p>
                      </div>
                      <button 
-                        onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                        className="w-full py-4 bg-white text-black font-bold hover:bg-amber-400 transition-all text-sm uppercase tracking-tight italic rounded-xl shadow-lg">
+                        onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                        className="w-full py-4 bg-white text-black font-normal hover:bg-amber-400 transition-all text-sm uppercase tracking-tight italic rounded-xl shadow-lg">
                         Sign Up as a Partner
                      </button>
                   </div>
@@ -272,17 +272,17 @@ export default function JoinPartner() {
                    />
                    <div className="absolute inset-0 bg-gradient-to-t from-black via-[#00000088] to-transparent pointer-events-none"></div>
                    <div className="absolute bottom-6 left-6 right-6 p-6 bg-black/90 backdrop-blur-xl border border-white/20 rounded-xl shadow-xl">
-                      <p className="text-amber-400 text-base font-bold italic mb-3">"Your success will be tied to the quality of broker you represent."</p>
+                      <p className="text-amber-400 text-base font-normal italic mb-3">"Your success will be tied to the quality of broker you represent."</p>
                       <p className="text-white/90 text-sm italic leading-relaxed">Promoting an organization recognized for tight spreads, fast execution, and safe funds management.</p>
                    </div>
                 </div>
              </div>
 
              <div className="order-1 lg:order-2 space-y-8">
-                <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Partner Program <br/> Explained</h2>
-                <p className="text-purple-400 text-sm font-bold uppercase tracking-[0.2em] font-mono">[ Pillars of Success ]</p>
+                <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic">Partner Program <br/> Explained</h2>
+                <p className="text-purple-400 text-sm font-normal uppercase tracking-[0.2em] font-mono">[ Pillars of Success ]</p>
                 <div className="space-y-6 text-base text-white/90 leading-relaxed font-light italic border-l-4 border-purple-500 pl-6 bg-white/5 p-6 rounded-r-2xl">
-                  <p>If you are new to the industry, then the forex partner program explained is simple: you are essentially acting as the bridge between the trader and the marketplace. Through the partnership of Fxcelite, you will be promoting an organization that is recognized for having those key elements which convert leads to active and loyal traders.</p>
+                  <p>If you are new to the industry, then the forex partner program explained is simple: you are essentially acting as the bridge between the trader and the marketplace. Through the partnership of FXCELITE, you will be promoting an organization that is recognized for having those key elements which convert leads to active and loyal traders.</p>
                   <p>Our brokerage partnership program is not just about the first deposit. It’s about earning commission as a forex partner for the lifetime of your clients' trading journey. We give you the education tools and trading signals that keep your clients active, which means your income is sustainable.</p>
                 </div>
              </div>
@@ -294,8 +294,8 @@ export default function JoinPartner() {
       <section className="py-24 border-y border-white/10 bg-[#050505] relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Who Can Benefit <br/> From Our Partnership?</h2>
-            <p className="text-amber-400 text-sm font-bold uppercase tracking-[0.2em] font-mono">Dynamic Revenue Profiles</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">Who Can Benefit <br/> From Our Partnership?</h2>
+            <p className="text-amber-400 text-sm font-normal uppercase tracking-[0.2em] font-mono">Dynamic Revenue Profiles</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -312,7 +312,7 @@ export default function JoinPartner() {
                  <div className="w-16 h-16 bg-amber-500/20 text-amber-400 flex items-center justify-center mx-auto mb-6 border border-amber-500/30 group-hover:bg-amber-400 group-hover:text-black transition-all rounded-2xl relative z-10">
                    {React.cloneElement(item.icon, { size: 28 })}
                  </div>
-                 <h4 className="text-lg font-bold text-white mb-3 tracking-tight leading-tight uppercase italic relative z-10">{item.l}</h4>
+                 <h4 className="text-lg font-normal text-white mb-3 tracking-tight leading-tight uppercase italic relative z-10">{item.l}</h4>
                  <p className="text-sm text-white/80 leading-relaxed font-light italic relative z-10">{item.d}</p>
               </div>
             ))}
@@ -323,21 +323,21 @@ export default function JoinPartner() {
       {/* --- SECTION 6: THE FINAL NUCLEUS (SOVEREIGN CTA) --- */}
       <section className="py-24 bg-black text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-6xl font-black text-white tracking-tight uppercase leading-tight italic">Why is Fxcelite the <br/> <span className="text-amber-500 underline decoration-white decoration-4">Best Choice</span>?</h2>
+           <h2 className="text-3xl md:text-6xl font-normal text-white tracking-tight uppercase leading-tight italic">Why is FXCELITE the <br/> <span className="text-amber-500 underline decoration-white decoration-4">Best Choice</span>?</h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto bg-white/5 p-6 rounded-2xl border border-white/10">
-             With institutional-grade liquidity, a huge range of tradable assets, Forex, Metals, Indices, Crypto, and a commitment to partner success, Fxcelite is the best forex partnership program for the serious professional. We provide a platform, but we also offer a relationship that grows with you.
+             With institutional-grade liquidity, a huge range of tradable assets, Forex, Metals, Indices, Crypto, and a commitment to partner success, FXCELITE is the best forex partnership program for the serious professional. We provide a platform, but we also offer a relationship that grows with you.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
                 <div className="absolute -inset-2 bg-amber-500 rounded-2xl blur opacity-40 group-hover:opacity-80 transition duration-1000"></div>
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                  className="relative px-12 py-5 bg-white text-black font-bold text-lg transition-all shadow-[0_15px_40px_-15px_rgba(212,175,55,0.5)] uppercase tracking-tight italic rounded-xl hover:-translate-y-1">
+                  onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                  className="relative px-12 py-5 bg-white text-black font-normal text-lg transition-all shadow-[0_15px_40px_-15px_rgba(212,175,55,0.5)] uppercase tracking-tight italic rounded-xl hover:-translate-y-1">
                   Join the Partner Program
                 </button>
               </div>
               <div className="space-y-4">
-                <p className="text-amber-400 font-bold uppercase tracking-[0.2em] text-xs italic font-mono max-w-xl mx-auto">Ready to lead the market? Start your journey to 6-figure earnings!</p>
+                <p className="text-amber-400 font-normal uppercase tracking-[0.2em] text-xs italic font-mono max-w-xl mx-auto">Ready to lead the market? Start your journey to 6-figure earnings!</p>
                 <div className="flex justify-center gap-3">
                    <div className="w-8 h-[2px] bg-white/20"></div>
                    <div className="w-16 h-[2px] bg-amber-500 animate-pulse"></div>
@@ -352,20 +352,20 @@ export default function JoinPartner() {
       <section className="py-24 border-t border-white/10 bg-[#030303]">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-black text-white tracking-tight uppercase italic font-mono underline decoration-purple-600 decoration-4 underline-offset-[8px]">[ SOVEREIGN FAQ ]</h2>
-            <p className="text-white/80 font-bold uppercase tracking-widest text-sm italic font-mono pt-4">Expert Alliance Knowledge Base</p>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic font-mono underline decoration-purple-600 decoration-4 underline-offset-[8px]">[ SOVEREIGN FAQ ]</h2>
+            <p className="text-white/80 font-normal uppercase tracking-widest text-sm italic font-mono pt-4">Expert Alliance Knowledge Base</p>
           </div>
           
           <div className="space-y-px bg-white/20 border border-white/20 shadow-xl rounded-2xl overflow-hidden">
             {[
-              { q: "1. What is a Forex partner?", a: "A forex partner is an entity or person who refers clients to a broker like Fxcelite in consideration of commissions or rebates." },
+              { q: "1. What is a Forex partner?", a: "A forex partner is an entity or person who refers clients to a broker like FXCELITE in consideration of commissions or rebates." },
               { q: "2. How do I earn commission as a forex partner?", a: "Earning is through CPA (a fixed price per client), or an IB model (where rebates are made depending on the volume of the trade)." },
-              { q: "3. Is there a fee to join the introducing broker program?", a: "No, registration for the Fxcelite Forex partnership program is completely free." },
+              { q: "3. Is there a fee to join the introducing broker program?", a: "No, registration for the FXCELITE Forex partnership program is completely free." },
               { q: "4. What is the difference between a forex affiliate vs. IB program?", a: "Affiliates typically specialize in digital marketing and are paid by one-time CPA fees, while IBs focus on client relations with ongoing rebate payments." },
               { q: "5. Can I refer other partners to the program?", a: "Yes, of course! Our program offers a multi-level structure, in which you also earn from your sub-IBs." },
               { q: "6. Do I need a financial license to become a Forex partner?", a: "Requirements differ based on area. In some areas, you can be an affiliate or IB without a license; however, this depends on local regulations." },
               { q: "7. How do I track my earnings?", a: "You will have access to a sophisticated dashboard where you can get real-time data on all clicks and commissions." },
-              { q: "8. Will Fxcelite provide marketing materials?", a: "Yes, we offer high converting banners, pages, and email templates to help you become an introducing broker successfully." },
+              { q: "8. Will FXCELITE provide marketing materials?", a: "Yes, we offer high converting banners, pages, and email templates to help you become an introducing broker successfully." },
               { q: "9. When are partner commissions paid?", a: "Flexible and reliable payout schedules, generally on a monthly or a bi-weekly basis, depending on your volume." },
               { q: "10. How do I start?", a: "Just click on the \"Become a Partner\" button, fill in the form, and a partner manager will be in touch with you." },
             ].map((faq, i) => (
@@ -390,7 +390,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-amber-400' : 'text-white/90 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-amber-400' : 'text-white/90 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex items-center justify-center shrink-0 transition-all duration-500 ml-4 ${

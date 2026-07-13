@@ -52,10 +52,10 @@ export default function DemoAccount() {
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-6 py-2 rounded-full bg-blue-500/5 border border-blue-500/20 backdrop-blur-md mb-10 animate-fade-in">
             <GraduationCap size={16} className="text-blue-400" />
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-blue-400 italic">Risk-Free Market Mastery</span>
+            <span className="text-xs font-normal uppercase tracking-[0.2em] text-blue-400 italic">Risk-Free Market Mastery</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6">
+          <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6">
             Trading Demo <br/> <span className="text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-blue-500/50">Account</span>
           </h1>
           
@@ -69,11 +69,11 @@ export default function DemoAccount() {
 
           <div className="flex flex-col items-center gap-6">
             <button 
-              onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-              className="px-12 py-5 rounded-full bg-white text-black font-black text-lg hover:bg-blue-500 hover:text-white transition-all shadow-[0_20px_60px_-15px_rgba(59,130,246,0.4)] hover:-translate-y-1 active:scale-95">
+              onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+              className="px-12 py-5 rounded-full bg-white text-black font-normal text-lg hover:bg-blue-500 hover:text-white transition-all shadow-[0_20px_60px_-15px_rgba(59,130,246,0.4)] hover:-translate-y-1 active:scale-95">
               Open Your Free Demo Account
             </button>
-            <p className="text-blue-400 text-sm font-bold uppercase tracking-[0.2em] italic animate-pulse">
+            <p className="text-blue-400 text-sm font-normal uppercase tracking-[0.2em] italic animate-pulse">
               Practice makes perfect. Start trading with zero risk today!
             </p>
           </div>
@@ -92,14 +92,14 @@ export default function DemoAccount() {
             <div className="space-y-8">
               <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                 <p>
-                  It can give you the experience of market fluctuations in real time, the use of professional tools and the testing of various strategies without the risk of losing money. At Fxcelite, we offer a free forex demo account that exactly matches our live trading environment, thus giving you the most realistic practice possible.
+                  It can give you the experience of market fluctuations in real time, the use of professional tools and the testing of various strategies without the risk of losing money. At FXCELITE, we offer a free forex demo account that exactly matches our live trading environment, thus giving you the most realistic practice possible.
                 </p>
                 <p>
                   If you want to open a demo forex account to get acquainted with the basics or require the best MT4 demo account to test a complicated automated strategy, we have you covered. Our online trading demo account is loaded with virtual funds, which allow you to trade Forex pairs, commodities, and indices under real-market scenarios.
                 </p>
                 <div className="p-8 rounded-3xl bg-blue-500/5 border-l-4 border-blue-400 backdrop-blur-xl relative overflow-hidden group">
                    <img src="https://images.unsplash.com/photo-1551288049-bbbda536339a?q=80&w=2070&auto=format&fit=crop" className="absolute inset-0 w-full h-full object-cover opacity-[0.05] group-hover:scale-105 transition-transform duration-[2000ms]" alt="" />
-                   <h3 className="text-white text-xl font-bold tracking-tight uppercase mb-4 relative z-10">What is a Demo Account?</h3>
+                   <h3 className="text-white text-xl font-normal tracking-tight uppercase mb-4 relative z-10">What is a Demo Account?</h3>
                    <p className="text-slate-300 text-sm leading-relaxed font-medium italic relative z-10">
                      "A free demo trading account is basically a practice platform a broker offers where you can make trades. Instead of real money, you get to trade with the broker's virtual money, but the price feeds and charting tools that you see are exactly the same ones that professional traders use."
                    </p>
@@ -131,8 +131,8 @@ export default function DemoAccount() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 space-y-4 text-center">
-            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase">Why Open a Free <br/> Trading Demo Account?</h2>
-            <p className="text-blue-400 text-sm font-bold uppercase tracking-[0.2em]">Transition with confidence</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase">Why Open a Free <br/> Trading Demo Account?</h2>
+            <p className="text-blue-400 text-sm font-normal uppercase tracking-[0.2em]">Transition with confidence</p>
             <p className="text-slate-500 text-base max-w-2xl mx-auto font-light leading-relaxed pt-2">
               Transitioning from a curious observer to a confident trader requires hands-on experience. A forex demo account provides exactly that.
             </p>
@@ -154,7 +154,7 @@ export default function DemoAccount() {
                 <div className={`w-14 h-14 rounded-2xl bg-${item.color}-500/10 flex items-center justify-center text-${item.color}-400 mb-6 border border-white/10 group-hover:scale-110 transition-transform`}>
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3 tracking-tight uppercase leading-tight">{item.title}</h3>
+                <h3 className="text-lg font-normal text-white mb-3 tracking-tight uppercase leading-tight">{item.title}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed font-medium">{item.desc}</p>
               </div>
             ))}
@@ -168,7 +168,7 @@ export default function DemoAccount() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-7 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic">Key Features of the <br/> Fxcelite Demo Account</h2>
+                 <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic">Key Features of the <br/> FXCELITE Demo Account</h2>
                  <p className="text-base text-slate-500 italic leading-relaxed font-light">
                    We offer what many consider the best demo account for forex trading by providing a 1:1 replica of our live trading infrastructure.
                  </p>
@@ -187,7 +187,7 @@ export default function DemoAccount() {
                         {React.cloneElement(feature.icon, { size: 24 })}
                       </div>
                       <div className="space-y-1">
-                        <h4 className="text-base font-bold text-white group-hover:text-blue-400 transition-colors uppercase tracking-tight">{feature.t}</h4>
+                        <h4 className="text-base font-normal text-white group-hover:text-blue-400 transition-colors uppercase tracking-tight">{feature.t}</h4>
                         <p className="text-slate-400 text-sm leading-relaxed">{feature.d}</p>
                       </div>
                    </div>
@@ -198,18 +198,18 @@ export default function DemoAccount() {
             <div className="lg:col-span-5 lg:sticky lg:top-32 space-y-8">
                <div className="relative p-8 rounded-3xl bg-[#0B0E2A] border border-white/10 shadow-2xl overflow-hidden group">
                   <img src="https://images.unsplash.com/photo-1551288049-bbbda536339a?q=80&w=2070&auto=format&fit=crop" className="absolute inset-0 w-full h-full object-cover opacity-[0.05] group-hover:scale-105 transition-transform duration-1000" alt="" />
-                  <h3 className="text-2xl font-bold text-white mb-6 tracking-tight uppercase relative z-10">Ready to perform?</h3>
+                  <h3 className="text-2xl font-normal text-white mb-6 tracking-tight uppercase relative z-10">Ready to perform?</h3>
                   <div className="space-y-6 relative z-10">
                      <p className="text-base text-blue-400 font-medium leading-relaxed italic">
                        Ready to see how you perform? Sign Up for a Free Demo and take your first step toward market mastery.
                      </p>
                      <div className="space-y-4 text-sm text-slate-400 leading-relaxed font-light italic">
-                        <h4 className="text-white font-bold uppercase tracking-tight">Demo Account vs. Live Account</h4>
+                        <h4 className="text-white font-normal uppercase tracking-tight">Demo Account vs. Live Account</h4>
                         <p>Although the same tools are used, the big difference is in the psychology. In a forex demo trading account, your emotions are not connected with real money. Once you have a profitable strategy, you can switch to a real trading environment. We always recommend risk-free practice first.</p>
                      </div>
                      <button 
-                        onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                        className="w-full py-4 rounded-2xl bg-white text-black font-bold hover:bg-blue-400 transition-all text-base shadow-lg shadow-blue-500/20">
+                        onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                        className="w-full py-4 rounded-2xl bg-white text-black font-normal hover:bg-blue-400 transition-all text-base shadow-lg shadow-blue-500/20">
                         Sign Up for a Free Demo
                      </button>
                   </div>
@@ -223,8 +223,8 @@ export default function DemoAccount() {
       <section className="py-24 bg-black relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase">How to Open a <br/> Demo Forex Account</h2>
-            <p className="text-blue-400 text-sm font-bold uppercase tracking-[0.2em]">Getting started is a 60-second process</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase">How to Open a <br/> Demo Forex Account</h2>
+            <p className="text-blue-400 text-sm font-normal uppercase tracking-[0.2em]">Getting started is a 60-second process</p>
           </div>
 
           <div className="grid lg:grid-cols-5 gap-6">
@@ -236,13 +236,13 @@ export default function DemoAccount() {
               { n: "05", t: "Trade", d: "Make your first practice trade and see the market in action.", icon: <TrendingUp /> },
             ].map((step, i) => (
               <div key={i} className="group relative p-6 rounded-3xl bg-white/[0.02] border border-white/5 hover:border-blue-500/40 transition-all duration-500 text-center mt-6 lg:mt-0">
-                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-xl bg-black border border-blue-500/20 flex items-center justify-center font-bold text-blue-500 text-sm group-hover:bg-blue-400 group-hover:text-black transition-all">
+                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-xl bg-black border border-blue-500/20 flex items-center justify-center font-normal text-blue-500 text-sm group-hover:bg-blue-400 group-hover:text-black transition-all">
                     {step.n}
                  </div>
                  <div className="w-14 h-14 rounded-full bg-blue-500/5 text-blue-500 flex items-center justify-center mx-auto mb-6 border border-blue-500/10 group-hover:scale-110 transition-transform mt-2">
                    {React.cloneElement(step.icon, { size: 24 })}
                  </div>
-                 <h4 className="text-base font-bold text-white mb-2 tracking-tight uppercase">{step.t}</h4>
+                 <h4 className="text-base font-normal text-white mb-2 tracking-tight uppercase">{step.t}</h4>
                  <p className="text-sm text-slate-500 leading-relaxed font-medium">{step.d}</p>
               </div>
             ))}
@@ -263,19 +263,19 @@ export default function DemoAccount() {
                     <div className="w-14 h-14 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400 border border-blue-500/20">
                       <Users size={28} />
                     </div>
-                    <h2 className="text-2xl font-bold text-white tracking-tight uppercase">Who is it For?</h2>
+                    <h2 className="text-2xl font-normal text-white tracking-tight uppercase">Who is it For?</h2>
                  </div>
                  <div className="grid gap-5">
                     {[
                       { l: "Total Beginners", d: "People learning \"what is forex\" without risking capital." },
                       { l: "Intermediate Traders", d: "People wanting to improve their entry and exit points." },
                       { l: "Pro Traders", d: "Algorithmic traders testing their new EA code." },
-                      { l: "Platform Switchers", d: "People switching from another broker getting familiar with Fxcelite." }
+                      { l: "Platform Switchers", d: "People switching from another broker getting familiar with FXCELITE." }
                     ].map((item, i) => (
                       <div key={i} className="flex gap-4 group/item">
                         <div className="shrink-0 w-2 h-2 rounded-full bg-blue-500 mt-2 shadow-[0_0_10px_#3b82f6] group-hover/item:scale-150 transition-transform"></div>
                         <div className="text-sm md:text-base">
-                          <span className="text-white font-bold uppercase tracking-tight">{item.l}: </span>
+                          <span className="text-white font-normal uppercase tracking-tight">{item.l}: </span>
                           <span className="text-slate-400 font-light leading-relaxed">{item.d}</span>
                         </div>
                       </div>
@@ -286,23 +286,23 @@ export default function DemoAccount() {
 
             <div className="flex flex-col justify-center space-y-8 lg:p-8 text-center lg:text-left">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight">Why Fxcelite is <br/> The Best Choice?</h2>
-                 <p className="text-blue-400 font-bold uppercase tracking-[0.2em] text-sm">Close as possible to the real thing</p>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight">Why FXCELITE is <br/> The Best Choice?</h2>
+                 <p className="text-blue-400 font-normal uppercase tracking-[0.2em] text-sm">Close as possible to the real thing</p>
                </div>
                <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light italic">
                  <p>
                    We don't "sugarcoat" our demo results. We offer a free forex demo account with the same latency and liquidity conditions as our live servers, so that your risk free practice is as close to the real thing as possible.
                  </p>
                  <div className="p-6 rounded-2xl bg-white/[0.02] border border-white/5 space-y-4">
-                    <h4 className="text-white font-bold uppercase tracking-tight text-sm flex items-center gap-2">
+                    <h4 className="text-white font-normal uppercase tracking-tight text-sm flex items-center gap-2">
                       <Shield size={16} className="text-blue-400" /> Security & Professionalism
                     </h4>
                     <p className="text-sm">Although you are using an online trading demo account, we protect your information in the same way that we protect our live accounts. We give you a professional environment.</p>
                  </div>
                  <div className="pt-4 flex flex-col gap-6 items-center lg:items-start">
                     <button 
-                      onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                      className="px-10 py-4 rounded-2xl bg-white text-black font-bold text-base hover:bg-blue-400 transition-all shadow-[0_15px_40px_-15px_rgba(59,130,246,0.4)] hover:-translate-y-1">
+                      onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                      className="px-10 py-4 rounded-2xl bg-white text-black font-normal text-base hover:bg-blue-400 transition-all shadow-[0_15px_40px_-15px_rgba(59,130,246,0.4)] hover:-translate-y-1">
                       Open Your Demo Account Now
                     </button>
                  </div>
@@ -316,7 +316,7 @@ export default function DemoAccount() {
       <section className="py-24 border-t border-white/5 bg-[#010208]">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase">Frequently Asked</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase">Frequently Asked</h2>
             <p className="text-slate-500 font-medium uppercase tracking-widest text-sm italic">Demo Account Knowledge Base</p>
           </div>
           
@@ -326,7 +326,7 @@ export default function DemoAccount() {
               { q: "2. How long does the demo account last?", a: "Most of our demo accounts will last as long as you use them. See our terms for more information." },
               { q: "3. Can I reset my demo account balance?", a: "Yes. If you have depleted your balance, you can refill your online trading demo account through your account dashboard." },
               { q: "4. Is the price on the demo account real?", a: "Yes, we provide the same real-time price feeds for our free forex demo account as we do for our live accounts." },
-              { q: "5. What is the best MT4 demo account for EAs?", a: "Fxcelite offers a high-speed server environment that is optimized for demo testing of Expert Advisors." },
+              { q: "5. What is the best MT4 demo account for EAs?", a: "FXCELITE offers a high-speed server environment that is optimized for demo testing of Expert Advisors." },
               { q: "6. Do I have to verify my ID to open a demo account?", a: "No, you can open a demo forex account with only an email address to begin practicing right away." },
               { q: "7. Can I trade from my mobile phone?", a: "Yes, you can access your trading demo account using our mobile app or online platform." },
               { q: "8. What is the best way to practice?", a: "You can use our Trading Calculator to help you manage your risk and try to act as if your demo money was real." },
@@ -354,7 +354,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors uppercase tracking-tight ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors uppercase tracking-tight ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex shrink-0 items-center justify-center transition-all duration-300 ml-4 ${

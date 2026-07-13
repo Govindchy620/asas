@@ -54,7 +54,7 @@ export default function VipAccount() {
               {/* VIP Badge */}
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md shadow-2xl">
                 <Sparkles size={14} className="text-amber-400" />
-                <span className="text-xs font-bold uppercase tracking-[0.2em] text-amber-400">Tier 1 Institutional Access</span>
+                <span className="text-xs font-normal uppercase tracking-[0.2em] text-amber-400">Tier 1 Institutional Access</span>
               </div>
               
               {/* Main Headline */}
@@ -73,13 +73,13 @@ export default function VipAccount() {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-black font-bold text-base transition-all shadow-[0_0_40px_-10px_rgba(245,158,11,0.6)] hover:shadow-[0_0_60px_-15px_rgba(245,158,11,0.8)] hover:-translate-y-1 flex items-center justify-center gap-2">
+                  onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-black font-normal text-base transition-all shadow-[0_0_40px_-10px_rgba(245,158,11,0.6)] hover:shadow-[0_0_60px_-15px_rgba(245,158,11,0.8)] hover:-translate-y-1 flex items-center justify-center gap-2">
                   Open ECN Account <ArrowRight size={18} />
                 </button>
                 <button
-                  onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-transparent border border-white/20 text-white font-bold text-base hover:bg-white/10 transition-all flex items-center justify-center gap-2">
+                  onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-transparent border border-white/20 text-white font-normal text-base hover:bg-white/10 transition-all flex items-center justify-center gap-2">
                   View Raw Spreads
                 </button>
               </div>
@@ -100,9 +100,9 @@ export default function VipAccount() {
                 <div className="p-5 border-b border-white/10 bg-white/[0.02] flex justify-between items-center">
                   <div className="flex items-center gap-3">
                     <Activity size={20} className="text-amber-400" />
-                    <span className="font-bold text-base text-white tracking-wide">Direct Market Access</span>
+                    <span className="font-normal text-base text-white tracking-wide">Direct Market Access</span>
                   </div>
-                  <span className="text-xs font-bold bg-amber-500/20 text-amber-400 px-3 py-1 rounded-full animate-pulse border border-amber-500/30">Live Feed</span>
+                  <span className="text-xs font-normal bg-amber-500/20 text-amber-400 px-3 py-1 rounded-full animate-pulse border border-amber-500/30">Live Feed</span>
                 </div>
 
                 {/* ECN Spread List */}
@@ -114,7 +114,7 @@ export default function VipAccount() {
                   ].map((item, i) => (
                     <div key={i} className="flex justify-between items-center p-4 hover:bg-white/5 rounded-2xl transition-colors cursor-pointer border border-transparent hover:border-white/5">
                       <div>
-                        <div className="font-bold text-sm text-white">{item.pair}</div>
+                        <div className="font-normal text-sm text-white">{item.pair}</div>
                         <div className="text-xs text-emerald-400 flex items-center gap-1 mt-1"><Zap size={10} /> {item.spread} Pips</div>
                       </div>
                       <div className="flex gap-4 text-right">
@@ -148,7 +148,7 @@ export default function VipAccount() {
               {/* Floating Element */}
               <div className="absolute -left-6 bottom-16 w-40 p-4 bg-[#0B0E2A]/90 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl z-20 animate-bounce" style={{animationDuration: '5s'}}>
                 <div className="text-xs text-slate-500 mb-1">Execution Speed</div>
-                <div className="font-bold text-white text-sm flex items-center gap-2"><Zap size={14} className="text-amber-400"/> &lt; 15 ms</div>
+                <div className="font-normal text-white text-sm flex items-center gap-2"><Zap size={14} className="text-amber-400"/> &lt; 15 ms</div>
               </div>
             </div>
           </div>
@@ -160,7 +160,7 @@ export default function VipAccount() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
-              <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight leading-tight">
+              <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight leading-tight">
                 Institutional Power <br/> at Your Fingertips
               </h2>
               <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
@@ -190,7 +190,7 @@ export default function VipAccount() {
                  <div className="absolute bottom-6 left-6 right-6 p-6 rounded-xl bg-black/80 backdrop-blur-md border border-white/10">
                     <div className="flex items-center gap-3 mb-2">
                       <Zap size={20} className="text-amber-500" />
-                      <span className="text-white text-lg font-bold tracking-tight uppercase">Direct Execution</span>
+                      <span className="text-white text-lg font-normal tracking-tight uppercase">Direct Execution</span>
                     </div>
                     <p className="text-slate-400 text-sm leading-relaxed font-medium">Command the markets with institutional power. Elevate to VIP Status.</p>
                  </div>
@@ -205,7 +205,7 @@ export default function VipAccount() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col lg:flex-row gap-12 items-center">
             <div className="lg:w-1/2 space-y-6">
-               <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase">What is an ECN Account?</h2>
+               <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase">What is an ECN Account?</h2>
                <div className="w-16 h-1.5 bg-amber-500 rounded-full"></div>
             </div>
             <div className="lg:w-1/2 space-y-6 text-base text-slate-400 leading-relaxed font-light">
@@ -224,7 +224,7 @@ export default function VipAccount() {
       <section className="py-24 border-y border-white/5 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 space-y-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">Why Choose a VIP Account?</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight">Why Choose a VIP Account?</h2>
             <p className="text-slate-400 text-base font-medium leading-relaxed max-w-2xl">
               A VIP account for high volume traders is more than just an account type; it’s a premium service. If you trade large lot sizes, you need an environment that rewards your activity.
             </p>
@@ -246,7 +246,7 @@ export default function VipAccount() {
                 <div className={`w-14 h-14 rounded-2xl bg-${item.color === 'amber' ? 'amber-500/10' : 'white/5'} flex items-center justify-center text-${item.color === 'amber' ? 'amber-500' : 'white'} mb-6 border border-white/10 group-hover:scale-110 transition-transform`}>
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3 tracking-tight">{item.title}</h3>
+                <h3 className="text-xl font-normal text-white mb-3 tracking-tight">{item.title}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed font-medium">{item.desc}</p>
               </div>
             ))}
@@ -260,7 +260,7 @@ export default function VipAccount() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-7 space-y-10">
                <div>
-                 <h2 className="text-2xl md:text-3xl font-bold text-white tracking-tight mb-4 uppercase">Key Features of the <br/>VIP & ECN Account</h2>
+                 <h2 className="text-2xl md:text-3xl font-normal text-white tracking-tight mb-4 uppercase">Key Features of the <br/>VIP & ECN Account</h2>
                  <p className="text-base text-slate-500 italic leading-relaxed font-light">
                    Our professional trading account features are built to support sophisticated strategies and high-performance trading bots.
                  </p>
@@ -279,7 +279,7 @@ export default function VipAccount() {
                         {React.cloneElement(feature.icon, { size: 24 })}
                       </div>
                       <div className="space-y-1">
-                        <h4 className="text-base font-bold text-white group-hover:text-amber-500 transition-colors">{feature.t}</h4>
+                        <h4 className="text-base font-normal text-white group-hover:text-amber-500 transition-colors">{feature.t}</h4>
                         <p className="text-slate-400 text-sm leading-relaxed">{feature.d}</p>
                       </div>
                    </div>
@@ -290,20 +290,20 @@ export default function VipAccount() {
             <div className="lg:col-span-5 lg:sticky lg:top-32 space-y-8">
                <div className="relative p-8 rounded-3xl bg-[#0B0E2A] border border-white/10 shadow-2xl overflow-hidden group">
                   <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc51?q=80&w=2026&auto=format&fit=crop" className="absolute inset-0 w-full h-full object-cover opacity-[0.05] group-hover:scale-110 transition-transform duration-1000" alt="Tech" />
-                  <h3 className="text-2xl font-bold text-white mb-6 tracking-tight relative z-10">Experience the Power</h3>
+                  <h3 className="text-2xl font-normal text-white mb-6 tracking-tight relative z-10">Experience the Power</h3>
                   <div className="space-y-6 relative z-10">
                      <p className="text-base text-amber-500 font-medium leading-relaxed italic">
                         Experience the raw power of the interbank market. Open an ECN Account Online and see the difference in every pip.
                      </p>
                      <div className="space-y-4 text-sm text-slate-400 leading-relaxed font-light">
-                        <p>At Fxcelite, we house our servers in Equinix data centers, so you can be sure that your trading orders are handled with the highest level of reliability.</p>
+                        <p>At FXCELITE, we house our servers in Equinix data centers, so you can be sure that your trading orders are handled with the highest level of reliability.</p>
                      </div>
                     
                   </div>
                </div>
 
                <div className="p-8 rounded-3xl bg-white/[0.03] border border-white/5 space-y-4">
-                  <h3 className="text-xl font-bold text-white">ECN vs. Standard & Micro</h3>
+                  <h3 className="text-xl font-normal text-white">ECN vs. Standard & Micro</h3>
                   <p className="text-sm text-slate-400 leading-relaxed font-light">
                     The main difference is in pricing and execution. Standard accounts involve a markup on the spread, while ECN accounts involve the true market price with a small commission attached.
                   </p>
@@ -317,8 +317,8 @@ export default function VipAccount() {
       <section className="py-24 bg-[#020410] border-t border-white/5 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight mb-3">How to Open an ECN Account</h2>
-            <p className="text-amber-500 text-sm font-bold uppercase tracking-widest">Institutional Grade Deployment</p>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight mb-3">How to Open an ECN Account</h2>
+            <p className="text-amber-500 text-sm font-normal uppercase tracking-widest">Institutional Grade Deployment</p>
           </div>
 
           <div className="grid lg:grid-cols-5 gap-6">
@@ -330,13 +330,13 @@ export default function VipAccount() {
               { n: "05", t: "Trade", d: "Experience raw spreads and instant market execution.", icon: <Activity /> },
             ].map((step, i) => (
               <div key={i} className="group relative p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:border-amber-500/40 transition-all duration-500 text-center mt-6 lg:mt-0">
-                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-xl bg-black border border-amber-500/20 flex items-center justify-center font-bold text-amber-500 text-sm group-hover:bg-amber-500 group-hover:text-black transition-all">
+                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-xl bg-black border border-amber-500/20 flex items-center justify-center font-normal text-amber-500 text-sm group-hover:bg-amber-500 group-hover:text-black transition-all">
                     {step.n}
                  </div>
                  <div className="w-16 h-16 rounded-full bg-amber-500/5 text-amber-500 flex items-center justify-center mx-auto mb-4 border border-amber-500/10 group-hover:scale-110 transition-transform mt-2">
                    {React.cloneElement(step.icon, { size: 24 })}
                  </div>
-                 <h4 className="text-base font-bold text-white mb-2 tracking-tight">{step.t}</h4>
+                 <h4 className="text-base font-normal text-white mb-2 tracking-tight">{step.t}</h4>
                  <p className="text-sm text-slate-400 leading-relaxed font-medium">{step.d}</p>
                  
                  {i < 4 && (
@@ -361,7 +361,7 @@ export default function VipAccount() {
                     <div className="w-14 h-14 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-500 border border-amber-500/20">
                       <Gift size={24} />
                     </div>
-                    <h2 className="text-2xl font-bold text-white tracking-tight">VIP Benefits</h2>
+                    <h2 className="text-2xl font-normal text-white tracking-tight">VIP Benefits</h2>
                  </div>
                  <div className="grid gap-6">
                     {[
@@ -373,7 +373,7 @@ export default function VipAccount() {
                       <div key={i} className="flex gap-4 group/item">
                         <div className="shrink-0 w-2 h-2 rounded-full bg-amber-500 mt-2 shadow-[0_0_10px_#f59e0b] group-hover/item:scale-150 transition-transform"></div>
                         <div className="text-sm md:text-base">
-                          <span className="text-white font-bold">{item.l}: </span>
+                          <span className="text-white font-normal">{item.l}: </span>
                           <span className="text-slate-400 font-light">{item.d}</span>
                         </div>
                       </div>
@@ -383,15 +383,15 @@ export default function VipAccount() {
             </div>
 
             <div className="flex flex-col justify-center space-y-8">
-               <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">Why Fxcelite is The Best Choice?</h2>
+               <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight">Why FXCELITE is The Best Choice?</h2>
                <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light">
                  <p>
-                   We offer the infrastructure that professionals require to win. With an ECN account featuring low spreads, no conflict of interest, and the prestige of a VIP trading account, Fxcelite is the destination of choice for the world’s most demanding traders.
+                   We offer the infrastructure that professionals require to win. With an ECN account featuring low spreads, no conflict of interest, and the prestige of a VIP trading account, FXCELITE is the destination of choice for the world’s most demanding traders.
                  </p>
                  <div className="pt-4 flex flex-col gap-6">
                     <button
-                      onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                      className="px-10 py-4 rounded-full bg-white text-black font-bold text-base hover:bg-amber-500 transition-all shadow-[0_15px_40px_-15px_rgba(245,158,11,0.4)] hover:-translate-y-1">
+                      onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                      className="px-10 py-4 rounded-full bg-white text-black font-normal text-base hover:bg-amber-500 transition-all shadow-[0_15px_40px_-15px_rgba(245,158,11,0.4)] hover:-translate-y-1">
                       Apply for VIP Status Today
                     </button>
                  </div>
@@ -405,7 +405,7 @@ export default function VipAccount() {
       <section className="py-24 border-t border-white/5 bg-[#010208]">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight mb-3">Frequently Asked</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight mb-3">Frequently Asked</h2>
             <p className="text-slate-500 font-medium uppercase tracking-widest text-sm">Institutional Knowledge Base</p>
           </div>
           
@@ -420,7 +420,7 @@ export default function VipAccount() {
               { q: "7. Can I use Expert Advisors (EAs) on an ECN account?", a: "Yes, our ECN environment is optimized for algorithmic trading and fast execution." },
               { q: "8. Are there re-quotes on an ECN account?", a: "No, since you are trading directly with the market, your orders are executed at the best available price without re-quotes." },
               { q: "9. How is the commission calculated?", a: "The commission is a fixed fee per lot traded, which is clearly shown in your trade history." },
-              { q: "10. How do I open an ECN account online?", a: "Register on the Fxcelite portal, select the ECN/VIP account type, and complete the verification process." },
+              { q: "10. How do I open an ECN account online?", a: "Register on the FXCELITE portal, select the ECN/VIP account type, and complete the verification process." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}
@@ -441,7 +441,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-base md:text-lg transition-colors ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
+        <span className={`font-normal text-base md:text-lg transition-colors ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex shrink-0 items-center justify-center transition-all duration-500 ml-4 ${

@@ -49,10 +49,10 @@ export default function Bonuses() {
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-pink-500/30 bg-pink-500/10 backdrop-blur-xl mb-8 animate-pulse">
             <Flame size={14} className="text-pink-400" />
-            <span className="text-xs font-bold uppercase tracking-[0.3em] text-pink-400 italic">Capital Accelerator v15.0</span>
+            <span className="text-xs font-normal uppercase tracking-[0.3em] text-pink-400 italic">Capital Accelerator v15.0</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6">
+          <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6">
             Forex Trading <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-white to-cyan-400 italic uppercase">Bonuses</span>
           </h1>
           
@@ -64,19 +64,19 @@ export default function Bonuses() {
              <div className="absolute top-0 left-0 p-6 opacity-10 group-hover:scale-110 transition-transform">
                <Rocket size={80} className="text-pink-500" />
              </div>
-             In the cutthroat currency trading market, having a reserve of extra funds can literally be the line that separates one missed opportunity from a successful trade. We at Fxcelite are glad to offer a wide range of bonus schemes from forex brokers that are aimed to inject more "firepower" into your trading account. Whether you are a newbie who needs a competitive advantage or a seasoned professional who wants to make the most of your margin, we have tailored forex trading bonus offers that can help your development and prolong your stay in the market.
+             In the cutthroat currency trading market, having a reserve of extra funds can literally be the line that separates one missed opportunity from a successful trade. We at FXCELITE are glad to offer a wide range of bonus schemes from forex brokers that are aimed to inject more "firepower" into your trading account. Whether you are a newbie who needs a competitive advantage or a seasoned professional who wants to make the most of your margin, we have tailored forex trading bonus offers that can help your development and prolong your stay in the market.
           </div>
 
           <div className="flex flex-col items-center gap-6">
             <div className="relative group">
               <div className="absolute -inset-2 bg-gradient-to-r from-pink-600 to-indigo-600 rounded-3xl blur opacity-40 group-hover:opacity-80 transition duration-1000"></div>
               <button 
-                onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                className="relative px-10 py-4 bg-white text-black font-bold text-base md:text-lg rounded-2xl transition-all hover:scale-[1.03] active:scale-95 shadow-xl uppercase tracking-tight italic flex items-center gap-3">
+                onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                className="relative px-10 py-4 bg-white text-black font-normal text-base md:text-lg rounded-2xl transition-all hover:scale-[1.03] active:scale-95 shadow-xl uppercase tracking-tight italic flex items-center gap-3">
                 Check Current Bonus Offers <Sparkles size={20} className="text-pink-600" />
               </button>
             </div>
-            <p className="text-pink-400 text-sm font-bold uppercase tracking-[0.2em] italic">
+            <p className="text-pink-400 text-sm font-normal uppercase tracking-[0.2em] italic">
               Ready to supercharge your account? Claim your boost today!
             </p>
           </div>
@@ -89,12 +89,12 @@ export default function Bonuses() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
                <div className="space-y-6">
-                 <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight leading-tight italic border-l-4 border-pink-500 pl-4">Strategic <br/> Leverage</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white uppercase tracking-tight leading-tight italic border-l-4 border-pink-500 pl-4">Strategic <br/> Leverage</h2>
                  <div className="space-y-6 text-base text-white/80 leading-relaxed font-light italic">
                    <p>
-                     We, at FXCElite, have taken the approach of forex trading bonuses as a matter of transparency. We are of the opinion that a bonus should be a lever for accomplishing success rather than an undisclosed snare. Therefore, we deliver secure and transparent trading bonuses with very clear rules so that you understand perfectly how to qualify, trade, and, finally, withdraw your winnings.
+                     We, at FXCELITE, have taken the approach of forex trading bonuses as a matter of transparency. We are of the opinion that a bonus should be a lever for accomplishing success rather than an undisclosed snare. Therefore, we deliver secure and transparent trading bonuses with very clear rules so that you understand perfectly how to qualify, trade, and, finally, withdraw your winnings.
                    </p>
-                   <div className="p-6 rounded-2xl bg-pink-500/10 border-r-2 border-cyan-500 backdrop-blur-xl text-white font-bold shadow-lg">
+                   <div className="p-6 rounded-2xl bg-pink-500/10 border-r-2 border-cyan-500 backdrop-blur-xl text-white font-normal shadow-lg">
                      <h3 className="text-xl font-black mb-3 uppercase tracking-tight">How Forex Bonuses Work</h3>
                      <p className="text-sm text-white/90 font-medium">
                        A forex deposit bonus refers to a credit or a payment by a broker to a client who has funded their account. It is an extra margin that enables you to take bigger positions or sustain your trades during market fluctuations.
@@ -125,7 +125,7 @@ export default function Bonuses() {
                       <div className="p-2 rounded-lg bg-pink-500/20">
                         <Gauge size={18} className="text-pink-400" />
                       </div>
-                      <span className="text-pink-400 font-bold uppercase tracking-widest text-[10px] font-mono">Live Equity Boost Active</span>
+                      <span className="text-pink-400 font-normal uppercase tracking-widest text-[10px] font-mono">Live Equity Boost Active</span>
                     </div>
                  </div>
                </div>
@@ -138,8 +138,8 @@ export default function Bonuses() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 text-center space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Types of Online <br/> Trading Bonuses</h2>
-            <p className="text-pink-400 text-sm font-bold uppercase tracking-[0.2em]">Optimized for every goal</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">Types of Online <br/> Trading Bonuses</h2>
+            <p className="text-pink-400 text-sm font-normal uppercase tracking-[0.2em]">Optimized for every goal</p>
             <p className="text-white/70 text-base max-w-2xl mx-auto font-light leading-relaxed italic border-t border-white/10 pt-4 mt-4">
               We offer several types of bonus for forex traders to suit different experience levels and goals:
             </p>
@@ -157,7 +157,7 @@ export default function Bonuses() {
                 <div className="w-12 h-12 rounded-xl bg-pink-500/20 flex items-center justify-center text-pink-400 mb-5 border border-white/20 group-hover:scale-110 group-hover:bg-pink-500 group-hover:text-white transition-all">
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3 tracking-tight leading-tight uppercase italic">{item.title}</h3>
+                <h3 className="text-lg font-normal text-white mb-3 tracking-tight leading-tight uppercase italic">{item.title}</h3>
                 <p className="text-white/80 text-sm leading-relaxed font-light italic">{item.desc}</p>
               </div>
             ))}
@@ -172,7 +172,7 @@ export default function Bonuses() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-8 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-pink-500 decoration-4 underline-offset-[8px]">Why Use a <br/> Deposit Bonus?</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic underline decoration-pink-500 decoration-4 underline-offset-[8px]">Why Use a <br/> Deposit Bonus?</h2>
                  <p className="text-base text-white/80 italic leading-relaxed font-light max-w-2xl pt-4">
                    Utilizing forex broker bonuses offers several strategic advantages for disciplined traders:
                  </p>
@@ -189,7 +189,7 @@ export default function Bonuses() {
                       <div className="w-10 h-10 rounded-lg bg-pink-500/20 flex items-center justify-center text-pink-400 mb-4 border border-white/20 group-hover:scale-110 transition-transform">
                         {React.cloneElement(feature.icon, { size: 20 })}
                       </div>
-                      <h4 className="text-base font-bold text-white mb-2 uppercase tracking-tight italic leading-tight">{feature.t}</h4>
+                      <h4 className="text-base font-normal text-white mb-2 uppercase tracking-tight italic leading-tight">{feature.t}</h4>
                       <p className="text-white/80 text-sm leading-relaxed font-light italic">{feature.d}</p>
                    </div>
                  ))}
@@ -201,17 +201,17 @@ export default function Bonuses() {
                   <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:scale-110 transition-transform duration-1000">
                     <Gem size={100} className="text-pink-500" />
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-6 tracking-tight uppercase border-b border-white/20 pb-4 italic">Performance Node</h3>
+                  <h3 className="text-xl font-normal text-white mb-6 tracking-tight uppercase border-b border-white/20 pb-4 italic">Performance Node</h3>
                   <div className="space-y-6 relative z-10">
-                     <p className="text-base text-pink-400 font-bold leading-tight italic">
+                     <p className="text-base text-pink-400 font-normal leading-tight italic">
                        Knowledge is power. Read the Full Bonus Terms to maximize your promotional benefits.
                      </p>
                      <div className="text-sm text-white/80 leading-relaxed font-light italic">
-                        <p>Transparency is our priority. Each and every online trading bonus at Fxcelite is processed under a clear policy.</p>
+                        <p>Transparency is our priority. Each and every online trading bonus at FXCELITE is processed under a clear policy.</p>
                      </div>
                      <button 
-                        onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                        className="w-full py-4 rounded-xl bg-white text-black font-bold hover:bg-pink-500 hover:text-white transition-all text-sm shadow-xl shadow-pink-500/20 uppercase tracking-tight italic">
+                        onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                        className="w-full py-4 rounded-xl bg-white text-black font-normal hover:bg-pink-500 hover:text-white transition-all text-sm shadow-xl shadow-pink-500/20 uppercase tracking-tight italic">
                         Read Full Terms
                      </button>
                   </div>
@@ -226,7 +226,7 @@ export default function Bonuses() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16">
             <div className="space-y-8">
-               <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic">Bonus Terms <br/> & Conditions</h2>
+               <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic">Bonus Terms <br/> & Conditions</h2>
                <p className="text-base text-white/70 font-light italic">We urge all our traders to read the fine print to ensure a safe and transparent trading bonuses experience.</p>
                <div className="grid gap-4">
                  {[
@@ -238,7 +238,7 @@ export default function Bonuses() {
                    <div key={i} className="flex gap-4 group items-center p-5 rounded-2xl bg-white/[0.05] border border-white/10 hover:bg-white/10 transition-all">
                       <div className="shrink-0 w-2 h-2 rounded-full bg-pink-500 group-hover:scale-150 transition-transform shadow-[0_0_10px_#db2777]"></div>
                       <div>
-                        <span className="text-white text-base font-bold uppercase tracking-tight italic">{item.l}</span>
+                        <span className="text-white text-base font-normal uppercase tracking-tight italic">{item.l}</span>
                         <p className="text-white/80 text-sm font-light leading-relaxed italic">{item.d}</p>
                       </div>
                    </div>
@@ -255,7 +255,7 @@ export default function Bonuses() {
                       <div className="w-12 h-12 rounded-xl bg-cyan-500/20 flex items-center justify-center text-cyan-400 border border-cyan-500/50 group-hover:bg-cyan-500 group-hover:text-black transition-all duration-500">
                          <Terminal size={24} />
                       </div>
-                      <h2 className="text-2xl font-bold text-white tracking-tight uppercase italic">No Deposit Bonus <br/> Explained</h2>
+                      <h2 className="text-2xl font-normal text-white tracking-tight uppercase italic">No Deposit Bonus <br/> Explained</h2>
                    </div>
                    <div className="text-base text-white/90 leading-relaxed font-light italic space-y-6">
                       <p>For those who wish to "test drive" our platform, the no deposit bonus essentially means we provide the capital and you provide the skill.</p>
@@ -273,8 +273,8 @@ export default function Bonuses() {
       <section className="py-24 relative border-y border-white/10 bg-[#03040b]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">How to Claim Your <br/> Trading Bonus</h2>
-            <p className="text-pink-400 text-sm font-bold uppercase tracking-[0.2em] font-mono">Deployment Sequence</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">How to Claim Your <br/> Trading Bonus</h2>
+            <p className="text-pink-400 text-sm font-normal uppercase tracking-[0.2em] font-mono">Deployment Sequence</p>
           </div>
 
           <div className="grid lg:grid-cols-4 gap-6 relative">
@@ -287,13 +287,13 @@ export default function Bonuses() {
               { n: "04", t: "Trade", d: "Bonus is credited immediately, trade with increased equity.", icon: <Activity /> },
             ].map((step, i) => (
               <div key={i} className="group relative p-6 rounded-3xl bg-white/[0.05] border border-white/10 hover:border-pink-500/50 transition-all duration-500 text-center shadow-xl mt-8 lg:mt-0">
-                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-black border-2 border-pink-500/50 flex items-center justify-center font-bold text-pink-400 text-sm group-hover:bg-pink-400 group-hover:text-black transition-all">
+                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-black border-2 border-pink-500/50 flex items-center justify-center font-normal text-pink-400 text-sm group-hover:bg-pink-400 group-hover:text-black transition-all">
                     {step.n}
                  </div>
                  <div className="w-12 h-12 rounded-xl bg-pink-500/20 text-pink-400 flex items-center justify-center mx-auto mb-4 border border-white/20 group-hover:scale-110 transition-transform mt-2">
                    {React.cloneElement(step.icon, { size: 24 })}
                  </div>
-                 <h4 className="text-base font-bold text-white mb-2 tracking-tight leading-tight uppercase italic">{step.t}</h4>
+                 <h4 className="text-base font-normal text-white mb-2 tracking-tight leading-tight uppercase italic">{step.t}</h4>
                  <p className="text-xs text-white/80 leading-relaxed font-medium italic">{step.d}</p>
               </div>
             ))}
@@ -314,10 +314,10 @@ export default function Bonuses() {
                       <div className="w-12 h-12 rounded-xl bg-pink-500/20 flex items-center justify-center text-pink-400 border border-pink-500/50 group-hover:bg-pink-500 group-hover:text-white transition-all duration-500">
                          <Lock size={24} />
                       </div>
-                      <h2 className="text-2xl font-bold text-white tracking-tight uppercase italic underline decoration-pink-500 decoration-4 underline-offset-[8px]">Security & Transparency</h2>
+                      <h2 className="text-2xl font-normal text-white tracking-tight uppercase italic underline decoration-pink-500 decoration-4 underline-offset-[8px]">Security & Transparency</h2>
                    </div>
                    <div className="text-base text-white/90 leading-relaxed font-light italic space-y-6">
-                      <p>What sets FXCElite apart is our commitment to giving our clients the secure and transparent option of trading bonuses. Unlike competitors, we do not believe in "locking up" your initial deposit.</p>
+                      <p>What sets FXCELITE apart is our commitment to giving our clients the secure and transparent option of trading bonuses. Unlike competitors, we do not believe in "locking up" your initial deposit.</p>
                       <div className="p-6 rounded-2xl bg-white/10 border-l-4 border-pink-500 italic font-medium text-white shadow-xl">
                          Instead, we encourage a fair play policy where the money you deposit is always at your disposal for withdrawal, providing a true bonus for career advancement.
                       </div>
@@ -327,8 +327,8 @@ export default function Bonuses() {
 
              <div className="space-y-10 lg:p-8">
                 <div className="space-y-4 text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic leading-tight">Who Should Use <br/> Bonuses?</h2>
-                  <p className="text-pink-400 font-bold uppercase tracking-[0.2em] text-xs font-mono">Accelerator Target Profiles</p>
+                  <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic leading-tight">Who Should Use <br/> Bonuses?</h2>
+                  <p className="text-pink-400 font-normal uppercase tracking-[0.2em] text-xs font-mono">Accelerator Target Profiles</p>
                 </div>
                 <div className="grid gap-4">
                    {[
@@ -342,7 +342,7 @@ export default function Bonuses() {
                          {React.cloneElement(item.icon, { size: 20 })}
                        </div>
                        <div>
-                         <span className="text-white text-lg font-bold uppercase tracking-tight italic">{item.l}</span>
+                         <span className="text-white text-lg font-normal uppercase tracking-tight italic">{item.l}</span>
                          <p className="text-white/80 text-sm font-light leading-relaxed italic mt-1">{item.d}</p>
                        </div>
                      </div>
@@ -356,21 +356,21 @@ export default function Bonuses() {
       {/* --- SECTION 7: FINAL CTA (FIREPOWER GATE) --- */}
       <section className="py-24 bg-[#03040b] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic underline decoration-pink-500 decoration-4 underline-offset-[8px]">Market Mastery</h2>
+           <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic underline decoration-pink-500 decoration-4 underline-offset-[8px]">Market Mastery</h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto">
-             By providing secure and transparent bonus trading options to traders at different levels of their journey, Fxcelite stands as the best option for cost-effective scaling. We offer you the capital boost you need with the honesty you deserve.
+             By providing secure and transparent bonus trading options to traders at different levels of their journey, FXCELITE stands as the best option for cost-effective scaling. We offer you the capital boost you need with the honesty you deserve.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
                 <div className="absolute -inset-2 bg-pink-500 rounded-2xl blur opacity-40 group-hover:opacity-80 transition duration-1000"></div>
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                  className="relative px-12 py-5 bg-white text-black font-bold text-lg rounded-xl transition-all shadow-[0_15px_40px_-15px_rgba(219,39,119,0.5)] uppercase tracking-tight italic hover:-translate-y-1">
+                  onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                  className="relative px-12 py-5 bg-white text-black font-normal text-lg rounded-xl transition-all shadow-[0_15px_40px_-15px_rgba(219,39,119,0.5)] uppercase tracking-tight italic hover:-translate-y-1">
                   Get Your Trading Bonus
                 </button>
               </div>
               <div className="space-y-4">
-                <p className="text-pink-400 font-bold uppercase tracking-[0.3em] text-xs italic font-mono">Start with an edge. Take your first step today!</p>
+                <p className="text-pink-400 font-normal uppercase tracking-[0.3em] text-xs italic font-mono">Start with an edge. Take your first step today!</p>
                 <div className="flex justify-center gap-2">
                    <div className="w-8 h-[2px] bg-white/20"></div>
                    <div className="w-16 h-[2px] bg-pink-500 animate-pulse"></div>
@@ -385,8 +385,8 @@ export default function Bonuses() {
       <section className="py-24 border-t border-white/10 bg-black">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic underline decoration-cyan-500 decoration-4 underline-offset-[8px]">Bonus FAQ</h2>
-            <p className="text-white/80 font-bold uppercase tracking-widest text-sm italic font-mono pt-4">Accelerator Knowledge Base</p>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic underline decoration-cyan-500 decoration-4 underline-offset-[8px]">Bonus FAQ</h2>
+            <p className="text-white/80 font-normal uppercase tracking-widest text-sm italic font-mono pt-4">Accelerator Knowledge Base</p>
           </div>
           
           <div className="space-y-4">
@@ -398,7 +398,7 @@ export default function Bonuses() {
               { q: "5. How do bonuses interact with leverage?", a: "The bonus sum is added to your equity, which allows you to take larger positions through leverage." },
               { q: "6. Do I need to verify my ID for a welcome bonus?", a: "Yes, to maintain a secure environment, all bonus recipients must undergo KYC verification." },
               { q: "7. Can I lose my bonus?", a: "Yes, if account equity dips below the bonus amount (stop out) or by breaking the bonus rules." },
-              { q: "8. Are there hidden fees?", a: "There are no hidden fees at Fxcelite; all rules are clearly outlined in the terms and conditions." },
+              { q: "8. Are there hidden fees?", a: "There are no hidden fees at FXCELITE; all rules are clearly outlined in the terms and conditions." },
               { q: "9. May I have more than one bonus?", a: "Generally, just one running forex trading bonus offer is allowed on a given trading account at a time." },
               { q: "10. Why do brokers offer bonuses?", a: "To attract new customers and retain loyal traders by providing extra value for their activity." },
             ].map((faq, i) => (
@@ -423,7 +423,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-white/90 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-white/90 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex items-center justify-center shrink-0 transition-all duration-500 ml-4 ${

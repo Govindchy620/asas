@@ -45,15 +45,15 @@ export default function CopyTrading() {
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-purple-500/10 border border-purple-500/30 backdrop-blur-md mb-8">
             <Users size={14} className="text-purple-400" />
-            <span className="text-xs font-bold uppercase tracking-[0.3em] text-purple-400 italic">Collective Intelligence v3.0</span>
+            <span className="text-xs font-normal uppercase tracking-[0.3em] text-purple-400 italic">Collective Intelligence v3.0</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6">
+          <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6">
             Copy Trading <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-indigo-500">Platform</span>
           </h1>
           
           <p className="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed font-light mb-8 uppercase tracking-tight italic">
-            Automate Your Success with Fxcelite
+            Automate Your Success with FXCELITE
           </p>
 
           <div className="max-w-3xl mx-auto text-base md:text-lg text-slate-500 leading-relaxed font-light mb-12 px-6 py-4 border-y border-white/5 relative">
@@ -66,12 +66,12 @@ export default function CopyTrading() {
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000"></div>
               <button 
-                onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                className="relative px-10 py-4 rounded-full bg-white text-black font-bold text-base transition-all hover:scale-[1.02] active:scale-95 shadow-xl">
+                onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                className="relative px-10 py-4 rounded-full bg-white text-black font-normal text-base transition-all hover:scale-[1.02] active:scale-95 shadow-xl">
                 Join Our Copy Trading Platform
               </button>
             </div>
-            <p className="text-purple-400 text-sm font-bold uppercase tracking-[0.2em] italic animate-pulse">
+            <p className="text-purple-400 text-sm font-normal uppercase tracking-[0.2em] italic animate-pulse">
               Don't trade alone. Let the experts lead the way!
             </p>
           </div>
@@ -85,7 +85,7 @@ export default function CopyTrading() {
             <div className="space-y-8">
                <div className="space-y-6 text-base text-slate-400 leading-relaxed font-light italic">
                  <p>
-                   At Fxcelite, we offer a social trading platform that integrates expert strategy and individual growth. New to the market? Or a busy professional? Now, through copy trading, you can trade forex without a lot of time spent on analyzing the charts.
+                   At FXCELITE, we offer a social trading platform that integrates expert strategy and individual growth. New to the market? Or a busy professional? Now, through copy trading, you can trade forex without a lot of time spent on analyzing the charts.
                  </p>
                  <p>
                    Our forex copy trading system aims at both transparency and giving you control. You can select the "Strategy Providers" you like from their track record. Besides performance, you also get to see risk levels and winning rates, among other metrics. Once you press "Copy", our automated copy trading system takes over and replicates all the trades proportionally in your account.
@@ -93,7 +93,7 @@ export default function CopyTrading() {
                </div>
                
                <div className="p-8 rounded-3xl bg-gradient-to-br from-purple-900/20 to-indigo-900/20 border border-white/10 backdrop-blur-xl">
-                 <h3 className="text-2xl font-bold text-white uppercase tracking-tight mb-4 underline decoration-pink-500 decoration-2 underline-offset-4">What is Copy Trading?</h3>
+                 <h3 className="text-2xl font-normal text-white uppercase tracking-tight mb-4 underline decoration-pink-500 decoration-2 underline-offset-4">What is Copy Trading?</h3>
                  <p className="text-slate-300 text-sm md:text-base leading-relaxed">
                    Copy trading, also known as mirror trading, is a form of social trading whereby your account is connected to the master account of a trader. When he or she opens up a position, the same is opened in your account. This is the ultimate copy trading for beginners solution because it removes the emotional stress and complexity of making manual decisions.
                  </p>
@@ -114,7 +114,7 @@ export default function CopyTrading() {
                       Unlike traditional investment funds, a social trading platform puts you in complete control: You can start or stop copying at any time, adjust your risk settings, or even close individual trades manually. 
                     </p>
                     <div className="h-[1px] w-full bg-white/10"></div>
-                    <p className="text-purple-400 text-xs font-bold italic">
+                    <p className="text-purple-400 text-xs font-normal italic">
                       Highly flexible, this copy trading forex platform experience takes the power of institutional-grade expertise down to your personal dashboard level.
                     </p>
                  </div>
@@ -128,8 +128,8 @@ export default function CopyTrading() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 text-center space-y-4">
-            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase italic leading-tight">Why Choose Fxcelite for <br/> Forex Copy Trading?</h2>
-            <p className="text-pink-500 text-sm font-bold uppercase tracking-[0.2em]">Speed meets verification</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">Why Choose FXCELITE for <br/> Forex Copy Trading?</h2>
+            <p className="text-pink-500 text-sm font-normal uppercase tracking-[0.2em]">Speed meets verification</p>
             <p className="text-slate-500 text-base max-w-2xl mx-auto font-light">We have developed the best copy trading platform by focusing on execution speed and trader verification.</p>
           </div>
 
@@ -145,7 +145,7 @@ export default function CopyTrading() {
                 <div className="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center text-purple-400 mb-5 group-hover:bg-purple-500 group-hover:text-black transition-all">
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-base font-bold text-white mb-2 uppercase tracking-tight leading-tight italic">{item.title}</h3>
+                <h3 className="text-base font-normal text-white mb-2 uppercase tracking-tight leading-tight italic">{item.title}</h3>
                 <p className="text-slate-500 text-xs leading-relaxed font-medium">{item.desc}</p>
               </div>
             ))}
@@ -157,7 +157,7 @@ export default function CopyTrading() {
       <section className="py-24 border-y border-white/5 bg-[#0a0118]">
         <div className="max-w-5xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight mb-4 uppercase">Copy vs. Manual</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight mb-4 uppercase">Copy vs. Manual</h2>
             <p className="text-slate-500 text-base font-medium leading-relaxed italic">Choosing between copy trading vs manual trading depends on your lifestyle and goals.</p>
           </div>
 
@@ -165,9 +165,9 @@ export default function CopyTrading() {
             <table className="w-full text-left border-collapse min-w-[600px]">
               <thead>
                 <tr className="bg-purple-900/20">
-                  <th className="p-6 text-sm font-bold text-white uppercase italic tracking-widest border-b border-white/10">Feature</th>
-                  <th className="p-6 text-sm font-bold text-purple-400 uppercase italic tracking-widest border-b border-white/10 bg-purple-500/5">Copy Trading</th>
-                  <th className="p-6 text-sm font-bold text-slate-500 uppercase italic tracking-widest border-b border-white/10">Manual Trading</th>
+                  <th className="p-6 text-sm font-normal text-white uppercase italic tracking-widest border-b border-white/10">Feature</th>
+                  <th className="p-6 text-sm font-normal text-purple-400 uppercase italic tracking-widest border-b border-white/10 bg-purple-500/5">Copy Trading</th>
+                  <th className="p-6 text-sm font-normal text-slate-500 uppercase italic tracking-widest border-b border-white/10">Manual Trading</th>
                 </tr>
               </thead>
               <tbody className="text-sm md:text-base">
@@ -179,8 +179,8 @@ export default function CopyTrading() {
                   { f: "Learning Curve", c: "Fast (Learn by Watching)", m: "Steep (Months/Years to Master)" }
                 ].map((row, i) => (
                   <tr key={i} className="group hover:bg-white/[0.02] transition-colors">
-                    <td className="p-6 font-bold text-slate-300 border-b border-white/5">{row.f}</td>
-                    <td className="p-6 font-bold text-white border-b border-white/5 bg-purple-500/[0.02] group-hover:text-purple-400 transition-colors">{row.c}</td>
+                    <td className="p-6 font-normal text-slate-300 border-b border-white/5">{row.f}</td>
+                    <td className="p-6 font-normal text-white border-b border-white/5 bg-purple-500/[0.02] group-hover:text-purple-400 transition-colors">{row.c}</td>
                     <td className="p-6 font-medium text-slate-500 border-b border-white/5">{row.m}</td>
                   </tr>
                 ))}
@@ -197,7 +197,7 @@ export default function CopyTrading() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-8 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase leading-tight italic">Key Features of the <br/> Fxcelite Copy Platform</h2>
+                 <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase leading-tight italic">Key Features of the <br/> FXCELITE Copy Platform</h2>
                  <p className="text-base text-slate-500 italic leading-relaxed font-light">
                    Our automatic copy trading environment is packed with tools to help you succeed.
                  </p>
@@ -215,7 +215,7 @@ export default function CopyTrading() {
                       <div className="w-10 h-10 rounded-xl bg-purple-500/10 flex items-center justify-center text-purple-400 mb-5 border border-white/10 group-hover:scale-110 transition-transform">
                         {React.cloneElement(feature.icon, { size: 20 })}
                       </div>
-                      <h4 className="text-lg font-bold text-white mb-2 uppercase tracking-tight">{feature.t}</h4>
+                      <h4 className="text-lg font-normal text-white mb-2 uppercase tracking-tight">{feature.t}</h4>
                       <p className="text-slate-400 text-sm leading-relaxed font-light">{feature.d}</p>
                    </div>
                  ))}
@@ -227,17 +227,17 @@ export default function CopyTrading() {
                   <div className="absolute top-0 right-0 p-8 opacity-[0.03] group-hover:scale-110 transition-transform duration-1000">
                     <Rocket size={120} />
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-6 tracking-tight uppercase relative z-10">Social Power</h3>
+                  <h3 className="text-2xl font-normal text-white mb-6 tracking-tight uppercase relative z-10">Social Power</h3>
                   <div className="space-y-6 relative z-10">
-                     <p className="text-base text-purple-400 font-bold leading-tight italic">
+                     <p className="text-base text-purple-400 font-normal leading-tight italic">
                        Experience the power of social trading. Open a Demo Account to test the copy platform with virtual funds first.
                      </p>
                      <div className="space-y-4 text-sm text-slate-500 leading-relaxed font-light italic">
                         <p>Learn from how professional traders manage their trades while earning proportionally.</p>
                      </div>
                      <button 
-                        onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                        className="w-full py-4 rounded-2xl bg-white text-black font-bold hover:bg-purple-500 hover:text-white transition-all text-base shadow-lg">
+                        onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                        className="w-full py-4 rounded-2xl bg-white text-black font-normal hover:bg-purple-500 hover:text-white transition-all text-base shadow-lg">
                         Open a Demo Account
                      </button>
                   </div>
@@ -251,25 +251,25 @@ export default function CopyTrading() {
       <section className="py-24 bg-black relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase italic leading-tight">How to Trade Forex <br/> Using Copy Trading</h2>
-            <p className="text-purple-400 text-sm font-bold uppercase tracking-[0.2em]">A simple 4-step process</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">How to Trade Forex <br/> Using Copy Trading</h2>
+            <p className="text-purple-400 text-sm font-normal uppercase tracking-[0.2em]">A simple 4-step process</p>
           </div>
 
           <div className="grid lg:grid-cols-4 gap-8">
             {[
-              { n: "01", t: "Join Fxcelite", d: "Register for a Standard Account.", icon: <Search /> },
+              { n: "01", t: "Join FXCELITE", d: "Register for a Standard Account.", icon: <Search /> },
               { n: "02", t: "Browse Masters", d: "Go to our Social Platform section and study the leaderboard.", icon: <Eye /> },
               { n: "03", t: "Allocate Funds", d: "Decide the amount you want to invest in a particular trader.", icon: <Target /> },
               { n: "04", t: "Activate", d: "Simply click 'Copy' and watch your platform spring to life!", icon: <Play /> },
             ].map((step, i) => (
               <div key={i} className="group relative p-8 rounded-3xl bg-white/[0.02] border border-white/5 hover:border-pink-500/40 transition-all duration-500 text-center mt-6 lg:mt-0">
-                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-black border border-purple-500/20 flex items-center justify-center font-bold text-purple-500 text-sm group-hover:bg-purple-500 group-hover:text-black transition-all">
+                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-black border border-purple-500/20 flex items-center justify-center font-normal text-purple-500 text-sm group-hover:bg-purple-500 group-hover:text-black transition-all">
                     {step.n}
                  </div>
                  <div className="w-14 h-14 rounded-full bg-purple-500/5 text-purple-500 flex items-center justify-center mx-auto mb-6 border border-purple-500/10 group-hover:scale-110 transition-transform shadow-[0_0_20px_-5px_rgba(168,85,247,0.3)] mt-2">
                    {React.cloneElement(step.icon, { size: 24 })}
                  </div>
-                 <h4 className="text-lg font-bold text-white mb-3 tracking-tight leading-tight uppercase italic">{step.t}</h4>
+                 <h4 className="text-lg font-normal text-white mb-3 tracking-tight leading-tight uppercase italic">{step.t}</h4>
                  <p className="text-sm text-slate-500 leading-relaxed font-medium">{step.d}</p>
               </div>
             ))}
@@ -290,7 +290,7 @@ export default function CopyTrading() {
                       <div className="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center text-purple-400 border border-purple-500/20">
                          <Lock size={24} />
                       </div>
-                      <h2 className="text-2xl font-bold text-white tracking-tight uppercase italic underline decoration-purple-500 decoration-4 underline-offset-[8px]">Security & Transparency</h2>
+                      <h2 className="text-2xl font-normal text-white tracking-tight uppercase italic underline decoration-purple-500 decoration-4 underline-offset-[8px]">Security & Transparency</h2>
                    </div>
                    <div className="text-base text-slate-400 leading-relaxed font-light italic space-y-4">
                       <p>Trust is the key on which our best copy trading platform for forex is built. We guarantee that your money is never sent to your master trader. The money is always yours, and it is still in your own secure account.</p>
@@ -301,8 +301,8 @@ export default function CopyTrading() {
 
              <div className="space-y-10 lg:p-8">
                 <div className="space-y-4">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic leading-tight">Who is Copy <br/> Trading For?</h2>
-                  <p className="text-purple-400 font-bold uppercase tracking-[0.2em] text-xs">Diversification for every investor</p>
+                  <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic leading-tight">Who is Copy <br/> Trading For?</h2>
+                  <p className="text-purple-400 font-normal uppercase tracking-[0.2em] text-xs">Diversification for every investor</p>
                 </div>
                 <div className="grid gap-5">
                    {[
@@ -316,7 +316,7 @@ export default function CopyTrading() {
                          {React.cloneElement(item.icon, { size: 20 })}
                        </div>
                        <div>
-                         <span className="text-white text-base font-bold uppercase tracking-tight italic">{item.l}</span>
+                         <span className="text-white text-base font-normal uppercase tracking-tight italic">{item.l}</span>
                          <p className="text-slate-500 text-sm font-light mt-1">{item.d}</p>
                        </div>
                      </div>
@@ -330,20 +330,20 @@ export default function CopyTrading() {
       {/* --- FINALE: SOCIAL EXPLOSION --- */}
       <section className="py-24 bg-[#050110] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic">Why Fxcelite is the Best <br/> Copy Trading Choice?</h2>
+           <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic">Why FXCELITE is the Best <br/> Copy Trading Choice?</h2>
            <p className="text-base md:text-lg text-slate-400 leading-relaxed font-light italic">
-             With a focus on automatic forex copy trading and a platform designed with the speed of modern markets in mind, Fxcelite is the best platform for those who understand the value of results. We pride ourselves on being a secure and profitable social environment.
+             With a focus on automatic forex copy trading and a platform designed with the speed of modern markets in mind, FXCELITE is the best platform for those who understand the value of results. We pride ourselves on being a secure and profitable social environment.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                  className="relative px-12 py-5 rounded-2xl bg-white text-black font-bold text-lg transition-all shadow-[0_20px_60px_-15px_rgba(168,85,247,0.4)] hover:-translate-y-1">
+                  onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                  className="relative px-12 py-5 rounded-2xl bg-white text-black font-normal text-lg transition-all shadow-[0_20px_60px_-15px_rgba(168,85,247,0.4)] hover:-translate-y-1">
                   Start Copy Trading Today
                 </button>
               </div>
-              <p className="text-purple-400 font-bold uppercase tracking-[0.3em] text-xs italic">Let the pros do the work. Elevate your portfolio!</p>
+              <p className="text-purple-400 font-normal uppercase tracking-[0.3em] text-xs italic">Let the pros do the work. Elevate your portfolio!</p>
            </div>
         </div>
       </section>
@@ -352,7 +352,7 @@ export default function CopyTrading() {
       <section className="py-24 border-t border-white/5 bg-black">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic">Social FAQ</h2>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic">Social FAQ</h2>
             <p className="text-slate-500 font-medium uppercase tracking-widest text-sm italic">Copy Trading Knowledge Base</p>
           </div>
           
@@ -367,7 +367,7 @@ export default function CopyTrading() {
               { q: "7. Can I copy more than one trader?", a: "Yes, for sure! We encourage you to follow multiple experts on our Forex Social Trading Platform in order to diversify your risk." },
               { q: "8. What if the master trader loses money?", a: "Since the trades are mirrored, when a master trader loses, the follower does so proportionally, too. That is why the setting of limits is important." },
               { q: "9. Do I have to keep my computer on all the time?", a: "No, our copy trading platform is cloud-based. After you click copy, it will work 24/7 even if your device is off." },
-              { q: "10. How to Choose the Best Forex Copy Trading Platform", a: "Look for transparency, fast execution, and a large pool of verified traders. All these are possible with Fxcelite." },
+              { q: "10. How to Choose the Best Forex Copy Trading Platform", a: "Look for transparency, fast execution, and a large pool of verified traders. All these are possible with FXCELITE." },
             ].map((faq, i) => (
               <FaqItem key={i} question={faq.q} answer={faq.a} />
             ))}
@@ -390,7 +390,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors uppercase italic ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors uppercase italic ${isOpen ? 'text-white' : 'text-slate-300 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex shrink-0 items-center justify-center transition-all duration-300 ml-4 ${

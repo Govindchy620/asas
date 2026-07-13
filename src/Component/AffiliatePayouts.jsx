@@ -19,7 +19,7 @@ export default function AffiliatePayouts() {
 
             {/* HOW IT WORKS */}
             <div>
-              <h3 className="text-lg font-bold text-white mb-4">
+              <h3 className="text-lg font-normal text-white mb-4">
                 How the Affiliate Payouts work:
               </h3>
 

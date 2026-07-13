@@ -46,10 +46,10 @@ export default function Savings() {
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-amber-500/30 bg-amber-500/10 backdrop-blur-xl mb-8 animate-fade-in">
             <Sun size={14} className="text-amber-400" />
-            <span className="text-xs font-bold uppercase tracking-[0.3em] text-amber-400 italic">Financial Growth Ecosystem v14.0</span>
+            <span className="text-xs font-normal uppercase tracking-[0.3em] text-amber-400 italic">Financial Growth Ecosystem v14.0</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6">
+          <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6">
             Forex <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-white to-emerald-200 italic uppercase">Savings</span>
           </h1>
           
@@ -61,19 +61,19 @@ export default function Savings() {
              <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:scale-110 transition-transform">
                <Sprout size={80} className="text-emerald-400" />
              </div>
-             In the trading world, timing is everything. Sometimes it might be better to just stay out of the market and wait for the perfect setup. Fxcelite is of the opinion that your capital shouldn't be idle at any time. It is possible to earn interest on trading balance funds that aren't currently committed to an open position through our forex savings account feature. For those who want to combine the high growth potential of trading actively with the safety of a traditional savings model, it is the perfect online trading savings account.
+             In the trading world, timing is everything. Sometimes it might be better to just stay out of the market and wait for the perfect setup. FXCELITE is of the opinion that your capital shouldn't be idle at any time. It is possible to earn interest on trading balance funds that aren't currently committed to an open position through our forex savings account feature. For those who want to combine the high growth potential of trading actively with the safety of a traditional savings model, it is the perfect online trading savings account.
           </div>
 
           <div className="flex flex-col items-center gap-6">
             <div className="relative group">
               <div className="absolute -inset-2 bg-gradient-to-r from-amber-600 to-emerald-600 rounded-3xl blur opacity-40 group-hover:opacity-80 transition duration-1000"></div>
               <button
-                onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                className="relative px-10 py-4 bg-white text-black font-bold text-base md:text-lg rounded-2xl transition-all hover:scale-[1.03] active:scale-95 shadow-xl uppercase tracking-tight italic flex items-center gap-2">
+                onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                className="relative px-10 py-4 bg-white text-black font-normal text-base md:text-lg rounded-2xl transition-all hover:scale-[1.03] active:scale-95 shadow-xl uppercase tracking-tight italic flex items-center gap-2">
                 Activate Your Savings Feature <Sparkles size={20} className="ml-2 text-amber-600" />
               </button>
             </div>
-            <p className="text-amber-400 text-sm font-bold uppercase tracking-[0.2em] italic animate-pulse">
+            <p className="text-amber-400 text-sm font-normal uppercase tracking-[0.2em] italic animate-pulse">
               Make your money work 24/7. Start earning interest today!
             </p>
           </div>
@@ -86,13 +86,13 @@ export default function Savings() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
                <div className="space-y-6">
-                 <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight leading-tight italic border-l-4 border-amber-500 pl-4">What is a Trading <br/> Savings Account?</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white uppercase tracking-tight leading-tight italic border-l-4 border-amber-500 pl-4">What is a Trading <br/> Savings Account?</h2>
                  <div className="space-y-6 text-base text-white/90 leading-relaxed font-light italic">
                    <p>
                      Turning on the savings account for traders will allow you to pay a steady return on your free margin. This isn't merely a trading platform; it's a passive income trading account where your "resting" money becomes an "active" asset, and you keep earning money whether you are in a trading position or not.
                    </p>
                    <p className="text-white font-medium italic bg-white/10 p-6 border-r-2 border-emerald-500 rounded-xl shadow-lg">
-                     A trading savings account with Fxcelite is a unique aspect of your Live Account where the interest is calculated on your "Free Margin." A trading forex account with interest is tailored for traders with large liquidity, as it is quite the opposite of what you get in a conventional bank account.
+                     A trading savings account with FXCELITE is a unique aspect of your Live Account where the interest is calculated on your "Free Margin." A trading forex account with interest is tailored for traders with large liquidity, as it is quite the opposite of what you get in a conventional bank account.
                    </p>
                    <p>
                      The explanation of this savings trading account feature is quite straightforward: if your money in the account has not been used for margin, it earns interest every day. Hence, you get a trading account featuring daily returns, as the interest is directly credited to your balance, thus increasing your buying power.
@@ -119,7 +119,7 @@ export default function Savings() {
                       <div className="p-2 rounded-lg bg-amber-500/20">
                         <RefreshCw size={18} className="text-amber-400 animate-spin-slow" />
                       </div>
-                      <span className="text-amber-400 font-bold uppercase tracking-widest text-[10px] font-mono">Daily Yield Accrual Node Active</span>
+                      <span className="text-amber-400 font-normal uppercase tracking-widest text-[10px] font-mono">Daily Yield Accrual Node Active</span>
                     </div>
                  </div>
                </div>
@@ -132,8 +132,8 @@ export default function Savings() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 text-center space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Why Use an Online <br/> Trading Savings Account?</h2>
-            <p className="text-amber-400 text-sm font-bold uppercase tracking-[0.2em]">A Safety Net and a Growth Engine</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">Why Use an Online <br/> Trading Savings Account?</h2>
+            <p className="text-amber-400 text-sm font-normal uppercase tracking-[0.2em]">A Safety Net and a Growth Engine</p>
             <p className="text-white/80 text-base max-w-2xl mx-auto font-light leading-relaxed italic pt-4">
               To a disciplined investor, a forex savings account acts as both a safety net and a growth engine.
             </p>
@@ -152,7 +152,7 @@ export default function Savings() {
                 <div className="w-12 h-12 rounded-xl bg-amber-500/20 flex items-center justify-center text-amber-400 mb-6 border border-white/20 group-hover:scale-110 group-hover:bg-amber-400 group-hover:text-black transition-all">
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3 tracking-tight leading-tight uppercase italic">{item.title}</h3>
+                <h3 className="text-lg font-normal text-white mb-3 tracking-tight leading-tight uppercase italic">{item.title}</h3>
                 <p className="text-white/80 text-sm leading-relaxed font-light italic">{item.desc}</p>
                 {item.title === "Compound Growth" && (
                    <div className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -172,7 +172,7 @@ export default function Savings() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-8 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-emerald-500 decoration-4 underline-offset-[8px]">Key Features of <br/> the Savings Account</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic underline decoration-emerald-500 decoration-4 underline-offset-[8px]">Key Features of <br/> the Savings Account</h2>
                  <p className="text-base text-white/80 italic leading-relaxed font-light max-w-2xl pt-4">
                    Our passive income trading accounts are designed to give institutional-quality yields to retail investors.
                  </p>
@@ -190,7 +190,7 @@ export default function Savings() {
                       <div className="w-12 h-12 rounded-xl bg-amber-500/20 flex items-center justify-center text-amber-400 mb-5 border border-white/20 group-hover:scale-110 transition-transform">
                         {React.cloneElement(feature.icon, { size: 24 })}
                       </div>
-                      <h4 className="text-base font-bold text-white mb-2 uppercase tracking-tight italic leading-tight">{feature.t}</h4>
+                      <h4 className="text-base font-normal text-white mb-2 uppercase tracking-tight italic leading-tight">{feature.t}</h4>
                       <p className="text-white/80 text-sm leading-relaxed font-light italic">{feature.d}</p>
                    </div>
                  ))}
@@ -202,17 +202,17 @@ export default function Savings() {
                   <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:scale-110 transition-transform duration-1000">
                     <PieChart size={100} className="text-amber-400" />
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-6 tracking-tight uppercase border-b border-white/20 pb-4 italic">Growth Node</h3>
+                  <h3 className="text-xl font-normal text-white mb-6 tracking-tight uppercase border-b border-white/20 pb-4 italic">Growth Node</h3>
                   <div className="space-y-6 relative z-10">
-                     <p className="text-base text-amber-400 font-bold leading-tight italic">
+                     <p className="text-base text-amber-400 font-normal leading-tight italic">
                        Why settle for zero? Open a Live Account and turn your account into a high-yield savings engine.
                      </p>
                      <div className="text-sm text-white/80 leading-relaxed font-light italic">
                         <p>Resting capital is now an active asset. Secure your future with institutional-grade yields.</p>
                      </div>
                      <button 
-                        onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                        className="w-full py-4 rounded-xl bg-white text-black font-bold hover:bg-amber-400 transition-all text-sm shadow-xl shadow-amber-500/20 uppercase tracking-tight italic">
+                        onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                        className="w-full py-4 rounded-xl bg-white text-black font-normal hover:bg-amber-400 transition-all text-sm shadow-xl shadow-amber-500/20 uppercase tracking-tight italic">
                         Open a Live Account
                      </button>
                   </div>
@@ -226,8 +226,8 @@ export default function Savings() {
       <section className="py-24 relative bg-black">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">How to Earn Daily <br/> Interest on Your Account</h2>
-            <p className="text-amber-400 text-sm font-bold uppercase tracking-[0.2em] font-mono">Establishment Sequence</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">How to Earn Daily <br/> Interest on Your Account</h2>
+            <p className="text-amber-400 text-sm font-normal uppercase tracking-[0.2em] font-mono">Establishment Sequence</p>
             <p className="text-white/80 text-base font-light italic pt-2">Establishing your passive income trading account is a smooth process:</p>
           </div>
 
@@ -242,13 +242,13 @@ export default function Savings() {
               { n: "04", t: "Daily Payout", d: "Earn interest paid directly into your account daily.", icon: <RefreshCw /> },
             ].map((step, i) => (
               <div key={i} className="group relative p-6 rounded-3xl bg-white/[0.05] border border-white/10 hover:border-amber-500/50 transition-all duration-500 text-center shadow-xl mt-8 lg:mt-0">
-                 <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 bg-black border-2 border-amber-500/50 flex items-center justify-center font-bold text-amber-400 text-lg group-hover:bg-amber-400 group-hover:text-black transition-all rounded-full">
+                 <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 bg-black border-2 border-amber-500/50 flex items-center justify-center font-normal text-amber-400 text-lg group-hover:bg-amber-400 group-hover:text-black transition-all rounded-full">
                     {step.n}
                  </div>
                  <div className="w-14 h-14 bg-amber-500/20 text-amber-400 flex items-center justify-center mx-auto mb-6 border border-white/20 group-hover:scale-110 transition-transform rounded-xl mt-4">
                    {React.cloneElement(step.icon, { size: 24 })}
                  </div>
-                 <h4 className="text-lg font-bold text-white mb-2 tracking-tight leading-tight uppercase italic">{step.t}</h4>
+                 <h4 className="text-lg font-normal text-white mb-2 tracking-tight leading-tight uppercase italic">{step.t}</h4>
                  <p className="text-sm text-white/80 leading-relaxed font-light italic">{step.d}</p>
               </div>
             ))}
@@ -260,8 +260,8 @@ export default function Savings() {
       <section className="py-24 bg-[#001c16] border-y border-white/10 relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-             <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-amber-500 decoration-4 underline-offset-[8px]">Yield Advantage</h2>
-             <p className="text-white/80 text-sm font-bold uppercase tracking-[0.2em] italic pt-4">Savings Account vs. Traditional Banks</p>
+             <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic underline decoration-amber-500 decoration-4 underline-offset-[8px]">Yield Advantage</h2>
+             <p className="text-white/80 text-sm font-normal uppercase tracking-[0.2em] italic pt-4">Savings Account vs. Traditional Banks</p>
              <p className="text-white/70 text-base font-light italic max-w-2xl mx-auto">When you choose the best forex savings account, the benefits far outweigh traditional banking.</p>
           </div>
 
@@ -269,9 +269,9 @@ export default function Savings() {
             <table className="w-full text-left border-collapse min-w-[600px]">
               <thead>
                 <tr className="bg-amber-900/40">
-                  <th className="p-5 text-sm font-bold text-white uppercase italic tracking-widest border-b border-white/20">Feature</th>
-                  <th className="p-5 text-sm font-bold text-amber-400 uppercase italic tracking-widest border-b border-white/20 bg-amber-500/10">Fxcelite Savings</th>
-                  <th className="p-5 text-sm font-bold text-white/80 uppercase italic tracking-widest border-b border-white/20">Bank Savings</th>
+                  <th className="p-5 text-sm font-normal text-white uppercase italic tracking-widest border-b border-white/20">Feature</th>
+                  <th className="p-5 text-sm font-normal text-amber-400 uppercase italic tracking-widest border-b border-white/20 bg-amber-500/10">FXCELITE Savings</th>
+                  <th className="p-5 text-sm font-normal text-white/80 uppercase italic tracking-widest border-b border-white/20">Bank Savings</th>
                 </tr>
               </thead>
               <tbody className="text-sm md:text-base font-light italic">
@@ -283,8 +283,8 @@ export default function Savings() {
                   { f: "Purpose", c: "Growth + Trading Power", m: "Static Storage" }
                 ].map((row, i) => (
                   <tr key={i} className="group hover:bg-white/10 transition-colors border-b border-white/10 last:border-0">
-                    <td className="p-5 font-bold text-white/90 uppercase tracking-tight">{row.f}</td>
-                    <td className="p-5 font-bold text-white bg-amber-500/[0.05] group-hover:text-amber-300 transition-colors">{row.c}</td>
+                    <td className="p-5 font-normal text-white/90 uppercase tracking-tight">{row.f}</td>
+                    <td className="p-5 font-normal text-white bg-amber-500/[0.05] group-hover:text-amber-300 transition-colors">{row.c}</td>
                     <td className="p-5 font-medium text-white/70">{row.m}</td>
                   </tr>
                 ))}
@@ -307,7 +307,7 @@ export default function Savings() {
                       <div className="w-14 h-14 rounded-2xl bg-amber-500/20 flex items-center justify-center text-amber-400 border border-amber-500/50 group-hover:bg-amber-500 group-hover:text-black transition-all duration-500">
                          <Lock size={24} />
                       </div>
-                      <h2 className="text-2xl font-bold text-white tracking-tight uppercase italic">Security & <br/> Transparency</h2>
+                      <h2 className="text-2xl font-normal text-white tracking-tight uppercase italic">Security & <br/> Transparency</h2>
                    </div>
                    <div className="text-base text-white/90 leading-relaxed font-light italic space-y-6">
                       <p>We realize that earning passive income with features of a forex trading account involves trust.</p>
@@ -320,8 +320,8 @@ export default function Savings() {
 
              <div className="space-y-10 lg:p-8">
                 <div className="space-y-4">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic leading-tight">Who is <br/> This For?</h2>
-                  <p className="text-amber-400 font-bold uppercase tracking-[0.2em] text-xs font-mono">Institutional Yield Profiles</p>
+                  <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic leading-tight">Who is <br/> This For?</h2>
+                  <p className="text-amber-400 font-normal uppercase tracking-[0.2em] text-xs font-mono">Institutional Yield Profiles</p>
                 </div>
                 <div className="grid gap-4">
                    {[
@@ -335,7 +335,7 @@ export default function Savings() {
                          {React.cloneElement(item.icon, { size: 20 })}
                        </div>
                        <div>
-                         <span className="text-white text-lg font-bold uppercase tracking-tight italic">{item.l}</span>
+                         <span className="text-white text-lg font-normal uppercase tracking-tight italic">{item.l}</span>
                          <p className="text-white/80 text-sm font-light leading-relaxed italic mt-1">{item.d}</p>
                        </div>
                      </div>
@@ -349,21 +349,21 @@ export default function Savings() {
       {/* --- SECTION 7: FINAL CTA (OASIS GATE) --- */}
       <section className="py-24 bg-[#011a15] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic underline decoration-amber-500 decoration-4 underline-offset-[8px]">Wealth Evolution</h2>
+           <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic underline decoration-amber-500 decoration-4 underline-offset-[8px]">Wealth Evolution</h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto">
-             With our trading account and daily returns, at Fxcelite, we offer the best forex savings accounts for traders. We don't just offer a place to trade, but a place to grow your entire financial ecosystem.
+             With our trading account and daily returns, at FXCELITE, we offer the best forex savings accounts for traders. We don't just offer a place to trade, but a place to grow your entire financial ecosystem.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
                 <div className="absolute -inset-2 bg-amber-500 rounded-3xl blur-xl opacity-40 group-hover:opacity-80 transition duration-1000"></div>
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                  className="relative px-12 py-5 bg-white text-black font-bold text-lg rounded-2xl transition-all shadow-xl uppercase tracking-tight italic hover:-translate-y-1">
+                  onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                  className="relative px-12 py-5 bg-white text-black font-normal text-lg rounded-2xl transition-all shadow-xl uppercase tracking-tight italic hover:-translate-y-1">
                   Deposit Funds
                 </button>
               </div>
               <div className="space-y-4">
-                <p className="text-amber-400 font-bold uppercase tracking-[0.2em] text-xs italic font-mono">Stop leaving money on the table. Start earning today!</p>
+                <p className="text-amber-400 font-normal uppercase tracking-[0.2em] text-xs italic font-mono">Stop leaving money on the table. Start earning today!</p>
                 <div className="flex justify-center gap-2">
                    <div className="w-8 h-[2px] bg-white/20"></div>
                    <div className="w-16 h-[2px] bg-amber-500 animate-pulse"></div>
@@ -378,8 +378,8 @@ export default function Savings() {
       <section className="py-24 border-t border-white/10 bg-black">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic underline decoration-emerald-500 decoration-4 underline-offset-[8px]">Savings FAQ</h2>
-            <p className="text-white/80 font-bold uppercase tracking-widest text-sm italic font-mono pt-4">Growth Knowledge Base</p>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic underline decoration-emerald-500 decoration-4 underline-offset-[8px]">Savings FAQ</h2>
+            <p className="text-white/80 font-normal uppercase tracking-widest text-sm italic font-mono pt-4">Growth Knowledge Base</p>
           </div>
           
           <div className="space-y-4">
@@ -416,7 +416,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-white/90 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-white/90 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex shrink-0 items-center justify-center transition-all duration-500 ml-4 ${

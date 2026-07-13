@@ -180,7 +180,7 @@ export default function Navbar() {
   {/* Logo Image */}
   <img
     src={logo}
-    alt="Fxcelite Logo"
+    alt="FXCELITE Logo"
     className="w-36 h-36 object-contain"
   />
 </div>
@@ -245,7 +245,7 @@ export default function Navbar() {
 
               {/* LOGIN */}
               <button
-                onClick={() => navTo("https://trade.fxcelite.com/login")}
+                onClick={() => navTo("https://trade.FXCELITE.com/login")}
                 className="hidden sm:flex text-sm text-slate-300 hover:text-white items-center gap-1"
               >
                 Log in <ExternalLink size={14} />
@@ -306,7 +306,7 @@ export default function Navbar() {
             {/* Mobile CTA */}
             <div className="pt-4 space-y-3">
               <button
-                onClick={() => navTo("https://trade.fxcelite.com/login")}
+                onClick={() => navTo("https://trade.FXCELITE.com/login")}
                 className="w-full py-3 border border-white/10 rounded-lg text-white"
               >
                 Log in

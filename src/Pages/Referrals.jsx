@@ -55,10 +55,10 @@ export default function Referrals() {
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-orange-500/30 bg-orange-500/10 backdrop-blur-xl mb-8 animate-fade-in">
             <Share2 size={14} className="text-orange-400" />
-            <span className="text-xs font-bold uppercase tracking-[0.3em] text-orange-400 italic">Social Reward Protocol v16.0</span>
+            <span className="text-xs font-normal uppercase tracking-[0.3em] text-orange-400 italic">Social Reward Protocol v16.0</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6">
+          <h1 className="text-4xl md:text-6xl font-normal text-white leading-[1.1] tracking-tight mb-6">
             Trading <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-white to-orange-600 italic uppercase">Referrals</span>
           </h1>
           
@@ -70,19 +70,19 @@ export default function Referrals() {
              <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:scale-110 transition-transform">
                <Users size={80} className="text-orange-400" />
              </div>
-             Our philosophy at Fxcelite centers around the idea that a fantastic trading experience is always more enjoyable when shared. Hence, our trading referrals program has been put together as an expression of thanks to people who introduce their friends and network to the excellent trading environment of Fxcelite. You can be an active trader or a social influencer, either way, our forex referral program is an easy and clear way for you to make some extra money while at the same time helping others get institutional-grade liquidity and advanced technology.
+             Our philosophy at FXCELITE centers around the idea that a fantastic trading experience is always more enjoyable when shared. Hence, our trading referrals program has been put together as an expression of thanks to people who introduce their friends and network to the excellent trading environment of FXCELITE. You can be an active trader or a social influencer, either way, our forex referral program is an easy and clear way for you to make some extra money while at the same time helping others get institutional-grade liquidity and advanced technology.
           </div>
 
           <div className="flex flex-col items-center gap-6">
             <div className="relative group">
               <div className="absolute -inset-2 bg-gradient-to-r from-orange-600 to-amber-600 rounded-2xl blur opacity-40 group-hover:opacity-80 transition duration-1000"></div>
               {/* <button 
-                onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                className="relative px-10 py-4 bg-white text-black font-bold text-base md:text-lg rounded-xl transition-all hover:scale-[1.03] active:scale-95 shadow-xl uppercase tracking-tight italic flex items-center gap-2">
+                onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                className="relative px-10 py-4 bg-white text-black font-normal text-base md:text-lg rounded-xl transition-all hover:scale-[1.03] active:scale-95 shadow-xl uppercase tracking-tight italic flex items-center gap-2">
                 Get Your Referral Link <Sparkles size={20} className="ml-2 text-orange-600" />
               </button> */}
             </div>
-            <p className="text-orange-400 text-sm font-bold uppercase tracking-[0.2em] italic animate-pulse">
+            <p className="text-orange-400 text-sm font-normal uppercase tracking-[0.2em] italic animate-pulse">
               Good things are meant to be shared. Start earning today!
             </p>
           </div>
@@ -95,12 +95,12 @@ export default function Referrals() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
                <div className="space-y-6">
-                 <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight leading-tight italic border-l-4 border-orange-500 pl-4">Network <br/> Synergy</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white uppercase tracking-tight leading-tight italic border-l-4 border-orange-500 pl-4">Network <br/> Synergy</h2>
                  <div className="space-y-6 text-base text-white/80 leading-relaxed font-light italic">
                    <p>
-                     Instead of just sharing a link, when you refer and earn trading rewards at Fxcelite, you are basically giving your friends a membership at the global markets. The program is designed for everyone to get some benefit: your referrals obtain a Standard Account with premium features, and you gain referral rewards as trading commissions from their trades.
+                     Instead of just sharing a link, when you refer and earn trading rewards at FXCELITE, you are basically giving your friends a membership at the global markets. The program is designed for everyone to get some benefit: your referrals obtain a Standard Account with premium features, and you gain referral rewards as trading commissions from their trades.
                    </p>
-                   <div className="p-6 rounded-2xl bg-white/10 border-r-2 border-orange-500 backdrop-blur-xl text-white font-bold shadow-lg">
+                   <div className="p-6 rounded-2xl bg-white/10 border-r-2 border-orange-500 backdrop-blur-xl text-white font-normal shadow-lg">
                      <h3 className="text-xl font-black mb-3 uppercase tracking-tight">How the Program Works</h3>
                      <p className="text-sm font-medium text-white/90">
                        Our forex broker referral system is completely automated and embedded in your client portal. We have simplified the process allowing you to concentrate on generating word of mouth and increasing your income.
@@ -131,7 +131,7 @@ export default function Referrals() {
                       <div className="p-2 rounded-lg bg-orange-500/20">
                         <Network size={18} className="text-orange-400 animate-pulse" />
                       </div>
-                      <span className="text-orange-400 font-bold uppercase tracking-widest text-[10px] font-mono">Referral Node Active</span>
+                      <span className="text-orange-400 font-normal uppercase tracking-widest text-[10px] font-mono">Referral Node Active</span>
                     </div>
                  </div>
                </div>
@@ -144,10 +144,10 @@ export default function Referrals() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16 text-center space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Why Join the Best <br/> Forex Referral Program?</h2>
-            <p className="text-orange-400 text-sm font-bold uppercase tracking-[0.2em]">Continuous Rewards Platform</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">Why Join the Best <br/> Forex Referral Program?</h2>
+            <p className="text-orange-400 text-sm font-normal uppercase tracking-[0.2em]">Continuous Rewards Platform</p>
             <p className="text-white/80 text-base max-w-2xl mx-auto font-light leading-relaxed italic border-t border-white/10 pt-4 mt-4">
-              If you are looking to earn money with forex referrals, Fxcelite provides the most competitive and reliable platform in 2026.
+              If you are looking to earn money with forex referrals, FXCELITE provides the most competitive and reliable platform in 2026.
             </p>
           </div>
 
@@ -165,7 +165,7 @@ export default function Referrals() {
                 <div className="w-12 h-12 rounded-xl bg-orange-500/20 flex items-center justify-center text-orange-400 mb-5 border border-white/20 group-hover:scale-110 group-hover:bg-orange-500 group-hover:text-black transition-all">
                    {React.cloneElement(item.icon, { size: 24 })}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3 tracking-tight leading-tight uppercase italic">{item.title}</h3>
+                <h3 className="text-lg font-normal text-white mb-3 tracking-tight leading-tight uppercase italic">{item.title}</h3>
                 <p className="text-white/80 text-sm leading-relaxed font-light italic">{item.desc}</p>
               </div>
             ))}
@@ -180,7 +180,7 @@ export default function Referrals() {
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-8 space-y-10">
                <div className="space-y-4">
-                 <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-orange-500 decoration-4 underline-offset-[8px]">Key Features of <br/> the Referral Program</h2>
+                 <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic underline decoration-orange-500 decoration-4 underline-offset-[8px]">Key Features of <br/> the Referral Program</h2>
                  <p className="text-base text-white/80 italic leading-relaxed font-light max-w-2xl pt-4">
                    Our client referral trading program is packed with features to help you succeed as a partner:
                  </p>
@@ -198,7 +198,7 @@ export default function Referrals() {
                       <div className="w-10 h-10 rounded-lg bg-orange-500/20 flex items-center justify-center text-orange-400 mb-4 border border-white/20 group-hover:scale-110 transition-transform">
                         {React.cloneElement(feature.icon, { size: 20 })}
                       </div>
-                      <h4 className="text-base font-bold text-white mb-2 uppercase tracking-tight italic leading-tight">{feature.t}</h4>
+                      <h4 className="text-base font-normal text-white mb-2 uppercase tracking-tight italic leading-tight">{feature.t}</h4>
                       <p className="text-white/80 text-sm leading-relaxed font-light italic">{feature.d}</p>
                    </div>
                  ))}
@@ -210,17 +210,17 @@ export default function Referrals() {
                   <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:scale-110 transition-transform duration-1000">
                     <Award size={100} className="text-orange-400" />
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-6 tracking-tight uppercase border-b border-white/20 pb-4 italic">Rewards Hub</h3>
+                  <h3 className="text-xl font-normal text-white mb-6 tracking-tight uppercase border-b border-white/20 pb-4 italic">Rewards Hub</h3>
                   <div className="space-y-6 relative z-10">
-                     <p className="text-base text-orange-400 font-bold leading-tight italic">
+                     <p className="text-base text-orange-400 font-normal leading-tight italic">
                        Turn your social circle into a source of income. Login to Refer a Friend and see how much you can earn!
                      </p>
                      <div className="text-sm text-white/80 leading-relaxed font-light italic">
                         <p>Our program is built on mutual success. Referrals get premium access, you get commissions.</p>
                      </div>
                      <button 
-                        onClick={() => window.open('https://trade.fxcelite.com/login', '_blank')}
-                        className="w-full py-4 rounded-xl bg-white text-black font-bold hover:bg-orange-500 hover:text-white transition-all text-sm shadow-xl shadow-orange-500/20 uppercase tracking-tight italic">
+                        onClick={() => window.open('https://trade.FXCELITE.com/login', '_blank')}
+                        className="w-full py-4 rounded-xl bg-white text-black font-normal hover:bg-orange-500 hover:text-white transition-all text-sm shadow-xl shadow-orange-500/20 uppercase tracking-tight italic">
                         Login to Refer
                      </button>
                   </div>
@@ -234,8 +234,8 @@ export default function Referrals() {
       <section className="py-24 relative bg-black">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase italic leading-tight">Forex Referral <br/> Program Explained</h2>
-            <p className="text-orange-400 text-sm font-bold uppercase tracking-[0.2em] font-mono">Transmission Architecture</p>
+            <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase italic leading-tight">Forex Referral <br/> Program Explained</h2>
+            <p className="text-orange-400 text-sm font-normal uppercase tracking-[0.2em] font-mono">Transmission Architecture</p>
             <p className="text-white/80 text-base font-light italic pt-2">We believe in keeping things simple. The program explained in three core pillars:</p>
           </div>
 
@@ -246,13 +246,13 @@ export default function Referrals() {
               { n: "03", t: "Reward", d: "Your referral rewards go directly into your account balance to trade or withdraw.", icon: <DollarSign /> },
             ].map((step, i) => (
               <div key={i} className="group relative p-8 rounded-3xl bg-white/[0.05] border border-white/10 hover:border-orange-500/50 transition-all duration-500 text-center shadow-xl mt-6 lg:mt-0">
-                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-black border-2 border-orange-500/50 flex items-center justify-center font-bold text-white text-lg group-hover:bg-orange-500 group-hover:text-black transition-all shadow-[0_0_15px_#f97316]">
+                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-black border-2 border-orange-500/50 flex items-center justify-center font-normal text-white text-lg group-hover:bg-orange-500 group-hover:text-black transition-all shadow-[0_0_15px_#f97316]">
                     {step.n}
                  </div>
                  <div className="w-12 h-12 bg-orange-500/20 text-orange-400 flex items-center justify-center mx-auto mb-4 border border-white/20 group-hover:scale-110 transition-transform rounded-xl mt-2">
                    {React.cloneElement(step.icon, { size: 24 })}
                  </div>
-                 <h4 className="text-xl font-bold text-white mb-3 tracking-tight leading-tight uppercase italic">{step.t}</h4>
+                 <h4 className="text-xl font-normal text-white mb-3 tracking-tight leading-tight uppercase italic">{step.t}</h4>
                  <p className="text-sm text-white/80 leading-relaxed font-light italic">{step.d}</p>
               </div>
             ))}
@@ -264,14 +264,14 @@ export default function Referrals() {
       <section className="py-24 bg-[#020617] border-y border-white/10 relative overflow-hidden">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
-             <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight uppercase leading-tight italic underline decoration-orange-500 decoration-4 underline-offset-[8px]">How to Earn Money</h2>
-             <p className="text-white/90 text-sm font-bold uppercase tracking-[0.2em] italic pt-4">With Forex Referrals</p>
+             <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic underline decoration-orange-500 decoration-4 underline-offset-[8px]">How to Earn Money</h2>
+             <p className="text-white/90 text-sm font-normal uppercase tracking-[0.2em] italic pt-4">With Forex Referrals</p>
              <p className="text-white/80 text-base font-light italic max-w-2xl mx-auto">Getting started with our trading referrals program takes less than a minute:</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
              {[
-               { t: "Login", d: "Login to your Fxcelite secure portal.", icon: <Lock /> },
+               { t: "Login", d: "Login to your FXCELITE secure portal.", icon: <Lock /> },
                { t: "Get Link", d: "You will be able to copy your link from the referrals section.", icon: <Link2 /> },
                { t: "Share", d: "Forward this to your friends or post on social media.", icon: <Megaphone /> },
                { t: "Earn", d: "Get rewards for referring others after your friends begin trading.", icon: <DollarSign /> }
@@ -280,7 +280,7 @@ export default function Referrals() {
                   <div className="w-16 h-16 rounded-full bg-orange-500/20 flex items-center justify-center text-orange-400 border border-orange-500/50 group-hover:scale-110 transition-transform">
                      {React.cloneElement(item.icon, { size: 28 })}
                   </div>
-                  <h4 className="text-lg font-bold text-white uppercase italic">{item.t}</h4>
+                  <h4 className="text-lg font-normal text-white uppercase italic">{item.t}</h4>
                   <p className="text-white/80 text-sm font-light leading-relaxed italic">{item.d}</p>
                </div>
              ))}
@@ -301,7 +301,7 @@ export default function Referrals() {
                       <div className="w-12 h-12 rounded-xl bg-orange-500/20 flex items-center justify-center text-orange-400 border border-orange-500/50 group-hover:bg-orange-500 group-hover:text-white transition-all duration-500">
                          <Lock size={24} />
                       </div>
-                      <h2 className="text-2xl font-bold text-white tracking-tight uppercase italic">Security & <br/> Fairness</h2>
+                      <h2 className="text-2xl font-normal text-white tracking-tight uppercase italic">Security & <br/> Fairness</h2>
                    </div>
                    <div className="text-base text-white/90 leading-relaxed font-light italic space-y-6">
                       <p>For the best experience in a forex referral program, we have strict policies against fraud and fair play.</p>
@@ -314,8 +314,8 @@ export default function Referrals() {
 
              <div className="space-y-10 lg:p-8">
                 <div className="space-y-4 text-center lg:text-left">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic leading-tight">Who is the <br/> Program For?</h2>
-                  <p className="text-orange-400 font-bold uppercase tracking-[0.2em] text-xs font-mono">Referral Network Profiles</p>
+                  <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic leading-tight">Who is the <br/> Program For?</h2>
+                  <p className="text-orange-400 font-normal uppercase tracking-[0.2em] text-xs font-mono">Referral Network Profiles</p>
                 </div>
                 <div className="grid gap-4">
                    {[
@@ -329,7 +329,7 @@ export default function Referrals() {
                          {React.cloneElement(item.icon, { size: 20 })}
                        </div>
                        <div>
-                         <span className="text-white text-lg font-bold uppercase tracking-tight italic">{item.l}</span>
+                         <span className="text-white text-lg font-normal uppercase tracking-tight italic">{item.l}</span>
                          <p className="text-white/80 text-sm font-light leading-relaxed italic mt-1">{item.d}</p>
                        </div>
                      </div>
@@ -343,21 +343,21 @@ export default function Referrals() {
       {/* --- SECTION 7: FINAL CTA (SOLAR GATE) --- */}
       <section className="py-24 bg-[#020617] text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-           <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight uppercase leading-tight italic underline decoration-orange-500 decoration-4 underline-offset-[8px]">Top Choice</h2>
+           <h2 className="text-3xl md:text-5xl font-normal text-white tracking-tight uppercase leading-tight italic underline decoration-orange-500 decoration-4 underline-offset-[8px]">Top Choice</h2>
            <p className="text-base md:text-lg text-white/90 leading-relaxed font-light italic max-w-3xl mx-auto">
-             With our concentration on refer and earn trading simplicity and the most transparent tracking in the industry, Fxcelite presents the best forex referral program of 2026.
+             With our concentration on refer and earn trading simplicity and the most transparent tracking in the industry, FXCELITE presents the best forex referral program of 2026.
            </p>
            <div className="pt-6 flex flex-col items-center gap-6">
               <div className="relative group">
                 <div className="absolute -inset-2 bg-orange-500 rounded-2xl blur opacity-40 group-hover:opacity-80 transition duration-1000"></div>
                 <button 
-                  onClick={() => window.open('https://trade.fxcelite.com/register', '_blank')}
-                  className="relative px-12 py-5 bg-white text-black font-bold text-lg rounded-xl transition-all shadow-[0_15px_40px_-15px_rgba(249,115,22,0.5)] uppercase tracking-tight italic hover:-translate-y-1">
+                  onClick={() => window.open('https://trade.FXCELITE.com/register', '_blank')}
+                  className="relative px-12 py-5 bg-white text-black font-normal text-lg rounded-xl transition-all shadow-[0_15px_40px_-15px_rgba(249,115,22,0.5)] uppercase tracking-tight italic hover:-translate-y-1">
                   Generate Referral Link
                 </button>
               </div>
               <div className="space-y-4">
-                <p className="text-orange-400 font-bold uppercase tracking-[0.3em] text-xs italic font-mono">Join the most rewarding network in forex!</p>
+                <p className="text-orange-400 font-normal uppercase tracking-[0.3em] text-xs italic font-mono">Join the most rewarding network in forex!</p>
                 <div className="flex justify-center gap-3">
                    <div className="w-8 h-[2px] bg-white/20"></div>
                    <div className="w-16 h-[2px] bg-orange-500 animate-pulse"></div>
@@ -372,17 +372,17 @@ export default function Referrals() {
       <section className="py-24 border-t border-white/10 bg-black">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16 space-y-3">
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight uppercase italic underline decoration-orange-500 decoration-4 underline-offset-[8px]">Referral FAQ</h2>
-            <p className="text-white/80 font-bold uppercase tracking-widest text-sm italic font-mono pt-4">Knowledge Base Omicron-4</p>
+            <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight uppercase italic underline decoration-orange-500 decoration-4 underline-offset-[8px]">Referral FAQ</h2>
+            <p className="text-white/80 font-normal uppercase tracking-widest text-sm italic font-mono pt-4">Knowledge Base Omicron-4</p>
           </div>
           
           <div className="space-y-4">
             {[
-              { q: "1. What are trading referrals?", a: "It is a program where you get rewards for inviting new users to sign up and trade in the Fxcelite platform." },
+              { q: "1. What are trading referrals?", a: "It is a program where you get rewards for inviting new users to sign up and trade in the FXCELITE platform." },
               { q: "2. How much does it cost to join?", a: "Joining our forex broker referral system is absolutely free. All you need is an active account." },
               { q: "3. How much can I earn?", a: "It is issued according to the number of friends or their trading volume. There is usually no upper limit." },
               { q: "4. When will I get my reward?", a: "Rewards normally are credited right after your friend fulfills the minimum deposit and/or trading volume." },
-              { q: "5. Can I refer friends who already have an account?", a: "No, our online trading referrals only apply to new users who have never had an account with Fxcelite before." },
+              { q: "5. Can I refer friends who already have an account?", a: "No, our online trading referrals only apply to new users who have never had an account with FXCELITE before." },
               { q: "6. Do I get a bonus too?", a: "Yes! Our program is structured to offer the new trader a welcome bonus too!" },
               { q: "7. Can I track referrals in real-time?", a: "Absolutely. With your dashboard, you will have the entire picture of your trading affiliate referrals." },
               { q: "8. Is there a limit to the number of friends?", a: "No, you can refer and earn rewards on as many people as you can successfully invite to the platform." },
@@ -408,7 +408,7 @@ function FaqItem({ question, answer }) {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between p-6 text-left group"
       >
-        <span className={`font-bold text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-white/90 group-hover:text-white'}`}>
+        <span className={`font-normal text-sm md:text-base transition-colors tracking-tight uppercase italic ${isOpen ? 'text-white' : 'text-white/90 group-hover:text-white'}`}>
           {question}
         </span>
         <div className={`w-8 h-8 rounded-lg flex shrink-0 items-center justify-center transition-all duration-500 ml-4 ${
