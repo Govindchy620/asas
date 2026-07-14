@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Hero from "../assets/hero-bg.png";
+import Hero from "../assets/hero-bg-2.png";
 import Innovation from "../assets/z.png";
 import Trade from "../assets/y.png";
 import Tra from "../assets/x.png";

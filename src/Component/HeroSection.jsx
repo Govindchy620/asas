@@ -33,6 +33,7 @@ import Img3 from "../assets/El4.png"
 import Img4 from "../assets/Elite4.png"
 import Img7 from "../assets/Elite7.png";
 import Img8 from "../assets/Elite8.jpeg";
+import Img9 from "../assets/ht3-2.jpeg";
 import Img5 from "../assets/fx6.webp";
 import Veo1 from "../assets/ht1.mp4";
 import Veo2 from "../assets/ht3.mp4";
@@ -355,20 +356,13 @@ export default function Home() {
         </div>
       </div>
       
-      <div className="lg:w-1/2 flex justify-center">
-        {/* Device mimicking div has been removed entirely */}
-        <video 
-          src={Veo2} 
-          // Applies responsive width and maintains aspect ratio
-          className="max-w-full h-auto" 
-          autoPlay 
-          muted 
-          loop 
-          playsInline
-        >
-          Your browser does not support the video tag.
-        </video>
-      </div>
+    <div className="lg:w-1/2 flex justify-center">
+      <img 
+        src={Img9} 
+        alt="Description of image" 
+        className="max-w-full h-auto" 
+      />
+    </div>
     </div>
   </div>
 </section>
