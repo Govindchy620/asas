@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
-import { ChevronDown, ChevronUp, Menu, X, Shield, TrendingUp, DollarSign, Zap, CheckCircle, Users, Star, ArrowRight } from 'lucide-react';
+import { ChevronDown, ChevronUp, Menu, X, Shield, TrendingUp, DollarSign, Zap, CheckCircle, Users, Star, ArrowRight, PlayCircle } from 'lucide-react';
+import { motion } from "framer-motion";
+import marketsImg from "../assets/trade.png";
 
 // Image Imports from ../img/
 import ImgAsset1 from "../img/Terms.png";
 import ImgAsset2 from "../img/Asset2.png";
 import ImgAsset11 from "../img/Asset11.png";
+import dashboardImg from "../assets/Elite1.png";
 import ImgDeposit from "../img/deposit.png";
 import ImgFAQ from "../img/Faq.png";
 
@@ -92,86 +95,138 @@ export default function BonusPage() {
     <div className="min-h-screen text-slate-300 font-sans" style={{ background: '#050a14' }}>
 
       {/* HERO SECTION */}
-      <section id="bonus" className="relative min-h-screen flex items-center overflow-hidden pt-20 pb-12">
-        {/* Background Image / Gradient */}
+      <section className="relative min-h-screen flex items-center overflow-hidden bg-[#050617] pt-24 md:pt-28 pb-16">
+        {/* Background image */}
         <div className="absolute inset-0">
           <img
-            src={ImgAsset11}
-            alt="Hero Background"
-            className="w-full h-full object-cover opacity-60 md:opacity-100 object-right"
+            src={dashboardImg}
+            alt="FXCELITE global trading dashboard"
+            className="w-full h-full object-cover object-center md:object-right opacity-100"
           />
-          <div className="absolute inset-0 md:hidden bg-gradient-to-b from-[#050a14]/90 via-[#050a14]/80 to-[#050a14]" />
-          <div className="absolute inset-0 hidden md:block" style={{ background: 'linear-gradient(to right, #050a14 0%, #050a14 38%, rgba(5,10,20,0.72) 58%, rgba(5,10,20,0.15) 80%, transparent 100%)' }} />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#050617]/60 via-[#050617]/30 to-[#050617] md:bg-gradient-to-r md:from-[#050617] md:via-[#050617]/90 md:to-[#050617]/30" />
+          <div className="absolute inset-0 hidden md:block bg-gradient-to-t from-[#050617] via-[#050617]/10 to-[#050617]/60" />
         </div>
 
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-4">
-          <div className="w-full md:max-w-[55%] lg:max-w-[50%] text-center md:text-left flex flex-col items-center md:items-start">
+        {/* Ambient glows */}
+        <div className="absolute -top-32 -left-32 w-96 h-96 bg-indigo-600/20 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute bottom-0 right-0 w-[30rem] h-[30rem] bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
+        
+        {/* Dark vignette behind text on mobile for perfect readability */}
+        <div className="absolute top-10 left-1/2 -translate-x-1/2 w-[150%] sm:w-[120%] h-[450px] bg-[#050617] rounded-[100%] blur-[70px] lg:hidden pointer-events-none opacity-85" />
 
-            {/* Limited time badge */}
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full mb-6 bg-teal-500/10 border border-teal-500/20">
-              <span className="w-2 h-2 rounded-full bg-[#00d4aa] inline-block"></span>
-              <span className="text-[#00d4aa] text-xs font-semibold tracking-widest uppercase">Limited Time Offer</span>
-            </div>
+        <div className="relative z-10 max-w-7xl mx-auto px-6 w-full mt-0 lg:-mt-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            {/* LEFT: COPY */}
+            <motion.div
+              initial={{ opacity: 0, y: 24 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, ease: "easeOut" }}
+              className="flex flex-col items-center text-center lg:items-start lg:text-left w-full"
+            >
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full mb-6 bg-emerald-500/10 border border-emerald-500/20">
+                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                <span className="text-emerald-400 text-[10px] sm:text-xs font-semibold tracking-widest uppercase">
+                  Trusted Since 2021 &middot; 220K+ Traders
+                </span>
+              </div>
 
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white leading-[1.05] mb-6">
-              GET{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">50%</span>
-              <span className="block">TRADABLE</span>
-              <span style={{ color: '#00d4aa' }}>BONUS</span>
-              <span className="block text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-2">ON EVERY DEPOSIT</span>
-            </h1>
+              <h1 className="text-4xl sm:text-4xl md:text-5xl xl:text-6xl font-extrabold text-white leading-[1.05] mb-6 drop-shadow-xl">
+                Trade Global Markets
+                <br />
+                with{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-indigo-400">
+                  Absolute Confidence
+                </span>
+              </h1>
 
-            <p className="text-slate-300 text-sm sm:text-base md:text-lg leading-relaxed mb-8 max-w-xl">
-              Boost your trading power with extra funds. Trade more, earn more and achieve more.
-            </p>
+              <p className="text-slate-300 text-sm md:text-base leading-relaxed max-w-xl mb-8">
+                FXCELITE gives you lightning-fast execution, tight spreads and
+                full access to Forex, Indices, Crypto and Commodities &mdash; all
+                on a secure, regulated platform built for serious traders.
+              </p>
 
-            {/* 4 mini feature icons - 2x2 grid on mobile matching reference */}
-            <div className="grid grid-cols-2 gap-3 mb-8 w-full max-w-xl">
-              {[
-                { icon: <DollarSign size={18} />, title: 'Extra Trading Power', sub: 'Get 50% extra on every deposit' },
-                { icon: <TrendingUp size={18} />, title: 'Increase Your Margin', sub: 'Trade bigger positions with bonus funds' },
-                { icon: <CheckCircle size={18} />, title: 'Withdraw Profits', sub: '100% of profits are always for keeps' },
-                { icon: <Zap size={18} />, title: 'Instant Bonus Credit', sub: 'Bonus credited instantly to your account' },
-              ].map((item, i) => (
-                <div key={i} className="flex flex-col items-center text-center p-3.5 rounded-xl bg-white/[0.04] border border-white/10 gap-1.5 backdrop-blur-sm">
-                  <span className="text-[#00d4aa]">{item.icon}</span>
-                  <span className="text-white text-xs font-bold leading-tight">{item.title}</span>
-                  <span className="text-slate-400 text-[10px] leading-tight">{item.sub}</span>
+              <div className="flex flex-col sm:flex-row gap-4 mb-10 w-full sm:w-auto justify-center lg:justify-start">
+                <a
+                  href="https://trade.FXCELITE.com/register"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-400 to-emerald-500 hover:from-emerald-500 hover:to-emerald-600 text-[#050617] font-bold py-3.5 px-6 rounded-xl text-sm shadow-lg shadow-emerald-500/20 transition-all w-full sm:w-auto"
+                >
+                  Open Live Account
+                  <ArrowRight size={16} />
+                </a>
+                <a
+                  href="/accounts/demo"
+                  className="inline-flex items-center justify-center gap-2 border border-white/15 hover:bg-white/5 text-white font-semibold py-3.5 px-6 rounded-xl text-sm transition-all w-full sm:w-auto"
+                >
+                  <PlayCircle size={16} />
+                  Try Free Demo
+                </a>
+              </div>
+
+              {/* MOBILE ONLY: Nice Info Cards (similar to landing page's 4 cards) */}
+              <div className="grid grid-cols-2 gap-3 w-full lg:hidden mb-4 max-w-sm mx-auto">
+                <div className="bg-[#0B1028]/70 backdrop-blur-md border border-white/10 rounded-2xl p-4 flex flex-col items-center justify-center shadow-xl">
+                  <div className="flex items-center gap-1 mb-1.5">
+                    <span className="text-slate-300 text-[10px] font-medium tracking-wider">EUR/USD</span>
+                  </div>
+                  <p className="text-white font-black text-[17px] tracking-tight mb-1">1.0842</p>
+                  <span className="flex items-center gap-0.5 text-emerald-400 text-[10px] font-bold bg-emerald-400/10 px-2 py-0.5 rounded-full">
+                    <TrendingUp size={12} /> +0.42%
+                  </span>
                 </div>
-              ))}
-            </div>
-
-            {/* CTA Buttons */}
-            <div className="flex flex-col gap-3 w-full max-w-xl">
-              <a 
-                href="https://trade.FXCELITE.com/register" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="bg-[#00d4aa] hover:bg-[#00be99] text-[#050a14] font-bold py-3.5 px-6 rounded-xl text-base flex items-center justify-center gap-2 transition-all shadow-lg shadow-teal-500/20 text-center w-full"
-              >
-                Claim Your 50% Bonus Now
-                <ArrowRight size={18} />
-              </a>
-              <a 
-                href="https://trade.FXCELITE.com/login" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="border border-[#00d4aa]/30 hover:bg-[#00d4aa]/10 text-[#00d4aa] font-semibold py-3.5 px-6 rounded-xl text-base transition-all text-center block w-full"
-              >
-                Sign In
-              </a>
-            </div>
-
-            {/* Trust badges */}
-            <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 mt-6">
-              {['Secure Funds', 'Trusted by Traders', 'Regulated & Reliable'].map((t, i) => (
-                <div key={i} className="flex items-center gap-1.5">
-                  <Shield size={13} className="text-[#00d4aa]" />
-                  <span className="text-slate-400 text-xs">{t}</span>
+                <div className="bg-[#0B1028]/70 backdrop-blur-md border border-white/10 rounded-2xl p-4 flex flex-col items-center justify-center shadow-xl">
+                  <div className="flex items-center gap-1 mb-1.5">
+                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                     <span className="text-emerald-400 text-[10px] font-bold tracking-wider">LIVE</span>
+                  </div>
+                  <p className="text-white font-black text-[15px] tracking-tight text-center leading-tight">100+ Assets</p>
+                  <span className="text-slate-400 text-[9px] mt-1">Multi-Asset</span>
                 </div>
-              ))}
-            </div>
-            <p className="text-slate-500 text-[10px] mt-2 text-center md:text-left">*Terms and conditions apply.</p>
+              </div>
+
+            </motion.div>
+
+            {/* RIGHT: floating cards over background */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.15 }}
+              className="relative hidden lg:block h-[420px]"
+            >
+              {/* Floating card: live price */}
+              <motion.div
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.6 }}
+                className="absolute top-4 left-0 bg-gradient-to-br from-[#0B1028] via-[#0E1433] to-[#0B1028] border border-white/10 rounded-2xl px-5 py-4 shadow-xl w-48"
+              >
+                <div className="flex items-center justify-between mb-1">
+                  <span className="text-slate-400 text-[10px] font-medium">EUR/USD</span>
+                  <span className="flex items-center gap-1 text-emerald-400 text-[10px] font-semibold">
+                    <TrendingUp size={12} /> +0.42%
+                  </span>
+                </div>
+                <p className="text-white font-bold text-base">1.0842</p>
+              </motion.div>
+
+              {/* Floating card: markets grid */}
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.75 }}
+                className="absolute bottom-4 right-0 bg-gradient-to-br from-[#0B1028] via-[#0E1433] to-[#0B1028] border border-white/10 rounded-2xl p-3 shadow-xl w-40"
+              >
+                <img
+                  src={marketsImg}
+                  alt="100+ tradable instruments"
+                  className="w-full h-24 object-cover rounded-xl mb-2"
+                />
+                <p className="text-white text-[10px] font-semibold text-center">
+                  100+ Instruments
+                </p>
+              </motion.div>
+            </motion.div>
           </div>
         </div>
       </section>
@@ -519,18 +574,18 @@ export default function BonusPage() {
             Every second of every minute matters in the financial markets. Give your account power-up today and play with more confidence in the market.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="https://trade.FXCELITE.com/register" 
-              target="_blank" 
+            <a
+              href="https://trade.FXCELITE.com/register"
+              target="_blank"
               rel="noopener noreferrer"
               className="bg-[#00d4aa] hover:bg-[#00be99] text-[#050a14] font-bold py-4 px-8 rounded-xl text-base flex items-center justify-center gap-2 transition-all shadow-lg shadow-teal-500/20 text-center"
             >
               Claim Your 50% Bonus Now
               <ArrowRight size={18} />
             </a>
-            <a 
-              href="https://trade.FXCELITE.com/login" 
-              target="_blank" 
+            <a
+              href="https://trade.FXCELITE.com/login"
+              target="_blank"
               rel="noopener noreferrer"
               className="border border-[#00d4aa]/30 hover:bg-[#00d4aa]/10 text-[#00d4aa] font-semibold py-4 px-8 rounded-xl text-base transition-all text-center block"
             >

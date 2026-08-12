@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { ArrowLeft, ArrowRight, BarChart3, Building2, Check, ChevronDown, ChevronLeft, ChevronRight, ChevronUp, Gift, Handshake, Headphones, Layers, LineChart, Link2, MessageCircle, Monitor, PiggyBank, Play, PlayCircle, Repeat, ShieldCheck, Smartphone, Target, TrendingUp, Users2, X } from "lucide-react";
+import { ArrowLeft, ArrowRight, BarChart3, Building2, Check, ChevronDown, ChevronLeft, ChevronRight, ChevronUp, Gift, Handshake, Headphones, Layers, LineChart, Link2, MessageCircle, Monitor, PiggyBank, Play, PlayCircle, Repeat, ShieldCheck, Smartphone, Target, TrendingUp, Users2, X, DollarSign, CheckCircle, Zap, Shield } from "lucide-react";
 import Image from "../assets/fx2.webp";
 import Image1 from "../assets/fx5.webp";
 import Image2 from "../assets/fx3.webp";
 import Image3 from "../assets/fx4.webp";
 import briefcaseImg from "../assets/c.png";
 import dashboardImg from "../assets/Elite1.png";
+import ImgAsset11 from "../img/Asset11.png";
 import faqImg from "../img/Faq.png";
 import img1 from "../assets/fx7.webp";
 import img2 from "../assets/fx8.webp";
@@ -22,119 +23,89 @@ import worldImg from "../img/why.png";
 /* ==================== HeroSection ==================== */
 function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-start overflow-hidden bg-[#050617] pt-10 md:pt-14 pb-16">
-      {/* Background image */}
-      <div className="absolute inset-0">
-        <img
-          src={dashboardImg}
-          alt="FXCELITE global trading dashboard"
-          className="w-full h-full object-cover object-right"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#050617] via-[#050617]/90 to-[#050617]/30" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#050617] via-[#050617]/10 to-[#050617]/60" />
-      </div>
+    <section id="bonus" className="relative min-h-screen flex items-center overflow-hidden pt-20 pb-12">
+        {/* Background Image / Gradient */}
+        <div className="absolute inset-0">
+          <img
+            src={ImgAsset11}
+            alt="Hero Background"
+            className="w-full h-full object-cover opacity-60 md:opacity-100 object-right"
+          />
+          <div className="absolute inset-0 md:hidden bg-gradient-to-b from-[#050a14]/90 via-[#050a14]/80 to-[#050a14]" />
+          <div className="absolute inset-0 hidden md:block" style={{ background: 'linear-gradient(to right, #050a14 0%, #050a14 38%, rgba(5,10,20,0.72) 58%, rgba(5,10,20,0.15) 80%, transparent 100%)' }} />
+        </div>
 
-      {/* Ambient glows */}
-      <div className="absolute -top-32 -left-32 w-96 h-96 bg-indigo-600/20 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-0 right-0 w-[30rem] h-[30rem] bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4">
+          <div className="w-full md:max-w-[55%] lg:max-w-[50%] text-center md:text-left flex flex-col items-center md:items-start">
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 w-full mt-0">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* LEFT: COPY */}
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, ease: "easeOut" }}
-          >
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full mb-6 bg-emerald-500/10 border border-emerald-500/20">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              <span className="text-emerald-400 text-xs font-semibold tracking-widest uppercase">
-                Trusted Since 2021 &middot; 220K+ Traders
-              </span>
+            {/* Limited time badge */}
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full mb-6 bg-teal-500/10 border border-teal-500/20">
+              <span className="w-2 h-2 rounded-full bg-[#00d4aa] inline-block"></span>
+              <span className="text-[#00d4aa] text-xs font-semibold tracking-widest uppercase">Limited Time Offer</span>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-extrabold text-white leading-[1.05] mb-6">
-              Trade Global Markets
-              <br />
-              with{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-indigo-400">
-                Absolute Confidence
-              </span>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white leading-[1.05] mb-6">
+              GET{' '}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">50%</span>
+              <span className="block">TRADABLE</span>
+              <span style={{ color: '#00d4aa' }}>BONUS</span>
+              <span className="block text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-2">ON EVERY DEPOSIT</span>
             </h1>
 
-            <p className="text-slate-300 text-sm md:text-base leading-relaxed max-w-xl mb-8">
-              FXCELITE gives you lightning-fast execution, tight spreads and
-              full access to Forex, Indices, Crypto and Commodities &mdash; all
-              on a secure, regulated platform built for serious traders.
+            <p className="text-slate-300 text-sm sm:text-base md:text-lg leading-relaxed mb-8 max-w-xl">
+              Boost your trading power with extra funds. Trade more, earn more and achieve more.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 mb-10">
+            {/* 4 mini feature icons - 2x2 grid on mobile matching reference */}
+            <div className="grid grid-cols-2 gap-3 mb-8 w-full max-w-xl">
+              {[
+                { icon: <DollarSign size={18} />, title: 'Extra Trading Power', sub: 'Get 50% extra on every deposit' },
+                { icon: <TrendingUp size={18} />, title: 'Increase Your Margin', sub: 'Trade bigger positions with bonus funds' },
+                { icon: <CheckCircle size={18} />, title: 'Withdraw Profits', sub: '100% of profits are always for keeps' },
+                { icon: <Zap size={18} />, title: 'Instant Bonus Credit', sub: 'Bonus credited instantly to your account' },
+              ].map((item, i) => (
+                <div key={i} className="flex flex-col items-center text-center p-3.5 rounded-xl bg-white/[0.04] border border-white/10 gap-1.5 backdrop-blur-sm">
+                  <span className="text-[#00d4aa]">{item.icon}</span>
+                  <span className="text-white text-xs font-bold leading-tight">{item.title}</span>
+                  <span className="text-slate-400 text-[10px] leading-tight">{item.sub}</span>
+                </div>
+              ))}
+            </div>
+
+            {/* CTA Buttons */}
+            <div className="flex flex-col gap-3 w-full max-w-xl">
               <a
                 href="https://trade.FXCELITE.com/register"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-400 to-emerald-500 hover:from-emerald-500 hover:to-emerald-600 text-[#050617] font-bold py-3 px-6 rounded-xl text-sm shadow-lg shadow-emerald-500/20 transition-all"
+                className="bg-[#00d4aa] hover:bg-[#00be99] text-[#050a14] font-bold py-3.5 px-6 rounded-xl text-base flex items-center justify-center gap-2 transition-all shadow-lg shadow-teal-500/20 text-center w-full"
               >
-                Open Live Account
-                <ArrowRight size={16} />
+                Claim Your 50% Bonus Now
+                <ArrowRight size={18} />
               </a>
               <a
-                href="/accounts/demo"
-                className="inline-flex items-center justify-center gap-2 border border-white/15 hover:bg-white/5 text-white font-semibold py-3 px-6 rounded-xl text-sm transition-all"
+                href="https://trade.FXCELITE.com/login"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border border-[#00d4aa]/30 hover:bg-[#00d4aa]/10 text-[#00d4aa] font-semibold py-3.5 px-6 rounded-xl text-base transition-all text-center block w-full"
               >
-                <PlayCircle size={16} />
-                Try Free Demo
+                Sign In
               </a>
             </div>
 
-
-          </motion.div>
-
-          {/* RIGHT: floating cards over background */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, ease: "easeOut", delay: 0.15 }}
-            className="relative hidden lg:block h-[420px]"
-          >
-            {/* Floating card: live price */}
-            <motion.div
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
-              className="absolute top-4 left-0 bg-gradient-to-br from-[#0B1028] via-[#0E1433] to-[#0B1028] border border-white/10 rounded-2xl px-5 py-4 shadow-xl w-48"
-            >
-              <div className="flex items-center justify-between mb-1">
-                <span className="text-slate-400 text-[10px] font-medium">EUR/USD</span>
-                <span className="flex items-center gap-1 text-emerald-400 text-[10px] font-semibold">
-                  <TrendingUp size={12} /> +0.42%
-                </span>
-              </div>
-              <p className="text-white font-bold text-base">1.0842</p>
-            </motion.div>
-
-            {/* Floating card: markets grid */}
-            <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.75 }}
-              className="absolute bottom-4 right-0 bg-gradient-to-br from-[#0B1028] via-[#0E1433] to-[#0B1028] border border-white/10 rounded-2xl p-3 shadow-xl w-40"
-            >
-              <img
-                src={marketsImg}
-                alt="100+ tradable instruments"
-                className="w-full h-24 object-cover rounded-xl mb-2"
-              />
-              <p className="text-white text-[10px] font-semibold text-center">
-                100+ Instruments
-              </p>
-            </motion.div>
-          </motion.div>
+            {/* Trust badges */}
+            <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 mt-6">
+              {['Secure Funds', 'Trusted by Traders', 'Regulated & Reliable'].map((t, i) => (
+                <div key={i} className="flex items-center gap-1.5">
+                  <Shield size={13} className="text-[#00d4aa]" />
+                  <span className="text-slate-400 text-xs">{t}</span>
+                </div>
+              ))}
+            </div>
+            <p className="text-slate-500 text-[10px] mt-2 text-center md:text-left">*Terms and conditions apply.</p>
+          </div>
         </div>
-      </div>
-
-
-    </section>
+      </section>
   );
 }
 
@@ -582,7 +553,7 @@ function ServicesGrid() {
       {/* Background Ornaments */}
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-indigo-600/10 blur-[120px] rounded-full pointer-events-none" />
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-emerald-600/10 blur-[120px] rounded-full pointer-events-none" />
-      
+
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block px-4 py-1.5 rounded-full border border-indigo-500/20 bg-indigo-500/10 text-indigo-400 text-xs font-bold tracking-widest uppercase mb-4">
@@ -595,21 +566,21 @@ function ServicesGrid() {
         </div>
 
         <div className="relative group/carousel">
-          <button 
+          <button
             onClick={() => scroll("left")}
             className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-6 z-10 w-12 h-12 flex items-center justify-center rounded-full bg-indigo-600 text-white hover:bg-emerald-500 transition-all shadow-xl shadow-indigo-500/20"
           >
             <ChevronLeft size={24} />
           </button>
-          
-          <button 
+
+          <button
             onClick={() => scroll("right")}
             className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-6 z-10 w-12 h-12 flex items-center justify-center rounded-full bg-indigo-600 text-white hover:bg-emerald-500 transition-all shadow-xl shadow-indigo-500/20"
           >
             <ChevronRight size={24} />
           </button>
 
-          <div 
+          <div
             ref={scrollRef}
             className="flex flex-nowrap overflow-x-auto gap-6 snap-x snap-mandatory pb-8 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden px-2"
           >
@@ -621,22 +592,22 @@ function ServicesGrid() {
               >
                 {/* Top border gradient on hover */}
                 <div className={`absolute top-0 left-0 w-full h-1 bg-gradient-to-r ${s.colorTheme} opacity-0 group-hover:opacity-100 transition-opacity duration-300`} />
-                
+
                 <div className={`w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center mb-6 relative`}>
                   <div className={`absolute inset-0 bg-gradient-to-br ${s.colorTheme} opacity-0 group-hover:opacity-20 rounded-2xl transition-opacity duration-300`} />
                   <span className="text-white relative z-10 group-hover:scale-110 transition-transform duration-300">
                     {s.icon}
                   </span>
                 </div>
-                
+
                 <h3 className="text-white font-bold text-xl mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-white group-hover:to-slate-300 transition-all">
                   {s.title}
                 </h3>
-                
+
                 <p className="text-slate-400 text-sm leading-relaxed mb-6 group-hover:text-slate-300 transition-colors">
                   {s.desc}
                 </p>
-                
+
                 <ul className="space-y-3">
                   {s.bullets.map((b, j) => (
                     <li key={j} className="flex items-center gap-3 text-slate-400 text-sm group-hover:text-slate-300 transition-colors">
@@ -660,10 +631,10 @@ function ServicesGrid() {
 ========================= */
 const ICONS = {
   Check: () => (
-    <svg 
-      className="w-4 h-4 text-emerald-400 shrink-0" 
-      fill="none" 
-      viewBox="0 0 24 24" 
+    <svg
+      className="w-4 h-4 text-emerald-400 shrink-0"
+      fill="none"
+      viewBox="0 0 24 24"
       stroke="currentColor"
     >
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
@@ -675,42 +646,42 @@ const ICONS = {
    PRICING DATA
 ========================= */
 const PRICING_PLANS = [
-  { 
-    id: "2.5k", 
-    name: "2.5K Instant", 
-    startingBalance: "$2,500", 
-    profitSharing: "95%", 
-    timeLimit: "∞", 
-    minTradingDays: "5", 
-    target: "8%", 
-    maxDrawdown: "5%", 
-    leverage: "1:100", 
-    price: "$67" 
+  {
+    id: "2.5k",
+    name: "2.5K Instant",
+    startingBalance: "$2,500",
+    profitSharing: "95%",
+    timeLimit: "∞",
+    minTradingDays: "5",
+    target: "8%",
+    maxDrawdown: "5%",
+    leverage: "1:100",
+    price: "$67"
   },
-  { 
-    id: "5k", 
-    name: "5K Instant", 
-    startingBalance: "$5,000", 
-    profitSharing: "95%", 
-    timeLimit: "∞", 
-    minTradingDays: "5", 
-    target: "8%", 
-    maxDrawdown: "5%", 
-    leverage: "1:100", 
-    price: "$199", 
-    isPopular: true 
+  {
+    id: "5k",
+    name: "5K Instant",
+    startingBalance: "$5,000",
+    profitSharing: "95%",
+    timeLimit: "∞",
+    minTradingDays: "5",
+    target: "8%",
+    maxDrawdown: "5%",
+    leverage: "1:100",
+    price: "$199",
+    isPopular: true
   },
-  { 
-    id: "custom", 
-    name: "Custom Plan", 
-    startingBalance: "Flexible", 
-    profitSharing: "Up to 95%", 
-    timeLimit: "Custom", 
-    minTradingDays: "Flexible", 
-    target: "Flexible", 
-    maxDrawdown: "Custom", 
-    leverage: "1:100", 
-    price: "Let's Talk" 
+  {
+    id: "custom",
+    name: "Custom Plan",
+    startingBalance: "Flexible",
+    profitSharing: "Up to 95%",
+    timeLimit: "Custom",
+    minTradingDays: "Flexible",
+    target: "Flexible",
+    maxDrawdown: "Custom",
+    leverage: "1:100",
+    price: "Let's Talk"
   },
 ];
 
@@ -750,7 +721,7 @@ function PricingCard({ plan }: { plan: any }) {
 
   return (
     <div className={`group relative shrink-0 w-[85vw] sm:w-[320px] lg:w-[340px] snap-center bg-gradient-to-b from-[#0B1028] to-[#070A23] border ${plan.isPopular ? 'border-emerald-500/50' : 'border-white/10'} rounded-3xl p-7 hover:border-indigo-500 hover:shadow-2xl hover:shadow-indigo-500/20 transition-all duration-500`}>
-      
+
       {plan.isPopular && (
         <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-emerald-400 to-cyan-400 text-gray-900 text-xs font-bold px-4 py-1.5 rounded-full shadow-lg shadow-emerald-500/30">
           MOST POPULAR
@@ -761,14 +732,14 @@ function PricingCard({ plan }: { plan: any }) {
       <div className="text-center mb-8 mt-2">
         <h3 className="text-xl font-bold text-white mb-2">{plan.name}</h3>
         <p className="text-slate-400 text-sm mb-6">Starting Balance: <span className="text-white font-semibold">{plan.startingBalance}</span></p>
-        
+
         <div className="flex items-center justify-center gap-1 mb-2">
           <span className={`text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400 ${isCustom ? 'text-3xl' : ''}`}>
             {plan.price}
           </span>
         </div>
         {!isCustom && (
-           <p className="text-xs text-slate-500 uppercase tracking-widest font-semibold">One-time fee</p>
+          <p className="text-xs text-slate-500 uppercase tracking-widest font-semibold">One-time fee</p>
         )}
       </div>
 
@@ -778,10 +749,10 @@ function PricingCard({ plan }: { plan: any }) {
 
       {/* Hover Reveal Trigger Hint */}
       <div className="flex flex-col items-center justify-center gap-2 group-hover:opacity-0 transition-opacity duration-300 absolute bottom-6 left-0 right-0">
-         <span className="text-xs text-slate-400 font-semibold uppercase tracking-wider">Hover for features</span>
-         <svg className="w-4 h-4 text-slate-500 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-         </svg>
+        <span className="text-xs text-slate-400 font-semibold uppercase tracking-wider">Hover for features</span>
+        <svg className="w-4 h-4 text-slate-500 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
       </div>
 
       {/* Expanding Features List */}
@@ -795,7 +766,7 @@ function PricingCard({ plan }: { plan: any }) {
           <FeatureRow label="Leverage" value={plan.leverage} />
         </div>
       </div>
-      
+
       {/* Spacer to push height equivalent to the hover hint when not hovered */}
       <div className="h-10 group-hover:hidden" />
     </div>
@@ -891,7 +862,7 @@ function ComparisonTable() {
               <tr className="border-b border-white/10">
                 <th className="px-6 py-5 font-semibold">Feature</th>
                 <th className="px-6 py-5 font-semibold bg-indigo-600/90">
-                 FXCELITE
+                  FXCELITE
                 </th>
                 <th className="px-6 py-5 font-semibold">FTMO</th>
                 <th className="px-6 py-5 font-semibold">Fundingpips</th>
@@ -1144,14 +1115,14 @@ function FridayPayouts() {
             <p className="text-slate-300 text-lg leading-relaxed max-w-2xl">
               Partnering with profitable traders daily allows us to understand
               what brings them joy. Enjoy seamless and reliable transactions to manage
-              your trading capital! You can easily access your funds through a variety 
+              your trading capital! You can easily access your funds through a variety
               of secure options, including crypto and bank transfers.
             </p>
           </div>
 
           {/* RIGHT ILLUSTRATION */}
           <div className="flex-1">
-             <img src={payoutImg} alt="Payouts" className="w-full rounded-2xl" />
+            <img src={payoutImg} alt="Payouts" className="w-full rounded-2xl" />
           </div>
 
         </div>
