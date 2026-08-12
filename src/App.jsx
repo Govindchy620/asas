@@ -48,7 +48,8 @@ import Helpdesk from "./Pages/Helpdesk";
 import Contact from "./Pages/ContactUs";
 import Preloader from "./Component/Preloader";
 import AccountDeletion from "./Pages/AccountDeletion"
-import LandingPage from "./Pages/LandingPage";
+import home from "./Pages/home";
+import LandingPage from "./Pages/landingpage";
 
 function App() {
   return (
@@ -61,7 +62,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/affiliate" element={<Affiliate />} />
-        <Route path="/faqs" element={<FAQ />} />  
+        <Route path="/faqs" element={<FAQ />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/growth-plan" element={<GrowthPlan />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />

@@ -73,7 +73,7 @@ export default function AffiliateBenefits() {
                   • Monthly Giveaways: Free 5x 10k 2-Step challenges giveaways
                 </li>
                 <li>• VIP Contact for Faster Support</li>
-                <li>• Dedicated Partner Landingpage</li>
+                <li>• Dedicated Partner home</li>
               </ul>
             </div>
 

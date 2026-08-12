@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import { useNavigate, useLocation } from "react-router-dom";
 import logo from "../assets/Logo.png";
-import LandingPage from "./LandingPage";
+import home from "./home";
 /* =========================
    NAV DATA
 ========================= */
@@ -174,16 +174,16 @@ export default function Navbar() {
 
             {/* LOGO */}
             <div
-  onClick={() => navTo("/")}
-  className="flex items-center gap-2 cursor-pointer"
->
-  {/* Logo Image */}
-  <img
-    src={logo}
-    alt="FXCELITE Logo"
-    className="w-36 h-36 object-contain"
-  />
-</div>
+              onClick={() => navTo("/")}
+              className="flex items-center gap-2 cursor-pointer"
+            >
+              {/* Logo Image */}
+              <img
+                src={logo}
+                alt="FXCELITE Logo"
+                className="w-36 h-36 object-contain"
+              />
+            </div>
 
 
             {/* DESKTOP NAV */}
@@ -202,9 +202,8 @@ export default function Navbar() {
                     {cat.title}
                     <ChevronDown
                       size={14}
-                      className={`transition ${
-                        activeDropdown === cat.title ? "rotate-180" : ""
-                      }`}
+                      className={`transition ${activeDropdown === cat.title ? "rotate-180" : ""
+                        }`}
                     />
                   </button>
 
@@ -253,11 +252,11 @@ export default function Navbar() {
 
               {/* CTA */}
               <button
-        onClick={() => navigate("/landing-page")} // 3. Use the relative path
-        className="hidden sm:inline-flex px-4 py-2 rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-semibold text-sm"
-      >
-        Get Started
-      </button>
+                onClick={() => navigate("/landing-page")} // 3. Use the relative path
+                className="hidden sm:inline-flex px-4 py-2 rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-semibold text-sm"
+              >
+                Get Started
+              </button>
 
               {/* BURGER */}
               <button
@@ -272,11 +271,10 @@ export default function Navbar() {
 
         {/* MOBILE MENU */}
         <div
-          className={`lg:hidden transition-all duration-300 ${
-            mobileOpen 
-              ? "max-h-[85vh] overflow-y-auto border-t border-white/10" 
+          className={`lg:hidden transition-all duration-300 ${mobileOpen
+              ? "max-h-[85vh] overflow-y-auto border-t border-white/10"
               : "max-h-0 overflow-hidden"
-          }`}
+            }`}
         >
           {/* Added pb-8 for better bottom spacing when scrolling */}
           <div className="px-4 py-4 pb-8 space-y-4 bg-[#050617]">
