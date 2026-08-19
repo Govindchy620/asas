@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 
 import Navbar from "./Pages/Navbar";
 import HomePage from "./Pages/HomePage";
@@ -48,15 +48,25 @@ import Helpdesk from "./Pages/Helpdesk";
 import Contact from "./Pages/ContactUs";
 import Preloader from "./Component/Preloader";
 import AccountDeletion from "./Pages/AccountDeletion"
-import home from "./Pages/home";
 import LandingPage from "./Pages/landingpage";
 
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Preloader />
-      <ScrollToTop />
+      <AppShell />
+    </Router>
+  );
+}
+
+function AppShell() {
+  const { pathname } = useLocation();
+  const isLandingPage = pathname === "/landing-page";
+
+  return (
+    <>
+      {!isLandingPage && <Navbar />}
+      {!isLandingPage && <Preloader />}
+      {!isLandingPage && <ScrollToTop />}
 
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -106,8 +116,8 @@ function App() {
         <Route path="/landing-page" element={<LandingPage />} />
       </Routes>
 
-      <Footer />
-    </Router>
+      {!isLandingPage && <Footer />}
+    </>
   );
 }
 
